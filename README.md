@@ -11,7 +11,10 @@ both models trained for 16,000 updates and evaluated at 13 fixed checkpoints.
 Route quality improved beyond 8,000 updates in all four runs. However,
 validation KL was lowest at the first scored nonzero checkpoint, 1,200 updates,
 and was 41–61% worse by 16,000. Brier scores also worsened while policy entropy
-fell. Later route-quality gains therefore do not establish better generalization.
+fell. Mean entropy nevertheless remains above the oracle's, and total
+probability outside oracle support decreases. These aggregate results do not
+establish uniform overconfidence or its cause. Later route-quality gains
+therefore do not establish better generalization.
 The primary quality milestones showed no consistent update-saving advantage
 across seeds. Neither model met the chosen Q plateau rule by 16,000.
 
@@ -32,9 +35,13 @@ its launch authority is revoked by the
 
 Read the [early-learning addendum](research/early_learning_refocus_2026-09-27.md)
 for the corrected interpretation and next questions. The next block will inspect
-saved checkpoints in the first 3,000 updates to compare learning rates, find the
+saved checkpoints in the first 3,000 updates to compare changes in measured scores, find the
 sampled minimum, and bracket where proper scores begin worsening. New evaluations require a reviewed
 specification; no 200,000-update results exist.
+
+The [probability-diagnostics follow-up](research/probability_diagnostics_followup_2026-09-27.md)
+adds state-level analyses of KL changes and distinguishes oracle-support errors
+from disagreement among supported actions, following the reviewer's response.
 
 ## Paper and research history
 
