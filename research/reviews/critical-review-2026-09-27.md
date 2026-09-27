@@ -198,7 +198,7 @@ pattern. Over 800–2,000, mean ΔQ is −0.05 pp with opposite per-seed signs, 
 the Q slope favours softmax in both pairs. The first-checkpoint sign pattern
 above is best read as checkpoint noise. The same diagnostic also answers §4:
 Δt stays at 0.046–0.068 against an initial 0.05, and dt=0 changes the policy
-by only about 0.005 TV. See `quantum-inspired-directions-2026-09-27.md`.
+by only about 0.005 TV. See `quantum-inspired-directions-2026-09-27.md` (revision 2: generic transformer components).
 
 ## 4. The mechanism is unmeasured in the route-policy models
 
