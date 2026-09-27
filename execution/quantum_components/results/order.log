@@ -1,0 +1,2 @@
+order-k2-L16-softmax-s0.json: window acc 0.8743 (7s)
+order-k2-L16-c1-s0.json: window acc 0.8963 (30s)
