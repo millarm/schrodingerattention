@@ -8,10 +8,12 @@ across training updates.
 
 The September 27, 2026 update-count pilot completed two paired seeds, with
 both models trained for 16,000 updates and evaluated at 13 fixed checkpoints.
-Route quality improved beyond 8,000 updates in all four runs. Neither model
-met the sustained plateau rule by 16,000. The primary quality milestones showed
-no consistent update-saving advantage across seeds. Some route-quality gains
-coincided with worse validation KL; the report explains these tradeoffs.
+Route quality improved beyond 8,000 updates in all four runs. However,
+validation KL was lowest at the first scored nonzero checkpoint, 1,200 updates,
+and was 41–61% worse by 16,000. Brier scores also worsened while policy entropy
+fell. Later route-quality gains therefore do not establish better generalization.
+The primary quality milestones showed no consistent update-saving advantage
+across seeds. Neither model met the chosen Q plateau rule by 16,000.
 
 - [Latest research report](execution/update_efficiency/scientific-closeout.md)
 - [Independent final review: PASS](execution/update_efficiency/reviews/12-two-pair-closeout.md)
@@ -19,10 +21,20 @@ coincided with worse validation KL; the report explains these tradeoffs.
 - [Study status and evidence](execution/update_efficiency/status.md)
 - [Four completed runs and saved scores](execution/update_efficiency/attempts/)
 
-The [200,000-update continuation plan](execution/update_efficiency/plan-v4-200k.md)
-is being implemented and reviewed. It proposes continuing the same two pairs
-from their 16,000-update checkpoints. This snapshot does not contain completed
-200,000-update results.
+## Current direction: early learning
+
+The 200,000-update continuation is **on hold at the user's request** following
+[PR #1's critique](https://github.com/millarm/schrodingerattention/pull/1).
+No long-run training started. The previous
+[continuation plan](execution/update_efficiency/plan-v4-200k.md) is historical;
+its launch authority is revoked by the
+[hold decision](execution/long_horizon_200k/hold-decision.md).
+
+Read the [early-learning addendum](research/early_learning_refocus_2026-09-27.md)
+for the corrected interpretation and next questions. The next block will inspect
+saved checkpoints in the first 3,000 updates to compare learning rates, find the
+sampled minimum, and bracket where proper scores begin worsening. New evaluations require a reviewed
+specification; no 200,000-update results exist.
 
 ## Paper and research history
 
