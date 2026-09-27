@@ -1,0 +1,18 @@
+{
+  "attempt.json": {
+    "bytes": 599,
+    "sha256": "b666ee3009bb5249049e21f416b489256299484175653927c92da0e61b69efac"
+  },
+  "attempt.pending.json": {
+    "bytes": 421,
+    "sha256": "1b9bf87abb465097c0c2b66930cfcf2b56e12eced5ed3ac75ec84070f2b72627"
+  },
+  "matched_support.json": {
+    "bytes": 1884422,
+    "sha256": "2bcde9c3823a41cc0a0ac7c4383ef1323658ca47b5b7a53336f4f4e2adf9babc"
+  },
+  "threeway_diagnosis.json": {
+    "bytes": 17756106,
+    "sha256": "46ca7f60bca1ec2a5224d479623b0b69385f36f9acb69e55f3da895c444b9720"
+  }
+}

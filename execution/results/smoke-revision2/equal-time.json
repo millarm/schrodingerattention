@@ -1,0 +1,159 @@
+{
+  "common_training_seconds": 0.011375624999345746,
+  "runs": [
+    {
+      "checkpoint": "execution/results/smoke-revision2/normal-sa/checkpoint-0.pt",
+      "dt_zero": {
+        "test_heldout_d4": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7102055549621582,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "test_heldout_d8": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7165911793708801,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "test_seen_d4": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.710413932800293,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "test_seen_d8": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7175388932228088,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "validation_seen_d4": {
+          "copy": 0.5,
+          "copy_correct": 128,
+          "copy_count": 256,
+          "cross_entropy": 0.710625410079956,
+          "xor": 0.5,
+          "xor_correct": 128,
+          "xor_count": 256
+        }
+      },
+      "metrics": {
+        "test_heldout_d4": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7102133631706238,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "test_heldout_d8": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7165938019752502,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "test_seen_d4": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7104189395904541,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "test_seen_d8": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.71754390001297,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "validation_seen_d4": {
+          "copy": 0.5,
+          "copy_correct": 128,
+          "copy_count": 256,
+          "cross_entropy": 0.7106297016143799,
+          "xor": 0.5,
+          "xor_correct": 128,
+          "xor_count": 256
+        }
+      },
+      "slack": 0.011375624999345746,
+      "step": 0,
+      "training_seconds": 0.0
+    },
+    {
+      "checkpoint": "execution/results/smoke-revision1/normal-softmax/checkpoint-1.pt",
+      "dt_zero": null,
+      "metrics": {
+        "test_heldout_d4": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.6908855438232422,
+          "xor": 0.49609375,
+          "xor_correct": 254,
+          "xor_count": 512
+        },
+        "test_heldout_d8": {
+          "copy": 0.50390625,
+          "copy_correct": 258,
+          "copy_count": 512,
+          "cross_entropy": 0.6929471492767334,
+          "xor": 0.501953125,
+          "xor_correct": 257,
+          "xor_count": 512
+        },
+        "test_seen_d4": {
+          "copy": 0.521484375,
+          "copy_correct": 267,
+          "copy_count": 512,
+          "cross_entropy": 0.6910198330879211,
+          "xor": 0.498046875,
+          "xor_correct": 255,
+          "xor_count": 512
+        },
+        "test_seen_d8": {
+          "copy": 0.50390625,
+          "copy_correct": 258,
+          "copy_count": 512,
+          "cross_entropy": 0.6939839124679565,
+          "xor": 0.501953125,
+          "xor_correct": 257,
+          "xor_count": 512
+        },
+        "validation_seen_d4": {
+          "copy": 0.515625,
+          "copy_correct": 132,
+          "copy_count": 256,
+          "cross_entropy": 0.6911427974700928,
+          "xor": 0.4765625,
+          "xor_correct": 122,
+          "xor_count": 256
+        }
+      },
+      "slack": 0.0,
+      "step": 1,
+      "training_seconds": 0.011375624999345746
+    }
+  ]
+}

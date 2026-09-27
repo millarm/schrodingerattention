@@ -1,0 +1,2266 @@
+{
+  "combined_ce_aggregates": [
+    {
+      "label": "combined operations/conditions CE",
+      "mean": 0.3231706143046419,
+      "mode": "softmax",
+      "sample_sd": 0.1373694049199377
+    },
+    {
+      "label": "combined operations/conditions CE",
+      "mean": 0.30816021203063426,
+      "mode": "schrodinger",
+      "sample_sd": 0.15050886263305466
+    }
+  ],
+  "guards": {
+    "learning_adequacy": false,
+    "sample_gate_eligible_90": false,
+    "sample_gate_eligible_95": false,
+    "timing_valid": false
+  },
+  "input_hashes": {
+    "execution/config.json": "9ebace507a57202f483cefd55d5f50db868ad2abd214145a86f722386b2ffd4f",
+    "execution/experiment_contract.md": "5ea6cda81fa8f95f3e2a9c39e9ca47d34ca6134697bca3305967e6f31d8507de",
+    "execution/logs/03-run-provenance.md": "09bea318455089c945924451956408023b5412c450f1ff33c52ec2897829a604",
+    "execution/results/measured/seed-11/equal-time.json": "b7aedeccf4c6e7c0c58ab985f11f28027645a622ce9bc6d1e8b579d73577b467",
+    "execution/results/measured/seed-11/schrodinger/final.json": "c3d1e346f361f5c68efd6699915c0ba813f600532e304b3228dd43c0b627c851",
+    "execution/results/measured/seed-11/schrodinger/training.jsonl": "65775eecce8cc8ed5600ad9dc646f7835b9c2f1d6e445c90c1d296cbceca33ac",
+    "execution/results/measured/seed-11/softmax/final.json": "089650e9de1c63a8e864ad5cf4956e8ba94b8c780b327a957df07eb793f1440c",
+    "execution/results/measured/seed-11/softmax/training.jsonl": "99d5ee2b3513cf6d6b57489a27e3950ef1a4715262c4d61ec03c3b9687ce8d7b",
+    "execution/results/measured/seed-22/equal-time.json": "73c645f6fcf62c90c68183586b58502975692cde029d6d91f326d31906c7353b",
+    "execution/results/measured/seed-22/schrodinger/final.json": "b6c1c95d648b9efb25f30cd50a4df39d9b260f55f1dfc105c3437adeac15a43f",
+    "execution/results/measured/seed-22/schrodinger/training.jsonl": "45722e259ea02ffdbfc827e8fd120f2977fa50503b02bba1f551f26e48257d81",
+    "execution/results/measured/seed-22/softmax/final.json": "665f989a7154a50f7115914d5535be7f38fe6fc377e20636154b677a244608ef",
+    "execution/results/measured/seed-22/softmax/training.jsonl": "2f233224e3b112684578d82804cc93ab54a05e0e9a0831c97792aaec619c6989",
+    "execution/results/measured/seed-33/equal-time.json": "e3045438c1e558d603f04d6c377228960e200a0fd5c7447bb0c9cf857b8875b4",
+    "execution/results/measured/seed-33/schrodinger/final.json": "6e7f65a7bf95a7b29444a587fd2d2a5d78302ac0f82f13273c5302747006b7b7",
+    "execution/results/measured/seed-33/schrodinger/training.jsonl": "779c7b7a2322b35b25cf424a5e1ad0b043285eeb9495ef43b8be7f888365b5bc",
+    "execution/results/measured/seed-33/softmax/final.json": "39cda67d05b06cf9ae8764bc6e20d31300735d60fa153fc6dd265cd97fe1822a",
+    "execution/results/measured/seed-33/softmax/training.jsonl": "8f0d58a070f1d6b435a15642059fa9d4ac8ecf991e332ac2d8f12325eeb5924b",
+    "execution/reviews/03-comparison.md": "93a3dfdee8b8e5f4c79546f6a137daafdcbed105c9deeeb15e1cd8ec05979360",
+    "schrodinger/summarize.py": "95e60ac112f56b8cff1cc066849d0adcd31d1fcc556b9eecfc8396df35a7c47c"
+  },
+  "intervention_aggregates": [
+    {
+      "condition": "test_heldout_d4",
+      "drop_mean": -0.0006510416666666666,
+      "drop_sd": 0.0011276372445109878,
+      "dt0_mean": 0.7298177083333334,
+      "dt0_sd": 0.21507740608609718,
+      "meaningful_effect": false,
+      "op": "xor"
+    },
+    {
+      "condition": "test_heldout_d4",
+      "drop_mean": 0.0,
+      "drop_sd": 0.0,
+      "dt0_mean": 0.98828125,
+      "dt0_sd": 0.007042092334890604,
+      "meaningful_effect": false,
+      "op": "copy"
+    },
+    {
+      "condition": "test_heldout_d8",
+      "drop_mean": 0.001953125,
+      "drop_sd": 0.0033829117335329633,
+      "dt0_mean": 0.6666666666666666,
+      "dt0_sd": 0.2323014831749605,
+      "meaningful_effect": false,
+      "op": "xor"
+    },
+    {
+      "condition": "test_heldout_d8",
+      "drop_mean": 0.001953125,
+      "drop_sd": 0.005859375,
+      "dt0_mean": 0.9309895833333334,
+      "dt0_sd": 0.011933790872280834,
+      "meaningful_effect": false,
+      "op": "copy"
+    },
+    {
+      "condition": "test_seen_d4",
+      "drop_mean": 0.0032552083333333335,
+      "drop_sd": 0.009230108645024626,
+      "dt0_mean": 0.7194010416666666,
+      "dt0_sd": 0.24443211765227163,
+      "meaningful_effect": false,
+      "op": "xor"
+    },
+    {
+      "condition": "test_seen_d4",
+      "drop_mean": 0.0,
+      "drop_sd": 0.0,
+      "dt0_mean": 1.0,
+      "dt0_sd": 0.0,
+      "meaningful_effect": false,
+      "op": "copy"
+    },
+    {
+      "condition": "test_seen_d8",
+      "drop_mean": 0.0006510416666666666,
+      "drop_sd": 0.0011276372445109878,
+      "dt0_mean": 0.6875,
+      "dt0_sd": 0.25876510797152624,
+      "meaningful_effect": false,
+      "op": "xor"
+    },
+    {
+      "condition": "test_seen_d8",
+      "drop_mean": 0.001953125,
+      "drop_sd": 0.0078125,
+      "dt0_mean": 0.9459635416666666,
+      "dt0_sd": 0.01856325186117611,
+      "meaningful_effect": false,
+      "op": "copy"
+    },
+    {
+      "condition": "validation_seen_d4",
+      "drop_mean": -0.0026041666666666665,
+      "drop_sd": 0.0022552744890219755,
+      "dt0_mean": 0.7395833333333334,
+      "dt0_sd": 0.23206325186160634,
+      "meaningful_effect": false,
+      "op": "xor"
+    },
+    {
+      "condition": "validation_seen_d4",
+      "drop_mean": 0.0,
+      "drop_sd": 0.0,
+      "dt0_mean": 1.0,
+      "dt0_sd": 0.0,
+      "meaningful_effect": false,
+      "op": "copy"
+    }
+  ],
+  "interventions": [
+    {
+      "condition": "test_heldout_d4",
+      "drop": 0.0,
+      "dt0": 0.58203125,
+      "normal": 0.58203125,
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "condition": "test_heldout_d4",
+      "drop": 0.0,
+      "dt0": 0.986328125,
+      "normal": 0.986328125,
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "condition": "test_heldout_d8",
+      "drop": 0.005859375,
+      "dt0": 0.498046875,
+      "normal": 0.50390625,
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "condition": "test_heldout_d8",
+      "drop": -0.00390625,
+      "dt0": 0.93359375,
+      "normal": 0.9296875,
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "condition": "test_seen_d4",
+      "drop": -0.00390625,
+      "dt0": 0.552734375,
+      "normal": 0.548828125,
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "condition": "test_seen_d4",
+      "drop": 0.0,
+      "dt0": 1.0,
+      "normal": 1.0,
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "condition": "test_seen_d8",
+      "drop": 0.001953125,
+      "dt0": 0.509765625,
+      "normal": 0.51171875,
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "condition": "test_seen_d8",
+      "drop": -0.005859375,
+      "dt0": 0.96484375,
+      "normal": 0.958984375,
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "condition": "validation_seen_d4",
+      "drop": -0.00390625,
+      "dt0": 0.5546875,
+      "normal": 0.55078125,
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "condition": "validation_seen_d4",
+      "drop": 0.0,
+      "dt0": 1.0,
+      "normal": 1.0,
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "condition": "test_heldout_d4",
+      "drop": -0.001953125,
+      "dt0": 0.630859375,
+      "normal": 0.62890625,
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "condition": "test_heldout_d4",
+      "drop": 0.0,
+      "dt0": 0.99609375,
+      "normal": 0.99609375,
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "condition": "test_heldout_d8",
+      "drop": 0.0,
+      "dt0": 0.5703125,
+      "normal": 0.5703125,
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "condition": "test_heldout_d8",
+      "drop": 0.001953125,
+      "dt0": 0.94140625,
+      "normal": 0.943359375,
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "condition": "test_seen_d4",
+      "drop": 0.013671875,
+      "dt0": 0.60546875,
+      "normal": 0.619140625,
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "condition": "test_seen_d4",
+      "drop": 0.0,
+      "dt0": 1.0,
+      "normal": 1.0,
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "condition": "test_seen_d8",
+      "drop": 0.0,
+      "dt0": 0.568359375,
+      "normal": 0.568359375,
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "condition": "test_seen_d8",
+      "drop": 0.009765625,
+      "dt0": 0.927734375,
+      "normal": 0.9375,
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "condition": "validation_seen_d4",
+      "drop": -0.00390625,
+      "dt0": 0.6640625,
+      "normal": 0.66015625,
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "condition": "validation_seen_d4",
+      "drop": 0.0,
+      "dt0": 1.0,
+      "normal": 1.0,
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "condition": "test_heldout_d4",
+      "drop": 0.0,
+      "dt0": 0.9765625,
+      "normal": 0.9765625,
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "condition": "test_heldout_d4",
+      "drop": 0.0,
+      "dt0": 0.982421875,
+      "normal": 0.982421875,
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "condition": "test_heldout_d8",
+      "drop": 0.0,
+      "dt0": 0.931640625,
+      "normal": 0.931640625,
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "condition": "test_heldout_d8",
+      "drop": 0.0078125,
+      "dt0": 0.91796875,
+      "normal": 0.92578125,
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "condition": "test_seen_d4",
+      "drop": 0.0,
+      "dt0": 1.0,
+      "normal": 1.0,
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "condition": "test_seen_d4",
+      "drop": 0.0,
+      "dt0": 1.0,
+      "normal": 1.0,
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "condition": "test_seen_d8",
+      "drop": 0.0,
+      "dt0": 0.984375,
+      "normal": 0.984375,
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "condition": "test_seen_d8",
+      "drop": 0.001953125,
+      "dt0": 0.9453125,
+      "normal": 0.947265625,
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "condition": "validation_seen_d4",
+      "drop": 0.0,
+      "dt0": 1.0,
+      "normal": 1.0,
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "condition": "validation_seen_d4",
+      "drop": 0.0,
+      "dt0": 1.0,
+      "normal": 1.0,
+      "op": "copy",
+      "seed": 33
+    }
+  ],
+  "invalid_equal_time": [
+    {
+      "raw": {
+        "common_training_seconds": 9.046987307083327,
+        "completed_final_steps": [
+          2000,
+          2000
+        ],
+        "completed_stream_digest": "fcd0524ca1bf59b587a5796aa52c8d705b3d8ccb6054323eab1dfeb3b8ff0bd9",
+        "config": {
+          "batch_size": 64,
+          "config_sha256": "9ebace507a57202f483cefd55d5f50db868ad2abd214145a86f722386b2ffd4f",
+          "contract_sha256": "5ea6cda81fa8f95f3e2a9c39e9ca47d34ca6134697bca3305967e6f31d8507de",
+          "d_model": 32,
+          "feedforward": 64,
+          "heads": 2,
+          "layers": 2,
+          "numpy": "2.5.3",
+          "optimizer": {
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "eps": 1e-08,
+            "lr": 0.001,
+            "weight_decay": 0.01
+          },
+          "seeds": [
+            11,
+            22,
+            33
+          ],
+          "torch": "2.14.0",
+          "torch_interop_threads": 1,
+          "torch_threads": 2,
+          "train_distractors": [
+            2,
+            3,
+            4
+          ]
+        },
+        "evaluation_hashes": {
+          "test_heldout_d4": "3da01eafa9cfefe1a4263c692c79d4848ee2114e61a6bc87854f52965198956d",
+          "test_heldout_d8": "0fb3448c466aa3ce07c1db5d0f21b27231441f89dc7325435d37d0a915989386",
+          "test_seen_d4": "e833f081b2cb276ad08579855c1348c5ac873bdf1706288e16c09953ffe5e172",
+          "test_seen_d8": "5173bcd76ae05fb93a90eb438c6dad8b3b07cb77dee57cbc242978a7d0f00fff",
+          "validation_seen_d4": "4d805362ed039003f278ec890979586443cd0947240aebb42343d284645ccce8"
+        },
+        "initial_identity": {
+          "rss_bytes_caveat": "macOS ru_maxrss process-resident proxy, not tensor-only device memory",
+          "shared_initial_tensor_digest": "46cae6007afc8dc2572bfb1fb3fc30d35f005572eff81426bd609a3a784dc026",
+          "total_parameters": 18498,
+          "trainable_parameters": 18498
+        },
+        "runs": [
+          {
+            "checkpoint": "execution/results/measured/seed-11/softmax/checkpoint-2000.pt",
+            "dt_zero": null,
+            "metrics": {
+              "test_heldout_d4": {
+                "copy": 0.986328125,
+                "copy_correct": 505,
+                "copy_count": 512,
+                "cross_entropy": 0.3694179952144623,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.55859375,
+                "xor_correct": 286,
+                "xor_count": 512
+              },
+              "test_heldout_d8": {
+                "copy": 0.966796875,
+                "copy_correct": 495,
+                "copy_count": 512,
+                "cross_entropy": 0.42724159359931946,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.5078125,
+                "xor_correct": 260,
+                "xor_count": 512
+              },
+              "test_seen_d4": {
+                "copy": 1.0,
+                "copy_correct": 512,
+                "copy_count": 512,
+                "cross_entropy": 0.3318367004394531,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.533203125,
+                "xor_correct": 273,
+                "xor_count": 512
+              },
+              "test_seen_d8": {
+                "copy": 0.978515625,
+                "copy_correct": 501,
+                "copy_count": 512,
+                "cross_entropy": 0.4191071689128876,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.482421875,
+                "xor_correct": 247,
+                "xor_count": 512
+              },
+              "validation_seen_d4": {
+                "copy": 1.0,
+                "copy_correct": 256,
+                "copy_count": 256,
+                "cross_entropy": 0.3218398094177246,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.51953125,
+                "xor_correct": 133,
+                "xor_count": 256
+              }
+            },
+            "mode": "softmax",
+            "seed": 11,
+            "slack": 0.0,
+            "step": 2000,
+            "training_seconds": 9.046987307083327
+          },
+          {
+            "checkpoint": "execution/results/measured/seed-11/schrodinger/checkpoint-600.pt",
+            "dt_zero": {
+              "test_heldout_d4": {
+                "copy": 0.97265625,
+                "copy_correct": 498,
+                "copy_count": 512,
+                "cross_entropy": 0.37678420543670654,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 3.5762786865234375e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.46875,
+                "xor_correct": 240,
+                "xor_count": 512
+              },
+              "test_heldout_d8": {
+                "copy": 0.900390625,
+                "copy_correct": 461,
+                "copy_count": 512,
+                "cross_entropy": 0.5563507676124573,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 4.76837158203125e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.529296875,
+                "xor_correct": 271,
+                "xor_count": 512
+              },
+              "test_seen_d4": {
+                "copy": 0.9765625,
+                "copy_correct": 500,
+                "copy_count": 512,
+                "cross_entropy": 0.37916433811187744,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 3.5762786865234375e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.490234375,
+                "xor_correct": 251,
+                "xor_count": 512
+              },
+              "test_seen_d8": {
+                "copy": 0.8984375,
+                "copy_correct": 460,
+                "copy_count": 512,
+                "cross_entropy": 0.5320565104484558,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 4.76837158203125e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.458984375,
+                "xor_correct": 235,
+                "xor_count": 512
+              },
+              "validation_seen_d4": {
+                "copy": 0.98046875,
+                "copy_correct": 251,
+                "copy_count": 256,
+                "cross_entropy": 0.37445905804634094,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 3.5762786865234375e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.49609375,
+                "xor_correct": 127,
+                "xor_count": 256
+              }
+            },
+            "metrics": {
+              "test_heldout_d4": {
+                "copy": 0.96875,
+                "copy_correct": 496,
+                "copy_count": 512,
+                "cross_entropy": 0.3884948790073395,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 9.5367431640625e-07,
+                  "unitarity": 9.5367431640625e-07
+                },
+                "xor": 0.458984375,
+                "xor_correct": 235,
+                "xor_count": 512
+              },
+              "test_heldout_d8": {
+                "copy": 0.88671875,
+                "copy_correct": 454,
+                "copy_count": 512,
+                "cross_entropy": 0.5632953643798828,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 9.5367431640625e-07,
+                  "unitarity": 1.0132789611816406e-06
+                },
+                "xor": 0.53125,
+                "xor_correct": 272,
+                "xor_count": 512
+              },
+              "test_seen_d4": {
+                "copy": 0.978515625,
+                "copy_correct": 501,
+                "copy_count": 512,
+                "cross_entropy": 0.38406801223754883,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 1.0728836059570312e-06,
+                  "unitarity": 9.5367431640625e-07
+                },
+                "xor": 0.490234375,
+                "xor_correct": 251,
+                "xor_count": 512
+              },
+              "test_seen_d8": {
+                "copy": 0.88671875,
+                "copy_correct": 454,
+                "copy_count": 512,
+                "cross_entropy": 0.5421245694160461,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 1.0728836059570312e-06,
+                  "unitarity": 1.0132789611816406e-06
+                },
+                "xor": 0.46875,
+                "xor_correct": 240,
+                "xor_count": 512
+              },
+              "validation_seen_d4": {
+                "copy": 0.97265625,
+                "copy_correct": 249,
+                "copy_count": 256,
+                "cross_entropy": 0.37921035289764404,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 1.0728836059570312e-06,
+                  "unitarity": 8.940696716308594e-07
+                },
+                "xor": 0.49609375,
+                "xor_correct": 127,
+                "xor_count": 256
+              }
+            },
+            "mode": "schrodinger",
+            "seed": 11,
+            "slack": 0.7363415921136038,
+            "step": 600,
+            "training_seconds": 8.310645714969723
+          }
+        ],
+        "source_hashes": {
+          "attention.py": "e1ce15be10caf4b2165191f9835256602f4f7b8bd11bffa94f676eac40b0fd6a",
+          "data.py": "3fab8bafdecd773df13d81c81653ece8760707b5f11f59cb2f5c56ab225278e3",
+          "experiment.py": "cf75e1b35fe6fb1fb462d78d415ea60115dcd267957303ef56427861ae55c288",
+          "model.py": "b2892ee6dc8158b326b2fbb3ecc242e030edd94f36f5d407246a4666ac4dc36a"
+        }
+      },
+      "seed": 11,
+      "valid_for_comparison": false
+    },
+    {
+      "raw": {
+        "common_training_seconds": 9.285672005058586,
+        "completed_final_steps": [
+          2000,
+          2000
+        ],
+        "completed_stream_digest": "7ea424706d1979660038f8bb80aeebb9893d5c127dfdf6cf31158f3a618805f5",
+        "config": {
+          "batch_size": 64,
+          "config_sha256": "9ebace507a57202f483cefd55d5f50db868ad2abd214145a86f722386b2ffd4f",
+          "contract_sha256": "5ea6cda81fa8f95f3e2a9c39e9ca47d34ca6134697bca3305967e6f31d8507de",
+          "d_model": 32,
+          "feedforward": 64,
+          "heads": 2,
+          "layers": 2,
+          "numpy": "2.5.3",
+          "optimizer": {
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "eps": 1e-08,
+            "lr": 0.001,
+            "weight_decay": 0.01
+          },
+          "seeds": [
+            11,
+            22,
+            33
+          ],
+          "torch": "2.14.0",
+          "torch_interop_threads": 1,
+          "torch_threads": 2,
+          "train_distractors": [
+            2,
+            3,
+            4
+          ]
+        },
+        "evaluation_hashes": {
+          "test_heldout_d4": "3da01eafa9cfefe1a4263c692c79d4848ee2114e61a6bc87854f52965198956d",
+          "test_heldout_d8": "0fb3448c466aa3ce07c1db5d0f21b27231441f89dc7325435d37d0a915989386",
+          "test_seen_d4": "e833f081b2cb276ad08579855c1348c5ac873bdf1706288e16c09953ffe5e172",
+          "test_seen_d8": "5173bcd76ae05fb93a90eb438c6dad8b3b07cb77dee57cbc242978a7d0f00fff",
+          "validation_seen_d4": "4d805362ed039003f278ec890979586443cd0947240aebb42343d284645ccce8"
+        },
+        "initial_identity": {
+          "rss_bytes_caveat": "macOS ru_maxrss process-resident proxy, not tensor-only device memory",
+          "shared_initial_tensor_digest": "f7d05beabdbc9b216460de66096fc9e9c4c3a0430c41bce00689c51e97a5b024",
+          "total_parameters": 18498,
+          "trainable_parameters": 18498
+        },
+        "runs": [
+          {
+            "checkpoint": "execution/results/measured/seed-22/softmax/checkpoint-2000.pt",
+            "dt_zero": null,
+            "metrics": {
+              "test_heldout_d4": {
+                "copy": 0.98828125,
+                "copy_correct": 506,
+                "copy_count": 512,
+                "cross_entropy": 0.3952353596687317,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.603515625,
+                "xor_correct": 309,
+                "xor_count": 512
+              },
+              "test_heldout_d8": {
+                "copy": 0.916015625,
+                "copy_correct": 469,
+                "copy_count": 512,
+                "cross_entropy": 0.5852677822113037,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.583984375,
+                "xor_correct": 299,
+                "xor_count": 512
+              },
+              "test_seen_d4": {
+                "copy": 1.0,
+                "copy_correct": 512,
+                "copy_count": 512,
+                "cross_entropy": 0.3156593441963196,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.625,
+                "xor_correct": 320,
+                "xor_count": 512
+              },
+              "test_seen_d8": {
+                "copy": 0.916015625,
+                "copy_correct": 469,
+                "copy_count": 512,
+                "cross_entropy": 0.5467939376831055,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.583984375,
+                "xor_correct": 299,
+                "xor_count": 512
+              },
+              "validation_seen_d4": {
+                "copy": 1.0,
+                "copy_correct": 256,
+                "copy_count": 256,
+                "cross_entropy": 0.2968917191028595,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.63671875,
+                "xor_correct": 163,
+                "xor_count": 256
+              }
+            },
+            "mode": "softmax",
+            "seed": 22,
+            "slack": 0.0,
+            "step": 2000,
+            "training_seconds": 9.285672005058586
+          },
+          {
+            "checkpoint": "execution/results/measured/seed-22/schrodinger/checkpoint-600.pt",
+            "dt_zero": {
+              "test_heldout_d4": {
+                "copy": 0.97265625,
+                "copy_correct": 498,
+                "copy_count": 512,
+                "cross_entropy": 0.39244019985198975,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 4.172325134277344e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.513671875,
+                "xor_correct": 263,
+                "xor_count": 512
+              },
+              "test_heldout_d8": {
+                "copy": 0.84765625,
+                "copy_correct": 434,
+                "copy_count": 512,
+                "cross_entropy": 0.5508581399917603,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 3.5762786865234375e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.537109375,
+                "xor_correct": 275,
+                "xor_count": 512
+              },
+              "test_seen_d4": {
+                "copy": 0.962890625,
+                "copy_correct": 493,
+                "copy_count": 512,
+                "cross_entropy": 0.3898019790649414,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 3.5762786865234375e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.52734375,
+                "xor_correct": 270,
+                "xor_count": 512
+              },
+              "test_seen_d8": {
+                "copy": 0.833984375,
+                "copy_correct": 427,
+                "copy_count": 512,
+                "cross_entropy": 0.5916219353675842,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 4.172325134277344e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.4765625,
+                "xor_correct": 244,
+                "xor_count": 512
+              },
+              "validation_seen_d4": {
+                "copy": 0.9609375,
+                "copy_correct": 246,
+                "copy_count": 256,
+                "cross_entropy": 0.40383291244506836,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 3.5762786865234375e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.50390625,
+                "xor_correct": 129,
+                "xor_count": 256
+              }
+            },
+            "metrics": {
+              "test_heldout_d4": {
+                "copy": 0.982421875,
+                "copy_correct": 503,
+                "copy_count": 512,
+                "cross_entropy": 0.37937435507774353,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 9.5367431640625e-07,
+                  "unitarity": 8.344650268554688e-07
+                },
+                "xor": 0.50390625,
+                "xor_correct": 258,
+                "xor_count": 512
+              },
+              "test_heldout_d8": {
+                "copy": 0.875,
+                "copy_correct": 448,
+                "copy_count": 512,
+                "cross_entropy": 0.5271428823471069,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 1.0132789611816406e-06,
+                  "unitarity": 1.0728836059570312e-06
+                },
+                "xor": 0.5234375,
+                "xor_correct": 268,
+                "xor_count": 512
+              },
+              "test_seen_d4": {
+                "copy": 0.974609375,
+                "copy_correct": 499,
+                "copy_count": 512,
+                "cross_entropy": 0.3792618215084076,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 8.940696716308594e-07,
+                  "unitarity": 8.344650268554688e-07
+                },
+                "xor": 0.5078125,
+                "xor_correct": 260,
+                "xor_count": 512
+              },
+              "test_seen_d8": {
+                "copy": 0.853515625,
+                "copy_correct": 437,
+                "copy_count": 512,
+                "cross_entropy": 0.5715153813362122,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 1.0132789611816406e-06,
+                  "unitarity": 1.0132789611816406e-06
+                },
+                "xor": 0.47265625,
+                "xor_correct": 242,
+                "xor_count": 512
+              },
+              "validation_seen_d4": {
+                "copy": 0.9609375,
+                "copy_correct": 246,
+                "copy_count": 256,
+                "cross_entropy": 0.39985954761505127,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 9.5367431640625e-07,
+                  "unitarity": 8.344650268554688e-07
+                },
+                "xor": 0.50390625,
+                "xor_correct": 129,
+                "xor_count": 256
+              }
+            },
+            "mode": "schrodinger",
+            "seed": 22,
+            "slack": 0.9087234271028137,
+            "step": 600,
+            "training_seconds": 8.376948577955773
+          }
+        ],
+        "source_hashes": {
+          "attention.py": "e1ce15be10caf4b2165191f9835256602f4f7b8bd11bffa94f676eac40b0fd6a",
+          "data.py": "3fab8bafdecd773df13d81c81653ece8760707b5f11f59cb2f5c56ab225278e3",
+          "experiment.py": "cf75e1b35fe6fb1fb462d78d415ea60115dcd267957303ef56427861ae55c288",
+          "model.py": "b2892ee6dc8158b326b2fbb3ecc242e030edd94f36f5d407246a4666ac4dc36a"
+        }
+      },
+      "seed": 22,
+      "valid_for_comparison": false
+    },
+    {
+      "raw": {
+        "common_training_seconds": 9.205611608915206,
+        "completed_final_steps": [
+          2000,
+          2000
+        ],
+        "completed_stream_digest": "47aa4ef3bf447e21c6621821fff7b7dd6141249bf7d91349bf4b99574aece9ac",
+        "config": {
+          "batch_size": 64,
+          "config_sha256": "9ebace507a57202f483cefd55d5f50db868ad2abd214145a86f722386b2ffd4f",
+          "contract_sha256": "5ea6cda81fa8f95f3e2a9c39e9ca47d34ca6134697bca3305967e6f31d8507de",
+          "d_model": 32,
+          "feedforward": 64,
+          "heads": 2,
+          "layers": 2,
+          "numpy": "2.5.3",
+          "optimizer": {
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "eps": 1e-08,
+            "lr": 0.001,
+            "weight_decay": 0.01
+          },
+          "seeds": [
+            11,
+            22,
+            33
+          ],
+          "torch": "2.14.0",
+          "torch_interop_threads": 1,
+          "torch_threads": 2,
+          "train_distractors": [
+            2,
+            3,
+            4
+          ]
+        },
+        "evaluation_hashes": {
+          "test_heldout_d4": "3da01eafa9cfefe1a4263c692c79d4848ee2114e61a6bc87854f52965198956d",
+          "test_heldout_d8": "0fb3448c466aa3ce07c1db5d0f21b27231441f89dc7325435d37d0a915989386",
+          "test_seen_d4": "e833f081b2cb276ad08579855c1348c5ac873bdf1706288e16c09953ffe5e172",
+          "test_seen_d8": "5173bcd76ae05fb93a90eb438c6dad8b3b07cb77dee57cbc242978a7d0f00fff",
+          "validation_seen_d4": "4d805362ed039003f278ec890979586443cd0947240aebb42343d284645ccce8"
+        },
+        "initial_identity": {
+          "rss_bytes_caveat": "macOS ru_maxrss process-resident proxy, not tensor-only device memory",
+          "shared_initial_tensor_digest": "d2f4b29ac319f42095edcdb47f9fc5fb98b9c1058faa98e42cd4291eef88bdaf",
+          "total_parameters": 18498,
+          "trainable_parameters": 18498
+        },
+        "runs": [
+          {
+            "checkpoint": "execution/results/measured/seed-33/softmax/checkpoint-2000.pt",
+            "dt_zero": null,
+            "metrics": {
+              "test_heldout_d4": {
+                "copy": 0.97265625,
+                "copy_correct": 498,
+                "copy_count": 512,
+                "cross_entropy": 0.1801125556230545,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.96484375,
+                "xor_correct": 494,
+                "xor_count": 512
+              },
+              "test_heldout_d8": {
+                "copy": 0.935546875,
+                "copy_correct": 479,
+                "copy_count": 512,
+                "cross_entropy": 0.31997057795524597,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.935546875,
+                "xor_correct": 479,
+                "xor_count": 512
+              },
+              "test_seen_d4": {
+                "copy": 0.990234375,
+                "copy_correct": 507,
+                "copy_count": 512,
+                "cross_entropy": 0.026115743443369865,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.998046875,
+                "xor_correct": 511,
+                "xor_count": 512
+              },
+              "test_seen_d8": {
+                "copy": 0.927734375,
+                "copy_correct": 475,
+                "copy_count": 512,
+                "cross_entropy": 0.3114323616027832,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 0.94921875,
+                "xor_correct": 486,
+                "xor_count": 512
+              },
+              "validation_seen_d4": {
+                "copy": 1.0,
+                "copy_correct": 256,
+                "copy_count": 256,
+                "cross_entropy": 0.0006365654990077019,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 0.0,
+                  "unitarity": 0.0
+                },
+                "xor": 1.0,
+                "xor_correct": 256,
+                "xor_count": 256
+              }
+            },
+            "mode": "softmax",
+            "seed": 33,
+            "slack": 0.0,
+            "step": 2000,
+            "training_seconds": 9.205611608915206
+          },
+          {
+            "checkpoint": "execution/results/measured/seed-33/schrodinger/checkpoint-600.pt",
+            "dt_zero": {
+              "test_heldout_d4": {
+                "copy": 0.958984375,
+                "copy_correct": 491,
+                "copy_count": 512,
+                "cross_entropy": 0.33621156215667725,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 3.5762786865234375e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.6328125,
+                "xor_correct": 324,
+                "xor_count": 512
+              },
+              "test_heldout_d8": {
+                "copy": 0.73046875,
+                "copy_correct": 374,
+                "copy_count": 512,
+                "cross_entropy": 0.7591741681098938,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 3.5762786865234375e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.537109375,
+                "xor_correct": 275,
+                "xor_count": 512
+              },
+              "test_seen_d4": {
+                "copy": 0.931640625,
+                "copy_correct": 477,
+                "copy_count": 512,
+                "cross_entropy": 0.361036092042923,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 3.5762786865234375e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.6484375,
+                "xor_correct": 332,
+                "xor_count": 512
+              },
+              "test_seen_d8": {
+                "copy": 0.73828125,
+                "copy_correct": 378,
+                "copy_count": 512,
+                "cross_entropy": 0.7290074229240417,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 3.5762786865234375e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.548828125,
+                "xor_correct": 281,
+                "xor_count": 512
+              },
+              "validation_seen_d4": {
+                "copy": 0.94921875,
+                "copy_correct": 243,
+                "copy_count": 256,
+                "cross_entropy": 0.3244256377220154,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 3.5762786865234375e-07,
+                  "unitarity": 0.0
+                },
+                "xor": 0.6953125,
+                "xor_correct": 178,
+                "xor_count": 256
+              }
+            },
+            "metrics": {
+              "test_heldout_d4": {
+                "copy": 0.962890625,
+                "copy_correct": 493,
+                "copy_count": 512,
+                "cross_entropy": 0.3357813358306885,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 7.748603820800781e-07,
+                  "unitarity": 1.0132789611816406e-06
+                },
+                "xor": 0.63671875,
+                "xor_correct": 326,
+                "xor_count": 512
+              },
+              "test_heldout_d8": {
+                "copy": 0.732421875,
+                "copy_correct": 375,
+                "copy_count": 512,
+                "cross_entropy": 0.7557567358016968,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 8.344650268554688e-07,
+                  "unitarity": 9.5367431640625e-07
+                },
+                "xor": 0.53125,
+                "xor_correct": 272,
+                "xor_count": 512
+              },
+              "test_seen_d4": {
+                "copy": 0.93359375,
+                "copy_correct": 478,
+                "copy_count": 512,
+                "cross_entropy": 0.3590398132801056,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 8.344650268554688e-07,
+                  "unitarity": 9.5367431640625e-07
+                },
+                "xor": 0.6484375,
+                "xor_correct": 332,
+                "xor_count": 512
+              },
+              "test_seen_d8": {
+                "copy": 0.744140625,
+                "copy_correct": 381,
+                "copy_count": 512,
+                "cross_entropy": 0.725200891494751,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 7.748603820800781e-07,
+                  "unitarity": 1.1324882507324219e-06
+                },
+                "xor": 0.55078125,
+                "xor_correct": 282,
+                "xor_count": 512
+              },
+              "validation_seen_d4": {
+                "copy": 0.94921875,
+                "copy_correct": 243,
+                "copy_count": 256,
+                "cross_entropy": 0.323990136384964,
+                "invariants": {
+                  "hermiticity": 0.0,
+                  "row": 6.556510925292969e-07,
+                  "unitarity": 9.5367431640625e-07
+                },
+                "xor": 0.69140625,
+                "xor_correct": 177,
+                "xor_count": 256
+              }
+            },
+            "mode": "schrodinger",
+            "seed": 33,
+            "slack": 0.8684807710051246,
+            "step": 600,
+            "training_seconds": 8.337130837910081
+          }
+        ],
+        "source_hashes": {
+          "attention.py": "e1ce15be10caf4b2165191f9835256602f4f7b8bd11bffa94f676eac40b0fd6a",
+          "data.py": "3fab8bafdecd773df13d81c81653ece8760707b5f11f59cb2f5c56ab225278e3",
+          "experiment.py": "cf75e1b35fe6fb1fb462d78d415ea60115dcd267957303ef56427861ae55c288",
+          "model.py": "b2892ee6dc8158b326b2fbb3ecc242e030edd94f36f5d407246a4666ac4dc36a"
+        }
+      },
+      "seed": 33,
+      "valid_for_comparison": false
+    }
+  ],
+  "normal_invariant_maxima": {
+    "11-schrodinger": {
+      "hermiticity": 0.0,
+      "row": 1.1920928955078125e-06,
+      "unitarity": 1.1920928955078125e-06
+    },
+    "11-softmax": {
+      "hermiticity": 0.0,
+      "row": 0.0,
+      "unitarity": 0.0
+    },
+    "22-schrodinger": {
+      "hermiticity": 0.0,
+      "row": 1.0728836059570312e-06,
+      "unitarity": 1.0728836059570312e-06
+    },
+    "22-softmax": {
+      "hermiticity": 0.0,
+      "row": 0.0,
+      "unitarity": 0.0
+    },
+    "33-schrodinger": {
+      "hermiticity": 0.0,
+      "row": 1.0728836059570312e-06,
+      "unitarity": 1.0728836059570312e-06
+    },
+    "33-softmax": {
+      "hermiticity": 0.0,
+      "row": 0.0,
+      "unitarity": 0.0
+    }
+  },
+  "normal_invariant_maxima_exact_overall": {
+    "hermiticity": 0.0,
+    "row": 1.1920928955078125e-06,
+    "unitarity": 1.1920928955078125e-06
+  },
+  "pairs": [
+    {
+      "accuracy_3pp_gate": false,
+      "baseline_mean": 0.708984375,
+      "baseline_sd": 0.22271620629159852,
+      "condition": "test_heldout_d4",
+      "copy_veto": false,
+      "op": "xor",
+      "paired_difference_mean": 0.020182291666666668,
+      "paired_difference_sd": 0.007394411908594106,
+      "paired_differences": [
+        0.0234375,
+        0.025390625,
+        0.01171875
+      ],
+      "schrodinger_mean": 0.7291666666666666,
+      "schrodinger_sd": 0.21552920955005342
+    },
+    {
+      "accuracy_3pp_gate": false,
+      "baseline_mean": 0.982421875,
+      "baseline_sd": 0.008513474499102879,
+      "condition": "test_heldout_d4",
+      "copy_veto": false,
+      "op": "copy",
+      "paired_difference_mean": 0.005859375,
+      "paired_difference_sd": 0.005167483029423029,
+      "paired_differences": [
+        0.0,
+        0.0078125,
+        0.009765625
+      ],
+      "schrodinger_mean": 0.98828125,
+      "schrodinger_sd": 0.007042092334890604
+    },
+    {
+      "accuracy_3pp_gate": false,
+      "baseline_mean": 0.67578125,
+      "baseline_sd": 0.2281647947953066,
+      "condition": "test_heldout_d8",
+      "copy_veto": false,
+      "op": "xor",
+      "paired_difference_mean": -0.007161458333333333,
+      "paired_difference_sd": 0.005638186222554939,
+      "paired_differences": [
+        -0.00390625,
+        -0.013671875,
+        -0.00390625
+      ],
+      "schrodinger_mean": 0.6686197916666666,
+      "schrodinger_sd": 0.2301899576117222
+    },
+    {
+      "accuracy_3pp_gate": false,
+      "baseline_mean": 0.939453125,
+      "baseline_sd": 0.02561499423555469,
+      "condition": "test_heldout_d8",
+      "copy_veto": false,
+      "op": "copy",
+      "paired_difference_mean": -0.006510416666666667,
+      "paired_difference_sd": 0.032349630856262614,
+      "paired_differences": [
+        -0.037109375,
+        0.02734375,
+        -0.009765625
+      ],
+      "schrodinger_mean": 0.9329427083333334,
+      "schrodinger_sd": 0.009230108645024626
+    },
+    {
+      "accuracy_3pp_gate": false,
+      "baseline_mean": 0.71875,
+      "baseline_sd": 0.24619448583084802,
+      "condition": "test_seen_d4",
+      "copy_veto": false,
+      "op": "xor",
+      "paired_difference_mean": 0.00390625,
+      "paired_difference_sd": 0.010874539771152386,
+      "paired_differences": [
+        0.015625,
+        -0.005859375,
+        0.001953125
+      ],
+      "schrodinger_mean": 0.72265625,
+      "schrodinger_sd": 0.24274601677907998
+    },
+    {
+      "accuracy_3pp_gate": false,
+      "baseline_mean": 0.9967447916666666,
+      "baseline_sd": 0.005638186222554939,
+      "condition": "test_seen_d4",
+      "copy_veto": false,
+      "op": "copy",
+      "paired_difference_mean": 0.0032552083333333335,
+      "paired_difference_sd": 0.005638186222554939,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.009765625
+      ],
+      "schrodinger_mean": 1.0,
+      "schrodinger_sd": 0.0
+    },
+    {
+      "accuracy_3pp_gate": false,
+      "baseline_mean": 0.671875,
+      "baseline_sd": 0.245496236426568,
+      "condition": "test_seen_d8",
+      "copy_veto": false,
+      "op": "xor",
+      "paired_difference_mean": 0.016276041666666668,
+      "paired_difference_sd": 0.027782016006968578,
+      "paired_differences": [
+        0.029296875,
+        -0.015625,
+        0.03515625
+      ],
+      "schrodinger_mean": 0.6881510416666666,
+      "schrodinger_sd": 0.2580959418861501
+    },
+    {
+      "accuracy_3pp_gate": false,
+      "baseline_mean": 0.9407552083333334,
+      "baseline_sd": 0.03322226776607571,
+      "condition": "test_seen_d8",
+      "copy_veto": false,
+      "op": "copy",
+      "paired_difference_mean": 0.007161458333333333,
+      "paired_difference_sd": 0.023137181828016745,
+      "paired_differences": [
+        -0.01953125,
+        0.021484375,
+        0.01953125
+      ],
+      "schrodinger_mean": 0.9479166666666666,
+      "schrodinger_sd": 0.010756973725168168
+    },
+    {
+      "accuracy_3pp_gate": false,
+      "baseline_mean": 0.71875,
+      "baseline_sd": 0.25051826163787444,
+      "condition": "validation_seen_d4",
+      "copy_veto": false,
+      "op": "xor",
+      "paired_difference_mean": 0.018229166666666668,
+      "paired_difference_sd": 0.01626301562082916,
+      "paired_differences": [
+        0.03125,
+        0.0234375,
+        0.0
+      ],
+      "schrodinger_mean": 0.7369791666666666,
+      "schrodinger_sd": 0.23425561195363245
+    },
+    {
+      "accuracy_3pp_gate": false,
+      "baseline_mean": 1.0,
+      "baseline_sd": 0.0,
+      "condition": "validation_seen_d4",
+      "copy_veto": false,
+      "op": "copy",
+      "paired_difference_mean": 0.0,
+      "paired_difference_sd": 0.0,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "schrodinger_mean": 1.0,
+      "schrodinger_sd": 0.0
+    }
+  ],
+  "provenance": {
+    "overwritten_prior_records": "unknown",
+    "pair_attempts": 5,
+    "pair_failures": 1,
+    "pair_successes": 4,
+    "timing_valid": false,
+    "train_attempts": 8
+  },
+  "reason": [
+    "failure-to-learn guard",
+    "timing/equal-time invalid due provenance"
+  ],
+  "recorded_clocks_invalid": [
+    {
+      "mode": "softmax",
+      "seed": 11,
+      "training_seconds": 9.046987307083327,
+      "valid_for_comparison": false
+    },
+    {
+      "mode": "schrodinger",
+      "seed": 11,
+      "training_seconds": 27.58363280301637,
+      "valid_for_comparison": false
+    },
+    {
+      "mode": "softmax",
+      "seed": 22,
+      "training_seconds": 9.285672005058586,
+      "valid_for_comparison": false
+    },
+    {
+      "mode": "schrodinger",
+      "seed": 22,
+      "training_seconds": 27.942854149911,
+      "valid_for_comparison": false
+    },
+    {
+      "mode": "softmax",
+      "seed": 33,
+      "training_seconds": 9.205611608915206,
+      "valid_for_comparison": false
+    },
+    {
+      "mode": "schrodinger",
+      "seed": 33,
+      "training_seconds": 27.808301795896114,
+      "valid_for_comparison": false
+    }
+  ],
+  "rows": [
+    {
+      "accuracy": 0.55859375,
+      "condition": "test_heldout_d4",
+      "correct": 286,
+      "count": 512,
+      "cross_entropy": 0.3694179952144623,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.986328125,
+      "condition": "test_heldout_d4",
+      "correct": 505,
+      "count": 512,
+      "cross_entropy": 0.3694179952144623,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.5078125,
+      "condition": "test_heldout_d8",
+      "correct": 260,
+      "count": 512,
+      "cross_entropy": 0.42724159359931946,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.966796875,
+      "condition": "test_heldout_d8",
+      "correct": 495,
+      "count": 512,
+      "cross_entropy": 0.42724159359931946,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.533203125,
+      "condition": "test_seen_d4",
+      "correct": 273,
+      "count": 512,
+      "cross_entropy": 0.3318367004394531,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "test_seen_d4",
+      "correct": 512,
+      "count": 512,
+      "cross_entropy": 0.3318367004394531,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.482421875,
+      "condition": "test_seen_d8",
+      "correct": 247,
+      "count": 512,
+      "cross_entropy": 0.4191071689128876,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.978515625,
+      "condition": "test_seen_d8",
+      "correct": 501,
+      "count": 512,
+      "cross_entropy": 0.4191071689128876,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.51953125,
+      "condition": "validation_seen_d4",
+      "correct": 133,
+      "count": 256,
+      "cross_entropy": 0.3218398094177246,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "validation_seen_d4",
+      "correct": 256,
+      "count": 256,
+      "cross_entropy": 0.3218398094177246,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.58203125,
+      "condition": "test_heldout_d4",
+      "correct": 298,
+      "count": 512,
+      "cross_entropy": 0.3919043242931366,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.986328125,
+      "condition": "test_heldout_d4",
+      "correct": 505,
+      "count": 512,
+      "cross_entropy": 0.3919043242931366,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.50390625,
+      "condition": "test_heldout_d8",
+      "correct": 258,
+      "count": 512,
+      "cross_entropy": 0.5342779159545898,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.9296875,
+      "condition": "test_heldout_d8",
+      "correct": 476,
+      "count": 512,
+      "cross_entropy": 0.5342779159545898,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.548828125,
+      "condition": "test_seen_d4",
+      "correct": 281,
+      "count": 512,
+      "cross_entropy": 0.3308464586734772,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "test_seen_d4",
+      "correct": 512,
+      "count": 512,
+      "cross_entropy": 0.3308464586734772,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.51171875,
+      "condition": "test_seen_d8",
+      "correct": 262,
+      "count": 512,
+      "cross_entropy": 0.46359989047050476,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.958984375,
+      "condition": "test_seen_d8",
+      "correct": 491,
+      "count": 512,
+      "cross_entropy": 0.46359989047050476,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.55078125,
+      "condition": "validation_seen_d4",
+      "correct": 141,
+      "count": 256,
+      "cross_entropy": 0.3164755702018738,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 11
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "validation_seen_d4",
+      "correct": 256,
+      "count": 256,
+      "cross_entropy": 0.3164755702018738,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 11
+    },
+    {
+      "accuracy": 0.603515625,
+      "condition": "test_heldout_d4",
+      "correct": 309,
+      "count": 512,
+      "cross_entropy": 0.3952353596687317,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.98828125,
+      "condition": "test_heldout_d4",
+      "correct": 506,
+      "count": 512,
+      "cross_entropy": 0.3952353596687317,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.583984375,
+      "condition": "test_heldout_d8",
+      "correct": 299,
+      "count": 512,
+      "cross_entropy": 0.5852677822113037,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.916015625,
+      "condition": "test_heldout_d8",
+      "correct": 469,
+      "count": 512,
+      "cross_entropy": 0.5852677822113037,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.625,
+      "condition": "test_seen_d4",
+      "correct": 320,
+      "count": 512,
+      "cross_entropy": 0.3156593441963196,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "test_seen_d4",
+      "correct": 512,
+      "count": 512,
+      "cross_entropy": 0.3156593441963196,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.583984375,
+      "condition": "test_seen_d8",
+      "correct": 299,
+      "count": 512,
+      "cross_entropy": 0.5467939376831055,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.916015625,
+      "condition": "test_seen_d8",
+      "correct": 469,
+      "count": 512,
+      "cross_entropy": 0.5467939376831055,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.63671875,
+      "condition": "validation_seen_d4",
+      "correct": 163,
+      "count": 256,
+      "cross_entropy": 0.2968917191028595,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "validation_seen_d4",
+      "correct": 256,
+      "count": 256,
+      "cross_entropy": 0.2968917191028595,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.62890625,
+      "condition": "test_heldout_d4",
+      "correct": 322,
+      "count": 512,
+      "cross_entropy": 0.32513704895973206,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.99609375,
+      "condition": "test_heldout_d4",
+      "correct": 510,
+      "count": 512,
+      "cross_entropy": 0.32513704895973206,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.5703125,
+      "condition": "test_heldout_d8",
+      "correct": 292,
+      "count": 512,
+      "cross_entropy": 0.5052599310874939,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.943359375,
+      "condition": "test_heldout_d8",
+      "correct": 483,
+      "count": 512,
+      "cross_entropy": 0.5052599310874939,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.619140625,
+      "condition": "test_seen_d4",
+      "correct": 317,
+      "count": 512,
+      "cross_entropy": 0.31066858768463135,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "test_seen_d4",
+      "correct": 512,
+      "count": 512,
+      "cross_entropy": 0.31066858768463135,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.568359375,
+      "condition": "test_seen_d8",
+      "correct": 291,
+      "count": 512,
+      "cross_entropy": 0.4767146110534668,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.9375,
+      "condition": "test_seen_d8",
+      "correct": 480,
+      "count": 512,
+      "cross_entropy": 0.4767146110534668,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.66015625,
+      "condition": "validation_seen_d4",
+      "correct": 169,
+      "count": 256,
+      "cross_entropy": 0.2925952970981598,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 22
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "validation_seen_d4",
+      "correct": 256,
+      "count": 256,
+      "cross_entropy": 0.2925952970981598,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 22
+    },
+    {
+      "accuracy": 0.96484375,
+      "condition": "test_heldout_d4",
+      "correct": 494,
+      "count": 512,
+      "cross_entropy": 0.1801125556230545,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.97265625,
+      "condition": "test_heldout_d4",
+      "correct": 498,
+      "count": 512,
+      "cross_entropy": 0.1801125556230545,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.935546875,
+      "condition": "test_heldout_d8",
+      "correct": 479,
+      "count": 512,
+      "cross_entropy": 0.31997057795524597,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.935546875,
+      "condition": "test_heldout_d8",
+      "correct": 479,
+      "count": 512,
+      "cross_entropy": 0.31997057795524597,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.998046875,
+      "condition": "test_seen_d4",
+      "correct": 511,
+      "count": 512,
+      "cross_entropy": 0.026115743443369865,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.990234375,
+      "condition": "test_seen_d4",
+      "correct": 507,
+      "count": 512,
+      "cross_entropy": 0.026115743443369865,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.94921875,
+      "condition": "test_seen_d8",
+      "correct": 486,
+      "count": 512,
+      "cross_entropy": 0.3114323616027832,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.927734375,
+      "condition": "test_seen_d8",
+      "correct": 475,
+      "count": 512,
+      "cross_entropy": 0.3114323616027832,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "validation_seen_d4",
+      "correct": 256,
+      "count": 256,
+      "cross_entropy": 0.0006365654990077019,
+      "mode": "softmax",
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "validation_seen_d4",
+      "correct": 256,
+      "count": 256,
+      "cross_entropy": 0.0006365654990077019,
+      "mode": "softmax",
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.9765625,
+      "condition": "test_heldout_d4",
+      "correct": 500,
+      "count": 512,
+      "cross_entropy": 0.10054561495780945,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.982421875,
+      "condition": "test_heldout_d4",
+      "correct": 503,
+      "count": 512,
+      "cross_entropy": 0.10054561495780945,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.931640625,
+      "condition": "test_heldout_d8",
+      "correct": 477,
+      "count": 512,
+      "cross_entropy": 0.3930661380290985,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.92578125,
+      "condition": "test_heldout_d8",
+      "correct": 474,
+      "count": 512,
+      "cross_entropy": 0.3930661380290985,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "test_seen_d4",
+      "correct": 512,
+      "count": 512,
+      "cross_entropy": 0.0004549197619780898,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "test_seen_d4",
+      "correct": 512,
+      "count": 512,
+      "cross_entropy": 0.0004549197619780898,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.984375,
+      "condition": "test_seen_d8",
+      "correct": 504,
+      "count": 512,
+      "cross_entropy": 0.18067939579486847,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "accuracy": 0.947265625,
+      "condition": "test_seen_d8",
+      "correct": 485,
+      "count": 512,
+      "cross_entropy": 0.18067939579486847,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 33
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "validation_seen_d4",
+      "correct": 256,
+      "count": 256,
+      "cross_entropy": 0.00017747643869370222,
+      "mode": "schrodinger",
+      "op": "xor",
+      "seed": 33
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "validation_seen_d4",
+      "correct": 256,
+      "count": 256,
+      "cross_entropy": 0.00017747643869370222,
+      "mode": "schrodinger",
+      "op": "copy",
+      "seed": 33
+    }
+  ],
+  "scalars_invariants_rss": [
+    {
+      "dt": [],
+      "gamma": [],
+      "invariants": {
+        "hermiticity": 0.0,
+        "row": 0.0,
+        "unitarity": 0.0
+      },
+      "mode": "softmax",
+      "rss": 305315840,
+      "seed": 11
+    },
+    {
+      "dt": [
+        0.055189307779073715,
+        0.05892759561538696,
+        0.045841943472623825,
+        0.06253184378147125
+      ],
+      "gamma": [
+        0.1404019445180893,
+        -0.6651002168655396,
+        0.04334061220288277,
+        -0.4155421853065491
+      ],
+      "invariants": {
+        "hermiticity": 0.0,
+        "row": 1.1920928955078125e-06,
+        "unitarity": 1.1920928955078125e-06
+      },
+      "mode": "schrodinger",
+      "rss": 331137024,
+      "seed": 11
+    },
+    {
+      "dt": [],
+      "gamma": [],
+      "invariants": {
+        "hermiticity": 0.0,
+        "row": 0.0,
+        "unitarity": 0.0
+      },
+      "mode": "softmax",
+      "rss": 305152000,
+      "seed": 22
+    },
+    {
+      "dt": [
+        0.088333360850811,
+        0.054212577641010284,
+        0.05266094580292702,
+        0.04865888133645058
+      ],
+      "gamma": [
+        -0.573717474937439,
+        -0.35345250368118286,
+        -0.374337762594223,
+        -0.11288399249315262
+      ],
+      "invariants": {
+        "hermiticity": 0.0,
+        "row": 1.0728836059570312e-06,
+        "unitarity": 1.0728836059570312e-06
+      },
+      "mode": "schrodinger",
+      "rss": 331350016,
+      "seed": 22
+    },
+    {
+      "dt": [],
+      "gamma": [],
+      "invariants": {
+        "hermiticity": 0.0,
+        "row": 0.0,
+        "unitarity": 0.0
+      },
+      "mode": "softmax",
+      "rss": 310099968,
+      "seed": 33
+    },
+    {
+      "dt": [
+        0.05088172107934952,
+        0.048102471977472305,
+        0.04917217418551445,
+        0.0473894439637661
+      ],
+      "gamma": [
+        -0.3892887532711029,
+        0.17193716764450073,
+        -0.26295673847198486,
+        0.15918192267417908
+      ],
+      "invariants": {
+        "hermiticity": 0.0,
+        "row": 1.0728836059570312e-06,
+        "unitarity": 1.0728836059570312e-06
+      },
+      "mode": "schrodinger",
+      "rss": 331071488,
+      "seed": 33
+    }
+  ],
+  "status": "INCONCLUSIVE",
+  "validation_targets": {
+    "11-schrodinger": {
+      "0.9": null,
+      "0.95": null
+    },
+    "11-softmax": {
+      "0.9": null,
+      "0.95": null
+    },
+    "22-schrodinger": {
+      "0.9": null,
+      "0.95": null
+    },
+    "22-softmax": {
+      "0.9": null,
+      "0.95": null
+    },
+    "33-schrodinger": {
+      "0.9": 51200,
+      "0.95": 64000
+    },
+    "33-softmax": {
+      "0.9": 51200,
+      "0.95": 57600
+    }
+  }
+}

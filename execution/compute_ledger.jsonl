@@ -1,0 +1,55 @@
+{"artifact":"protocol","charged_seconds":14.506,"cumulative_seconds":14.506,"immutable":true,"kind":"accepted_prior_blocks"}
+{"artifact": "execution/results/smoke/smoke.json", "charged_seconds": 0.14620895899861353, "cumulative_seconds": 14.652208958998614, "kind": "block2_smoke"}
+{"artifact": "execution/results/smoke/profile/profile.json", "charged_seconds": 0.4587567090020457, "cumulative_seconds": 15.11096566800066, "kind": "block2_profile"}
+{"artifact": "execution/results/smoke/smoke.json", "charged_seconds": 0.13971266700173146, "cumulative_seconds": 15.250678335002391, "kind": "block2_smoke"}
+{"artifact": "tests", "charged_seconds": 3.0, "cumulative_seconds": 18.25067833500239, "kind": "block2_pytest_conservative"}
+{"artifact":"execution/logs/02-revision1.md","charged_seconds":3.0,"cumulative_seconds":21.25067833500239,"kind":"block2_revision_profile_failure_and_verification"}
+{"artifact": "execution/results/smoke-revision1/smoke.json", "charged_seconds": 0.14257729100063443, "cumulative_seconds": 18.393255626003025, "kind": "block2_smoke"}
+{"artifact": "execution/results/smoke-revision1/profile/profile.json", "charged_seconds": 0.4584146250017511, "cumulative_seconds": 18.851670251004776, "kind": "block2_profile"}
+{"artifact": "execution/results/smoke-revision2/smoke.json", "charged_seconds": 0.15395137499945122, "cumulative_seconds": 19.005621626004228, "kind": "block2_smoke"}
+{"artifact": "execution/results/smoke-revision3/smoke.json", "charged_seconds": 0.20184295900253346, "cumulative_seconds": 19.20746458500676, "kind": "block2_smoke"}
+{"artifact": "execution/results/smoke-revision3/profile/profile.json", "charged_seconds": 0.4825997500010999, "cumulative_seconds": 19.69006433500786, "kind": "block2_profile"}
+{"artifact": "execution/results/failure-smoke", "charged_seconds": 0.00030358400181285106, "cumulative_seconds": 22.690367919009674, "error": "ValueError: evaluate requires --checkpoint", "kind": "cli_evaluate", "status": "failed"}
+{"artifact": "execution/results/metadata-smoke", "charged_seconds": 0.6766486249980517, "cumulative_seconds": 23.367016544007726, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/block2-final/smoke", "charged_seconds": 0.5631654169992544, "cumulative_seconds": 23.93018196100698, "error": null, "kind": "cli_smoke", "status": "success"}
+{"artifact": "execution/results/block2-final/profile", "charged_seconds": 0.855267292001372, "cumulative_seconds": 24.785449253008352, "error": null, "kind": "cli_profile", "status": "success"}
+{"artifact": "execution/results/block2-final/softmax", "charged_seconds": 1.1263825000023644, "cumulative_seconds": 25.911831753010716, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/block2-final/schrodinger", "charged_seconds": 2.8544007500022417, "cumulative_seconds": 28.766232503012958, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/block2-final2/smoke", "charged_seconds": 0.5643640419984877, "cumulative_seconds": 29.330596545011446, "error": null, "kind": "cli_smoke", "status": "success"}
+{"artifact": "execution/results/block2-final2/profile", "charged_seconds": 0.8462700410018442, "cumulative_seconds": 30.17686658601329, "error": null, "kind": "cli_profile", "status": "success"}
+{"artifact": "execution/results/block2-final2/softmax", "charged_seconds": 1.1208573330004583, "cumulative_seconds": 31.297723919013748, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/block2-final2/schrodinger", "charged_seconds": 2.881809874997998, "cumulative_seconds": 34.179533794011746, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/block2-final2/dt0", "charged_seconds": 0.7159470830010832, "cumulative_seconds": 34.89548087701283, "error": null, "kind": "cli_evaluate", "status": "success"}
+{"artifact": "execution/results/block2-final2/pair.json", "charged_seconds": 1.1389873330008413, "cumulative_seconds": 36.03446821001367, "error": null, "kind": "cli_pair-evaluate", "status": "success"}
+{"artifact": "execution/results/block2-revision2/smoke", "charged_seconds": 0.564769749998959, "cumulative_seconds": 36.59923796001263, "error": null, "kind": "cli_smoke", "status": "success"}
+{"artifact": "execution/results/block2-revision2/profile", "charged_seconds": 0.8474789159990905, "cumulative_seconds": 37.44671687601172, "error": null, "kind": "cli_profile", "status": "success"}
+{"artifact": "execution/results/block2-revision2/softmax", "charged_seconds": 1.1460823749985138, "cumulative_seconds": 38.592799251010234, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/block2-revision2/schrodinger", "charged_seconds": 3.029004415999225, "cumulative_seconds": 41.62180366700946, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/block2-revision2/dt0", "charged_seconds": 0.7425310840008024, "cumulative_seconds": 42.36433475101026, "error": null, "kind": "cli_evaluate", "status": "success"}
+{"artifact": "execution/results/block2-revision2/pair.json", "charged_seconds": 0.3378522499988321, "cumulative_seconds": 42.702187001009094, "error": "ValueError: paired checkpoint initial_identity mismatch", "kind": "cli_pair-evaluate", "status": "failed"}
+{"artifact": "execution/results/block2-revision2/pair.json", "charged_seconds": 1.1476165839994792, "cumulative_seconds": 43.84980358500857, "error": "IsADirectoryError: [Errno 21] Is a directory: 'execution/results/block2-revision2/pair.json'", "kind": "cli_pair-evaluate", "status": "failed"}
+{"artifact": "execution/results/block2-revision2/pair.json", "charged_seconds": 1.16636116600057, "cumulative_seconds": 45.01616475100914, "error": "IsADirectoryError: [Errno 21] Is a directory: 'execution/results/block2-revision2/pair.json'", "kind": "cli_pair-evaluate", "status": "failed"}
+{"artifact": "execution/results/block2-revision2-final/softmax", "charged_seconds": 1.1465722499997355, "cumulative_seconds": 46.16273700100888, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/block2-revision2-final/schrodinger", "charged_seconds": 3.0736410829995293, "cumulative_seconds": 49.23637808400841, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/block2-revision2-final/pair-result.json", "charged_seconds": 1.1429318330010574, "cumulative_seconds": 50.379309917009465, "error": null, "kind": "cli_pair-evaluate", "status": "success"}
+{"artifact":"execution/ledger-reconciliation.md","charged_seconds":129.62069008299054,"cumulative_seconds":180.0,"kind":"conservative_historical_overhead_allowance","status":"success","note":"Allowance includes Sol revision2 review 3.1 seconds and unmetered command startup/test overhead; not claimed as measured elapsed."}
+{"artifact":"execution/logs/02-evidence-only.md","charged_seconds":30.0,"cumulative_seconds":210.0,"kind":"conservative_evidence_only_allowance","status":"success","note":"Remaining review/test/import history; conservative, not exact measured elapsed."}
+{"artifact":"execution/reviews/03-comparison.md","charged_seconds":2.0,"kind":"sol_block3_audit","status":"success"}
+{"artifact":"execution/results/summary.json","charged_seconds":10.0,"kind":"conservative_block4_summary_allowance","status":"success"}
+{"artifact":"execution/reviews/04-summary.md","charged_seconds":0.6,"kind":"sol_block4_traceability_review","status":"success"}
+{"artifact":"execution/reviews/04-summary.md","charged_seconds":0.4,"cumulative_seconds":393.95063458199436,"kind":"sol_final_block4_review","status":"success"}
+{"artifact":"execution/reviews/02-harness.md","charged_seconds":1.3,"cumulative_seconds":212.445719958,"kind":"sol_final_block2_review","status":"success"}
+{"artifact": "execution/results/block2-revision2-final/pair-validation.json", "charged_seconds": 1.1457199579999724, "cumulative_seconds": 181.14571995799997, "error": null, "kind": "cli_pair-evaluate", "status": "success"}
+{"artifact": "execution/results/measured/seed-11/softmax", "charged_seconds": 10.140492457998334, "cumulative_seconds": 222.58621241599832, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/measured/seed-11/schrodinger", "charged_seconds": 30.213622666000447, "cumulative_seconds": 252.79983508199876, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/measured/seed-11/equal-time.json", "charged_seconds": 1.2290472079985193, "cumulative_seconds": 254.02888228999728, "error": null, "kind": "cli_pair-evaluate", "status": "success"}
+{"artifact": "execution/results/measured/seed-22/schrodinger", "charged_seconds": 30.628288832998805, "cumulative_seconds": 284.6571711229961, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/measured/seed-22/softmax", "charged_seconds": 10.452229167000041, "cumulative_seconds": 295.10940028999613, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/measured/seed-22/equal-time.json", "charged_seconds": 0.37481495899919537, "cumulative_seconds": 295.4842152489953, "error": "ValueError: raw JSONL extends beyond completed checkpoint", "kind": "cli_pair-evaluate", "status": "failed"}
+{"artifact": "execution/results/measured/seed-22/softmax", "charged_seconds": 10.469815999997081, "cumulative_seconds": 305.9540312489924, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/measured/seed-22/equal-time.json", "charged_seconds": 1.221715875002701, "cumulative_seconds": 307.1757471239951, "error": null, "kind": "cli_pair-evaluate", "status": "success"}
+{"artifact": "execution/results/measured/seed-33/softmax", "charged_seconds": 10.349022541999148, "cumulative_seconds": 317.52476966599426, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/measured/seed-33/schrodinger", "charged_seconds": 30.37435183299749, "cumulative_seconds": 347.89912149899175, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/measured/seed-33/equal-time.json", "charged_seconds": 1.2265182910014119, "cumulative_seconds": 349.12563978999316, "error": null, "kind": "cli_pair-evaluate", "status": "success"}
+{"artifact": "execution/results/measured/seed-33/schrodinger", "charged_seconds": 30.517837292001786, "cumulative_seconds": 379.64347708199494, "error": null, "kind": "cli_train", "status": "success"}
+{"artifact": "execution/results/measured/seed-33/equal-time.json", "charged_seconds": 1.3071574999994482, "cumulative_seconds": 380.9506345819944, "error": null, "kind": "cli_pair-evaluate", "status": "success"}

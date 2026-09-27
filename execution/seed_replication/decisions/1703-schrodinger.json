@@ -1,0 +1,19 @@
+{
+  "approved": true,
+  "kind": "pilot",
+  "command": "replication_train",
+  "run_kind": "fresh",
+  "target_updates": 8000,
+  "replication_plan_sha256": "b58b88ae15712bca2b027ccb1ab3fc90bef4e9b2a5d94dc8dba43d61fbcb679e",
+  "config_hash": "870f62c96a8b0ed994d3c4d795514bf6fd513c0c771ba32750542b667155fe90",
+  "prepared_sha256": "10e5f96a98b4dcb944cf81b65eb43eb4ed5a8c8211bf9d1f55af2f0bc4814e49",
+  "manifest_sha256": "305a9dd782befa9209942a2f52ebc0ba31d9d7ca61c913ecfb69fa5cca466395",
+  "resource_limits": {
+    "A": 700,
+    "B": 3500,
+    "C": 400,
+    "D": 1300
+  },
+  "seed": 1703,
+  "mode": "schrodinger"
+}

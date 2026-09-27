@@ -1,0 +1,14 @@
+{
+  "attempt.json": {
+    "bytes": 597,
+    "sha256": "1e5917e7c37b61922a17278d50e44e89a3b7f9eaa39a74b3f0092aea97cf8084"
+  },
+  "attempt.pending.json": {
+    "bytes": 419,
+    "sha256": "a22f650db364c665ab384054245d6d4a1b9d72fc7e0b1c172c2dc228e2de69e9"
+  },
+  "baseline_diagnosis.json": {
+    "bytes": 14178358,
+    "sha256": "04e891a7d0eed3d061603ce618c45c876967e22ecb153a076940c6fa1791aee1"
+  }
+}

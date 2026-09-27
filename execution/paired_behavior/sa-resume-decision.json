@@ -1,0 +1,25 @@
+{
+  "approved": true, "kind": "pilot", "command": "train", "seed": 1701,
+  "mode": "schrodinger", "target_updates": 8000, "run_kind": "resume",
+  "config_hash": "870f62c96a8b0ed994d3c4d795514bf6fd513c0c771ba32750542b667155fe90",
+  "prepared_sha256": "10e5f96a98b4dcb944cf81b65eb43eb4ed5a8c8211bf9d1f55af2f0bc4814e49",
+  "manifest_sha256": "305a9dd782befa9209942a2f52ebc0ba31d9d7ca61c913ecfb69fa5cca466395",
+  "scope": "User-authorized exploratory paired continuation replacing baseline-first stop; no test release",
+  "resume_identity": {
+    "seed":1701,"mode":"schrodinger",
+    "source":"bf7efbddb88bff06029369cba071d79f17340d701928b7f527baa6df7e517329",
+    "config":{"batch":64,"lr":0.001,"betas":[0.9,0.999],"eps":1e-8,"weight_decay":0.01,"clip":1.0,"threads":2,"plan_sha256":"5ece45cdb11f860ae64933225f284297cff59aa544c6730b247138c660cc8ff0"},
+    "initial_hash":"ebfcd4005853e29eab693c583c01bdf645b665848525eb7a0418abb36285ad9d",
+    "input_ids":{
+      "prepared_sha256":"10e5f96a98b4dcb944cf81b65eb43eb4ed5a8c8211bf9d1f55af2f0bc4814e49",
+      "training_selected_hash":"8879d863f1780a40821f518f9ec42bfc9cdd73d203cd872104c1acde52572618",
+      "validation_selected_hash":"dcaeb083dd23fbf2b74bc6fe54de274315f07e307bbb7839952a61734b1fe68c",
+      "test_selected_hash":"3c9dd9e5e560cb032e31c77ed22831c153f51f7b1e1654546399e0b6ccdb3a5a",
+      "manifest_sha256":"305a9dd782befa9209942a2f52ebc0ba31d9d7ca61c913ecfb69fa5cca466395",
+      "frozen_source_hash":"bf7efbddb88bff06029369cba071d79f17340d701928b7f527baa6df7e517329"},
+    "update":1000,
+    "parent_hash":"e3c4c3be07e1d4e1b44ff056079449ed312fd2e532c558ba57c5548ae95a1c97",
+    "checkpoint_hash":"61850806ace41a2ad6ecdbc9317d50eba4c5841d3a8fce4ed57a9d081610ca3b",
+    "initial_checkpoint_hash":"0ef4eb59d3e6d8d3de125f8340dc9524d72f9774a7958cea85b3a06b27436feb"
+  }
+}

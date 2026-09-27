@@ -1,0 +1,4 @@
+{
+  "command": "evaluate",
+  "error": "ValueError: evaluate requires --checkpoint"
+}

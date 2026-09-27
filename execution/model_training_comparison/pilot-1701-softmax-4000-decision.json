@@ -1,0 +1,44 @@
+{
+  "approved": true,
+  "kind": "pilot",
+  "command": "train",
+  "seed": 1701,
+  "mode": "softmax",
+  "target_updates": 4000,
+  "run_kind": "resume",
+  "config_hash": "870f62c96a8b0ed994d3c4d795514bf6fd513c0c771ba32750542b667155fe90",
+  "prepared_sha256": "10e5f96a98b4dcb944cf81b65eb43eb4ed5a8c8211bf9d1f55af2f0bc4814e49",
+  "manifest_sha256": "305a9dd782befa9209942a2f52ebc0ba31d9d7ca61c913ecfb69fa5cca466395",
+  "resume_identity": {
+    "seed": 1701,
+    "mode": "softmax",
+    "source": "bf7efbddb88bff06029369cba071d79f17340d701928b7f527baa6df7e517329",
+    "config": {
+      "batch": 64,
+      "lr": 0.001,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-8,
+      "weight_decay": 0.01,
+      "clip": 1,
+      "threads": 2,
+      "plan_sha256": "5ece45cdb11f860ae64933225f284297cff59aa544c6730b247138c660cc8ff0"
+    },
+    "input_ids": {
+      "frozen_source_hash": "bf7efbddb88bff06029369cba071d79f17340d701928b7f527baa6df7e517329",
+      "manifest_sha256": "305a9dd782befa9209942a2f52ebc0ba31d9d7ca61c913ecfb69fa5cca466395",
+      "prepared_sha256": "10e5f96a98b4dcb944cf81b65eb43eb4ed5a8c8211bf9d1f55af2f0bc4814e49",
+      "test_selected_hash": "3c9dd9e5e560cb032e31c77ed22831c153f51f7b1e1654546399e0b6ccdb3a5a",
+      "training_selected_hash": "8879d863f1780a40821f518f9ec42bfc9cdd73d203cd872104c1acde52572618",
+      "validation_selected_hash": "dcaeb083dd23fbf2b74bc6fe54de274315f07e307bbb7839952a61734b1fe68c"
+    },
+    "initial_hash": "8e044d564de0cdf0cf29b1e17cc81b28842b09933f0741180d294913f9036ff8",
+    "update": 2000,
+    "parent_hash": "385bca03b6ce68ef71928b8570d0ff34ec2183f7f79fed4e9021b06bb3263072",
+    "checkpoint_hash": "24b25c98c5e37607d00e4f9bed40e22d70ae483d64ba563c21f65d2abe1e4038",
+    "initial_checkpoint_hash": "5bf5f49dc41a868326c66d1aa56830d9c9bd21571153e5ba8c0ddcbf143c3e4b"
+  },
+  "review": "reviews/B1-continuation-sequence.md"
+}

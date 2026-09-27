@@ -1,0 +1,14 @@
+{
+  "attempt.json": {
+    "bytes": 602,
+    "sha256": "372a0b9e4837315ed1566aa52ef4097545b85fa5618c0dc65ca1eb49afbbff7f"
+  },
+  "attempt.pending.json": {
+    "bytes": 425,
+    "sha256": "03643a3af6f2a3e992ed9508b561e7b1762931ed3e6b985b8043191f854aa0fe"
+  },
+  "result.json": {
+    "bytes": 3996202,
+    "sha256": "01f717bcc5c55ad7d779c411f35ea309fa4911bcbf46e7dde32f66a8e094056e"
+  }
+}

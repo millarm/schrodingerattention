@@ -1,0 +1,58 @@
+{
+  "actual_runtime": {
+    "cuda_available": false,
+    "executable": "/Users/gmh-company/codex/schrodinger/.venv/bin/python",
+    "machine": "arm64",
+    "numpy": "2.5.3",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "torch": "2.14.0",
+    "torch_interop_threads": 1,
+    "torch_threads": 2
+  },
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "schrodinger.checkpoint_diagnostic",
+    "--output",
+    "execution/diagnostics/attempts/checkpoint-001"
+  ],
+  "batch_size": 64,
+  "cap_seconds": 900.0,
+  "command": ".venv/bin/python -m schrodinger.checkpoint_diagnostic --output execution/diagnostics/attempts/checkpoint-001",
+  "dtype": "float32/complex64",
+  "experiment_config": {
+    "batch_size": 64,
+    "config_sha256": "9ebace507a57202f483cefd55d5f50db868ad2abd214145a86f722386b2ffd4f",
+    "contract_sha256": "5ea6cda81fa8f95f3e2a9c39e9ca47d34ca6134697bca3305967e6f31d8507de",
+    "d_model": 32,
+    "feedforward": 64,
+    "heads": 2,
+    "layers": 2,
+    "numpy": "2.5.3",
+    "optimizer": {
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "lr": 0.001,
+      "weight_decay": 0.01
+    },
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "torch": "2.14.0",
+    "torch_interop_threads": 1,
+    "torch_threads": 2,
+    "train_distractors": [
+      2,
+      3,
+      4
+    ]
+  },
+  "lock": "/Users/gmh-company/codex/schrodinger/execution/diagnostics/diagnostic.lock",
+  "reserve_seconds": 30.0
+}

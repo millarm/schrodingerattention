@@ -1,0 +1,56 @@
+{
+  "capture": {
+    "pytest_temp_directory": "/private/var/folders/sr/3vzptsv10h36bf9jhq3bpg3h0000gp/T/pytest-of-gmh-company/pytest-204/test_driver_watchdog_descendan0",
+    "copied_into_suite_owner_after_pytest": true,
+    "suite_owner": "/Users/gmh-company/codex/schrodinger/execution/update_efficiency/attempts/driver-17fb6073-0690-4b1b-ad9e-658063ac5e0a"
+  },
+  "proof_files": {
+    "parent-start.json": {
+      "bytes": 49,
+      "sha256": "2e7c84c22a6b1dde27573db3c7cad5192f061c78c0ac43a96d846562bb0aa55e",
+      "content": {"child_pid": 18347, "pgid": 18346, "pid": 18346}
+    },
+    "parent-ready.json": {
+      "bytes": 49,
+      "sha256": "2e7c84c22a6b1dde27573db3c7cad5192f061c78c0ac43a96d846562bb0aa55e",
+      "content": {"child_pid": 18347, "pgid": 18346, "pid": 18346}
+    },
+    "child-ready.json": {
+      "bytes": 50,
+      "sha256": "6761b8063a848e22c9480606a56c7b6974c6f1a663159b7033466516f79d9c04",
+      "content": {"parent_pid": 18346, "pgid": 18346, "pid": 18347}
+    },
+    "reaped.json": {
+      "bytes": 62,
+      "sha256": "773f79cea5834e9093a39a0a4b762c8d5fe5fd30101c20fbb1823c75d9c532dc",
+      "content": {"pid": 18347, "reason": "SIGTERM handler", "returncode": -15}
+    }
+  },
+  "cleanup_evidence": {
+    "source": "watchdog/cleanup-evidence.jsonl",
+    "bytes": 379,
+    "sha256": "99cc341ae8da3c28e7386441457ed3b33aae0f9477a6eb1bc09d91e70dd3c505",
+    "content": [
+      {"method": "killpg_zero", "pgid": 18346, "present": true},
+      {"method": "killpg_signal", "pgid": 18346, "result": "sent", "signal": 15},
+      {"method": "killpg_zero", "pgid": 18346, "present": true},
+      {"method": "killpg_zero", "pgid": 18346, "present": true},
+      {"method": "killpg_zero_esrch", "pgid": 18346, "present": false},
+      {"method": "killpg_zero_esrch", "pgid": 18346, "present": false}
+    ]
+  },
+  "watchdog_logs": {
+    "stdout.txt": {"bytes": 0, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},
+    "stderr.txt": {"bytes": 0, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"}
+  },
+  "interpretation": {
+    "supervisor_pid": 18346,
+    "descendant_pid": 18347,
+    "shared_process_group": 18346,
+    "parent_reaped_descendant": true,
+    "cleanup_method": "group SIGTERM followed by killpg-zero probes; ESRCH proved group absence",
+    "darwin_ps_fallback_used": false,
+    "ps_evidence_bytes": 0,
+    "ps_evidence_timing": "not applicable; no Darwin ps enumeration occurred"
+  }
+}

@@ -1,0 +1,1 @@
+{"child_pid": 22786, "cleanup_evidence": [{"method": "killpg_zero_esrch", "pgid": 22786, "present": false}, {"method": "killpg_zero_esrch", "pgid": 22786, "present": false}], "cleanup_verified": true, "exit_code": 0, "timed_out": false}

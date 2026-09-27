@@ -1,0 +1,126 @@
+.............F.............                                              [100%]
+=================================== FAILURES ===================================
+___________________ test_driver_watchdog_descendant_fixture ____________________
+
+command = ['/Users/gmh-company/codex/schrodinger/.venv/bin/python', '-c', "import subprocess,sys,time;subprocess.Popen([sys.executable,'-c','import time;time.sleep(2)']);time.sleep(2)"]
+cwd = PosixPath('/Users/gmh-company/codex/schrodinger')
+logs = PosixPath('/private/var/folders/sr/3vzptsv10h36bf9jhq3bpg3h0000gp/T/pytest-of-gmh-company/pytest-201/test_driver_watchdog_descendan0/watchdog')
+deadline = 1053237.174656333
+
+    def supervise(command, cwd, logs, deadline):
+        """One real child group; grace is INSIDE the supplied total deadline."""
+        child = None
+        timed_out = False
+        cleanup = False
+        with (logs / 'stdout.txt').open('wb') as out, (logs / 'stderr.txt').open('wb') as err:
+            try:
+                child = subprocess.Popen(command, cwd=cwd, stdout=out, stderr=err, start_new_session=True)
+                remaining = max(0., deadline - time.monotonic())
+                grace = min(2., remaining * .2)
+                try:
+                    child.wait(timeout=max(.001, remaining - grace))
+                except subprocess.TimeoutExpired:
+                    timed_out = True
+                if not group_gone(child.pid):
+                    try:
+                        os.killpg(child.pid, signal.SIGTERM)
+                    except ProcessLookupError:
+                        pass
+                    term_end = min(deadline, time.monotonic() + grace / 2)
+                    while time.monotonic() < term_end:
+                        child.poll()
+                        if group_gone(child.pid):
+                            break
+                        time.sleep(.01)
+>                   if not group_gone(child.pid):
+                           ^^^^^^^^^^^^^^^^^^^^^
+
+execution/difficult_problem_solving/d1_watchdog.py:186: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+pgid = 12994
+
+    def group_gone(pgid):
+        try:
+>           os.killpg(pgid, 0)
+E           PermissionError: [Errno 1] Operation not permitted
+
+execution/difficult_problem_solving/d1_watchdog.py:156: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+tmp_path = PosixPath('/private/var/folders/sr/3vzptsv10h36bf9jhq3bpg3h0000gp/T/pytest-of-gmh-company/pytest-201/test_driver_watchdog_descendan0')
+
+    def test_driver_watchdog_descendant_fixture(tmp_path):
+     """The accepted watchdog, not an invented result field, proves group cleanup."""
+     from execution.update_efficiency import command
+     child="import subprocess,sys,time;subprocess.Popen([sys.executable,'-c','import time;time.sleep(2)']);time.sleep(2)"
+     logs=tmp_path/"watchdog";logs.mkdir()
+>    result=command.supervise([sys.executable,"-c",child],.05,logs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_update_efficiency.py:248: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+execution/update_efficiency/command.py:159: in supervise
+    def supervise(argv,deadline,output):return reviewed_watchdog.supervise(argv,WORKSPACE,Path(output),time.monotonic()+deadline)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+command = ['/Users/gmh-company/codex/schrodinger/.venv/bin/python', '-c', "import subprocess,sys,time;subprocess.Popen([sys.executable,'-c','import time;time.sleep(2)']);time.sleep(2)"]
+cwd = PosixPath('/Users/gmh-company/codex/schrodinger')
+logs = PosixPath('/private/var/folders/sr/3vzptsv10h36bf9jhq3bpg3h0000gp/T/pytest-of-gmh-company/pytest-201/test_driver_watchdog_descendan0/watchdog')
+deadline = 1053237.174656333
+
+    def supervise(command, cwd, logs, deadline):
+        """One real child group; grace is INSIDE the supplied total deadline."""
+        child = None
+        timed_out = False
+        cleanup = False
+        with (logs / 'stdout.txt').open('wb') as out, (logs / 'stderr.txt').open('wb') as err:
+            try:
+                child = subprocess.Popen(command, cwd=cwd, stdout=out, stderr=err, start_new_session=True)
+                remaining = max(0., deadline - time.monotonic())
+                grace = min(2., remaining * .2)
+                try:
+                    child.wait(timeout=max(.001, remaining - grace))
+                except subprocess.TimeoutExpired:
+                    timed_out = True
+                if not group_gone(child.pid):
+                    try:
+                        os.killpg(child.pid, signal.SIGTERM)
+                    except ProcessLookupError:
+                        pass
+                    term_end = min(deadline, time.monotonic() + grace / 2)
+                    while time.monotonic() < term_end:
+                        child.poll()
+                        if group_gone(child.pid):
+                            break
+                        time.sleep(.01)
+                    if not group_gone(child.pid):
+                        try:
+                            os.killpg(child.pid, signal.SIGKILL)
+                        except ProcessLookupError:
+                            pass
+                    while time.monotonic() < deadline:
+                        child.poll()
+                        if group_gone(child.pid):
+                            break
+                        time.sleep(.01)
+                child.poll()
+                cleanup = group_gone(child.pid) and child.returncode is not None
+                if not cleanup:
+                    raise RuntimeError('process group cleanup not verified within envelope')
+                return {'child_pid': child.pid, 'exit_code': child.returncode,
+                        'timed_out': timed_out, 'cleanup_verified': True}
+            finally:
+                out.flush(); os.fsync(out.fileno())
+                err.flush(); os.fsync(err.fileno())
+                if child is not None and not cleanup:
+                    try:
+>                       os.killpg(child.pid, signal.SIGKILL)
+E                       PermissionError: [Errno 1] Operation not permitted
+
+execution/difficult_problem_solving/d1_watchdog.py:207: PermissionError
+=========================== short test summary info ============================
+FAILED tests/test_update_efficiency.py::test_driver_watchdog_descendant_fixture
+1 failed, 26 passed in 1.45s

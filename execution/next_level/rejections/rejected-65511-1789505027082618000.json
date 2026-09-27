@@ -1,0 +1,1 @@
+{"kind": "route_feasibility_rejected", "status": "rejected", "reason": "preflight fresh output/lock required", "charged_seconds": 2.0000268330040853, "elapsed_seconds": 2.6833004085347056e-05, "pid": 65511, "argv": [".venv/bin/python", "-m", "pytest", "-q"]}

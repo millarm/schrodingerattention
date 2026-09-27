@@ -1,0 +1,18 @@
+{
+  "status": "PROPOSED_FOR_INDEPENDENT_REVIEW",
+  "profile_result_sha256": "e2073da106b4ad32e0dd5f9ded915dbd7ee60fe737a24e6d87abb7ada2f0bafb",
+  "original_total_seconds": 3231.807160494587,
+  "original_temperature_seconds": 2553.8047955953516,
+  "physical_validation_problems": 512,
+  "candidate_count": 77,
+  "safety_factor": 1.5,
+  "max_t1_k32_seconds_per_problem": 0.013818565124893212,
+  "max_proper_seconds_per_problem": 0.00018377734340901952,
+  "derived_temperature_seconds": 828.0425242055207,
+  "other_costs_unchanged": true,
+  "cache_discount": false,
+  "derived_total_seconds": 1506.0448891047563,
+  "stage_B_ceiling_seconds": 2000.0,
+  "scientific_changes": false,
+  "interpretation": "Every original candidate receives fresh K32 current-policy rollout plus proper-score bank pass at largest observed per-problem rates. Original profile preserved. Does not release conditional main or test gates."
+}

@@ -1,0 +1,1259 @@
+{
+  "forecast": {
+    "checkpoint_count": 11,
+    "checkpoint_write_seconds": 0.1337118741357699,
+    "equal_time_endpoints_per_model": 4,
+    "evaluation_updates": [
+      0,
+      500,
+      1000
+    ],
+    "fixed_seconds": 162.49258711526636,
+    "future_temperature_work": "NOT_IMPLEMENTED_GATED_COSTED",
+    "missing_stratum_rule": "largest_observed_rate",
+    "models": 2,
+    "per_stratum_problem_seconds": {
+      "challenge": 0.04318528131079802,
+      "routine": 0.04104282812477322
+    },
+    "probe_seconds": 6.349326805357123,
+    "serialization_seconds": 29.523676897399127,
+    "temperature_candidate_counts": {
+      "dt0_T1_and_quality_search": 17,
+      "softmax_entropy_search": 16,
+      "two_fixed_curves": 12,
+      "two_quality_searches": 32
+    },
+    "temperature_work_seconds": 2553.8047955953516,
+    "total_seconds": 3231.807160494587,
+    "trace_seconds": 0.17461008159443736,
+    "train_seconds": 32.27704996388639,
+    "validation_counts": {
+      "challenge": 128,
+      "endpoints": 3,
+      "models": 2,
+      "routine": 384
+    },
+    "validation_extrapolation_seconds": 447.05140216159634
+  },
+  "input_ids": {
+    "frozen_source_hash": "bf7efbddb88bff06029369cba071d79f17340d701928b7f527baa6df7e517329",
+    "manifest_sha256": "305a9dd782befa9209942a2f52ebc0ba31d9d7ca61c913ecfb69fa5cca466395",
+    "prepared_sha256": "10e5f96a98b4dcb944cf81b65eb43eb4ed5a8c8211bf9d1f55af2f0bc4814e49",
+    "test_selected_hash": "3c9dd9e5e560cb032e31c77ed22831c153f51f7b1e1654546399e0b6ccdb3a5a",
+    "training_selected_hash": "8879d863f1780a40821f518f9ec42bfc9cdd73d203cd872104c1acde52572618",
+    "validation_selected_hash": "dcaeb083dd23fbf2b74bc6fe54de274315f07e307bbb7839952a61734b1fe68c"
+  },
+  "profile": {
+    "actual_ledger_append_seconds": 0.0003399159759283066,
+    "actual_ledger_path": "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/ledger.jsonl",
+    "checkpoint_io_seconds": 0.004051874973811209,
+    "end_to_end_seconds": 12.907836832979228,
+    "exclusive_phase_seconds": 12.901783541892655,
+    "ledger_cost_kind": "measured_append_fsync_on_copy_of_actual_ledger",
+    "ledger_path": "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/ledger.jsonl",
+    "ledger_seconds": 0.0010530410218052566,
+    "map_ids": [
+      28,
+      220,
+      248,
+      302,
+      344,
+      362
+    ],
+    "measured_step_seconds": [
+      [
+        0.0052715420024469495,
+        0.005604457983281463,
+        0.0052904580370523036,
+        0.005233375006355345,
+        0.005117374996189028,
+        0.005526208959054202,
+        0.005189332994632423,
+        0.005170959047973156,
+        0.005506916961167008,
+        0.0051890829927288,
+        0.0050652080099098384,
+        0.0050967500428669155,
+        0.005489957984536886,
+        0.005081042007077485,
+        0.005092917010188103,
+        0.005310458014719188,
+        0.005273582995869219,
+        0.005025958991609514,
+        0.005108791985549033,
+        0.005958042049314827
+      ],
+      [
+        0.016268250008579344,
+        0.016775416035670787,
+        0.016749833011999726,
+        0.01644758303882554,
+        0.017065291991457343,
+        0.016691208991687745,
+        0.017104208003729582,
+        0.016859833034686744,
+        0.015963374986313283,
+        0.015785666008014232,
+        0.016047250013798475,
+        0.015885166998486966,
+        0.015907332999631763,
+        0.015824750007595867,
+        0.015940000012051314,
+        0.015662583988159895,
+        0.015972291002981365,
+        0.01574804197298363,
+        0.01586787501582876,
+        0.01619229099014774
+      ]
+    ],
+    "models": {
+      "schrodinger": {
+        "final_checkpoint_hash": "9e122b526090d53f9cea2ef409e9bb7f178654b97bde150c9ed7faff7a6d6db9",
+        "initial_checkpoint_hash": "fa6163f10688bdde2accb4403d35490a6850b018d6721d8580b489f029dc3c15",
+        "initial_state_hash": "c78f77e26be8c9c191ce5669612c7eaf9756fb45d30acab66bdd6273c8d63ea5",
+        "measured_count": 20,
+        "parameter_count": 70540,
+        "training_core_seconds": 0.49202041304670274,
+        "warmup_count": 5
+      },
+      "softmax": {
+        "final_checkpoint_hash": "6a3eaf4eda2339a79e3bcf15a9e34adde72d237358edadec3fa8321e6804f936",
+        "initial_checkpoint_hash": "0fc022f4eacd119465174006f86115b11c29848bccd5fe995051cd3227ff1f58",
+        "initial_state_hash": "bc37fdd36cd0cfb0747ab050e108e303bc7739c4ccc1f91edd8c7864695480c4",
+        "measured_count": 20,
+        "parameter_count": 70540,
+        "training_core_seconds": 0.13933328923303634,
+        "warmup_count": 5
+      }
+    },
+    "operations": [
+      {
+        "artifact": "softmax-IIIIIIII-greedy.json",
+        "family": "IIIIIIII",
+        "mode": "softmax",
+        "name": "greedy",
+        "nested_timing": {
+          "cache_inference_seconds": 0.006695081829093397,
+          "categorical_rollout_seconds": 0.003237664932385087,
+          "end_to_end_seconds": 0.015118292008992285,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.004101124999579042
+        },
+        "problems": 32,
+        "seconds": 0.015126415994018316,
+        "states": null
+      },
+      {
+        "artifact": "softmax-IIIIIIII-t1_k32.json",
+        "family": "IIIIIIII",
+        "mode": "softmax",
+        "name": "t1_k32",
+        "nested_timing": {
+          "cache_inference_seconds": 0.02530774794286117,
+          "categorical_rollout_seconds": 0.20161633501993492,
+          "end_to_end_seconds": 0.37699358398094773,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.1331777919549495
+        },
+        "problems": 32,
+        "seconds": 0.37708041694713756,
+        "states": null
+      },
+      {
+        "artifact": "softmax-IIIIIIII-own_initial.json",
+        "family": "IIIIIIII",
+        "mode": "softmax",
+        "name": "own_initial",
+        "nested_timing": {
+          "cache_inference_seconds": 0.025454998714849353,
+          "categorical_rollout_seconds": 0.20133141690166667,
+          "end_to_end_seconds": 0.37765179201960564,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.13401083304779604
+        },
+        "problems": 32,
+        "seconds": 0.37773658300284296,
+        "states": null
+      },
+      {
+        "artifact": "softmax-IIIIIIII-uniform_legal.json",
+        "family": "IIIIIIII",
+        "mode": "softmax",
+        "name": "uniform_legal",
+        "nested_timing": {
+          "cache_inference_seconds": 0.026647082122508436,
+          "categorical_rollout_seconds": 0.1804757108911872,
+          "end_to_end_seconds": 0.3581750000012107,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.13368808396626264
+        },
+        "problems": 32,
+        "seconds": 0.3582576659973711,
+        "states": null
+      },
+      {
+        "artifact": "softmax-IIIIIIII-proper.json",
+        "family": "IIIIIIII",
+        "mode": "softmax",
+        "name": "proper",
+        "nested_timing": {
+          "proper_seconds": 0.0021919580176472664
+        },
+        "problems": 32,
+        "seconds": 0.0021966659696772695,
+        "states": 64
+      },
+      {
+        "artifact": "softmax-LLLLLLLL-greedy.json",
+        "family": "LLLLLLLL",
+        "mode": "softmax",
+        "name": "greedy",
+        "nested_timing": {
+          "cache_inference_seconds": 0.006473669956903905,
+          "categorical_rollout_seconds": 0.003205128014087677,
+          "end_to_end_seconds": 0.01477520796470344,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.004246250027790666
+        },
+        "problems": 32,
+        "seconds": 0.014784708037041128,
+        "states": null
+      },
+      {
+        "artifact": "softmax-LLLLLLLL-t1_k32.json",
+        "family": "LLLLLLLL",
+        "mode": "softmax",
+        "name": "t1_k32",
+        "nested_timing": {
+          "cache_inference_seconds": 0.02544308314099908,
+          "categorical_rollout_seconds": 0.20489949896000326,
+          "end_to_end_seconds": 0.3824666669825092,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.1351765000144951
+        },
+        "problems": 32,
+        "seconds": 0.38254429103108123,
+        "states": null
+      },
+      {
+        "artifact": "softmax-LLLLLLLL-own_initial.json",
+        "family": "LLLLLLLL",
+        "mode": "softmax",
+        "name": "own_initial",
+        "nested_timing": {
+          "cache_inference_seconds": 0.022023500117938966,
+          "categorical_rollout_seconds": 0.20195112394867465,
+          "end_to_end_seconds": 0.37553675001254305,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.1347547079785727
+        },
+        "problems": 32,
+        "seconds": 0.37562333297682926,
+        "states": null
+      },
+      {
+        "artifact": "softmax-LLLLLLLL-uniform_legal.json",
+        "family": "LLLLLLLL",
+        "mode": "softmax",
+        "name": "uniform_legal",
+        "nested_timing": {
+          "cache_inference_seconds": 0.025399289035703987,
+          "categorical_rollout_seconds": 0.1768453770200722,
+          "end_to_end_seconds": 0.35193270799936727,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.13280654099071398
+        },
+        "problems": 32,
+        "seconds": 0.35201479197712615,
+        "states": null
+      },
+      {
+        "artifact": "softmax-LLLLLLLL-proper.json",
+        "family": "LLLLLLLL",
+        "mode": "softmax",
+        "name": "proper",
+        "nested_timing": {
+          "proper_seconds": 0.0023457080242224038
+        },
+        "problems": 32,
+        "seconds": 0.0023507080040872097,
+        "states": 64
+      },
+      {
+        "artifact": "softmax-IIIILLLL-greedy.json",
+        "family": "IIIILLLL",
+        "mode": "softmax",
+        "name": "greedy",
+        "nested_timing": {
+          "cache_inference_seconds": 0.005810124916024506,
+          "categorical_rollout_seconds": 0.003186253015883267,
+          "end_to_end_seconds": 0.013908083026763052,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.004065792018081993
+        },
+        "problems": 32,
+        "seconds": 0.013915500021539629,
+        "states": null
+      },
+      {
+        "artifact": "softmax-IIIILLLL-t1_k32.json",
+        "family": "IIIILLLL",
+        "mode": "softmax",
+        "name": "t1_k32",
+        "nested_timing": {
+          "cache_inference_seconds": 0.024649709928780794,
+          "categorical_rollout_seconds": 0.20272954110987484,
+          "end_to_end_seconds": 0.37735454202629626,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.13296654197620228
+        },
+        "problems": 32,
+        "seconds": 0.3774383749696426,
+        "states": null
+      },
+      {
+        "artifact": "softmax-IIIILLLL-own_initial.json",
+        "family": "IIIILLLL",
+        "mode": "softmax",
+        "name": "own_initial",
+        "nested_timing": {
+          "cache_inference_seconds": 0.026380290160886943,
+          "categorical_rollout_seconds": 0.2034217941109091,
+          "end_to_end_seconds": 0.380012791021727,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.13325175002682954
+        },
+        "problems": 32,
+        "seconds": 0.3801102080033161,
+        "states": null
+      },
+      {
+        "artifact": "softmax-IIIILLLL-uniform_legal.json",
+        "family": "IIIILLLL",
+        "mode": "softmax",
+        "name": "uniform_legal",
+        "nested_timing": {
+          "cache_inference_seconds": 0.024494289013091475,
+          "categorical_rollout_seconds": 0.17937245912617072,
+          "end_to_end_seconds": 0.3841830830206163,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.1632864999701269
+        },
+        "problems": 32,
+        "seconds": 0.38432170799933374,
+        "states": null
+      },
+      {
+        "artifact": "softmax-IIIILLLL-proper.json",
+        "family": "IIIILLLL",
+        "mode": "softmax",
+        "name": "proper",
+        "nested_timing": {
+          "proper_seconds": 0.005872624984476715
+        },
+        "problems": 32,
+        "seconds": 0.005880874989088625,
+        "states": 64
+      },
+      {
+        "artifact": "schrodinger-IIIIIIII-greedy.json",
+        "family": "IIIIIIII",
+        "mode": "schrodinger",
+        "name": "greedy",
+        "nested_timing": {
+          "cache_inference_seconds": 0.01646350196097046,
+          "categorical_rollout_seconds": 0.003228748159017414,
+          "end_to_end_seconds": 0.02476054197177291,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.004219915950670838
+        },
+        "problems": 32,
+        "seconds": 0.02476766600739211,
+        "states": null
+      },
+      {
+        "artifact": "schrodinger-IIIIIIII-t1_k32.json",
+        "family": "IIIIIIII",
+        "mode": "schrodinger",
+        "name": "t1_k32",
+        "nested_timing": {
+          "cache_inference_seconds": 0.07753283204510808,
+          "categorical_rollout_seconds": 0.20309233397711068,
+          "end_to_end_seconds": 0.43253929098136723,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.13479450001614168
+        },
+        "problems": 32,
+        "seconds": 0.4326305420254357,
+        "states": null
+      },
+      {
+        "artifact": "schrodinger-IIIIIIII-own_initial.json",
+        "family": "IIIIIIII",
+        "mode": "schrodinger",
+        "name": "own_initial",
+        "nested_timing": {
+          "cache_inference_seconds": 0.07926312496419996,
+          "categorical_rollout_seconds": 0.204196626029443,
+          "end_to_end_seconds": 0.43433424999238923,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.13366191601380706
+        },
+        "problems": 32,
+        "seconds": 0.43444587499834597,
+        "states": null
+      },
+      {
+        "artifact": "schrodinger-IIIIIIII-uniform_legal.json",
+        "family": "IIIIIIII",
+        "mode": "schrodinger",
+        "name": "uniform_legal",
+        "nested_timing": {
+          "cache_inference_seconds": 0.07835633307695389,
+          "categorical_rollout_seconds": 0.17857350100530311,
+          "end_to_end_seconds": 0.4162136659724638,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.14208445796975866
+        },
+        "problems": 32,
+        "seconds": 0.41631270898506045,
+        "states": null
+      },
+      {
+        "artifact": "schrodinger-IIIIIIII-proper.json",
+        "family": "IIIIIIII",
+        "mode": "schrodinger",
+        "name": "proper",
+        "nested_timing": {
+          "proper_seconds": 0.0052100419998168945
+        },
+        "problems": 32,
+        "seconds": 0.005213707976508886,
+        "states": 64
+      },
+      {
+        "artifact": "schrodinger-LLLLLLLL-greedy.json",
+        "family": "LLLLLLLL",
+        "mode": "schrodinger",
+        "name": "greedy",
+        "nested_timing": {
+          "cache_inference_seconds": 0.016036542016081512,
+          "categorical_rollout_seconds": 0.0032467091805301607,
+          "end_to_end_seconds": 0.024332375032827258,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.00419279100606218
+        },
+        "problems": 32,
+        "seconds": 0.02434091694885865,
+        "states": null
+      },
+      {
+        "artifact": "schrodinger-LLLLLLLL-t1_k32.json",
+        "family": "LLLLLLLL",
+        "mode": "schrodinger",
+        "name": "t1_k32",
+        "nested_timing": {
+          "cache_inference_seconds": 0.08154162392020226,
+          "categorical_rollout_seconds": 0.2075900449999608,
+          "end_to_end_seconds": 0.44207666598958895,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.13544199999887496
+        },
+        "problems": 32,
+        "seconds": 0.4421940839965828,
+        "states": null
+      },
+      {
+        "artifact": "schrodinger-LLLLLLLL-own_initial.json",
+        "family": "LLLLLLLL",
+        "mode": "schrodinger",
+        "name": "own_initial",
+        "nested_timing": {
+          "cache_inference_seconds": 0.06534249713877216,
+          "categorical_rollout_seconds": 0.20480425003916025,
+          "end_to_end_seconds": 0.42144599999301136,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.13398479198804125
+        },
+        "problems": 32,
+        "seconds": 0.4215386250289157,
+        "states": null
+      },
+      {
+        "artifact": "schrodinger-LLLLLLLL-uniform_legal.json",
+        "family": "LLLLLLLL",
+        "mode": "schrodinger",
+        "name": "uniform_legal",
+        "nested_timing": {
+          "cache_inference_seconds": 0.07733287382870913,
+          "categorical_rollout_seconds": 0.17862470919499174,
+          "end_to_end_seconds": 0.40801062498940155,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.1349310420337133
+        },
+        "problems": 32,
+        "seconds": 0.4081049590022303,
+        "states": null
+      },
+      {
+        "artifact": "schrodinger-LLLLLLLL-proper.json",
+        "family": "LLLLLLLL",
+        "mode": "schrodinger",
+        "name": "proper",
+        "nested_timing": {
+          "proper_seconds": 0.005303916987031698
+        },
+        "problems": 32,
+        "seconds": 0.0053094999748282135,
+        "states": 64
+      },
+      {
+        "artifact": "schrodinger-IIIILLLL-greedy.json",
+        "family": "IIIILLLL",
+        "mode": "schrodinger",
+        "name": "greedy",
+        "nested_timing": {
+          "cache_inference_seconds": 0.013686125981621444,
+          "categorical_rollout_seconds": 0.00320575013756752,
+          "end_to_end_seconds": 0.021987790998537093,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.0042840829701162875
+        },
+        "problems": 32,
+        "seconds": 0.02199629199458286,
+        "states": null
+      },
+      {
+        "artifact": "schrodinger-IIIILLLL-t1_k32.json",
+        "family": "IIIILLLL",
+        "mode": "schrodinger",
+        "name": "t1_k32",
+        "nested_timing": {
+          "cache_inference_seconds": 0.07676249573705718,
+          "categorical_rollout_seconds": 0.20570779405534267,
+          "end_to_end_seconds": 0.433089625032153,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.1333262079861015
+        },
+        "problems": 32,
+        "seconds": 0.4331811669981107,
+        "states": null
+      },
+      {
+        "artifact": "schrodinger-IIIILLLL-own_initial.json",
+        "family": "IIIILLLL",
+        "mode": "schrodinger",
+        "name": "own_initial",
+        "nested_timing": {
+          "cache_inference_seconds": 0.08118499995907769,
+          "categorical_rollout_seconds": 0.20536791515769437,
+          "end_to_end_seconds": 0.4397892910055816,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.13553495903033763
+        },
+        "problems": 32,
+        "seconds": 0.4399994590203278,
+        "states": null
+      },
+      {
+        "artifact": "schrodinger-IIIILLLL-uniform_legal.json",
+        "family": "IIIILLLL",
+        "mode": "schrodinger",
+        "name": "uniform_legal",
+        "nested_timing": {
+          "cache_inference_seconds": 0.08648908406030387,
+          "categorical_rollout_seconds": 0.19120379205560312,
+          "end_to_end_seconds": 0.4815004160045646,
+          "mechanism_seconds": 0.0,
+          "proper_seconds": 0.0,
+          "verifier_uniqueness_seconds": 0.1380135840154253
+        },
+        "problems": 32,
+        "seconds": 0.48161158396396786,
+        "states": null
+      },
+      {
+        "artifact": "schrodinger-IIIILLLL-proper.json",
+        "family": "IIIILLLL",
+        "mode": "schrodinger",
+        "name": "proper",
+        "nested_timing": {
+          "proper_seconds": 0.005136875028256327
+        },
+        "problems": 32,
+        "seconds": 0.005140499968547374,
+        "states": 64
+      }
+    ],
+    "phases": [
+      {
+        "end": 3.5251887909835204,
+        "name": "setup",
+        "seconds": 3.525162415986415,
+        "start": 2.6374997105449438e-05
+      },
+      {
+        "end": 3.5328008749638684,
+        "name": "paired_initialization",
+        "seconds": 0.0076029589981772006,
+        "start": 3.525197915965691
+      },
+      {
+        "end": 3.9540262909722514,
+        "name": "softmax.setup",
+        "seconds": 0.42020533297909424,
+        "start": 3.533820957993157
+      },
+      {
+        "end": 3.956329457985703,
+        "name": "softmax.initial_checkpoint",
+        "seconds": 0.002045125002041459,
+        "start": 3.9542843329836614
+      },
+      {
+        "end": 3.9907705829828046,
+        "name": "softmax.warmup",
+        "seconds": 0.034439000010024756,
+        "start": 3.95633158297278
+      },
+      {
+        "end": 4.096638916002121,
+        "name": "softmax.measured_steps",
+        "seconds": 0.10586662503192201,
+        "start": 3.990772290970199
+      },
+      {
+        "end": 4.099653249955736,
+        "name": "softmax.final_checkpoint",
+        "seconds": 0.0030015420052222908,
+        "start": 4.096651707950514
+      },
+      {
+        "end": 4.100904165999964,
+        "name": "softmax.trace_io",
+        "seconds": 0.0012488330248743296,
+        "start": 4.0996553329750896
+      },
+      {
+        "end": 4.13546633295482,
+        "name": "softmax.IIIIIIII.bank_setup",
+        "seconds": 0.034527832991443574,
+        "start": 4.100938499963377
+      },
+      {
+        "end": 4.150597040948924,
+        "name": "softmax.IIIIIIII.greedy",
+        "seconds": 0.015126415994018316,
+        "start": 4.135470624954905
+      },
+      {
+        "end": 4.151464249996934,
+        "name": "softmax-IIIIIIII-greedy.json.serialize",
+        "seconds": 0.0008655840065330267,
+        "start": 4.150598665990401
+      },
+      {
+        "end": 4.528552332951222,
+        "name": "softmax.IIIIIIII.t1_k32",
+        "seconds": 0.37708041694713756,
+        "start": 4.151471916004084
+      },
+      {
+        "end": 4.532009082962759,
+        "name": "softmax-IIIIIIII-t1_k32.json.serialize",
+        "seconds": 0.003438832995016128,
+        "start": 4.528570249967743
+      },
+      {
+        "end": 4.909748707956169,
+        "name": "softmax.IIIIIIII.own_initial",
+        "seconds": 0.37773658300284296,
+        "start": 4.532012124953326
+      },
+      {
+        "end": 4.913242082984652,
+        "name": "softmax-IIIIIIII-own_initial.json.serialize",
+        "seconds": 0.003404957999009639,
+        "start": 4.909837124985643
+      },
+      {
+        "end": 5.27150204096688,
+        "name": "softmax.IIIIIIII.uniform_legal",
+        "seconds": 0.3582576659973711,
+        "start": 4.9132443749695085
+      },
+      {
+        "end": 5.274927707971074,
+        "name": "softmax-IIIIIIII-uniform_legal.json.serialize",
+        "seconds": 0.0033478749683126807,
+        "start": 5.271579833002761
+      },
+      {
+        "end": 5.2771262909518555,
+        "name": "softmax.IIIIIIII.proper",
+        "seconds": 0.0021966659696772695,
+        "start": 5.274929624982178
+      },
+      {
+        "end": 5.278501249966212,
+        "name": "softmax-IIIIIIII-proper.json.serialize",
+        "seconds": 0.0012997089652344584,
+        "start": 5.277201541000977
+      },
+      {
+        "end": 5.310175082995556,
+        "name": "softmax.LLLLLLLL.bank_setup",
+        "seconds": 0.031664750014897436,
+        "start": 5.278510332980659
+      },
+      {
+        "end": 5.325093958002981,
+        "name": "softmax.LLLLLLLL.greedy",
+        "seconds": 0.014784708037041128,
+        "start": 5.31030924996594
+      },
+      {
+        "end": 5.325949499965645,
+        "name": "softmax-LLLLLLLL-greedy.json.serialize",
+        "seconds": 0.0008331669960170984,
+        "start": 5.325116332969628
+      },
+      {
+        "end": 5.7084956659819,
+        "name": "softmax.LLLLLLLL.t1_k32",
+        "seconds": 0.38254429103108123,
+        "start": 5.325951374950819
+      },
+      {
+        "end": 5.71177508297842,
+        "name": "softmax-LLLLLLLL-t1_k32.json.serialize",
+        "seconds": 0.003262416983488947,
+        "start": 5.708512665994931
+      },
+      {
+        "end": 6.08740008296445,
+        "name": "softmax.LLLLLLLL.own_initial",
+        "seconds": 0.37562333297682926,
+        "start": 5.711776749987621
+      },
+      {
+        "end": 6.090704665984958,
+        "name": "softmax-LLLLLLLL-own_initial.json.serialize",
+        "seconds": 0.0032019580248743296,
+        "start": 6.087502707960084
+      },
+      {
+        "end": 6.4427214579773135,
+        "name": "softmax.LLLLLLLL.uniform_legal",
+        "seconds": 0.35201479197712615,
+        "start": 6.090706666000187
+      },
+      {
+        "end": 6.446233540948015,
+        "name": "softmax-LLLLLLLL-uniform_legal.json.serialize",
+        "seconds": 0.003427790943533182,
+        "start": 6.4428057500044815
+      },
+      {
+        "end": 6.448587040998973,
+        "name": "softmax.LLLLLLLL.proper",
+        "seconds": 0.0023507080040872097,
+        "start": 6.446236332994886
+      },
+      {
+        "end": 6.450025249971077,
+        "name": "softmax-LLLLLLLL-proper.json.serialize",
+        "seconds": 0.0013511250144802034,
+        "start": 6.448674124956597
+      },
+      {
+        "end": 6.483905249973759,
+        "name": "softmax.IIIILLLL.bank_setup",
+        "seconds": 0.03386591700837016,
+        "start": 6.450039332965389
+      },
+      {
+        "end": 6.498042540973984,
+        "name": "softmax.IIIILLLL.greedy",
+        "seconds": 0.013915500021539629,
+        "start": 6.484127040952444
+      },
+      {
+        "end": 6.498885832959786,
+        "name": "softmax-IIIILLLL-greedy.json.serialize",
+        "seconds": 0.0008260419708676636,
+        "start": 6.498059790988918
+      },
+      {
+        "end": 6.876329707971308,
+        "name": "softmax.IIIILLLL.t1_k32",
+        "seconds": 0.3774383749696426,
+        "start": 6.498891333001666
+      },
+      {
+        "end": 6.879670082998928,
+        "name": "softmax-IIIILLLL-t1_k32.json.serialize",
+        "seconds": 0.003321250027511269,
+        "start": 6.876348832971416
+      },
+      {
+        "end": 7.259782290959265,
+        "name": "softmax.IIIILLLL.own_initial",
+        "seconds": 0.3801102080033161,
+        "start": 6.879672082955949
+      },
+      {
+        "end": 7.263354957976844,
+        "name": "softmax-IIIILLLL-own_initial.json.serialize",
+        "seconds": 0.0034694999922066927,
+        "start": 7.2598854579846375
+      },
+      {
+        "end": 7.6476789159933105,
+        "name": "softmax.IIIILLLL.uniform_legal",
+        "seconds": 0.38432170799933374,
+        "start": 7.263357207993977
+      },
+      {
+        "end": 7.651312415953726,
+        "name": "softmax-IIIILLLL-uniform_legal.json.serialize",
+        "seconds": 0.003543208003975451,
+        "start": 7.64776920794975
+      },
+      {
+        "end": 7.657195874955505,
+        "name": "softmax.IIIILLLL.proper",
+        "seconds": 0.005880874989088625,
+        "start": 7.6513149999664165
+      },
+      {
+        "end": 7.658726790978108,
+        "name": "softmax-IIIILLLL-proper.json.serialize",
+        "seconds": 0.001427208015229553,
+        "start": 7.657299582962878
+      },
+      {
+        "end": 7.6638626249623485,
+        "name": "schrodinger.setup",
+        "seconds": 0.005131374986376613,
+        "start": 7.658731249975972
+      },
+      {
+        "end": 7.665439207979944,
+        "name": "schrodinger.initial_checkpoint",
+        "seconds": 0.001215833006426692,
+        "start": 7.664223374973517
+      },
+      {
+        "end": 7.83357249997789,
+        "name": "schrodinger.warmup",
+        "seconds": 0.16812945902347565,
+        "start": 7.665443040954415
+      },
+      {
+        "end": 8.158823165984359,
+        "name": "schrodinger.measured_steps",
+        "seconds": 0.32524737500352785,
+        "start": 7.833575790980831
+      },
+      {
+        "end": 8.162894249951933,
+        "name": "schrodinger.final_checkpoint",
+        "seconds": 0.004051874973811209,
+        "start": 8.158842374978121
+      },
+      {
+        "end": 8.164352499996312,
+        "name": "schrodinger.trace_io",
+        "seconds": 0.001455084013286978,
+        "start": 8.162897415983025
+      },
+      {
+        "end": 8.198363124975003,
+        "name": "schrodinger.IIIIIIII.bank_setup",
+        "seconds": 0.033974167017731816,
+        "start": 8.164388957957271
+      },
+      {
+        "end": 8.223295165982563,
+        "name": "schrodinger.IIIIIIII.greedy",
+        "seconds": 0.02476766600739211,
+        "start": 8.198527499975171
+      },
+      {
+        "end": 8.224238416005392,
+        "name": "schrodinger-IIIIIIII-greedy.json.serialize",
+        "seconds": 0.0009161660564132035,
+        "start": 8.223322249948978
+      },
+      {
+        "end": 8.656870957987849,
+        "name": "schrodinger.IIIIIIII.t1_k32",
+        "seconds": 0.4326305420254357,
+        "start": 8.224240415962413
+      },
+      {
+        "end": 8.661194624961354,
+        "name": "schrodinger-IIIIIIII-t1_k32.json.serialize",
+        "seconds": 0.004300959000829607,
+        "start": 8.656893665960524
+      },
+      {
+        "end": 9.09564304095693,
+        "name": "schrodinger.IIIIIIII.own_initial",
+        "seconds": 0.43444587499834597,
+        "start": 8.661197165958583
+      },
+      {
+        "end": 9.0992427499732,
+        "name": "schrodinger-IIIIIIII-own_initial.json.serialize",
+        "seconds": 0.003468333976343274,
+        "start": 9.095774415996857
+      },
+      {
+        "end": 9.515557374979835,
+        "name": "schrodinger.IIIIIIII.uniform_legal",
+        "seconds": 0.41631270898506045,
+        "start": 9.099244665994775
+      },
+      {
+        "end": 9.519140332995448,
+        "name": "schrodinger-IIIIIIII-uniform_legal.json.serialize",
+        "seconds": 0.003496167017146945,
+        "start": 9.515644165978301
+      },
+      {
+        "end": 9.52435883297585,
+        "name": "schrodinger.IIIIIIII.proper",
+        "seconds": 0.005213707976508886,
+        "start": 9.51914512499934
+      },
+      {
+        "end": 9.52579279098427,
+        "name": "schrodinger-IIIIIIII-proper.json.serialize",
+        "seconds": 0.0013365410268306732,
+        "start": 9.524456249957439
+      },
+      {
+        "end": 9.557769665960222,
+        "name": "schrodinger.LLLLLLLL.bank_setup",
+        "seconds": 0.03196412499528378,
+        "start": 9.525805540964939
+      },
+      {
+        "end": 9.582338499953039,
+        "name": "schrodinger.LLLLLLLL.greedy",
+        "seconds": 0.02434091694885865,
+        "start": 9.55799758300418
+      },
+      {
+        "end": 9.583199665998109,
+        "name": "schrodinger-LLLLLLLL-greedy.json.serialize",
+        "seconds": 0.0008413330069743097,
+        "start": 9.582358332991134
+      },
+      {
+        "end": 10.02539549994981,
+        "name": "schrodinger.LLLLLLLL.t1_k32",
+        "seconds": 0.4421940839965828,
+        "start": 9.583201415953226
+      },
+      {
+        "end": 10.028825207962655,
+        "name": "schrodinger-LLLLLLLL-t1_k32.json.serialize",
+        "seconds": 0.00340587500249967,
+        "start": 10.025419332960155
+      },
+      {
+        "end": 10.450365957978647,
+        "name": "schrodinger.LLLLLLLL.own_initial",
+        "seconds": 0.4215386250289157,
+        "start": 10.028827332949731
+      },
+      {
+        "end": 10.453723790997174,
+        "name": "schrodinger-LLLLLLLL-own_initial.json.serialize",
+        "seconds": 0.003232582996133715,
+        "start": 10.45049120800104
+      },
+      {
+        "end": 10.861831124988385,
+        "name": "schrodinger.LLLLLLLL.uniform_legal",
+        "seconds": 0.4081049590022303,
+        "start": 10.453726165986154
+      },
+      {
+        "end": 10.865261999948416,
+        "name": "schrodinger-LLLLLLLL-uniform_legal.json.serialize",
+        "seconds": 0.003338166978210211,
+        "start": 10.861923832970206
+      },
+      {
+        "end": 10.87057345797075,
+        "name": "schrodinger.LLLLLLLL.proper",
+        "seconds": 0.0053094999748282135,
+        "start": 10.865263957995921
+      },
+      {
+        "end": 10.87202512496151,
+        "name": "schrodinger-LLLLLLLL-proper.json.serialize",
+        "seconds": 0.0013489999691955745,
+        "start": 10.870676124992315
+      },
+      {
+        "end": 10.905818749975879,
+        "name": "schrodinger.IIIILLLL.bank_setup",
+        "seconds": 0.03377858398016542,
+        "start": 10.872040165995713
+      },
+      {
+        "end": 10.927996332990006,
+        "name": "schrodinger.IIIILLLL.greedy",
+        "seconds": 0.02199629199458286,
+        "start": 10.906000040995423
+      },
+      {
+        "end": 10.928828665986657,
+        "name": "schrodinger-IIIILLLL-greedy.json.serialize",
+        "seconds": 0.0008110000053420663,
+        "start": 10.928017665981315
+      },
+      {
+        "end": 11.362014874990564,
+        "name": "schrodinger.IIIILLLL.t1_k32",
+        "seconds": 0.4331811669981107,
+        "start": 10.928833707992453
+      },
+      {
+        "end": 11.365264874999411,
+        "name": "schrodinger-IIIILLLL-t1_k32.json.serialize",
+        "seconds": 0.0032256250269711018,
+        "start": 11.36203924997244
+      },
+      {
+        "end": 11.805266249983106,
+        "name": "schrodinger.IIIILLLL.own_initial",
+        "seconds": 0.4399994590203278,
+        "start": 11.365266790962778
+      },
+      {
+        "end": 11.809356832993217,
+        "name": "schrodinger-IIIILLLL-own_initial.json.serialize",
+        "seconds": 0.003919750044588,
+        "start": 11.805437082948629
+      },
+      {
+        "end": 12.290974499948788,
+        "name": "schrodinger.IIIILLLL.uniform_legal",
+        "seconds": 0.48161158396396786,
+        "start": 11.80936291598482
+      },
+      {
+        "end": 12.294258999987505,
+        "name": "schrodinger-IIIILLLL-uniform_legal.json.serialize",
+        "seconds": 0.0031849590013734996,
+        "start": 12.291074040986132
+      },
+      {
+        "end": 12.299401540949475,
+        "name": "schrodinger.IIIILLLL.proper",
+        "seconds": 0.005140499968547374,
+        "start": 12.294261040980928
+      },
+      {
+        "end": 12.300764415995218,
+        "name": "schrodinger-IIIILLLL-proper.json.serialize",
+        "seconds": 0.0012698330101557076,
+        "start": 12.299494582985062
+      },
+      {
+        "end": 12.400723040977027,
+        "name": "probe.training",
+        "seconds": 0.09995429101400077,
+        "start": 12.300768749963026
+      },
+      {
+        "end": 12.46570633299416,
+        "name": "probe-training.json.serialize",
+        "seconds": 0.06478891702136025,
+        "start": 12.400917415972799
+      },
+      {
+        "end": 12.769149415951688,
+        "name": "probe.validation",
+        "seconds": 0.3034362079924904,
+        "start": 12.465713207959197
+      },
+      {
+        "end": 12.906607874960173,
+        "name": "probe-validation.json.serialize",
+        "seconds": 0.13651837495854124,
+        "start": 12.770089500001632
+      },
+      {
+        "end": 12.907835541001987,
+        "name": "ledger_append_fsync_fixture",
+        "seconds": 0.0012207910185679793,
+        "start": 12.906614749983419
+      }
+    ],
+    "probe_banks": {
+      "training": {
+        "artifact": "probe-training.json",
+        "count": 64,
+        "numerical": {
+          "hermiticity_max": 0.0,
+          "row_error_max": 3.5762786865234375e-07,
+          "unitary_max": 4.76837158203125e-07
+        }
+      },
+      "validation": {
+        "artifact": "probe-validation.json",
+        "count": 128,
+        "numerical": {
+          "hermiticity_max": 0.0,
+          "row_error_max": 3.5762786865234375e-07,
+          "unitary_max": 4.76837158203125e-07
+        }
+      }
+    },
+    "probe_seconds": 0.6046977909863926,
+    "problem_count": 96,
+    "profile_seed": 1699,
+    "run_order": [
+      "softmax",
+      "schrodinger"
+    ],
+    "serialization_per_problem_seconds": 0.0004224427211738657,
+    "setup_seconds": 4.157877458957955,
+    "shared_initial_digest": "3e14183e1ad5f6ac55dca08a8a9830b1fc2e7562939477cb66d896f8329d85fd",
+    "stratum_cells": {
+      "challenge": 0.04318528131079802,
+      "routine": 0.04104282812477322
+    },
+    "trace_per_step_seconds": 5.820336053147912e-05
+  },
+  "provenance": {
+    "argv": [
+      "/Users/gmh-company/codex/schrodinger/.venv/bin/python",
+      "-m",
+      "schrodinger.route_policy_experiment",
+      "profile",
+      "--root",
+      "execution/model_training_comparison",
+      "--ledger",
+      "execution/model_training_comparison/ledger.jsonl",
+      "--name",
+      "profile-001",
+      "--prepared",
+      "execution/model_training_comparison/prepare-001/prepared.json",
+      "--decision",
+      "execution/model_training_comparison/profile-001-decision.json"
+    ],
+    "cpu": "arm",
+    "executable": "/Users/gmh-company/codex/schrodinger/.venv/bin/python",
+    "expected_manifest_sha256": "305a9dd782befa9209942a2f52ebc0ba31d9d7ca61c913ecfb69fa5cca466395",
+    "governing_files": {
+      "/Users/gmh-company/codex/schrodinger/agent_execution_protocol.md": "ad2f000e2a5cdf3f82a85f1481679dc167654a34fd459ad390323078ab162b2b",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/approval-astra-runner.md": "785a187ddbe4edc77c54c72a7dc9d21ee0f42a8a77957ba6c160fe4d791a5e2e",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/approval.md": "9cfa51a74eefd8cb516578b4056a9f60a9c5f41d30ad4d0baf717a5f59c3c6d8",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A1-00.md": "fd71373d9659ec89500bfd6563bccc5014352b8986a6cd69cbb1759934a2935e",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A1-01.md": "0f59194f922a453d47f5f22d5905c94fcc7db3fc194bb173f1b5c97508a0924d",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A1a-00.md": "db054d8d70dd369066ac6d6e13c787e53f57d4e0992954e7373334b11688d3ca",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A1a-01.md": "8c1e55370167a6ea7c92801113e1b9ba167b417cc348d931a98771d50a8dfeae",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2a-00.md": "934594fae9a50c1668c389c78a5c0f4729fa53b12d831489817d3657b2732108",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2a-01.md": "560c56071799faea26fc7c6223e696a7d4e0005be816cf7acf6986cc79b801ab",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2b1-00.md": "408d304e486c00f430344dcf1f010ab086061be93e162195511da44090d94336",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2b1-01.md": "3de509ce5dfa0715f93f5eda87fb734eac714a80f661c8cd06ebfddd76af25c7",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2b1-02.md": "00462bd7015d3868cca3df2a1a47bdac4ed0c9de6be1330840e5c0bb6e400e0b",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2b2a-00.md": "ba69ce55f618fda0d2bc6e34b5b512faf10b92347b552a3d3fc9e80cf226c686",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2b2a-01.md": "ce5ba7b069679c8dd7201d4f64a3b57a942945b7c78f4ed7b6461087f27baf5f",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2b2a-02.md": "c1bf8b1c84d856c4b407bc0dd40c2b801b4de4c90033ec8f6c525909f11f8cc4",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2b2b-00.md": "6ecc5b63e7e11e17de7470850220d2d71a4ad3579a9fc572e88db177c05e1c8f",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2b2b-01.md": "eec88cd7880cdba2cd08482922461233ac5db1f9289e15ebb60149c37d54aeb0",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2b2b-02.md": "efb6cad47659f7b8d18f55b37fb99258c0d2c22745195fd5f2b60f60ef247022",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2b3-00.md": "f50a315831ef69b07c16fdd3f7153f1b55c32457b8d5022ef672dcf5b3379987",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/reviews/A2b3-resource.md": "f11b3ddce1d91dae3fce77435df8c371a782f3823fd780a5f1703c4f03bb8cf5",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/specs/A1-adapter-model.md": "549ce75bff0e76d5e434efc02110f07a61e3fa161ff5986db9da5e3270146cfe",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/specs/A1a-final-adapter-evidence.md": "6f49f6c6a37df27d0c1c5f21cb4ce7a73405b1613cbd4c52b6815984e7be3968",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/specs/A2a-banks-metrics.md": "17f5d7b800a5121a534f41990fec3861d244b921a26056810a94d70544f9462e",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/specs/A2b-harness-profile.md": "0b8573032215703323942495a9f7bda5c51ae4592693399fb331d11ae5380811",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/specs/A2b1-safety-training-core.md": "d8b19b418ca9bbb70762ff067b6601df2abce118e94b572341a8b1322a0ab448",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/specs/A2b2-evaluation-profile.md": "142d094ccae5ebf27ab1e02a76daf5c3cdc6f08f04a2136978dd2721eacdf1af",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/specs/A2b2a-evaluator.md": "7edcd8311eafe68152fb3855a744f90853252a7d7937f6122aad419f18685d5d",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/specs/A2b2b-commands-profile.md": "877974a64bb8e473729e22caf8021ac754bce40cf1916e7017855366fe4e2507",
+      "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/specs/A2b3-astra-recovery.md": "66f4f3577944c61d836881c2f41d2f2e5010990cab8e7fd3091fee1d071c7cc3",
+      "/Users/gmh-company/codex/schrodinger/model_training_comparison_plan.md": "5ece45cdb11f860ae64933225f284297cff59aa544c6730b247138c660cc8ff0"
+    },
+    "input_files": {
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/inventory.json": "22ada4127849b3ea62ac94166c98f5ba8223aacd90006d09e623bc7b78b7ad51",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/pool-IIIIIIII.json": "08d89bd7954d1768230a1a6dfd6ffe21d03f32c24d8825eeed2f7a195c47dadf",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/pool-IIIILLLL.json": "0cbf2555a6f7b6871177f5123ee05a1224b95702b47d7d6c5ba42813ffa2d191",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/pool-LLLLLLLL.json": "0f27dc75cd9035089c1e9981b44e1782dc22e1cf641f91af8b66e6e2fac196a1",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/proposal-12-test_mixed.json": "27a10e6c8f81a4d821b96de3dea612a992d04a5e3fb87ccce45a9e55347b4ad1",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/proposal-12-test_routine.json": "27a10e6c8f81a4d821b96de3dea612a992d04a5e3fb87ccce45a9e55347b4ad1",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/proposal-12-training.json": "a565699e0426cc70e94e4aae18a608e0d932d4da1a15f2cf349b6b49551a0c33",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/proposal-12-validation_mixed.json": "9f26be598eafb4d791c3d7c4b5a2e274e06ab4882419df8214ce5d61db15dc41",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/proposal-12-validation_routine.json": "29c36abf6568d6a3e4f1358b41c6a27f395613b7df1de6c1de1d394b0dd9cbbc",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/proposal-14-test_mixed.json": "26e8a6665e369d2917df2617e32dd8db33a2cbeb27cf83360f71fd2f051618c1",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/proposal-14-test_routine.json": "3b194156788d172609ba054d8d041e400c7d4e3e46231b8d488e9d41edfa87ee",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/proposal-14-training.json": "020512d95eacbb1d5e8d83844a0adbf567436ea57aabb64a5bef6f53d271c766",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/proposal-14-validation_mixed.json": "ac71a0af787ffac399154c7edfd6e08f97327ba5189bfc15d42c739b270cbbe8",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/proposal-14-validation_routine.json": "6ca8ef648d9488b1fd61825597ca58b46f21ffe63283418ae3f20cef0d84f99f",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/ranking.json": "bdf9b06e47aec69590797d1e83019884938529c74cbce7875f533fd7439251b7",
+      "/Users/gmh-company/codex/schrodinger/execution/next_level_v3_pool512/attempts/feasibility-001/result.json": "ddf84bc02702c34ac5c37b2d3c9fab76afe7e4390a5c34613d8be22f466920f6"
+    },
+    "interop_threads": 1,
+    "manifest_sha256": "305a9dd782befa9209942a2f52ebc0ba31d9d7ca61c913ecfb69fa5cca466395",
+    "numpy": "2.5.3",
+    "os": "macOS-27.0-arm64-arm-64bit",
+    "plan_sha256": "5ece45cdb11f860ae64933225f284297cff59aa544c6730b247138c660cc8ff0",
+    "prepared_sha256": "10e5f96a98b4dcb944cf81b65eb43eb4ed5a8c8211bf9d1f55af2f0bc4814e49",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "rss_max": 1048297472,
+    "source_files": {
+      "/Users/gmh-company/codex/schrodinger/schrodinger/attention.py": "e1ce15be10caf4b2165191f9835256602f4f7b8bd11bffa94f676eac40b0fd6a",
+      "/Users/gmh-company/codex/schrodinger/schrodinger/route_feasibility.py": "da36b0150c0b255b7e5482d7dc016505054d9632c8fb3a21d06c2d201bfedbf4",
+      "/Users/gmh-company/codex/schrodinger/schrodinger/route_policy.py": "95cb7463693c7ac696d9034eaf16a155c0363f38e819cbe56c00408d49b170c4",
+      "/Users/gmh-company/codex/schrodinger/schrodinger/route_policy_data.py": "676b8de313fb9c667497b307704b21f137ac55a18e1e19c81be399d3f02e4bb7",
+      "/Users/gmh-company/codex/schrodinger/schrodinger/route_policy_evaluation.py": "fd5cd438e0fbd103857933418008a7c5936b379488857ac6bfa7370aa8ad18ec",
+      "/Users/gmh-company/codex/schrodinger/schrodinger/route_policy_experiment.py": "10cfc1a9a5e21856fd4e80f7c81b7b9243c104d452f10fc2a0062d4b4998036b",
+      "/Users/gmh-company/codex/schrodinger/schrodinger/route_policy_metrics.py": "a471ae2c40973cb15584f924061b3ace24ef5af3b1e31702b79056055f317e34",
+      "/Users/gmh-company/codex/schrodinger/tests/test_attention.py": "85d2808de8c07a6e1020fc0f4a998cb75367038d3d67aae9e66fa262477f7856",
+      "/Users/gmh-company/codex/schrodinger/tests/test_route_policy.py": "80f4f337ab61442eee330e85cd474cb1f20b19abb9bfbeeba9b2241db9f5b623",
+      "/Users/gmh-company/codex/schrodinger/tests/test_route_policy_data.py": "3afcae48e54fd685b48d494baec475cfbd42331a38d9b385c89c8088b7886a3f",
+      "/Users/gmh-company/codex/schrodinger/tests/test_route_policy_evaluation.py": "79221f21d9692c3e05d9dfc00e63ba93723136800b67fce0116db305218780ca",
+      "/Users/gmh-company/codex/schrodinger/tests/test_route_policy_experiment.py": "588236b87c7cbc03d4617f97dd62be6e4e3a7de58f8d8a90450e63f691cd06c4",
+      "/Users/gmh-company/codex/schrodinger/tests/test_route_policy_metrics.py": "c49b01afcca4ab0fa9cea4811f2ca92005b943817b2176011447d58b86c940c2",
+      "/Users/gmh-company/codex/schrodinger/tests/test_route_policy_runner_recovery.py": "ac1332ac3af04caff5d149c345b9f5f0a87157b971aa669173678633a3ebc64a"
+    },
+    "source_hash": "bf7efbddb88bff06029369cba071d79f17340d701928b7f527baa6df7e517329",
+    "threads": 2,
+    "torch": "2.14.0"
+  },
+  "test_model_predictions": false
+}

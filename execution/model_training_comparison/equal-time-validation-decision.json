@@ -1,0 +1,11 @@
+{
+ "approved":true,"kind":"pilot",
+ "config_hash":"870f62c96a8b0ed994d3c4d795514bf6fd513c0c771ba32750542b667155fe90",
+ "prepared_sha256":"10e5f96a98b4dcb944cf81b65eb43eb4ed5a8c8211bf9d1f55af2f0bc4814e49",
+ "manifest_sha256":"305a9dd782befa9209942a2f52ebc0ba31d9d7ca61c913ecfb69fa5cca466395",
+ "selection_review_sha256":"bc8ed683b7e258b6da518bb99c6ce53fdd62124f27ff286227500d454b0bdb50",
+ "scope":"Validation-only evaluation of exact saved equal-time selections from the accepted paired1000 attempts; reuse existing SA initial and softmax1000 evaluations; no interpolation or test release",
+ "allowed_new_selections":{"softmax":[200,400,700],"schrodinger":[100,200,300]},
+ "sampling":{"temperature":1,"k":32,"replicate":0},
+ "coarse_slack":"Disclose >10 percent timing slack per B1 review; only finaltarget both within1percent"
+}

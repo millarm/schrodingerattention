@@ -1,0 +1,52 @@
+{
+  "checkpoint": "execution/results/smoke-revision1/normal-softmax/checkpoint-1.pt",
+  "dt_zero": false,
+  "metrics": {
+    "test_heldout_d4": {
+      "copy": 0.5,
+      "copy_correct": 256,
+      "copy_count": 512,
+      "cross_entropy": 0.6908855438232422,
+      "xor": 0.49609375,
+      "xor_correct": 254,
+      "xor_count": 512
+    },
+    "test_heldout_d8": {
+      "copy": 0.50390625,
+      "copy_correct": 258,
+      "copy_count": 512,
+      "cross_entropy": 0.6929471492767334,
+      "xor": 0.501953125,
+      "xor_correct": 257,
+      "xor_count": 512
+    },
+    "test_seen_d4": {
+      "copy": 0.521484375,
+      "copy_correct": 267,
+      "copy_count": 512,
+      "cross_entropy": 0.6910198330879211,
+      "xor": 0.498046875,
+      "xor_correct": 255,
+      "xor_count": 512
+    },
+    "test_seen_d8": {
+      "copy": 0.50390625,
+      "copy_correct": 258,
+      "copy_count": 512,
+      "cross_entropy": 0.6939839124679565,
+      "xor": 0.501953125,
+      "xor_correct": 257,
+      "xor_count": 512
+    },
+    "validation_seen_d4": {
+      "copy": 0.515625,
+      "copy_correct": 132,
+      "copy_count": 256,
+      "cross_entropy": 0.6911427974700928,
+      "xor": 0.4765625,
+      "xor_correct": 122,
+      "xor_count": 256
+    }
+  },
+  "mode": "softmax"
+}

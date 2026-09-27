@@ -1,0 +1,172 @@
+{
+  "checkpoint_seconds": 0.005344291999790585,
+  "dt": [
+    0.04984978958964348,
+    0.05057739466428757,
+    0.05040311440825462,
+    0.05020361393690109
+  ],
+  "dt_zero": {
+    "test_heldout_d4": {
+      "copy": 0.642578125,
+      "copy_correct": 329,
+      "copy_count": 512,
+      "cross_entropy": 0.6679419875144958,
+      "xor": 0.52734375,
+      "xor_correct": 270,
+      "xor_count": 512
+    },
+    "test_heldout_d8": {
+      "copy": 0.576171875,
+      "copy_correct": 295,
+      "copy_count": 512,
+      "cross_entropy": 0.6862531900405884,
+      "xor": 0.53515625,
+      "xor_correct": 274,
+      "xor_count": 512
+    },
+    "test_seen_d4": {
+      "copy": 0.650390625,
+      "copy_correct": 333,
+      "copy_count": 512,
+      "cross_entropy": 0.6602964401245117,
+      "xor": 0.537109375,
+      "xor_correct": 275,
+      "xor_count": 512
+    },
+    "test_seen_d8": {
+      "copy": 0.609375,
+      "copy_correct": 312,
+      "copy_count": 512,
+      "cross_entropy": 0.692055881023407,
+      "xor": 0.53515625,
+      "xor_correct": 274,
+      "xor_count": 512
+    },
+    "validation_seen_d4": {
+      "copy": 0.6875,
+      "copy_correct": 176,
+      "copy_count": 256,
+      "cross_entropy": 0.6542792320251465,
+      "xor": 0.578125,
+      "xor_correct": 148,
+      "xor_count": 256
+    }
+  },
+  "end_to_end_seconds": 2.520062750001671,
+  "evaluation_hashes": {
+    "test_heldout_d4": "2129fc66dc3793931e5ebf657084d66f6591d096b28b99e92cdb2e50de421904",
+    "test_heldout_d8": "70a0cb4991e6dd047fc356e787403039759ff317aee8386b8804d1b70f52d106",
+    "test_seen_d4": "f92cf3bb1b1fcd1c2dddc6ac7815bfc64118b15c6b5d85e7407fcb26507355f0",
+    "test_seen_d8": "765858dd188f3601a8624b860531ccd9ad6daad253e9ba0f01ef25f98a3f807c",
+    "validation_seen_d4": "46a7a5f5c0fa921138c21ceb5e322a5dea7c3af9a6e5ede948b568b3066da382"
+  },
+  "evaluation_seconds": 0.06578295800136402,
+  "final_checkpoint": "execution/results/block2-final/schrodinger/checkpoint-102.pt",
+  "gamma": [
+    0.05517851933836937,
+    0.15717953443527222,
+    0.10811257362365723,
+    -0.07122735679149628
+  ],
+  "initial_identity": {
+    "rss_bytes_caveat": "macOS ru_maxrss process-resident proxy, not tensor-only device memory",
+    "shared_initial_tensor_digest": "46cae6007afc8dc2572bfb1fb3fc30d35f005572eff81426bd609a3a784dc026",
+    "total_parameters": 18506,
+    "trainable_parameters": 18506
+  },
+  "invariants": {
+    "hermiticity": 0.0,
+    "row": 2.384185791015625e-07,
+    "unitarity": 0.0
+  },
+  "metrics": {
+    "test_heldout_d4": {
+      "copy": 0.64453125,
+      "copy_correct": 330,
+      "copy_count": 512,
+      "cross_entropy": 0.6679558753967285,
+      "xor": 0.52734375,
+      "xor_correct": 270,
+      "xor_count": 512
+    },
+    "test_heldout_d8": {
+      "copy": 0.576171875,
+      "copy_correct": 295,
+      "copy_count": 512,
+      "cross_entropy": 0.6862130761146545,
+      "xor": 0.53515625,
+      "xor_correct": 274,
+      "xor_count": 512
+    },
+    "test_seen_d4": {
+      "copy": 0.650390625,
+      "copy_correct": 333,
+      "copy_count": 512,
+      "cross_entropy": 0.6603153347969055,
+      "xor": 0.537109375,
+      "xor_correct": 275,
+      "xor_count": 512
+    },
+    "test_seen_d8": {
+      "copy": 0.609375,
+      "copy_correct": 312,
+      "copy_count": 512,
+      "cross_entropy": 0.6920307278633118,
+      "xor": 0.537109375,
+      "xor_correct": 275,
+      "xor_count": 512
+    },
+    "validation_seen_d4": {
+      "copy": 0.6875,
+      "copy_correct": 176,
+      "copy_count": 256,
+      "cross_entropy": 0.6543126106262207,
+      "xor": 0.578125,
+      "xor_correct": 148,
+      "xor_count": 256
+    }
+  },
+  "mode": "schrodinger",
+  "runtime": {
+    "batch_size": 64,
+    "config_sha256": "9ebace507a57202f483cefd55d5f50db868ad2abd214145a86f722386b2ffd4f",
+    "contract_sha256": "5ea6cda81fa8f95f3e2a9c39e9ca47d34ca6134697bca3305967e6f31d8507de",
+    "d_model": 32,
+    "feedforward": 64,
+    "heads": 2,
+    "layers": 2,
+    "numpy": "2.5.3",
+    "optimizer": {
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "lr": 0.001,
+      "weight_decay": 0.01
+    },
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "torch": "2.14.0",
+    "torch_interop_threads": 1,
+    "torch_threads": 2,
+    "train_distractors": [
+      2,
+      3,
+      4
+    ]
+  },
+  "seed": 11,
+  "source_hashes": {
+    "attention.py": "e1ce15be10caf4b2165191f9835256602f4f7b8bd11bffa94f676eac40b0fd6a",
+    "data.py": "a8f1f3fe0f61970e36b8e6bde72fc95b7722ffdb563c3c9ecc08f7c24a4341dc",
+    "experiment.py": "16a06102a3f9e563409d6cedb24e183498a3a0fd62cd1f04683bf6ce06b599a5",
+    "model.py": "b2892ee6dc8158b326b2fbb3ecc242e030edd94f36f5d407246a4666ac4dc36a"
+  },
+  "stream_digest": "70c4e48f437f55dfac77b5e7edbcab03768880a167660dce26557832227359e9",
+  "training_seconds": 1.3752258729837195
+}

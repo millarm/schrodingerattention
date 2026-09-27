@@ -1,0 +1,1034 @@
+{
+  "status": "EXPLORATORY_COMPLETED_USABILITY_GATE_STOP",
+  "scope": "Validation only; one paired seed; no confirmatory or test results",
+  "source_hashes": {
+    "execution/model_training_comparison/pilot-1701-schrodinger-1000/result.json": "57308b508f00eb9d887ebf518f5ca88f5e23cf6f14b5ed67227753b29faed636",
+    "execution/model_training_comparison/pilot-1701-softmax-1000/result.json": "16d08449df5afda9a7cd41fa7ee692a7eb627edda232b832d970391bfa60388f",
+    "execution/model_training_comparison/pilot-1701-softmax-2000/result.json": "9411cc4d98a0075200722900f28b5bd26670d28edfac0b2d35453cf38fb42506",
+    "execution/model_training_comparison/pilot-1701-softmax-4000/result.json": "f9e0cfc5a893f9fd21edc8886c248d42c09f1469170247e17df2873bf9ce5fb9",
+    "execution/model_training_comparison/pilot-1701-softmax-8000/result.json": "ad76ab4e75606053b9ff5f4d23d030fef5f42c6abf6e2224d18d7747cce54bee",
+    "execution/model_training_comparison/equal-time-schrodinger-100/result.json": "7725c80951e9b09cf6286f4b2350d232c721abdb2d477a243b78e38fb90c57d6",
+    "execution/model_training_comparison/equal-time-schrodinger-200/result.json": "e9be9ea8e9558bc0d83f9c8a7fe61436ae2f4b91158b590582e6d586949390b1",
+    "execution/model_training_comparison/equal-time-schrodinger-300/result.json": "01f717bcc5c55ad7d779c411f35ea309fa4911bcbf46e7dde32f66a8e094056e",
+    "execution/model_training_comparison/equal-time-softmax-200/result.json": "6cf17d81fda6aac9fd153333ef973c7e28e789af3a868403e44aa7b666c5ee41",
+    "execution/model_training_comparison/equal-time-softmax-400/result.json": "139f15e55d4b82890539bdc37a03c4854a3c244ae84f5136b964ac50fb002e91",
+    "execution/model_training_comparison/equal-time-softmax-700/result.json": "e6a28b389a318b23f13af07a1db02935ef9f1343577e5af62a46a8ebcf2eff1e"
+  },
+  "training": [
+    {
+      "path": "execution/model_training_comparison/pilot-1701-schrodinger-1000/result.json",
+      "core_seconds": 15.791725919640157,
+      "start_update": 0,
+      "events": [
+        {
+          "update": 0,
+          "proper": {
+            "brier": 0.4587365731523266,
+            "ce": 1.2110604644539948,
+            "challenge_brier": 0.40736615722954955,
+            "challenge_ce": 1.1705802882345435,
+            "challenge_entropy_p": 1.084325285138497,
+            "challenge_entropy_q": 0.4050285115108927,
+            "challenge_kl": 0.7655517767236507,
+            "challenge_nonoptimal_mass": 0.44793994180429575,
+            "entropy_p": 1.0770777502106703,
+            "entropy_q": 0.37228946311973554,
+            "kl": 0.8387710013342593,
+            "nonoptimal_mass": 0.4767975224794029,
+            "routine_brier": 0.47157917713302083,
+            "routine_ce": 1.2211805085088578,
+            "routine_entropy_p": 1.0752658664787136,
+            "routine_entropy_q": 0.36410470102194625,
+            "routine_kl": 0.8570758074869115,
+            "routine_nonoptimal_mass": 0.4840119176481797
+          },
+          "greedy": 0.030729166666666672,
+          "t1": {
+            "Q": 0,
+            "U_novel": 0,
+            "U_valid": 0,
+            "V_novel": 0,
+            "coverage": null,
+            "duplicate_concentration": null,
+            "duplicate_rate": 0,
+            "invalid_rate": 1,
+            "known_valid_mass": 0,
+            "pass_at_k": 0,
+            "valid_headroom": 0,
+            "weighted_known_valid_ratio": null
+          },
+          "challenge_Q": 0,
+          "routine_Q": 0,
+          "attention_tv": 0.00030266655840722914,
+          "policy_dt0_tv": 0.000060111336118527116
+        },
+        {
+          "update": 500,
+          "proper": {
+            "brier": 0.1948413166493403,
+            "ce": 0.7491110876628514,
+            "challenge_brier": 0.2837318614670922,
+            "challenge_ce": 0.9651654389696342,
+            "challenge_entropy_p": 0.5778327425393687,
+            "challenge_entropy_q": 0.4050285115108927,
+            "challenge_kl": 0.5601369274587416,
+            "challenge_nonoptimal_mass": 0.16498001244642146,
+            "entropy_p": 0.5518799779491913,
+            "entropy_q": 0.37228946311973554,
+            "kl": 0.376821624543116,
+            "nonoptimal_mass": 0.1281818166265357,
+            "routine_brier": 0.17261868044490233,
+            "routine_ce": 0.6950974998361558,
+            "routine_entropy_p": 0.545391786801647,
+            "routine_entropy_q": 0.36410470102194625,
+            "routine_kl": 0.3309927988142097,
+            "routine_nonoptimal_mass": 0.11898226767156424
+          },
+          "greedy": 0.465625,
+          "t1": {
+            "Q": 0.1677734375,
+            "U_novel": 0.003955078125,
+            "U_valid": 0.14205729166666667,
+            "V_novel": 0.00419921875,
+            "coverage": null,
+            "duplicate_concentration": 0.37652479323750676,
+            "duplicate_rate": 0.025716145833333336,
+            "invalid_rate": 0.8322265625,
+            "known_valid_mass": 0.16357421875,
+            "pass_at_k": 0.753125,
+            "valid_headroom": 0.06567783351419433,
+            "weighted_known_valid_ratio": 0.9749708963911524
+          },
+          "challenge_Q": 0.0478515625,
+          "routine_Q": 0.19775390625,
+          "attention_tv": 0.045943513690679956,
+          "policy_dt0_tv": 0.018534712512533802
+        },
+        {
+          "update": 1000,
+          "proper": {
+            "brier": 0.17502261305615105,
+            "ce": 0.7193381315792171,
+            "challenge_brier": 0.2493960232223823,
+            "challenge_ce": 0.9286739103737108,
+            "challenge_entropy_p": 0.5572127481142151,
+            "challenge_entropy_q": 0.4050285115108927,
+            "challenge_kl": 0.5236453988628182,
+            "challenge_nonoptimal_mass": 0.15073318764812085,
+            "entropy_p": 0.5275689392443937,
+            "entropy_q": 0.37228946311973554,
+            "kl": 0.34704866845948174,
+            "nonoptimal_mass": 0.11273047378906834,
+            "routine_brier": 0.15642926051459324,
+            "routine_ce": 0.6670041868805937,
+            "routine_entropy_p": 0.5201579870269384,
+            "routine_entropy_q": 0.36410470102194625,
+            "routine_kl": 0.3028994858586476,
+            "routine_nonoptimal_mass": 0.1032297953243052
+          },
+          "greedy": 0.49010416666666673,
+          "t1": {
+            "Q": 0.2078287760416667,
+            "U_novel": 0.004150390625,
+            "U_valid": 0.178125,
+            "V_novel": 0.0048828125,
+            "coverage": null,
+            "duplicate_concentration": 0.3308226062694431,
+            "duplicate_rate": 0.029703776041666668,
+            "invalid_rate": 0.7921712239583333,
+            "known_valid_mass": 0.2029459635416667,
+            "pass_at_k": 0.8104166666666668,
+            "valid_headroom": 0.08170556484399058,
+            "weighted_known_valid_ratio": 0.9765055994987861
+          },
+          "challenge_Q": 0.059326171875,
+          "routine_Q": 0.24495442708333334,
+          "attention_tv": 0.04107488512074243,
+          "policy_dt0_tv": 0.024283205295268513
+        }
+      ],
+      "training_ce_blocks": [
+        {
+          "end_update": 100,
+          "ce": 1.055584944486618
+        },
+        {
+          "end_update": 200,
+          "ce": 0.68321623057127
+        },
+        {
+          "end_update": 300,
+          "ce": 0.5994081076979637
+        },
+        {
+          "end_update": 400,
+          "ce": 0.5706679865717887
+        },
+        {
+          "end_update": 500,
+          "ce": 0.5438286259770393
+        },
+        {
+          "end_update": 600,
+          "ce": 0.5209682431817054
+        },
+        {
+          "end_update": 700,
+          "ce": 0.511007945239544
+        },
+        {
+          "end_update": 800,
+          "ce": 0.49595603346824646
+        },
+        {
+          "end_update": 900,
+          "ce": 0.5061618068814278
+        },
+        {
+          "end_update": 1000,
+          "ce": 0.49016043573617935
+        }
+      ]
+    },
+    {
+      "path": "execution/model_training_comparison/pilot-1701-softmax-1000/result.json",
+      "core_seconds": 4.750110749271698,
+      "start_update": 0,
+      "events": [
+        {
+          "update": 0,
+          "proper": {
+            "brier": 0.45871635956821244,
+            "ce": 1.2110326957367978,
+            "challenge_brier": 0.40736011263712424,
+            "challenge_ce": 1.170573844436576,
+            "challenge_entropy_p": 1.0843503442967286,
+            "challenge_entropy_q": 0.4050285115108927,
+            "challenge_kl": 0.7655453329256834,
+            "challenge_nonoptimal_mass": 0.44794980624019043,
+            "entropy_p": 1.077112333249604,
+            "entropy_q": 0.37228946311973554,
+            "kl": 0.8387432326170622,
+            "nonoptimal_mass": 0.4768003509513546,
+            "routine_brier": 0.47155542130098455,
+            "routine_ce": 1.2211474085618532,
+            "routine_entropy_p": 1.0753028304878227,
+            "routine_entropy_q": 0.36410470102194625,
+            "routine_kl": 0.8570427075399069,
+            "routine_nonoptimal_mass": 0.4840129871291456
+          },
+          "greedy": 0.030729166666666672,
+          "t1": {
+            "Q": 0,
+            "U_novel": 0,
+            "U_valid": 0,
+            "V_novel": 0,
+            "coverage": null,
+            "duplicate_concentration": null,
+            "duplicate_rate": 0,
+            "invalid_rate": 1,
+            "known_valid_mass": 0,
+            "pass_at_k": 0,
+            "valid_headroom": 0,
+            "weighted_known_valid_ratio": null
+          },
+          "challenge_Q": 0,
+          "routine_Q": 0,
+          "attention_tv": null,
+          "policy_dt0_tv": 0
+        },
+        {
+          "update": 500,
+          "proper": {
+            "brier": 0.18798370893087196,
+            "ce": 0.7460087363920107,
+            "challenge_brier": 0.2784867844404403,
+            "challenge_ce": 0.9717483498847677,
+            "challenge_entropy_p": 0.572461997829119,
+            "challenge_entropy_q": 0.4050285115108927,
+            "challenge_kl": 0.5667198383738747,
+            "challenge_nonoptimal_mass": 0.16436168492564954,
+            "entropy_p": 0.5475907710900874,
+            "entropy_q": 0.37228946311973554,
+            "kl": 0.3737192732722753,
+            "nonoptimal_mass": 0.12514040066519513,
+            "routine_brier": 0.1653579400534799,
+            "routine_ce": 0.6895738330188216,
+            "routine_entropy_p": 0.5413729644053294,
+            "routine_entropy_q": 0.36410470102194625,
+            "routine_kl": 0.3254691319968754,
+            "routine_nonoptimal_mass": 0.11533507960008153
+          },
+          "greedy": 0.471875,
+          "t1": {
+            "Q": 0.17503255208333332,
+            "U_novel": 0.00361328125,
+            "U_valid": 0.14819335937500003,
+            "V_novel": 0.003955078125,
+            "coverage": null,
+            "duplicate_concentration": 0.3543288770316437,
+            "duplicate_rate": 0.026839192708333334,
+            "invalid_rate": 0.8249674479166668,
+            "known_valid_mass": 0.17107747395833334,
+            "pass_at_k": 0.7578125,
+            "valid_headroom": 0.06832043554770723,
+            "weighted_known_valid_ratio": 0.9774037567416776
+          },
+          "challenge_Q": 0.04443359375,
+          "routine_Q": 0.20768229166666666,
+          "attention_tv": null,
+          "policy_dt0_tv": 0
+        },
+        {
+          "update": 1000,
+          "proper": {
+            "brier": 0.17239264316741615,
+            "ce": 0.7171909482708388,
+            "challenge_brier": 0.2548974838141156,
+            "challenge_ce": 0.9273561007322939,
+            "challenge_entropy_p": 0.5501145654278938,
+            "challenge_entropy_q": 0.4050285115108927,
+            "challenge_kl": 0.5223275892214011,
+            "challenge_nonoptimal_mass": 0.15231546739797325,
+            "entropy_p": 0.5176517105760685,
+            "entropy_q": 0.37228946311973554,
+            "kl": 0.34490148515110336,
+            "nonoptimal_mass": 0.1083970898799913,
+            "routine_brier": 0.1517664330057413,
+            "routine_ce": 0.6646496601554751,
+            "routine_entropy_p": 0.5095359968631122,
+            "routine_entropy_q": 0.36410470102194625,
+            "routine_kl": 0.3005449591335289,
+            "routine_nonoptimal_mass": 0.09741749550049583
+          },
+          "greedy": 0.4984375,
+          "t1": {
+            "Q": 0.211669921875,
+            "U_novel": 0.0048828125,
+            "U_valid": 0.1797526041666667,
+            "V_novel": 0.005810546875,
+            "coverage": null,
+            "duplicate_concentration": 0.3335138003643191,
+            "duplicate_rate": 0.03191731770833333,
+            "invalid_rate": 0.7883300781250001,
+            "known_valid_mass": 0.205859375,
+            "pass_at_k": 0.8130208333333333,
+            "valid_headroom": 0.08418681361865983,
+            "weighted_known_valid_ratio": 0.9725490196078432
+          },
+          "challenge_Q": 0.063232421875,
+          "routine_Q": 0.248779296875,
+          "attention_tv": null,
+          "policy_dt0_tv": 0
+        }
+      ],
+      "training_ce_blocks": [
+        {
+          "end_update": 100,
+          "ce": 1.055111255645752
+        },
+        {
+          "end_update": 200,
+          "ce": 0.6814803260564805
+        },
+        {
+          "end_update": 300,
+          "ce": 0.5994213327765465
+        },
+        {
+          "end_update": 400,
+          "ce": 0.570392744243145
+        },
+        {
+          "end_update": 500,
+          "ce": 0.5412320592999458
+        },
+        {
+          "end_update": 600,
+          "ce": 0.5217287105321884
+        },
+        {
+          "end_update": 700,
+          "ce": 0.5133575144410133
+        },
+        {
+          "end_update": 800,
+          "ce": 0.49801812052726746
+        },
+        {
+          "end_update": 900,
+          "ce": 0.511794847548008
+        },
+        {
+          "end_update": 1000,
+          "ce": 0.4900604230165482
+        }
+      ]
+    },
+    {
+      "path": "execution/model_training_comparison/pilot-1701-softmax-2000/result.json",
+      "core_seconds": 9.545320575532969,
+      "start_update": 1000,
+      "events": [
+        {
+          "update": 2000,
+          "proper": {
+            "brier": 0.15684205072991808,
+            "ce": 0.6986678355934508,
+            "challenge_brier": 0.2225101566900285,
+            "challenge_ce": 0.8844749691525104,
+            "challenge_entropy_p": 0.5312134066975288,
+            "challenge_entropy_q": 0.4050285115108927,
+            "challenge_kl": 0.47944645764161775,
+            "challenge_nonoptimal_mass": 0.13095460736524028,
+            "entropy_p": 0.49089675657362086,
+            "entropy_q": 0.37228946311973554,
+            "kl": 0.32637837247371526,
+            "nonoptimal_mass": 0.09570234328364847,
+            "routine_brier": 0.14042502423989048,
+            "routine_ce": 0.6522160522036858,
+            "routine_entropy_p": 0.48081759404264385,
+            "routine_entropy_q": 0.36410470102194625,
+            "routine_kl": 0.28811135118173964,
+            "routine_nonoptimal_mass": 0.08688927726325053
+          },
+          "greedy": 0.5364583333333334,
+          "t1": {
+            "Q": 0.2713541666666667,
+            "U_novel": 0.007373046875000001,
+            "U_valid": 0.22234700520833336,
+            "V_novel": 0.009375000000000001,
+            "coverage": null,
+            "duplicate_concentration": 0.2820652407553288,
+            "duplicate_rate": 0.04900716145833334,
+            "invalid_rate": 0.7286458333333333,
+            "known_valid_mass": 0.26197916666666665,
+            "pass_at_k": 0.8625,
+            "valid_headroom": 0.10300498150276136,
+            "weighted_known_valid_ratio": 0.965451055662188
+          },
+          "challenge_Q": 0.0908203125,
+          "routine_Q": 0.3164876302083333,
+          "attention_tv": null,
+          "policy_dt0_tv": 0
+        }
+      ],
+      "training_ce_blocks": [
+        {
+          "end_update": 1100,
+          "ce": 0.4888401859998703
+        },
+        {
+          "end_update": 1200,
+          "ce": 0.4885424989461899
+        },
+        {
+          "end_update": 1300,
+          "ce": 0.4815071883797646
+        },
+        {
+          "end_update": 1400,
+          "ce": 0.4736794844269753
+        },
+        {
+          "end_update": 1500,
+          "ce": 0.48086885511875155
+        },
+        {
+          "end_update": 1600,
+          "ce": 0.4743437734246254
+        },
+        {
+          "end_update": 1700,
+          "ce": 0.4759904274344444
+        },
+        {
+          "end_update": 1800,
+          "ce": 0.481692940890789
+        },
+        {
+          "end_update": 1900,
+          "ce": 0.46967715203762056
+        },
+        {
+          "end_update": 2000,
+          "ce": 0.47100854516029356
+        }
+      ]
+    },
+    {
+      "path": "execution/model_training_comparison/pilot-1701-softmax-4000/result.json",
+      "core_seconds": 19.343158740957733,
+      "start_update": 2000,
+      "events": [
+        {
+          "update": 4000,
+          "proper": {
+            "brier": 0.14821936229146698,
+            "ce": 0.7016750850154945,
+            "challenge_brier": 0.20924241306642538,
+            "challenge_ce": 0.8752767800961796,
+            "challenge_entropy_p": 0.4994269686440498,
+            "challenge_entropy_q": 0.4050285115108927,
+            "challenge_kl": 0.4702482685852868,
+            "challenge_nonoptimal_mass": 0.11248105125099478,
+            "entropy_p": 0.4729029214165594,
+            "entropy_q": 0.37228946311973554,
+            "kl": 0.3293856218957587,
+            "nonoptimal_mass": 0.08702050480650184,
+            "routine_brier": 0.13296359959772738,
+            "routine_ce": 0.6582746612453231,
+            "routine_entropy_p": 0.46627190960968673,
+            "routine_entropy_q": 0.36410470102194625,
+            "routine_kl": 0.2941699602233767,
+            "routine_nonoptimal_mass": 0.08065536819537861
+          },
+          "greedy": 0.5364583333333334,
+          "t1": {
+            "Q": 0.29597981770833337,
+            "U_novel": 0.0074218750000000005,
+            "U_valid": 0.2361328125,
+            "V_novel": 0.009619140625000001,
+            "coverage": null,
+            "duplicate_concentration": 0.27665694377638067,
+            "duplicate_rate": 0.05984700520833334,
+            "invalid_rate": 0.7040201822916667,
+            "known_valid_mass": 0.2863606770833334,
+            "pass_at_k": 0.8442708333333333,
+            "valid_headroom": 0.1075525000323367,
+            "weighted_known_valid_ratio": 0.9675006873797086
+          },
+          "challenge_Q": 0.107177734375,
+          "routine_Q": 0.3431803385416667,
+          "attention_tv": null,
+          "policy_dt0_tv": 0
+        }
+      ],
+      "training_ce_blocks": [
+        {
+          "end_update": 2100,
+          "ce": 0.46644306659698487
+        },
+        {
+          "end_update": 2200,
+          "ce": 0.45664359629154205
+        },
+        {
+          "end_update": 2300,
+          "ce": 0.4539723739027977
+        },
+        {
+          "end_update": 2400,
+          "ce": 0.4608278825879097
+        },
+        {
+          "end_update": 2500,
+          "ce": 0.45280175149440766
+        },
+        {
+          "end_update": 2600,
+          "ce": 0.4518692535161972
+        },
+        {
+          "end_update": 2700,
+          "ce": 0.4608739507198334
+        },
+        {
+          "end_update": 2800,
+          "ce": 0.4600231775641441
+        },
+        {
+          "end_update": 2900,
+          "ce": 0.44699254602193833
+        },
+        {
+          "end_update": 3000,
+          "ce": 0.4382364064455032
+        },
+        {
+          "end_update": 3100,
+          "ce": 0.43926279962062836
+        },
+        {
+          "end_update": 3200,
+          "ce": 0.43204988092184066
+        },
+        {
+          "end_update": 3300,
+          "ce": 0.45294690698385237
+        },
+        {
+          "end_update": 3400,
+          "ce": 0.44663973242044447
+        },
+        {
+          "end_update": 3500,
+          "ce": 0.4331956872344017
+        },
+        {
+          "end_update": 3600,
+          "ce": 0.4351091527938843
+        },
+        {
+          "end_update": 3700,
+          "ce": 0.4273652362823486
+        },
+        {
+          "end_update": 3800,
+          "ce": 0.43252659440040586
+        },
+        {
+          "end_update": 3900,
+          "ce": 0.4311228719353676
+        },
+        {
+          "end_update": 4000,
+          "ce": 0.43033858478069303
+        }
+      ]
+    },
+    {
+      "path": "execution/model_training_comparison/pilot-1701-softmax-8000/result.json",
+      "core_seconds": 38.820442235679366,
+      "start_update": 4000,
+      "events": [
+        {
+          "update": 8000,
+          "proper": {
+            "brier": 0.16180292750990266,
+            "ce": 0.7678487042279346,
+            "challenge_brier": 0.22973742443577988,
+            "challenge_ce": 0.9940922205921368,
+            "challenge_entropy_p": 0.4525438704122253,
+            "challenge_entropy_q": 0.4050285115108927,
+            "challenge_kl": 0.5890637090812441,
+            "challenge_nonoptimal_mass": 0.1104424420805572,
+            "entropy_p": 0.43042230329891007,
+            "entropy_q": 0.37228946311973554,
+            "kl": 0.39555924110819896,
+            "nonoptimal_mass": 0.08353900847253246,
+            "routine_brier": 0.14481930327843337,
+            "routine_ce": 0.711287825136884,
+            "routine_entropy_p": 0.4248919115205812,
+            "routine_entropy_q": 0.36410470102194625,
+            "routine_kl": 0.3471831241149377,
+            "routine_nonoptimal_mass": 0.07681315007052626
+          },
+          "greedy": 0.5385416666666667,
+          "t1": {
+            "Q": 0.3422526041666667,
+            "U_novel": 0.008984375000000001,
+            "U_valid": 0.25927734375,
+            "V_novel": 0.013720703125,
+            "coverage": null,
+            "duplicate_concentration": 0.2576550269196316,
+            "duplicate_rate": 0.08297526041666667,
+            "invalid_rate": 0.6577473958333333,
+            "known_valid_mass": 0.3285319010416667,
+            "pass_at_k": 0.8479166666666667,
+            "valid_headroom": 0.11906098727724598,
+            "weighted_known_valid_ratio": 0.959910595396614
+          },
+          "challenge_Q": 0.13671875,
+          "routine_Q": 0.3936360677083333,
+          "attention_tv": null,
+          "policy_dt0_tv": 0
+        }
+      ],
+      "training_ce_blocks": [
+        {
+          "end_update": 4100,
+          "ce": 0.44090450823307037
+        },
+        {
+          "end_update": 4200,
+          "ce": 0.4283531019091606
+        },
+        {
+          "end_update": 4300,
+          "ce": 0.42006433427333834
+        },
+        {
+          "end_update": 4400,
+          "ce": 0.42001002073287963
+        },
+        {
+          "end_update": 4500,
+          "ce": 0.41048247039318086
+        },
+        {
+          "end_update": 4600,
+          "ce": 0.42155428856611254
+        },
+        {
+          "end_update": 4700,
+          "ce": 0.4159984186291695
+        },
+        {
+          "end_update": 4800,
+          "ce": 0.4257019206881523
+        },
+        {
+          "end_update": 4900,
+          "ce": 0.4066602882742882
+        },
+        {
+          "end_update": 5000,
+          "ce": 0.41298210978507993
+        },
+        {
+          "end_update": 5100,
+          "ce": 0.40837394058704374
+        },
+        {
+          "end_update": 5200,
+          "ce": 0.41580236166715623
+        },
+        {
+          "end_update": 5300,
+          "ce": 0.4035888254642487
+        },
+        {
+          "end_update": 5400,
+          "ce": 0.42310412555932997
+        },
+        {
+          "end_update": 5500,
+          "ce": 0.41083908766508104
+        },
+        {
+          "end_update": 5600,
+          "ce": 0.41310203790664674
+        },
+        {
+          "end_update": 5700,
+          "ce": 0.40772199660539626
+        },
+        {
+          "end_update": 5800,
+          "ce": 0.4024445527791977
+        },
+        {
+          "end_update": 5900,
+          "ce": 0.40794457256793976
+        },
+        {
+          "end_update": 6000,
+          "ce": 0.40342917323112487
+        },
+        {
+          "end_update": 6100,
+          "ce": 0.40518028527498245
+        },
+        {
+          "end_update": 6200,
+          "ce": 0.39064567536115646
+        },
+        {
+          "end_update": 6300,
+          "ce": 0.38846528679132464
+        },
+        {
+          "end_update": 6400,
+          "ce": 0.4045680445432663
+        },
+        {
+          "end_update": 6500,
+          "ce": 0.4015949782729149
+        },
+        {
+          "end_update": 6600,
+          "ce": 0.4019258451461792
+        },
+        {
+          "end_update": 6700,
+          "ce": 0.4047670215368271
+        },
+        {
+          "end_update": 6800,
+          "ce": 0.40203645795583726
+        },
+        {
+          "end_update": 6900,
+          "ce": 0.391741703748703
+        },
+        {
+          "end_update": 7000,
+          "ce": 0.40496123641729354
+        },
+        {
+          "end_update": 7100,
+          "ce": 0.39558900624513627
+        },
+        {
+          "end_update": 7200,
+          "ce": 0.3890447905659676
+        },
+        {
+          "end_update": 7300,
+          "ce": 0.39208238780498506
+        },
+        {
+          "end_update": 7400,
+          "ce": 0.3887824648618698
+        },
+        {
+          "end_update": 7500,
+          "ce": 0.3930685067176819
+        },
+        {
+          "end_update": 7600,
+          "ce": 0.38930427968502046
+        },
+        {
+          "end_update": 7700,
+          "ce": 0.38205437749624255
+        },
+        {
+          "end_update": 7800,
+          "ce": 0.38349950283765794
+        },
+        {
+          "end_update": 7900,
+          "ce": 0.38595195472240446
+        },
+        {
+          "end_update": 8000,
+          "ce": 0.38654010206460954
+        }
+      ]
+    }
+  ],
+  "equal_time": [
+    {
+      "path": "execution/model_training_comparison/equal-time-schrodinger-100/result.json",
+      "proper": {
+        "brier": 0.3174285432435265,
+        "ce": 0.9790886474408242,
+        "challenge_brier": 0.35316097705405425,
+        "challenge_ce": 1.1008209063726098,
+        "challenge_entropy_p": 0.7672768202712962,
+        "challenge_entropy_q": 0.4050285115108927,
+        "challenge_kl": 0.6957923948617171,
+        "challenge_nonoptimal_mass": 0.2769294555011602,
+        "entropy_p": 0.7633152143984246,
+        "entropy_q": 0.37228946311973554,
+        "kl": 0.6067991843210888,
+        "nonoptimal_mass": 0.2683083606884232,
+        "routine_brier": 0.30849543479089453,
+        "routine_ce": 0.948655582707878,
+        "routine_entropy_p": 0.7623248129302068,
+        "routine_entropy_q": 0.36410470102194625,
+        "routine_kl": 0.5845508816859317,
+        "routine_nonoptimal_mass": 0.26615308698523893
+      },
+      "greedy": 0.16875,
+      "t1": {
+        "Q": 0.011214192708333334,
+        "U_novel": 0.0001953125,
+        "U_valid": 0.011083984375000001,
+        "V_novel": 0.0001953125,
+        "coverage": null,
+        "duplicate_concentration": 0.8083059334845051,
+        "duplicate_rate": 0.00013020833333333333,
+        "invalid_rate": 0.9887858072916668,
+        "known_valid_mass": 0.011018880208333333,
+        "pass_at_k": 0.22447916666666667,
+        "valid_headroom": 0.005108591946868857,
+        "weighted_known_valid_ratio": 0.9825834542815673
+      }
+    },
+    {
+      "path": "execution/model_training_comparison/equal-time-schrodinger-200/result.json",
+      "proper": {
+        "brier": 0.24750391153459295,
+        "ce": 0.848298517781797,
+        "challenge_brier": 0.32950274852089106,
+        "challenge_ce": 1.0479312692152534,
+        "challenge_entropy_p": 0.6200737921964128,
+        "challenge_entropy_q": 0.4050285115108927,
+        "challenge_kl": 0.6429027577043607,
+        "challenge_nonoptimal_mass": 0.2064184966616025,
+        "entropy_p": 0.6088779601253396,
+        "entropy_q": 0.37228946311973554,
+        "kl": 0.4760090546620616,
+        "nonoptimal_mass": 0.1730419049270065,
+        "routine_brier": 0.22700420228801843,
+        "routine_ce": 0.798390329923433,
+        "routine_entropy_p": 0.6060790021075713,
+        "routine_entropy_q": 0.36410470102194625,
+        "routine_kl": 0.43428562890148686,
+        "routine_nonoptimal_mass": 0.1646977569933575
+      },
+      "greedy": 0.33697916666666666,
+      "t1": {
+        "Q": 0.07643229166666667,
+        "U_novel": 0.0011718750000000002,
+        "U_valid": 0.06917317708333334,
+        "V_novel": 0.0011718750000000002,
+        "coverage": null,
+        "duplicate_concentration": 0.5039231551612532,
+        "duplicate_rate": 0.007259114583333333,
+        "invalid_rate": 0.9235677083333333,
+        "known_valid_mass": 0.07526041666666666,
+        "pass_at_k": 0.5921875000000001,
+        "valid_headroom": 0.031197467885265534,
+        "weighted_known_valid_ratio": 0.9846678023850085
+      }
+    },
+    {
+      "path": "execution/model_training_comparison/equal-time-schrodinger-300/result.json",
+      "proper": {
+        "brier": 0.22801140079813523,
+        "ce": 0.8006206733740574,
+        "challenge_brier": 0.30135404094112983,
+        "challenge_ce": 0.9763419803157077,
+        "challenge_entropy_p": 0.622797059535344,
+        "challenge_entropy_q": 0.4050285115108927,
+        "challenge_kl": 0.5713134688048151,
+        "challenge_nonoptimal_mass": 0.19260594129573141,
+        "entropy_p": 0.5863949571545608,
+        "entropy_q": 0.37228946311973554,
+        "kl": 0.42833121025432175,
+        "nonoptimal_mass": 0.15013042576212454,
+        "routine_brier": 0.2096757407623866,
+        "routine_ce": 0.7566903466386448,
+        "routine_entropy_p": 0.577294431559365,
+        "routine_entropy_q": 0.36410470102194625,
+        "routine_kl": 0.39258564561669845,
+        "routine_nonoptimal_mass": 0.13951154687872283
+      },
+      "greedy": 0.3692708333333334,
+      "t1": {
+        "Q": 0.09890950520833335,
+        "U_novel": 0.001953125,
+        "U_valid": 0.08551432291666666,
+        "V_novel": 0.00205078125,
+        "coverage": null,
+        "duplicate_concentration": 0.4834661511338225,
+        "duplicate_rate": 0.013395182291666665,
+        "invalid_rate": 0.9010904947916667,
+        "known_valid_mass": 0.09685872395833335,
+        "pass_at_k": 0.6359375,
+        "valid_headroom": 0.0406317306489412,
+        "weighted_known_valid_ratio": 0.9792660852394274
+      }
+    },
+    {
+      "path": "execution/model_training_comparison/equal-time-softmax-200/result.json",
+      "proper": {
+        "brier": 0.2524152330028813,
+        "ce": 0.8547704764384961,
+        "challenge_brier": 0.3262943454575601,
+        "challenge_ce": 1.0439408906999388,
+        "challenge_entropy_p": 0.6180429883625236,
+        "challenge_entropy_q": 0.4050285115108927,
+        "challenge_kl": 0.6389123791890462,
+        "challenge_nonoptimal_mass": 0.20496180028259778,
+        "entropy_p": 0.6066832245415985,
+        "entropy_q": 0.37228946311973554,
+        "kl": 0.48248101331876053,
+        "nonoptimal_mass": 0.17517338833711366,
+        "routine_brier": 0.23394545488921162,
+        "routine_ce": 0.8074778728731354,
+        "routine_entropy_p": 0.6038432835863673,
+        "routine_entropy_q": 0.36410470102194625,
+        "routine_kl": 0.44337317185118913,
+        "routine_nonoptimal_mass": 0.16772628535074263
+      },
+      "greedy": 0.33854166666666663,
+      "t1": {
+        "Q": 0.07561848958333334,
+        "U_novel": 0.0011718750000000002,
+        "U_valid": 0.06761067708333333,
+        "V_novel": 0.0011718750000000002,
+        "coverage": null,
+        "duplicate_concentration": 0.4951287367893197,
+        "duplicate_rate": 0.0080078125,
+        "invalid_rate": 0.9243815104166667,
+        "known_valid_mass": 0.07444661458333333,
+        "pass_at_k": 0.5786458333333333,
+        "valid_headroom": 0.03128652119959842,
+        "weighted_known_valid_ratio": 0.9845027981058975
+      }
+    },
+    {
+      "path": "execution/model_training_comparison/equal-time-softmax-400/result.json",
+      "proper": {
+        "brier": 0.22086318068888883,
+        "ce": 0.8069753280113597,
+        "challenge_brier": 0.3139012437811305,
+        "challenge_ce": 1.040905557743391,
+        "challenge_entropy_p": 0.5894563597252415,
+        "challenge_entropy_q": 0.4050285115108927,
+        "challenge_kl": 0.6358770462324982,
+        "challenge_nonoptimal_mass": 0.18364986295093086,
+        "entropy_p": 0.5514379950545527,
+        "entropy_q": 0.37228946311973554,
+        "kl": 0.43468586489162425,
+        "nonoptimal_mass": 0.1405066819837246,
+        "routine_brier": 0.19760366491582845,
+        "routine_ce": 0.748492770578352,
+        "routine_entropy_p": 0.5419334038868805,
+        "routine_entropy_q": 0.36410470102194625,
+        "routine_kl": 0.38438806955640575,
+        "routine_nonoptimal_mass": 0.12972088674192303
+      },
+      "greedy": 0.44010416666666674,
+      "t1": {
+        "Q": 0.14755859375,
+        "U_novel": 0.002294921875,
+        "U_valid": 0.12111002604166668,
+        "V_novel": 0.002392578125,
+        "coverage": null,
+        "duplicate_concentration": 0.40861079878893114,
+        "duplicate_rate": 0.026448567708333332,
+        "invalid_rate": 0.8524414062500001,
+        "known_valid_mass": 0.145166015625,
+        "pass_at_k": 0.7093750000000001,
+        "valid_headroom": 0.05668138091610023,
+        "weighted_known_valid_ratio": 0.9837855724685639
+      }
+    },
+    {
+      "path": "execution/model_training_comparison/equal-time-softmax-700/result.json",
+      "proper": {
+        "brier": 0.1629994103523139,
+        "ce": 0.6997975307524387,
+        "challenge_brier": 0.2371280746728526,
+        "challenge_ce": 0.8946570213014267,
+        "challenge_entropy_p": 0.5692614179912483,
+        "challenge_entropy_q": 0.4050285115108927,
+        "challenge_kl": 0.48962850979053385,
+        "challenge_nonoptimal_mass": 0.14643534780163064,
+        "entropy_p": 0.523663284007169,
+        "entropy_q": 0.37228946311973554,
+        "kl": 0.3275080676327032,
+        "nonoptimal_mass": 0.10631152263585725,
+        "routine_brier": 0.14446724427217925,
+        "routine_ce": 0.6510826581151917,
+        "routine_entropy_p": 0.5122637505111491,
+        "routine_entropy_q": 0.36410470102194625,
+        "routine_kl": 0.28697795709324553,
+        "routine_nonoptimal_mass": 0.09628056634441391
+      },
+      "greedy": 0.5140625,
+      "t1": {
+        "Q": 0.21650390625000002,
+        "U_novel": 0.00654296875,
+        "U_valid": 0.18009440104166669,
+        "V_novel": 0.007470703125,
+        "coverage": null,
+        "duplicate_concentration": 0.31950471207260567,
+        "duplicate_rate": 0.03640950520833333,
+        "invalid_rate": 0.78349609375,
+        "known_valid_mass": 0.209033203125,
+        "pass_at_k": 0.8250000000000001,
+        "valid_headroom": 0.08385257735151372,
+        "weighted_known_valid_ratio": 0.9654939106901218
+      }
+    }
+  ],
+  "instrumentation_limitation": "Training curves are 100-update means of balanced minibatch CE, not fixed-bank proper scores; validation fixed-bank metrics include different teacher entropy/distribution.",
+  "budget_before_final_audit": 1717.387721588062
+}

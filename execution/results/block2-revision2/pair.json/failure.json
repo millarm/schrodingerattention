@@ -1,0 +1,4 @@
+{
+  "command": "pair-evaluate",
+  "error": "IsADirectoryError: [Errno 21] Is a directory: 'execution/results/block2-revision2/pair.json'"
+}

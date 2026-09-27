@@ -1,0 +1,11 @@
+# Block 2 revision 2 handoff
+
+Current frozen review target: data `3fab8bafdecd773df13d81c81653ece8760707b5f11f59cb2f5c56ab225278e3`; model `b2892ee6dc8158b326b2fbb3ecc242e030edd94f36f5d407246a4666ac4dc36a`; experiment `613f8c90f127ebd5fe835d977038cca842ad1642bd7af78b57ef6e2868a5c4c0`; attention `e1ce15be10caf4b2165191f9835256602f4f7b8bd11bffa94f676eac40b0fd6a`; data tests `688b6b5200d447efc8bc27d4823944575a046de641b923ceb5047eb1e9b5bab5`; experiment tests `8dc0ba4b8008b0fc9a7d8ab0e235cecc7ef8592029caff1f8afeee59d1f4a684`; config `9ebace507a57202f483cefd55d5f50db868ad2abd214145a86f722386b2ffd4f`; runtime `805b8c51fd21468ccb2f5c70bc122b52bf13f601331937e9979efcc5c5184995`.
+
+Current evidence: full eval NPZ `1a83c3ebcbcb45d12d490ffa2a7def5d29f86b21962930290fbf369eea9fcecc`; manifest `ae9be5a446d46904825f394f03f36ec7186573be6933d08b033f09c681204b96`; softmax final `da0515c3377c538a902adb9c118a0fca7db501743de12a134d036b74cf303062`; SA final `7b26dd862fefe704aee998ccf81fe2f34ffad9870908e8a2b365275f409a887a`; pair result `bfae7c4f51c399e7ac1fd2a9aa917fe0b00583c65357de51c27c0edf1fbd4eb8`.
+
+Evidence paths: `execution/results/block2-revision2-final/{softmax,schrodinger}/`, `execution/results/block2-revision2-final/pair-result.json`, and `execution/results/block2-revision2/{smoke,profile}/`. Ledger reconciliation and the canonical 180-second pre-comparison preparation charge are documented in [`../ledger-reconciliation.md`](../ledger-reconciliation.md); original JSONL history remains preserved.
+
+Commands exit 0: full pytest (46 passed); fresh smoke/profile; two 102-step SMOKE train paths; checkpoint dt0 evaluation; pair-evaluate. Automated tests cover numerical, data, failures, identities, pair mismatch, reserve, and count recomputation. Real-command evidence covers train/evaluate/pair integration; it is not claimed as an automated CLI test.
+
+Resolution map: normal invariant snapshots precede dt0; finite logits/loss/parameters abort; initial shared digest and strict pairing are persisted/enforced; guard has 60-second reserve; blacklist/block/seed/mismatch/count regressions are tested; hashes above form the clean manifest. Historical `smoke*`, `block2-final*`, and failed `pair.json` directory artifacts are superseded/preserved, not review targets. No measured comparison ran.

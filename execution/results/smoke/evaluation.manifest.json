@@ -1,0 +1,10 @@
+{
+  "hashes": {
+    "test_heldout_d4": "aeb8157b64253b10589b5e7411e59ea0af88cb0754f16843ddacdcbcc7647f8b",
+    "test_heldout_d8": "9503551b991dc0bcfc4ef0f5d17118a6793dcf185968fd4448fdcd67e0fff861",
+    "test_seen_d4": "ae86bc56f2971a332fc576ec52a0eeaae064d60f52bdcacf13da778085dbe3e4",
+    "test_seen_d8": "73512962d223706ff62ebfd153c8ca68cfaf7a27744e92b7b5753059f3dea08c",
+    "validation_seen_d4": "ecd799862426ca34ef1d12d763566a428172b6d76c777d49cce8599643038564"
+  },
+  "kind": "SMOKE"
+}

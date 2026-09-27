@@ -1,0 +1,15 @@
+{
+  "approved": true,
+  "kind": "pilot",
+  "command": "train",
+  "seed": 1701,
+  "mode": "schrodinger",
+  "target_updates": 1000,
+  "run_kind": "fresh",
+  "config_hash": "870f62c96a8b0ed994d3c4d795514bf6fd513c0c771ba32750542b667155fe90",
+  "prepared_sha256": "10e5f96a98b4dcb944cf81b65eb43eb4ed5a8c8211bf9d1f55af2f0bc4814e49",
+  "manifest_sha256": "305a9dd782befa9209942a2f52ebc0ba31d9d7ca61c913ecfb69fa5cca466395",
+  "runtime_review": "reviews/A3-profile-00.md",
+  "runtime_review_sha256": "87502fa9ac226d44143b83f784081e46a7b86e92b1927353281cb3dee3b5b193",
+  "scope": "Second model of the approved exploratory paired1701 entry, after softmax explicit exit; no main/test release"
+}

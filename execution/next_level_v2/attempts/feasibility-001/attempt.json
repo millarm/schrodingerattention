@@ -1,0 +1,24 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "schrodinger.productive_diversity_runner",
+    "--output",
+    "execution/next_level_v2/attempts/feasibility-001"
+  ],
+  "charged_seconds": 268.1225631249981,
+  "cumulative_global_seconds": 436.82763737699815,
+  "elapsed_seconds": 266.1225631249981,
+  "ended_at_utc": "2026-09-16T06:15:45.662706+00:00",
+  "entry_id": "4b42ad60-e1dc-4397-80a9-320d4bb130fb",
+  "error": null,
+  "execution_status": "COMPLETE",
+  "kind": "productive_diversity_v2",
+  "manifest_sha256": "d8347db12a8a184f3fdec430eeef71585bbc51e5e1c66a75fb335695b61e50e3",
+  "pid": 39095,
+  "prior_global_seconds": 168.705074252,
+  "stage": "stage0",
+  "started_at_utc": "2026-09-16T06:11:19.538461+00:00",
+  "startup_allowance_seconds": 2.0,
+  "status": "COMPLETE"
+}

@@ -1,0 +1,4 @@
+{
+  "command": "pair-evaluate",
+  "error": "ValueError: raw JSONL extends beyond completed checkpoint"
+}

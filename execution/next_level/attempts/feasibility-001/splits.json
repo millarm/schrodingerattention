@@ -1,0 +1,9972 @@
+{
+  "boundaries": [
+    6.0,
+    2.584962500721156
+  ],
+  "flow": {
+    "idtest": {
+      "capacities": [
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 61,
+          "value": 138
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 61,
+          "value": 68
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 61,
+          "value": 26
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 61,
+          "value": 70
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 140,
+          "value": 152
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 140,
+          "value": 70
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 140,
+          "value": 28
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 140,
+          "value": 72
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 173,
+          "value": 82
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 173,
+          "value": 40
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 173,
+          "value": 0
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 173,
+          "value": 12
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 241,
+          "value": 114
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 241,
+          "value": 24
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 241,
+          "value": 62
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 241,
+          "value": 70
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 281,
+          "value": 146
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 281,
+          "value": 78
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 281,
+          "value": 28
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 281,
+          "value": 92
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 354,
+          "value": 76
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 354,
+          "value": 32
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 354,
+          "value": 64
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 354,
+          "value": 56
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 376,
+          "value": 76
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 376,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 376,
+          "value": 70
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 376,
+          "value": 54
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 415,
+          "value": 128
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 415,
+          "value": 70
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 415,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 415,
+          "value": 80
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 549,
+          "value": 84
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 549,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 549,
+          "value": 56
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 549,
+          "value": 100
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 571,
+          "value": 86
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 571,
+          "value": 10
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 571,
+          "value": 62
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 571,
+          "value": 60
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 612,
+          "value": 80
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 612,
+          "value": 6
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 612,
+          "value": 60
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 612,
+          "value": 46
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 633,
+          "value": 128
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 633,
+          "value": 50
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 633,
+          "value": 48
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 633,
+          "value": 100
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 645,
+          "value": 138
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 645,
+          "value": 78
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 645,
+          "value": 40
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 645,
+          "value": 76
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 715,
+          "value": 124
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 715,
+          "value": 68
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 715,
+          "value": 48
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 715,
+          "value": 68
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 725,
+          "value": 54
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 725,
+          "value": 10
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 725,
+          "value": 80
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 725,
+          "value": 68
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 781,
+          "value": 180
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 781,
+          "value": 126
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 781,
+          "value": 0
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 781,
+          "value": 62
+        }
+      ],
+      "flow": [
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 61,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 140,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 173,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 241,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 281,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 354,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 376,
+          "value": 2
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 376,
+          "value": 14
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 415,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 549,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 571,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 612,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 633,
+          "value": 8
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 633,
+          "value": 8
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 645,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 715,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 725,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 781,
+          "value": 16
+        }
+      ],
+      "quotas": {
+        "(0, 0)": 98,
+        "(0, 1)": 46,
+        "(1, 0)": 40,
+        "(1, 1)": 72
+      }
+    },
+    "iltest": {
+      "capacities": [
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 169,
+          "value": 90
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 169,
+          "value": 44
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 169,
+          "value": 0
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 169,
+          "value": 36
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 181,
+          "value": 106
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 181,
+          "value": 38
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 181,
+          "value": 28
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 181,
+          "value": 62
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 209,
+          "value": 138
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 209,
+          "value": 66
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 209,
+          "value": 52
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 209,
+          "value": 60
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 215,
+          "value": 132
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 215,
+          "value": 52
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 215,
+          "value": 54
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 215,
+          "value": 56
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 270,
+          "value": 186
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 270,
+          "value": 118
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 270,
+          "value": 2
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 270,
+          "value": 68
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 297,
+          "value": 116
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 297,
+          "value": 42
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 297,
+          "value": 32
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 297,
+          "value": 84
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 311,
+          "value": 168
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 311,
+          "value": 92
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 311,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 311,
+          "value": 78
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 325,
+          "value": 124
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 325,
+          "value": 60
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 325,
+          "value": 36
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 325,
+          "value": 74
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 346,
+          "value": 100
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 346,
+          "value": 40
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 346,
+          "value": 36
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 346,
+          "value": 78
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 348,
+          "value": 114
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 348,
+          "value": 46
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 348,
+          "value": 32
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 348,
+          "value": 82
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 379,
+          "value": 148
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 379,
+          "value": 74
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 379,
+          "value": 22
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 379,
+          "value": 80
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 404,
+          "value": 114
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 404,
+          "value": 56
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 404,
+          "value": 34
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 404,
+          "value": 86
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 446,
+          "value": 86
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 446,
+          "value": 14
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 446,
+          "value": 68
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 446,
+          "value": 68
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 451,
+          "value": 104
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 451,
+          "value": 30
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 451,
+          "value": 52
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 451,
+          "value": 58
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 454,
+          "value": 110
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 454,
+          "value": 38
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 454,
+          "value": 30
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 454,
+          "value": 90
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 488,
+          "value": 84
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 488,
+          "value": 18
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 488,
+          "value": 66
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 488,
+          "value": 42
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 515,
+          "value": 74
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 515,
+          "value": 22
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 515,
+          "value": 48
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 515,
+          "value": 54
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 538,
+          "value": 114
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 538,
+          "value": 42
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 538,
+          "value": 56
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 538,
+          "value": 110
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 539,
+          "value": 116
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 539,
+          "value": 48
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 539,
+          "value": 46
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 539,
+          "value": 104
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 543,
+          "value": 126
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 543,
+          "value": 64
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 543,
+          "value": 40
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 543,
+          "value": 96
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 553,
+          "value": 54
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 553,
+          "value": 14
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 553,
+          "value": 40
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 553,
+          "value": 32
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 560,
+          "value": 86
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 560,
+          "value": 14
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 560,
+          "value": 68
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 560,
+          "value": 56
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 569,
+          "value": 74
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 569,
+          "value": 10
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 569,
+          "value": 68
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 569,
+          "value": 48
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 592,
+          "value": 116
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 592,
+          "value": 30
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 592,
+          "value": 62
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 592,
+          "value": 82
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 610,
+          "value": 98
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 610,
+          "value": 24
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 610,
+          "value": 68
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 610,
+          "value": 58
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 642,
+          "value": 184
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 642,
+          "value": 118
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 642,
+          "value": 2
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 642,
+          "value": 68
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 651,
+          "value": 120
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 651,
+          "value": 48
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 651,
+          "value": 26
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 651,
+          "value": 94
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 656,
+          "value": 152
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 656,
+          "value": 102
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 656,
+          "value": 14
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 656,
+          "value": 80
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 668,
+          "value": 118
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 668,
+          "value": 60
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 668,
+          "value": 36
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 668,
+          "value": 100
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 681,
+          "value": 108
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 681,
+          "value": 52
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 681,
+          "value": 34
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 681,
+          "value": 92
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 686,
+          "value": 122
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 686,
+          "value": 68
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 686,
+          "value": 28
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 686,
+          "value": 80
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 771,
+          "value": 84
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 771,
+          "value": 30
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 771,
+          "value": 48
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 771,
+          "value": 92
+        }
+      ],
+      "flow": [
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 169,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 181,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 209,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 215,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 270,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 297,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 311,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 325,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 346,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 348,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 379,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 404,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 446,
+          "value": 5
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 446,
+          "value": 11
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 451,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 454,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 488,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 515,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 538,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 539,
+          "value": 1
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 539,
+          "value": 15
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 543,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 553,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 560,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 569,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 592,
+          "value": 1
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 592,
+          "value": 15
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 610,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 642,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 651,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 656,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 668,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 681,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 686,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 771,
+          "value": 16
+        }
+      ],
+      "quotas": {
+        "(0, 0)": 197,
+        "(0, 1)": 92,
+        "(1, 0)": 80,
+        "(1, 1)": 143
+      }
+    },
+    "validation": {
+      "capacities": [
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 224,
+          "value": 130
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 224,
+          "value": 50
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 224,
+          "value": 58
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 224,
+          "value": 62
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 321,
+          "value": 130
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 321,
+          "value": 68
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 321,
+          "value": 40
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 321,
+          "value": 70
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 339,
+          "value": 136
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 339,
+          "value": 74
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 339,
+          "value": 22
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 339,
+          "value": 86
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 353,
+          "value": 76
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 353,
+          "value": 32
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 353,
+          "value": 66
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 353,
+          "value": 66
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 443,
+          "value": 108
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 443,
+          "value": 44
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 443,
+          "value": 52
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 443,
+          "value": 76
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 542,
+          "value": 70
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 542,
+          "value": 22
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 542,
+          "value": 70
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 542,
+          "value": 70
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 584,
+          "value": 118
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 584,
+          "value": 24
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 584,
+          "value": 66
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 584,
+          "value": 74
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 679,
+          "value": 180
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 679,
+          "value": 104
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 679,
+          "value": 4
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 679,
+          "value": 80
+        }
+      ],
+      "flow": [
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 224,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 321,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 339,
+          "value": 16
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 0,
+          "map_id": 353,
+          "value": 1
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 353,
+          "value": 15
+        },
+        {
+          "distance_bin": 0,
+          "logM_bin": 1,
+          "map_id": 443,
+          "value": 8
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 443,
+          "value": 8
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 0,
+          "map_id": 542,
+          "value": 12
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 542,
+          "value": 4
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 584,
+          "value": 16
+        },
+        {
+          "distance_bin": 1,
+          "logM_bin": 1,
+          "map_id": 679,
+          "value": 16
+        }
+      ],
+      "quotas": {
+        "(0, 0)": 49,
+        "(0, 1)": 23,
+        "(1, 0)": 20,
+        "(1, 1)": 36
+      }
+    }
+  },
+  "training": [
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 12,
+      "map_id": 162,
+      "start": 2
+    },
+    {
+      "M": 6,
+      "distance": 9,
+      "family": "II",
+      "goal": 35,
+      "map_id": 162,
+      "start": 3
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 6,
+      "map_id": 162,
+      "start": 4
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 26,
+      "map_id": 162,
+      "start": 4
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "II",
+      "goal": 28,
+      "map_id": 162,
+      "start": 4
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 15,
+      "map_id": 162,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 15,
+      "map_id": 162,
+      "start": 6
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "II",
+      "goal": 25,
+      "map_id": 162,
+      "start": 9
+    },
+    {
+      "M": 22,
+      "distance": 8,
+      "family": "II",
+      "goal": 30,
+      "map_id": 162,
+      "start": 10
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 11,
+      "map_id": 162,
+      "start": 12
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 28,
+      "map_id": 162,
+      "start": 12
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 11,
+      "map_id": 162,
+      "start": 13
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 3,
+      "map_id": 162,
+      "start": 17
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "II",
+      "goal": 2,
+      "map_id": 162,
+      "start": 24
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 14,
+      "map_id": 162,
+      "start": 24
+    },
+    {
+      "M": 6,
+      "distance": 9,
+      "family": "II",
+      "goal": 4,
+      "map_id": 162,
+      "start": 29
+    },
+    {
+      "M": 21,
+      "distance": 7,
+      "family": "II",
+      "goal": 17,
+      "map_id": 201,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 12,
+      "map_id": 201,
+      "start": 2
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 16,
+      "map_id": 201,
+      "start": 2
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "II",
+      "goal": 35,
+      "map_id": 201,
+      "start": 2
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "II",
+      "goal": 19,
+      "map_id": 201,
+      "start": 3
+    },
+    {
+      "M": 12,
+      "distance": 8,
+      "family": "II",
+      "goal": 27,
+      "map_id": 201,
+      "start": 3
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 23,
+      "map_id": 201,
+      "start": 8
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 12,
+      "map_id": 201,
+      "start": 9
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 2,
+      "map_id": 201,
+      "start": 16
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "II",
+      "goal": 10,
+      "map_id": 201,
+      "start": 18
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "II",
+      "goal": 3,
+      "map_id": 201,
+      "start": 23
+    },
+    {
+      "M": 22,
+      "distance": 7,
+      "family": "II",
+      "goal": 3,
+      "map_id": 201,
+      "start": 24
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 17,
+      "map_id": 201,
+      "start": 24
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 3,
+      "map_id": 201,
+      "start": 25
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 10,
+      "map_id": 201,
+      "start": 26
+    },
+    {
+      "M": 12,
+      "distance": 8,
+      "family": "II",
+      "goal": 3,
+      "map_id": 201,
+      "start": 27
+    },
+    {
+      "M": 31,
+      "distance": 7,
+      "family": "II",
+      "goal": 27,
+      "map_id": 243,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 16,
+      "map_id": 243,
+      "start": 2
+    },
+    {
+      "M": 55,
+      "distance": 8,
+      "family": "II",
+      "goal": 34,
+      "map_id": 243,
+      "start": 6
+    },
+    {
+      "M": 20,
+      "distance": 6,
+      "family": "II",
+      "goal": 28,
+      "map_id": 243,
+      "start": 7
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "II",
+      "goal": 34,
+      "map_id": 243,
+      "start": 8
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "II",
+      "goal": 20,
+      "map_id": 243,
+      "start": 11
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "II",
+      "goal": 33,
+      "map_id": 243,
+      "start": 11
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "II",
+      "goal": 4,
+      "map_id": 243,
+      "start": 12
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 9,
+      "map_id": 243,
+      "start": 12
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 33,
+      "map_id": 243,
+      "start": 12
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 5,
+      "map_id": 243,
+      "start": 15
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 3,
+      "map_id": 243,
+      "start": 17
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 19,
+      "map_id": 243,
+      "start": 17
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 13,
+      "map_id": 243,
+      "start": 27
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 8,
+      "map_id": 243,
+      "start": 31
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 19,
+      "map_id": 243,
+      "start": 34
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 31,
+      "map_id": 250,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 7,
+      "map_id": 250,
+      "start": 4
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "II",
+      "goal": 27,
+      "map_id": 250,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 5,
+      "map_id": 250,
+      "start": 8
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 35,
+      "map_id": 250,
+      "start": 8
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 13,
+      "map_id": 250,
+      "start": 11
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 5,
+      "map_id": 250,
+      "start": 15
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 7,
+      "map_id": 250,
+      "start": 16
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "II",
+      "goal": 34,
+      "map_id": 250,
+      "start": 19
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "II",
+      "goal": 0,
+      "map_id": 250,
+      "start": 20
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 34,
+      "map_id": 250,
+      "start": 25
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "II",
+      "goal": 4,
+      "map_id": 250,
+      "start": 28
+    },
+    {
+      "M": 10,
+      "distance": 9,
+      "family": "II",
+      "goal": 5,
+      "map_id": 250,
+      "start": 28
+    },
+    {
+      "M": 4,
+      "distance": 9,
+      "family": "II",
+      "goal": 11,
+      "map_id": 250,
+      "start": 29
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "II",
+      "goal": 9,
+      "map_id": 250,
+      "start": 31
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 9,
+      "map_id": 250,
+      "start": 34
+    },
+    {
+      "M": 35,
+      "distance": 7,
+      "family": "II",
+      "goal": 22,
+      "map_id": 257,
+      "start": 0
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 11,
+      "map_id": 257,
+      "start": 1
+    },
+    {
+      "M": 20,
+      "distance": 6,
+      "family": "II",
+      "goal": 18,
+      "map_id": 257,
+      "start": 3
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "II",
+      "goal": 26,
+      "map_id": 257,
+      "start": 4
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "II",
+      "goal": 14,
+      "map_id": 257,
+      "start": 5
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 24,
+      "map_id": 257,
+      "start": 8
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 27,
+      "map_id": 257,
+      "start": 10
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "II",
+      "goal": 0,
+      "map_id": 257,
+      "start": 16
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 6,
+      "map_id": 257,
+      "start": 16
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 4,
+      "map_id": 257,
+      "start": 20
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 21,
+      "map_id": 257,
+      "start": 24
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 8,
+      "map_id": 257,
+      "start": 25
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 12,
+      "map_id": 257,
+      "start": 26
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 13,
+      "map_id": 257,
+      "start": 27
+    },
+    {
+      "M": 16,
+      "distance": 6,
+      "family": "II",
+      "goal": 15,
+      "map_id": 257,
+      "start": 30
+    },
+    {
+      "M": 25,
+      "distance": 7,
+      "family": "II",
+      "goal": 16,
+      "map_id": 257,
+      "start": 30
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 24,
+      "map_id": 269,
+      "start": 2
+    },
+    {
+      "M": 20,
+      "distance": 6,
+      "family": "II",
+      "goal": 18,
+      "map_id": 269,
+      "start": 3
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "II",
+      "goal": 32,
+      "map_id": 269,
+      "start": 3
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "II",
+      "goal": 22,
+      "map_id": 269,
+      "start": 6
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 35,
+      "map_id": 269,
+      "start": 8
+    },
+    {
+      "M": 15,
+      "distance": 8,
+      "family": "II",
+      "goal": 24,
+      "map_id": 269,
+      "start": 11
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 3,
+      "map_id": 269,
+      "start": 12
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 10,
+      "map_id": 269,
+      "start": 13
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 1,
+      "map_id": 269,
+      "start": 15
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 2,
+      "map_id": 269,
+      "start": 16
+    },
+    {
+      "M": 20,
+      "distance": 7,
+      "family": "II",
+      "goal": 3,
+      "map_id": 269,
+      "start": 24
+    },
+    {
+      "M": 12,
+      "distance": 8,
+      "family": "II",
+      "goal": 8,
+      "map_id": 269,
+      "start": 32
+    },
+    {
+      "M": 36,
+      "distance": 9,
+      "family": "II",
+      "goal": 0,
+      "map_id": 269,
+      "start": 34
+    },
+    {
+      "M": 16,
+      "distance": 8,
+      "family": "II",
+      "goal": 6,
+      "map_id": 269,
+      "start": 34
+    },
+    {
+      "M": 16,
+      "distance": 9,
+      "family": "II",
+      "goal": 6,
+      "map_id": 269,
+      "start": 35
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 13,
+      "map_id": 269,
+      "start": 35
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 35,
+      "map_id": 291,
+      "start": 3
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 31,
+      "map_id": 291,
+      "start": 6
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 5,
+      "map_id": 291,
+      "start": 7
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 13,
+      "map_id": 291,
+      "start": 10
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "II",
+      "goal": 18,
+      "map_id": 291,
+      "start": 10
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 27,
+      "map_id": 291,
+      "start": 10
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 31,
+      "map_id": 291,
+      "start": 12
+    },
+    {
+      "M": 8,
+      "distance": 9,
+      "family": "II",
+      "goal": 35,
+      "map_id": 291,
+      "start": 18
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 0,
+      "map_id": 291,
+      "start": 19
+    },
+    {
+      "M": 35,
+      "distance": 8,
+      "family": "II",
+      "goal": 0,
+      "map_id": 291,
+      "start": 28
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 1,
+      "map_id": 291,
+      "start": 33
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "II",
+      "goal": 11,
+      "map_id": 291,
+      "start": 33
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 9,
+      "map_id": 291,
+      "start": 34
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 13,
+      "map_id": 291,
+      "start": 34
+    },
+    {
+      "M": 16,
+      "distance": 10,
+      "family": "II",
+      "goal": 30,
+      "map_id": 291,
+      "start": 34
+    },
+    {
+      "M": 45,
+      "distance": 10,
+      "family": "II",
+      "goal": 0,
+      "map_id": 291,
+      "start": 35
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 11,
+      "map_id": 309,
+      "start": 2
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 30,
+      "map_id": 309,
+      "start": 2
+    },
+    {
+      "M": 32,
+      "distance": 9,
+      "family": "II",
+      "goal": 31,
+      "map_id": 309,
+      "start": 3
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "II",
+      "goal": 32,
+      "map_id": 309,
+      "start": 3
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 8,
+      "map_id": 309,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 34,
+      "map_id": 309,
+      "start": 7
+    },
+    {
+      "M": 13,
+      "distance": 8,
+      "family": "II",
+      "goal": 3,
+      "map_id": 309,
+      "start": 25
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 2,
+      "map_id": 309,
+      "start": 30
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "II",
+      "goal": 3,
+      "map_id": 309,
+      "start": 30
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 16,
+      "map_id": 309,
+      "start": 30
+    },
+    {
+      "M": 12,
+      "distance": 8,
+      "family": "II",
+      "goal": 2,
+      "map_id": 309,
+      "start": 31
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 8,
+      "map_id": 309,
+      "start": 31
+    },
+    {
+      "M": 16,
+      "distance": 8,
+      "family": "II",
+      "goal": 9,
+      "map_id": 309,
+      "start": 31
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 6,
+      "map_id": 309,
+      "start": 33
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 24,
+      "map_id": 309,
+      "start": 33
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "II",
+      "goal": 1,
+      "map_id": 309,
+      "start": 34
+    },
+    {
+      "M": 20,
+      "distance": 6,
+      "family": "II",
+      "goal": 22,
+      "map_id": 310,
+      "start": 1
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "II",
+      "goal": 14,
+      "map_id": 310,
+      "start": 5
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 22,
+      "map_id": 310,
+      "start": 7
+    },
+    {
+      "M": 35,
+      "distance": 8,
+      "family": "II",
+      "goal": 35,
+      "map_id": 310,
+      "start": 7
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "II",
+      "goal": 31,
+      "map_id": 310,
+      "start": 9
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 13,
+      "map_id": 310,
+      "start": 10
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "II",
+      "goal": 12,
+      "map_id": 310,
+      "start": 11
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 27,
+      "map_id": 310,
+      "start": 11
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 33,
+      "map_id": 310,
+      "start": 12
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 22,
+      "map_id": 310,
+      "start": 13
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 32,
+      "map_id": 310,
+      "start": 16
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 8,
+      "map_id": 310,
+      "start": 25
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 16,
+      "map_id": 310,
+      "start": 26
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 15,
+      "map_id": 310,
+      "start": 32
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 14,
+      "map_id": 310,
+      "start": 34
+    },
+    {
+      "M": 20,
+      "distance": 7,
+      "family": "II",
+      "goal": 13,
+      "map_id": 310,
+      "start": 35
+    },
+    {
+      "M": 10,
+      "distance": 10,
+      "family": "II",
+      "goal": 24,
+      "map_id": 318,
+      "start": 0
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 11,
+      "map_id": 318,
+      "start": 1
+    },
+    {
+      "M": 11,
+      "distance": 7,
+      "family": "II",
+      "goal": 33,
+      "map_id": 318,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "II",
+      "goal": 25,
+      "map_id": 318,
+      "start": 6
+    },
+    {
+      "M": 12,
+      "distance": 9,
+      "family": "II",
+      "goal": 30,
+      "map_id": 318,
+      "start": 7
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 0,
+      "map_id": 318,
+      "start": 15
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "II",
+      "goal": 0,
+      "map_id": 318,
+      "start": 16
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 6,
+      "map_id": 318,
+      "start": 21
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 34,
+      "map_id": 318,
+      "start": 24
+    },
+    {
+      "M": 10,
+      "distance": 9,
+      "family": "II",
+      "goal": 0,
+      "map_id": 318,
+      "start": 25
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 30,
+      "map_id": 318,
+      "start": 27
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 30,
+      "map_id": 318,
+      "start": 28
+    },
+    {
+      "M": 8,
+      "distance": 8,
+      "family": "II",
+      "goal": 8,
+      "map_id": 318,
+      "start": 30
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 27,
+      "map_id": 318,
+      "start": 30
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 3,
+      "map_id": 318,
+      "start": 35
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 15,
+      "map_id": 318,
+      "start": 35
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 11,
+      "map_id": 320,
+      "start": 0
+    },
+    {
+      "M": 35,
+      "distance": 7,
+      "family": "II",
+      "goal": 27,
+      "map_id": 320,
+      "start": 0
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 20,
+      "map_id": 320,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 19,
+      "map_id": 320,
+      "start": 2
+    },
+    {
+      "M": 35,
+      "distance": 8,
+      "family": "II",
+      "goal": 25,
+      "map_id": 320,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 5,
+      "map_id": 320,
+      "start": 8
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 10,
+      "map_id": 320,
+      "start": 12
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 26,
+      "map_id": 320,
+      "start": 12
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 27,
+      "map_id": 320,
+      "start": 13
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 3,
+      "map_id": 320,
+      "start": 20
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 6,
+      "map_id": 320,
+      "start": 20
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 1,
+      "map_id": 320,
+      "start": 21
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "II",
+      "goal": 0,
+      "map_id": 320,
+      "start": 23
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 7,
+      "map_id": 320,
+      "start": 24
+    },
+    {
+      "M": 20,
+      "distance": 9,
+      "family": "II",
+      "goal": 17,
+      "map_id": 320,
+      "start": 24
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 9,
+      "map_id": 320,
+      "start": 26
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 11,
+      "map_id": 331,
+      "start": 0
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 18,
+      "map_id": 331,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "II",
+      "goal": 31,
+      "map_id": 331,
+      "start": 2
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 13,
+      "map_id": 331,
+      "start": 3
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 5,
+      "map_id": 331,
+      "start": 6
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 20,
+      "map_id": 331,
+      "start": 6
+    },
+    {
+      "M": 6,
+      "distance": 9,
+      "family": "II",
+      "goal": 30,
+      "map_id": 331,
+      "start": 7
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 35,
+      "map_id": 331,
+      "start": 8
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 12,
+      "map_id": 331,
+      "start": 10
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 0,
+      "map_id": 331,
+      "start": 14
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 0,
+      "map_id": 331,
+      "start": 20
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 1,
+      "map_id": 331,
+      "start": 20
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 1,
+      "map_id": 331,
+      "start": 27
+    },
+    {
+      "M": 5,
+      "distance": 8,
+      "family": "II",
+      "goal": 1,
+      "map_id": 331,
+      "start": 29
+    },
+    {
+      "M": 10,
+      "distance": 9,
+      "family": "II",
+      "goal": 6,
+      "map_id": 331,
+      "start": 31
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "II",
+      "goal": 12,
+      "map_id": 331,
+      "start": 35
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 15,
+      "map_id": 359,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 31,
+      "map_id": 359,
+      "start": 0
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "II",
+      "goal": 17,
+      "map_id": 359,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 6,
+      "map_id": 359,
+      "start": 3
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 35,
+      "map_id": 359,
+      "start": 3
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "II",
+      "goal": 13,
+      "map_id": 359,
+      "start": 4
+    },
+    {
+      "M": 12,
+      "distance": 9,
+      "family": "II",
+      "goal": 31,
+      "map_id": 359,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 12,
+      "map_id": 359,
+      "start": 9
+    },
+    {
+      "M": 7,
+      "distance": 7,
+      "family": "II",
+      "goal": 18,
+      "map_id": 359,
+      "start": 11
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 3,
+      "map_id": 359,
+      "start": 12
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 1,
+      "map_id": 359,
+      "start": 15
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "II",
+      "goal": 1,
+      "map_id": 359,
+      "start": 21
+    },
+    {
+      "M": 4,
+      "distance": 10,
+      "family": "II",
+      "goal": 25,
+      "map_id": 359,
+      "start": 29
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "II",
+      "goal": 2,
+      "map_id": 359,
+      "start": 30
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 15,
+      "map_id": 359,
+      "start": 30
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 6,
+      "map_id": 359,
+      "start": 31
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 14,
+      "map_id": 477,
+      "start": 0
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 16,
+      "map_id": 477,
+      "start": 1
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "II",
+      "goal": 23,
+      "map_id": 477,
+      "start": 3
+    },
+    {
+      "M": 15,
+      "distance": 9,
+      "family": "II",
+      "goal": 24,
+      "map_id": 477,
+      "start": 5
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 5,
+      "map_id": 477,
+      "start": 7
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 0,
+      "map_id": 477,
+      "start": 10
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 1,
+      "map_id": 477,
+      "start": 10
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 2,
+      "map_id": 477,
+      "start": 12
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "II",
+      "goal": 3,
+      "map_id": 477,
+      "start": 12
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 29,
+      "map_id": 477,
+      "start": 14
+    },
+    {
+      "M": 6,
+      "distance": 10,
+      "family": "II",
+      "goal": 30,
+      "map_id": 477,
+      "start": 17
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 5,
+      "map_id": 477,
+      "start": 20
+    },
+    {
+      "M": 13,
+      "distance": 7,
+      "family": "II",
+      "goal": 1,
+      "map_id": 477,
+      "start": 23
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 1,
+      "map_id": 477,
+      "start": 28
+    },
+    {
+      "M": 14,
+      "distance": 9,
+      "family": "II",
+      "goal": 12,
+      "map_id": 477,
+      "start": 29
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 17,
+      "map_id": 477,
+      "start": 32
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 9,
+      "map_id": 536,
+      "start": 0
+    },
+    {
+      "M": 45,
+      "distance": 9,
+      "family": "II",
+      "goal": 29,
+      "map_id": 536,
+      "start": 0
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 19,
+      "map_id": 536,
+      "start": 4
+    },
+    {
+      "M": 27,
+      "distance": 10,
+      "family": "II",
+      "goal": 35,
+      "map_id": 536,
+      "start": 4
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 20,
+      "map_id": 536,
+      "start": 5
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 5,
+      "map_id": 536,
+      "start": 6
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 28,
+      "map_id": 536,
+      "start": 7
+    },
+    {
+      "M": 28,
+      "distance": 8,
+      "family": "II",
+      "goal": 5,
+      "map_id": 536,
+      "start": 18
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 27,
+      "map_id": 536,
+      "start": 18
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 6,
+      "map_id": 536,
+      "start": 20
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "II",
+      "goal": 7,
+      "map_id": 536,
+      "start": 27
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "II",
+      "goal": 13,
+      "map_id": 536,
+      "start": 28
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "II",
+      "goal": 12,
+      "map_id": 536,
+      "start": 29
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "II",
+      "goal": 2,
+      "map_id": 536,
+      "start": 34
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 14,
+      "map_id": 536,
+      "start": 34
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "II",
+      "goal": 14,
+      "map_id": 536,
+      "start": 35
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 21,
+      "map_id": 546,
+      "start": 0
+    },
+    {
+      "M": 12,
+      "distance": 8,
+      "family": "II",
+      "goal": 29,
+      "map_id": 546,
+      "start": 1
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 12,
+      "map_id": 546,
+      "start": 2
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 18,
+      "map_id": 546,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 8,
+      "map_id": 546,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 21,
+      "map_id": 546,
+      "start": 5
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 27,
+      "map_id": 546,
+      "start": 6
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 33,
+      "map_id": 546,
+      "start": 6
+    },
+    {
+      "M": 12,
+      "distance": 7,
+      "family": "II",
+      "goal": 35,
+      "map_id": 546,
+      "start": 13
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 11,
+      "map_id": 546,
+      "start": 18
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 0,
+      "map_id": 546,
+      "start": 19
+    },
+    {
+      "M": 4,
+      "distance": 9,
+      "family": "II",
+      "goal": 5,
+      "map_id": 546,
+      "start": 23
+    },
+    {
+      "M": 10,
+      "distance": 10,
+      "family": "II",
+      "goal": 0,
+      "map_id": 546,
+      "start": 31
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 6,
+      "map_id": 546,
+      "start": 33
+    },
+    {
+      "M": 30,
+      "distance": 9,
+      "family": "II",
+      "goal": 0,
+      "map_id": 546,
+      "start": 34
+    },
+    {
+      "M": 6,
+      "distance": 9,
+      "family": "II",
+      "goal": 10,
+      "map_id": 546,
+      "start": 35
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 11,
+      "map_id": 547,
+      "start": 0
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 24,
+      "map_id": 547,
+      "start": 1
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "II",
+      "goal": 12,
+      "map_id": 547,
+      "start": 3
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "II",
+      "goal": 13,
+      "map_id": 547,
+      "start": 4
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "II",
+      "goal": 25,
+      "map_id": 547,
+      "start": 5
+    },
+    {
+      "M": 9,
+      "distance": 9,
+      "family": "II",
+      "goal": 31,
+      "map_id": 547,
+      "start": 5
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "II",
+      "goal": 30,
+      "map_id": 547,
+      "start": 10
+    },
+    {
+      "M": 14,
+      "distance": 6,
+      "family": "II",
+      "goal": 3,
+      "map_id": 547,
+      "start": 18
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "II",
+      "goal": 11,
+      "map_id": 547,
+      "start": 18
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "II",
+      "goal": 8,
+      "map_id": 547,
+      "start": 24
+    },
+    {
+      "M": 7,
+      "distance": 7,
+      "family": "II",
+      "goal": 10,
+      "map_id": 547,
+      "start": 24
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "II",
+      "goal": 2,
+      "map_id": 547,
+      "start": 30
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 7,
+      "map_id": 547,
+      "start": 30
+    },
+    {
+      "M": 9,
+      "distance": 9,
+      "family": "II",
+      "goal": 11,
+      "map_id": 547,
+      "start": 30
+    },
+    {
+      "M": 9,
+      "distance": 9,
+      "family": "II",
+      "goal": 5,
+      "map_id": 547,
+      "start": 31
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 12,
+      "map_id": 547,
+      "start": 31
+    },
+    {
+      "M": 30,
+      "distance": 8,
+      "family": "II",
+      "goal": 28,
+      "map_id": 554,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 12,
+      "map_id": 554,
+      "start": 2
+    },
+    {
+      "M": 16,
+      "distance": 8,
+      "family": "II",
+      "goal": 31,
+      "map_id": 554,
+      "start": 4
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "II",
+      "goal": 33,
+      "map_id": 554,
+      "start": 4
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "II",
+      "goal": 32,
+      "map_id": 554,
+      "start": 6
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "II",
+      "goal": 35,
+      "map_id": 554,
+      "start": 8
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 25,
+      "map_id": 554,
+      "start": 10
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "II",
+      "goal": 31,
+      "map_id": 554,
+      "start": 10
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 0,
+      "map_id": 554,
+      "start": 14
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 5,
+      "map_id": 554,
+      "start": 21
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 31,
+      "map_id": 554,
+      "start": 21
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 32,
+      "map_id": 554,
+      "start": 22
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 4,
+      "map_id": 554,
+      "start": 27
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "II",
+      "goal": 1,
+      "map_id": 554,
+      "start": 33
+    },
+    {
+      "M": 16,
+      "distance": 7,
+      "family": "II",
+      "goal": 12,
+      "map_id": 554,
+      "start": 34
+    },
+    {
+      "M": 25,
+      "distance": 7,
+      "family": "II",
+      "goal": 13,
+      "map_id": 554,
+      "start": 35
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 9,
+      "map_id": 558,
+      "start": 0
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 10,
+      "map_id": 558,
+      "start": 1
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "II",
+      "goal": 12,
+      "map_id": 558,
+      "start": 3
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 6,
+      "map_id": 558,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 14,
+      "map_id": 558,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 3,
+      "map_id": 558,
+      "start": 6
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 5,
+      "map_id": 558,
+      "start": 6
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 4,
+      "map_id": 558,
+      "start": 7
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "II",
+      "goal": 5,
+      "map_id": 558,
+      "start": 12
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "II",
+      "goal": 5,
+      "map_id": 558,
+      "start": 13
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 35,
+      "map_id": 558,
+      "start": 21
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 34,
+      "map_id": 558,
+      "start": 24
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 31,
+      "map_id": 558,
+      "start": 28
+    },
+    {
+      "M": 5,
+      "distance": 4,
+      "family": "II",
+      "goal": 22,
+      "map_id": 558,
+      "start": 32
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "II",
+      "goal": 23,
+      "map_id": 558,
+      "start": 32
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 29,
+      "map_id": 558,
+      "start": 32
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 27,
+      "map_id": 559,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 31,
+      "map_id": 559,
+      "start": 0
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 10,
+      "map_id": 559,
+      "start": 1
+    },
+    {
+      "M": 13,
+      "distance": 7,
+      "family": "II",
+      "goal": 18,
+      "map_id": 559,
+      "start": 4
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 24,
+      "map_id": 559,
+      "start": 8
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 28,
+      "map_id": 559,
+      "start": 8
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 30,
+      "map_id": 559,
+      "start": 9
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "II",
+      "goal": 32,
+      "map_id": 559,
+      "start": 10
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 12,
+      "map_id": 559,
+      "start": 16
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 1,
+      "map_id": 559,
+      "start": 18
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 3,
+      "map_id": 559,
+      "start": 18
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 24,
+      "map_id": 559,
+      "start": 22
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 8,
+      "map_id": 559,
+      "start": 24
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 13,
+      "map_id": 559,
+      "start": 28
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 4,
+      "map_id": 559,
+      "start": 33
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 7,
+      "map_id": 559,
+      "start": 34
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 17,
+      "map_id": 591,
+      "start": 0
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 20,
+      "map_id": 591,
+      "start": 0
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 11,
+      "map_id": 591,
+      "start": 1
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 23,
+      "map_id": 591,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "II",
+      "goal": 32,
+      "map_id": 591,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 8,
+      "map_id": 591,
+      "start": 5
+    },
+    {
+      "M": 11,
+      "distance": 7,
+      "family": "II",
+      "goal": 12,
+      "map_id": 591,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "II",
+      "goal": 34,
+      "map_id": 591,
+      "start": 8
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "II",
+      "goal": 24,
+      "map_id": 591,
+      "start": 11
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "II",
+      "goal": 3,
+      "map_id": 591,
+      "start": 12
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 2,
+      "map_id": 591,
+      "start": 23
+    },
+    {
+      "M": 17,
+      "distance": 9,
+      "family": "II",
+      "goal": 5,
+      "map_id": 591,
+      "start": 24
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 29,
+      "map_id": 591,
+      "start": 24
+    },
+    {
+      "M": 7,
+      "distance": 7,
+      "family": "II",
+      "goal": 2,
+      "map_id": 591,
+      "start": 30
+    },
+    {
+      "M": 20,
+      "distance": 10,
+      "family": "II",
+      "goal": 5,
+      "map_id": 591,
+      "start": 30
+    },
+    {
+      "M": 7,
+      "distance": 9,
+      "family": "II",
+      "goal": 11,
+      "map_id": 591,
+      "start": 30
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "II",
+      "goal": 17,
+      "map_id": 596,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 29,
+      "map_id": 596,
+      "start": 2
+    },
+    {
+      "M": 7,
+      "distance": 8,
+      "family": "II",
+      "goal": 30,
+      "map_id": 596,
+      "start": 3
+    },
+    {
+      "M": 20,
+      "distance": 9,
+      "family": "II",
+      "goal": 32,
+      "map_id": 596,
+      "start": 4
+    },
+    {
+      "M": 11,
+      "distance": 9,
+      "family": "II",
+      "goal": 24,
+      "map_id": 596,
+      "start": 5
+    },
+    {
+      "M": 10,
+      "distance": 9,
+      "family": "II",
+      "goal": 32,
+      "map_id": 596,
+      "start": 9
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 2,
+      "map_id": 596,
+      "start": 11
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 0,
+      "map_id": 596,
+      "start": 17
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 29,
+      "map_id": 596,
+      "start": 20
+    },
+    {
+      "M": 6,
+      "distance": 10,
+      "family": "II",
+      "goal": 0,
+      "map_id": 596,
+      "start": 21
+    },
+    {
+      "M": 6,
+      "distance": 9,
+      "family": "II",
+      "goal": 0,
+      "map_id": 596,
+      "start": 22
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 2,
+      "map_id": 596,
+      "start": 22
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "II",
+      "goal": 4,
+      "map_id": 596,
+      "start": 24
+    },
+    {
+      "M": 8,
+      "distance": 8,
+      "family": "II",
+      "goal": 2,
+      "map_id": 596,
+      "start": 28
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 32,
+      "map_id": 596,
+      "start": 29
+    },
+    {
+      "M": 15,
+      "distance": 10,
+      "family": "II",
+      "goal": 1,
+      "map_id": 596,
+      "start": 34
+    },
+    {
+      "M": 20,
+      "distance": 9,
+      "family": "II",
+      "goal": 35,
+      "map_id": 599,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 17,
+      "map_id": 599,
+      "start": 2
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 4,
+      "map_id": 599,
+      "start": 6
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 5,
+      "map_id": 599,
+      "start": 6
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 26,
+      "map_id": 599,
+      "start": 11
+    },
+    {
+      "M": 15,
+      "distance": 8,
+      "family": "II",
+      "goal": 35,
+      "map_id": 599,
+      "start": 12
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "II",
+      "goal": 5,
+      "map_id": 599,
+      "start": 13
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 34,
+      "map_id": 599,
+      "start": 13
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "II",
+      "goal": 35,
+      "map_id": 599,
+      "start": 13
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 4,
+      "map_id": 599,
+      "start": 20
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 26,
+      "map_id": 599,
+      "start": 23
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "II",
+      "goal": 5,
+      "map_id": 599,
+      "start": 25
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 11,
+      "map_id": 599,
+      "start": 26
+    },
+    {
+      "M": 13,
+      "distance": 8,
+      "family": "II",
+      "goal": 10,
+      "map_id": 599,
+      "start": 32
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 19,
+      "map_id": 599,
+      "start": 33
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "II",
+      "goal": 2,
+      "map_id": 599,
+      "start": 35
+    },
+    {
+      "M": 17,
+      "distance": 8,
+      "family": "II",
+      "goal": 33,
+      "map_id": 603,
+      "start": 0
+    },
+    {
+      "M": 36,
+      "distance": 8,
+      "family": "II",
+      "goal": 34,
+      "map_id": 603,
+      "start": 1
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 6,
+      "map_id": 603,
+      "start": 4
+    },
+    {
+      "M": 5,
+      "distance": 4,
+      "family": "II",
+      "goal": 15,
+      "map_id": 603,
+      "start": 5
+    },
+    {
+      "M": 16,
+      "distance": 9,
+      "family": "II",
+      "goal": 35,
+      "map_id": 603,
+      "start": 6
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "II",
+      "goal": 34,
+      "map_id": 603,
+      "start": 8
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "II",
+      "goal": 35,
+      "map_id": 603,
+      "start": 9
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "II",
+      "goal": 32,
+      "map_id": 603,
+      "start": 11
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 5,
+      "map_id": 603,
+      "start": 12
+    },
+    {
+      "M": 13,
+      "distance": 8,
+      "family": "II",
+      "goal": 28,
+      "map_id": 603,
+      "start": 12
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 2,
+      "map_id": 603,
+      "start": 22
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 9,
+      "map_id": 603,
+      "start": 28
+    },
+    {
+      "M": 16,
+      "distance": 8,
+      "family": "II",
+      "goal": 10,
+      "map_id": 603,
+      "start": 30
+    },
+    {
+      "M": 16,
+      "distance": 9,
+      "family": "II",
+      "goal": 11,
+      "map_id": 603,
+      "start": 30
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "II",
+      "goal": 22,
+      "map_id": 603,
+      "start": 31
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 0,
+      "map_id": 603,
+      "start": 32
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "II",
+      "goal": 23,
+      "map_id": 609,
+      "start": 0
+    },
+    {
+      "M": 11,
+      "distance": 8,
+      "family": "II",
+      "goal": 34,
+      "map_id": 609,
+      "start": 1
+    },
+    {
+      "M": 16,
+      "distance": 9,
+      "family": "II",
+      "goal": 30,
+      "map_id": 609,
+      "start": 4
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "II",
+      "goal": 14,
+      "map_id": 609,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 1,
+      "map_id": 609,
+      "start": 10
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 3,
+      "map_id": 609,
+      "start": 12
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "II",
+      "goal": 4,
+      "map_id": 609,
+      "start": 12
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 29,
+      "map_id": 609,
+      "start": 14
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "II",
+      "goal": 0,
+      "map_id": 609,
+      "start": 15
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 2,
+      "map_id": 609,
+      "start": 21
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 2,
+      "map_id": 609,
+      "start": 23
+    },
+    {
+      "M": 5,
+      "distance": 8,
+      "family": "II",
+      "goal": 4,
+      "map_id": 609,
+      "start": 24
+    },
+    {
+      "M": 13,
+      "distance": 7,
+      "family": "II",
+      "goal": 5,
+      "map_id": 609,
+      "start": 26
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 2,
+      "map_id": 609,
+      "start": 30
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "II",
+      "goal": 11,
+      "map_id": 609,
+      "start": 31
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 2,
+      "map_id": 609,
+      "start": 33
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 10,
+      "map_id": 623,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 18,
+      "map_id": 623,
+      "start": 3
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 24,
+      "map_id": 623,
+      "start": 3
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 7,
+      "map_id": 623,
+      "start": 5
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "II",
+      "goal": 35,
+      "map_id": 623,
+      "start": 7
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "II",
+      "goal": 28,
+      "map_id": 623,
+      "start": 12
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "II",
+      "goal": 5,
+      "map_id": 623,
+      "start": 18
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 31,
+      "map_id": 623,
+      "start": 23
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 3,
+      "map_id": 623,
+      "start": 24
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 5,
+      "map_id": 623,
+      "start": 26
+    },
+    {
+      "M": 12,
+      "distance": 9,
+      "family": "II",
+      "goal": 5,
+      "map_id": 623,
+      "start": 28
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 22,
+      "map_id": 623,
+      "start": 30
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "II",
+      "goal": 0,
+      "map_id": 623,
+      "start": 33
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 8,
+      "map_id": 623,
+      "start": 34
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "II",
+      "goal": 2,
+      "map_id": 623,
+      "start": 35
+    },
+    {
+      "M": 10,
+      "distance": 10,
+      "family": "II",
+      "goal": 11,
+      "map_id": 623,
+      "start": 35
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 20,
+      "map_id": 635,
+      "start": 5
+    },
+    {
+      "M": 20,
+      "distance": 7,
+      "family": "II",
+      "goal": 33,
+      "map_id": 635,
+      "start": 6
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 16,
+      "map_id": 635,
+      "start": 7
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 12,
+      "map_id": 635,
+      "start": 9
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "II",
+      "goal": 35,
+      "map_id": 635,
+      "start": 9
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "II",
+      "goal": 34,
+      "map_id": 635,
+      "start": 14
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 24,
+      "map_id": 635,
+      "start": 15
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 34,
+      "map_id": 635,
+      "start": 15
+    },
+    {
+      "M": 20,
+      "distance": 6,
+      "family": "II",
+      "goal": 3,
+      "map_id": 635,
+      "start": 18
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "II",
+      "goal": 10,
+      "map_id": 635,
+      "start": 18
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 1,
+      "map_id": 635,
+      "start": 20
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 24,
+      "map_id": 635,
+      "start": 21
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "II",
+      "goal": 12,
+      "map_id": 635,
+      "start": 29
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 12,
+      "map_id": 635,
+      "start": 33
+    },
+    {
+      "M": 20,
+      "distance": 7,
+      "family": "II",
+      "goal": 2,
+      "map_id": 635,
+      "start": 34
+    },
+    {
+      "M": 8,
+      "distance": 5,
+      "family": "II",
+      "goal": 20,
+      "map_id": 635,
+      "start": 35
+    },
+    {
+      "M": 25,
+      "distance": 7,
+      "family": "II",
+      "goal": 28,
+      "map_id": 677,
+      "start": 1
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 28,
+      "map_id": 677,
+      "start": 3
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "II",
+      "goal": 30,
+      "map_id": 677,
+      "start": 3
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 27,
+      "map_id": 677,
+      "start": 4
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "II",
+      "goal": 29,
+      "map_id": 677,
+      "start": 7
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 32,
+      "map_id": 677,
+      "start": 9
+    },
+    {
+      "M": 14,
+      "distance": 9,
+      "family": "II",
+      "goal": 29,
+      "map_id": 677,
+      "start": 12
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 31,
+      "map_id": 677,
+      "start": 15
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 8,
+      "map_id": 677,
+      "start": 22
+    },
+    {
+      "M": 13,
+      "distance": 8,
+      "family": "II",
+      "goal": 16,
+      "map_id": 677,
+      "start": 24
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "II",
+      "goal": 12,
+      "map_id": 677,
+      "start": 27
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "II",
+      "goal": 6,
+      "map_id": 677,
+      "start": 28
+    },
+    {
+      "M": 13,
+      "distance": 8,
+      "family": "II",
+      "goal": 12,
+      "map_id": 677,
+      "start": 28
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "II",
+      "goal": 18,
+      "map_id": 677,
+      "start": 29
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "II",
+      "goal": 22,
+      "map_id": 677,
+      "start": 30
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "II",
+      "goal": 20,
+      "map_id": 677,
+      "start": 35
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "II",
+      "goal": 33,
+      "map_id": 680,
+      "start": 1
+    },
+    {
+      "M": 16,
+      "distance": 8,
+      "family": "II",
+      "goal": 35,
+      "map_id": 680,
+      "start": 2
+    },
+    {
+      "M": 36,
+      "distance": 9,
+      "family": "II",
+      "goal": 24,
+      "map_id": 680,
+      "start": 5
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 25,
+      "map_id": 680,
+      "start": 9
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 4,
+      "map_id": 680,
+      "start": 12
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 2,
+      "map_id": 680,
+      "start": 18
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 0,
+      "map_id": 680,
+      "start": 20
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 6,
+      "map_id": 680,
+      "start": 20
+    },
+    {
+      "M": 13,
+      "distance": 8,
+      "family": "II",
+      "goal": 7,
+      "map_id": 680,
+      "start": 23
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 1,
+      "map_id": 680,
+      "start": 24
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 1,
+      "map_id": 680,
+      "start": 26
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 7,
+      "map_id": 680,
+      "start": 28
+    },
+    {
+      "M": 40,
+      "distance": 8,
+      "family": "II",
+      "goal": 6,
+      "map_id": 680,
+      "start": 34
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 20,
+      "map_id": 680,
+      "start": 34
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 3,
+      "map_id": 680,
+      "start": 35
+    },
+    {
+      "M": 60,
+      "distance": 9,
+      "family": "II",
+      "goal": 6,
+      "map_id": 680,
+      "start": 35
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "II",
+      "goal": 24,
+      "map_id": 685,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 9,
+      "family": "II",
+      "goal": 33,
+      "map_id": 685,
+      "start": 1
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "II",
+      "goal": 30,
+      "map_id": 685,
+      "start": 2
+    },
+    {
+      "M": 20,
+      "distance": 7,
+      "family": "II",
+      "goal": 18,
+      "map_id": 685,
+      "start": 4
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 19,
+      "map_id": 685,
+      "start": 4
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "II",
+      "goal": 12,
+      "map_id": 685,
+      "start": 5
+    },
+    {
+      "M": 22,
+      "distance": 10,
+      "family": "II",
+      "goal": 30,
+      "map_id": 685,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "II",
+      "goal": 5,
+      "map_id": 685,
+      "start": 6
+    },
+    {
+      "M": 4,
+      "distance": 9,
+      "family": "II",
+      "goal": 23,
+      "map_id": 685,
+      "start": 6
+    },
+    {
+      "M": 12,
+      "distance": 10,
+      "family": "II",
+      "goal": 33,
+      "map_id": 685,
+      "start": 9
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "II",
+      "goal": 6,
+      "map_id": 685,
+      "start": 17
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 6,
+      "map_id": 685,
+      "start": 20
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 11,
+      "map_id": 685,
+      "start": 20
+    },
+    {
+      "M": 12,
+      "distance": 10,
+      "family": "II",
+      "goal": 19,
+      "map_id": 685,
+      "start": 23
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "II",
+      "goal": 9,
+      "map_id": 685,
+      "start": 31
+    },
+    {
+      "M": 6,
+      "distance": 10,
+      "family": "II",
+      "goal": 7,
+      "map_id": 685,
+      "start": 35
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "II",
+      "goal": 20,
+      "map_id": 696,
+      "start": 0
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 19,
+      "map_id": 696,
+      "start": 3
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "II",
+      "goal": 19,
+      "map_id": 696,
+      "start": 4
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 11,
+      "map_id": 696,
+      "start": 6
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 32,
+      "map_id": 696,
+      "start": 9
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "II",
+      "goal": 5,
+      "map_id": 696,
+      "start": 12
+    },
+    {
+      "M": 16,
+      "distance": 9,
+      "family": "II",
+      "goal": 17,
+      "map_id": 696,
+      "start": 12
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 33,
+      "map_id": 696,
+      "start": 13
+    },
+    {
+      "M": 5,
+      "distance": 4,
+      "family": "II",
+      "goal": 6,
+      "map_id": 696,
+      "start": 20
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "II",
+      "goal": 35,
+      "map_id": 696,
+      "start": 20
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "II",
+      "goal": 12,
+      "map_id": 696,
+      "start": 23
+    },
+    {
+      "M": 21,
+      "distance": 7,
+      "family": "II",
+      "goal": 3,
+      "map_id": 696,
+      "start": 31
+    },
+    {
+      "M": 5,
+      "distance": 8,
+      "family": "II",
+      "goal": 11,
+      "map_id": 696,
+      "start": 31
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 14,
+      "map_id": 696,
+      "start": 31
+    },
+    {
+      "M": 21,
+      "distance": 7,
+      "family": "II",
+      "goal": 1,
+      "map_id": 696,
+      "start": 33
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "II",
+      "goal": 5,
+      "map_id": 696,
+      "start": 33
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 16,
+      "map_id": 786,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 7,
+      "map_id": 786,
+      "start": 4
+    },
+    {
+      "M": 14,
+      "distance": 7,
+      "family": "II",
+      "goal": 23,
+      "map_id": 786,
+      "start": 6
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 22,
+      "map_id": 786,
+      "start": 7
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 26,
+      "map_id": 786,
+      "start": 10
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 10,
+      "map_id": 786,
+      "start": 13
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 6,
+      "map_id": 786,
+      "start": 16
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 33,
+      "map_id": 786,
+      "start": 16
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 2,
+      "map_id": 786,
+      "start": 19
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "II",
+      "goal": 9,
+      "map_id": 786,
+      "start": 19
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 3,
+      "map_id": 786,
+      "start": 20
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 32,
+      "map_id": 786,
+      "start": 23
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "II",
+      "goal": 3,
+      "map_id": 786,
+      "start": 26
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 7,
+      "map_id": 786,
+      "start": 27
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "II",
+      "goal": 19,
+      "map_id": 786,
+      "start": 28
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "II",
+      "goal": 20,
+      "map_id": 786,
+      "start": 35
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 7,
+      "start": 1
+    },
+    {
+      "M": 35,
+      "distance": 7,
+      "family": "LL",
+      "goal": 23,
+      "map_id": 7,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 23,
+      "map_id": 7,
+      "start": 4
+    },
+    {
+      "M": 56,
+      "distance": 8,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 7,
+      "start": 5
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "LL",
+      "goal": 28,
+      "map_id": 7,
+      "start": 8
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 7,
+      "start": 11
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 7,
+      "start": 12
+    },
+    {
+      "M": 5,
+      "distance": 4,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 7,
+      "start": 14
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 7,
+      "start": 19
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 7,
+      "start": 20
+    },
+    {
+      "M": 30,
+      "distance": 7,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 7,
+      "start": 24
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 28,
+      "map_id": 7,
+      "start": 24
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 7,
+      "start": 25
+    },
+    {
+      "M": 16,
+      "distance": 7,
+      "family": "LL",
+      "goal": 9,
+      "map_id": 7,
+      "start": 30
+    },
+    {
+      "M": 36,
+      "distance": 9,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 7,
+      "start": 30
+    },
+    {
+      "M": 20,
+      "distance": 8,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 7,
+      "start": 33
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 22,
+      "map_id": 59,
+      "start": 2
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 19,
+      "map_id": 59,
+      "start": 3
+    },
+    {
+      "M": 35,
+      "distance": 8,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 59,
+      "start": 4
+    },
+    {
+      "M": 35,
+      "distance": 10,
+      "family": "LL",
+      "goal": 31,
+      "map_id": 59,
+      "start": 4
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 59,
+      "start": 6
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 59,
+      "start": 8
+    },
+    {
+      "M": 15,
+      "distance": 8,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 59,
+      "start": 10
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 59,
+      "start": 14
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 59,
+      "start": 15
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 59,
+      "start": 15
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 59,
+      "start": 16
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 16,
+      "map_id": 59,
+      "start": 18
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 16,
+      "map_id": 59,
+      "start": 19
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 59,
+      "start": 20
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 16,
+      "map_id": 59,
+      "start": 30
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 59,
+      "start": 34
+    },
+    {
+      "M": 35,
+      "distance": 7,
+      "family": "LL",
+      "goal": 22,
+      "map_id": 60,
+      "start": 0
+    },
+    {
+      "M": 20,
+      "distance": 7,
+      "family": "LL",
+      "goal": 27,
+      "map_id": 60,
+      "start": 0
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 10,
+      "map_id": 60,
+      "start": 1
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 13,
+      "map_id": 60,
+      "start": 4
+    },
+    {
+      "M": 55,
+      "distance": 8,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 60,
+      "start": 5
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "LL",
+      "goal": 21,
+      "map_id": 60,
+      "start": 5
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 21,
+      "map_id": 60,
+      "start": 7
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 22,
+      "map_id": 60,
+      "start": 7
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 19,
+      "map_id": 60,
+      "start": 9
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 60,
+      "start": 11
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 60,
+      "start": 12
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 60,
+      "start": 13
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 60,
+      "start": 20
+    },
+    {
+      "M": 20,
+      "distance": 6,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 60,
+      "start": 22
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 13,
+      "map_id": 60,
+      "start": 22
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "LL",
+      "goal": 16,
+      "map_id": 60,
+      "start": 24
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 75,
+      "start": 1
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 75,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 20,
+      "map_id": 75,
+      "start": 3
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "LL",
+      "goal": 27,
+      "map_id": 75,
+      "start": 6
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 31,
+      "map_id": 75,
+      "start": 6
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 75,
+      "start": 7
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 75,
+      "start": 9
+    },
+    {
+      "M": 21,
+      "distance": 7,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 75,
+      "start": 12
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 75,
+      "start": 14
+    },
+    {
+      "M": 7,
+      "distance": 7,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 75,
+      "start": 17
+    },
+    {
+      "M": 21,
+      "distance": 8,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 75,
+      "start": 23
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 75,
+      "start": 23
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 75,
+      "start": 23
+    },
+    {
+      "M": 19,
+      "distance": 7,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 75,
+      "start": 25
+    },
+    {
+      "M": 12,
+      "distance": 7,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 75,
+      "start": 25
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 75,
+      "start": 31
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 15,
+      "map_id": 118,
+      "start": 0
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 16,
+      "map_id": 118,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 118,
+      "start": 1
+    },
+    {
+      "M": 34,
+      "distance": 9,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 118,
+      "start": 4
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 118,
+      "start": 7
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 118,
+      "start": 7
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 118,
+      "start": 7
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 118,
+      "start": 12
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 118,
+      "start": 12
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 118,
+      "start": 17
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 9,
+      "map_id": 118,
+      "start": 18
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 118,
+      "start": 20
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 118,
+      "start": 30
+    },
+    {
+      "M": 20,
+      "distance": 9,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 118,
+      "start": 32
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 118,
+      "start": 32
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 118,
+      "start": 33
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 121,
+      "start": 1
+    },
+    {
+      "M": 6,
+      "distance": 9,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 121,
+      "start": 5
+    },
+    {
+      "M": 14,
+      "distance": 7,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 121,
+      "start": 7
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 121,
+      "start": 8
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 121,
+      "start": 10
+    },
+    {
+      "M": 22,
+      "distance": 7,
+      "family": "LL",
+      "goal": 25,
+      "map_id": 121,
+      "start": 11
+    },
+    {
+      "M": 13,
+      "distance": 7,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 121,
+      "start": 11
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 121,
+      "start": 13
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 121,
+      "start": 15
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 121,
+      "start": 18
+    },
+    {
+      "M": 5,
+      "distance": 4,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 121,
+      "start": 26
+    },
+    {
+      "M": 28,
+      "distance": 8,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 121,
+      "start": 32
+    },
+    {
+      "M": 28,
+      "distance": 7,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 121,
+      "start": 33
+    },
+    {
+      "M": 48,
+      "distance": 10,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 121,
+      "start": 35
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 121,
+      "start": 35
+    },
+    {
+      "M": 9,
+      "distance": 7,
+      "family": "LL",
+      "goal": 13,
+      "map_id": 121,
+      "start": 35
+    },
+    {
+      "M": 30,
+      "distance": 7,
+      "family": "LL",
+      "goal": 27,
+      "map_id": 124,
+      "start": 0
+    },
+    {
+      "M": 40,
+      "distance": 8,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 124,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 124,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 124,
+      "start": 3
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 19,
+      "map_id": 124,
+      "start": 3
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 124,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 124,
+      "start": 10
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 124,
+      "start": 10
+    },
+    {
+      "M": 5,
+      "distance": 4,
+      "family": "LL",
+      "goal": 20,
+      "map_id": 124,
+      "start": 10
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 124,
+      "start": 13
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 124,
+      "start": 15
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 124,
+      "start": 17
+    },
+    {
+      "M": 34,
+      "distance": 7,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 124,
+      "start": 18
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 124,
+      "start": 20
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 9,
+      "map_id": 124,
+      "start": 32
+    },
+    {
+      "M": 22,
+      "distance": 7,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 124,
+      "start": 33
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 15,
+      "map_id": 154,
+      "start": 0
+    },
+    {
+      "M": 25,
+      "distance": 9,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 154,
+      "start": 1
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 154,
+      "start": 2
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 15,
+      "map_id": 154,
+      "start": 5
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 154,
+      "start": 6
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 154,
+      "start": 7
+    },
+    {
+      "M": 8,
+      "distance": 6,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 154,
+      "start": 7
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 154,
+      "start": 11
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 14,
+      "map_id": 154,
+      "start": 11
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 10,
+      "map_id": 154,
+      "start": 12
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 154,
+      "start": 15
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 154,
+      "start": 16
+    },
+    {
+      "M": 25,
+      "distance": 7,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 154,
+      "start": 19
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 9,
+      "map_id": 154,
+      "start": 25
+    },
+    {
+      "M": 5,
+      "distance": 4,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 154,
+      "start": 26
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 13,
+      "map_id": 154,
+      "start": 34
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 10,
+      "map_id": 186,
+      "start": 0
+    },
+    {
+      "M": 21,
+      "distance": 9,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 186,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 27,
+      "map_id": 186,
+      "start": 1
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 186,
+      "start": 1
+    },
+    {
+      "M": 12,
+      "distance": 8,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 186,
+      "start": 1
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 186,
+      "start": 3
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 28,
+      "map_id": 186,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 15,
+      "map_id": 186,
+      "start": 6
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 186,
+      "start": 6
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 186,
+      "start": 12
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 186,
+      "start": 13
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 186,
+      "start": 14
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 8,
+      "map_id": 186,
+      "start": 17
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 186,
+      "start": 18
+    },
+    {
+      "M": 28,
+      "distance": 9,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 186,
+      "start": 30
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 186,
+      "start": 32
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 222,
+      "start": 1
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 222,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 222,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 20,
+      "map_id": 222,
+      "start": 3
+    },
+    {
+      "M": 6,
+      "distance": 10,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 222,
+      "start": 5
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 21,
+      "map_id": 222,
+      "start": 6
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 222,
+      "start": 7
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 222,
+      "start": 9
+    },
+    {
+      "M": 9,
+      "distance": 9,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 222,
+      "start": 11
+    },
+    {
+      "M": 21,
+      "distance": 7,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 222,
+      "start": 12
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 222,
+      "start": 14
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 222,
+      "start": 17
+    },
+    {
+      "M": 27,
+      "distance": 10,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 222,
+      "start": 30
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 222,
+      "start": 33
+    },
+    {
+      "M": 17,
+      "distance": 10,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 222,
+      "start": 35
+    },
+    {
+      "M": 5,
+      "distance": 8,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 222,
+      "start": 35
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 9,
+      "map_id": 248,
+      "start": 0
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 15,
+      "map_id": 248,
+      "start": 0
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "LL",
+      "goal": 20,
+      "map_id": 248,
+      "start": 0
+    },
+    {
+      "M": 9,
+      "distance": 7,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 248,
+      "start": 0
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 16,
+      "map_id": 248,
+      "start": 1
+    },
+    {
+      "M": 32,
+      "distance": 8,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 248,
+      "start": 1
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 248,
+      "start": 3
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 248,
+      "start": 3
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 248,
+      "start": 4
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 248,
+      "start": 5
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 248,
+      "start": 10
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 248,
+      "start": 10
+    },
+    {
+      "M": 15,
+      "distance": 6,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 248,
+      "start": 17
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 248,
+      "start": 17
+    },
+    {
+      "M": 12,
+      "distance": 6,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 248,
+      "start": 26
+    },
+    {
+      "M": 32,
+      "distance": 9,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 248,
+      "start": 35
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 304,
+      "start": 6
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 304,
+      "start": 6
+    },
+    {
+      "M": 13,
+      "distance": 7,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 304,
+      "start": 6
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 28,
+      "map_id": 304,
+      "start": 8
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 304,
+      "start": 8
+    },
+    {
+      "M": 13,
+      "distance": 7,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 304,
+      "start": 8
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 26,
+      "map_id": 304,
+      "start": 9
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 304,
+      "start": 9
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 304,
+      "start": 18
+    },
+    {
+      "M": 5,
+      "distance": 4,
+      "family": "LL",
+      "goal": 10,
+      "map_id": 304,
+      "start": 20
+    },
+    {
+      "M": 7,
+      "distance": 6,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 304,
+      "start": 26
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 304,
+      "start": 29
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 16,
+      "map_id": 304,
+      "start": 30
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "LL",
+      "goal": 10,
+      "map_id": 304,
+      "start": 32
+    },
+    {
+      "M": 23,
+      "distance": 8,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 304,
+      "start": 34
+    },
+    {
+      "M": 7,
+      "distance": 8,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 304,
+      "start": 34
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 10,
+      "map_id": 338,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 338,
+      "start": 0
+    },
+    {
+      "M": 28,
+      "distance": 8,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 338,
+      "start": 1
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 338,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 338,
+      "start": 4
+    },
+    {
+      "M": 9,
+      "distance": 7,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 338,
+      "start": 7
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 338,
+      "start": 7
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 338,
+      "start": 11
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 338,
+      "start": 17
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 338,
+      "start": 18
+    },
+    {
+      "M": 22,
+      "distance": 7,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 338,
+      "start": 19
+    },
+    {
+      "M": 30,
+      "distance": 8,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 338,
+      "start": 24
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 338,
+      "start": 27
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 338,
+      "start": 27
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 338,
+      "start": 30
+    },
+    {
+      "M": 6,
+      "distance": 9,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 338,
+      "start": 30
+    },
+    {
+      "M": 20,
+      "distance": 8,
+      "family": "LL",
+      "goal": 28,
+      "map_id": 341,
+      "start": 0
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 10,
+      "map_id": 341,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 19,
+      "map_id": 341,
+      "start": 2
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 341,
+      "start": 3
+    },
+    {
+      "M": 30,
+      "distance": 7,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 341,
+      "start": 4
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 341,
+      "start": 5
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "LL",
+      "goal": 28,
+      "map_id": 341,
+      "start": 6
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 341,
+      "start": 8
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 341,
+      "start": 8
+    },
+    {
+      "M": 12,
+      "distance": 6,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 341,
+      "start": 13
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 341,
+      "start": 14
+    },
+    {
+      "M": 30,
+      "distance": 8,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 341,
+      "start": 24
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 341,
+      "start": 27
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 341,
+      "start": 30
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 341,
+      "start": 33
+    },
+    {
+      "M": 9,
+      "distance": 9,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 341,
+      "start": 35
+    },
+    {
+      "M": 16,
+      "distance": 6,
+      "family": "LL",
+      "goal": 21,
+      "map_id": 369,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 13,
+      "map_id": 369,
+      "start": 3
+    },
+    {
+      "M": 11,
+      "distance": 8,
+      "family": "LL",
+      "goal": 31,
+      "map_id": 369,
+      "start": 4
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 369,
+      "start": 4
+    },
+    {
+      "M": 7,
+      "distance": 7,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 369,
+      "start": 7
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 369,
+      "start": 8
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 369,
+      "start": 11
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 369,
+      "start": 20
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 369,
+      "start": 26
+    },
+    {
+      "M": 12,
+      "distance": 8,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 369,
+      "start": 29
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 369,
+      "start": 29
+    },
+    {
+      "M": 11,
+      "distance": 7,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 369,
+      "start": 32
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 369,
+      "start": 33
+    },
+    {
+      "M": 23,
+      "distance": 8,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 369,
+      "start": 35
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "LL",
+      "goal": 14,
+      "map_id": 369,
+      "start": 35
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 20,
+      "map_id": 369,
+      "start": 35
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 20,
+      "map_id": 385,
+      "start": 0
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 385,
+      "start": 5
+    },
+    {
+      "M": 13,
+      "distance": 7,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 385,
+      "start": 6
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 385,
+      "start": 7
+    },
+    {
+      "M": 13,
+      "distance": 7,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 385,
+      "start": 8
+    },
+    {
+      "M": 5,
+      "distance": 8,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 385,
+      "start": 9
+    },
+    {
+      "M": 7,
+      "distance": 6,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 385,
+      "start": 13
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 385,
+      "start": 15
+    },
+    {
+      "M": 5,
+      "distance": 9,
+      "family": "LL",
+      "goal": 31,
+      "map_id": 385,
+      "start": 17
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 385,
+      "start": 29
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 15,
+      "map_id": 385,
+      "start": 30
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "LL",
+      "goal": 10,
+      "map_id": 385,
+      "start": 32
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 14,
+      "map_id": 385,
+      "start": 34
+    },
+    {
+      "M": 39,
+      "distance": 9,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 385,
+      "start": 35
+    },
+    {
+      "M": 23,
+      "distance": 8,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 385,
+      "start": 35
+    },
+    {
+      "M": 13,
+      "distance": 7,
+      "family": "LL",
+      "goal": 8,
+      "map_id": 385,
+      "start": 35
+    },
+    {
+      "M": 20,
+      "distance": 6,
+      "family": "LL",
+      "goal": 21,
+      "map_id": 399,
+      "start": 0
+    },
+    {
+      "M": 20,
+      "distance": 9,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 399,
+      "start": 0
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 399,
+      "start": 1
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 399,
+      "start": 2
+    },
+    {
+      "M": 8,
+      "distance": 7,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 399,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 399,
+      "start": 2
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 399,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 399,
+      "start": 11
+    },
+    {
+      "M": 14,
+      "distance": 6,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 399,
+      "start": 12
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 399,
+      "start": 13
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 399,
+      "start": 18
+    },
+    {
+      "M": 40,
+      "distance": 8,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 399,
+      "start": 18
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 399,
+      "start": 20
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "LL",
+      "goal": 10,
+      "map_id": 399,
+      "start": 24
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 399,
+      "start": 32
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 10,
+      "map_id": 399,
+      "start": 35
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 10,
+      "map_id": 402,
+      "start": 0
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 402,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 402,
+      "start": 3
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 26,
+      "map_id": 402,
+      "start": 3
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 402,
+      "start": 5
+    },
+    {
+      "M": 15,
+      "distance": 9,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 402,
+      "start": 5
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 402,
+      "start": 10
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 402,
+      "start": 14
+    },
+    {
+      "M": 9,
+      "distance": 7,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 402,
+      "start": 18
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 402,
+      "start": 19
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 402,
+      "start": 26
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 402,
+      "start": 27
+    },
+    {
+      "M": 24,
+      "distance": 8,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 402,
+      "start": 29
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 14,
+      "map_id": 402,
+      "start": 29
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 15,
+      "map_id": 402,
+      "start": 32
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "LL",
+      "goal": 19,
+      "map_id": 402,
+      "start": 35
+    },
+    {
+      "M": 6,
+      "distance": 9,
+      "family": "LL",
+      "goal": 23,
+      "map_id": 423,
+      "start": 1
+    },
+    {
+      "M": 9,
+      "distance": 7,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 423,
+      "start": 2
+    },
+    {
+      "M": 16,
+      "distance": 7,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 423,
+      "start": 3
+    },
+    {
+      "M": 14,
+      "distance": 6,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 423,
+      "start": 4
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 423,
+      "start": 5
+    },
+    {
+      "M": 12,
+      "distance": 6,
+      "family": "LL",
+      "goal": 13,
+      "map_id": 423,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 27,
+      "map_id": 423,
+      "start": 6
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 423,
+      "start": 6
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 423,
+      "start": 9
+    },
+    {
+      "M": 7,
+      "distance": 6,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 423,
+      "start": 10
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 423,
+      "start": 12
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 423,
+      "start": 12
+    },
+    {
+      "M": 7,
+      "distance": 7,
+      "family": "LL",
+      "goal": 10,
+      "map_id": 423,
+      "start": 24
+    },
+    {
+      "M": 25,
+      "distance": 9,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 423,
+      "start": 30
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 423,
+      "start": 32
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 423,
+      "start": 34
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 14,
+      "map_id": 523,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 8,
+      "family": "LL",
+      "goal": 31,
+      "map_id": 523,
+      "start": 0
+    },
+    {
+      "M": 12,
+      "distance": 8,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 523,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 26,
+      "map_id": 523,
+      "start": 5
+    },
+    {
+      "M": 11,
+      "distance": 9,
+      "family": "LL",
+      "goal": 31,
+      "map_id": 523,
+      "start": 5
+    },
+    {
+      "M": 11,
+      "distance": 8,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 523,
+      "start": 5
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 523,
+      "start": 10
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 523,
+      "start": 11
+    },
+    {
+      "M": 8,
+      "distance": 7,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 523,
+      "start": 11
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 523,
+      "start": 12
+    },
+    {
+      "M": 6,
+      "distance": 9,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 523,
+      "start": 30
+    },
+    {
+      "M": 11,
+      "distance": 10,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 523,
+      "start": 30
+    },
+    {
+      "M": 8,
+      "distance": 9,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 523,
+      "start": 30
+    },
+    {
+      "M": 8,
+      "distance": 8,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 523,
+      "start": 31
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 523,
+      "start": 31
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 523,
+      "start": 35
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 14,
+      "map_id": 530,
+      "start": 0
+    },
+    {
+      "M": 9,
+      "distance": 7,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 530,
+      "start": 1
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 530,
+      "start": 5
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 530,
+      "start": 11
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 530,
+      "start": 11
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 530,
+      "start": 12
+    },
+    {
+      "M": 5,
+      "distance": 4,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 530,
+      "start": 13
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 530,
+      "start": 17
+    },
+    {
+      "M": 6,
+      "distance": 10,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 530,
+      "start": 24
+    },
+    {
+      "M": 5,
+      "distance": 10,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 530,
+      "start": 24
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 530,
+      "start": 27
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 530,
+      "start": 29
+    },
+    {
+      "M": 8,
+      "distance": 10,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 530,
+      "start": 30
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 530,
+      "start": 31
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 530,
+      "start": 32
+    },
+    {
+      "M": 7,
+      "distance": 6,
+      "family": "LL",
+      "goal": 14,
+      "map_id": 530,
+      "start": 35
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 22,
+      "map_id": 581,
+      "start": 0
+    },
+    {
+      "M": 13,
+      "distance": 7,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 581,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 581,
+      "start": 6
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 581,
+      "start": 7
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 581,
+      "start": 10
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 581,
+      "start": 12
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 581,
+      "start": 12
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "LL",
+      "goal": 23,
+      "map_id": 581,
+      "start": 12
+    },
+    {
+      "M": 13,
+      "distance": 7,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 581,
+      "start": 18
+    },
+    {
+      "M": 16,
+      "distance": 8,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 581,
+      "start": 18
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 581,
+      "start": 18
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 581,
+      "start": 26
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 581,
+      "start": 27
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 8,
+      "map_id": 581,
+      "start": 29
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 581,
+      "start": 32
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 581,
+      "start": 33
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 15,
+      "map_id": 606,
+      "start": 0
+    },
+    {
+      "M": 8,
+      "distance": 7,
+      "family": "LL",
+      "goal": 27,
+      "map_id": 606,
+      "start": 0
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 606,
+      "start": 1
+    },
+    {
+      "M": 8,
+      "distance": 8,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 606,
+      "start": 4
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 21,
+      "map_id": 606,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 606,
+      "start": 6
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 606,
+      "start": 11
+    },
+    {
+      "M": 9,
+      "distance": 9,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 606,
+      "start": 11
+    },
+    {
+      "M": 7,
+      "distance": 5,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 606,
+      "start": 15
+    },
+    {
+      "M": 5,
+      "distance": 4,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 606,
+      "start": 15
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 606,
+      "start": 24
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 606,
+      "start": 25
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 31,
+      "map_id": 606,
+      "start": 29
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 606,
+      "start": 31
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 606,
+      "start": 33
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 606,
+      "start": 33
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "LL",
+      "goal": 23,
+      "map_id": 700,
+      "start": 1
+    },
+    {
+      "M": 38,
+      "distance": 8,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 700,
+      "start": 1
+    },
+    {
+      "M": 14,
+      "distance": 7,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 700,
+      "start": 2
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 700,
+      "start": 3
+    },
+    {
+      "M": 16,
+      "distance": 7,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 700,
+      "start": 6
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 700,
+      "start": 8
+    },
+    {
+      "M": 9,
+      "distance": 7,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 700,
+      "start": 18
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 700,
+      "start": 19
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 26,
+      "map_id": 700,
+      "start": 23
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 700,
+      "start": 26
+    },
+    {
+      "M": 50,
+      "distance": 8,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 700,
+      "start": 28
+    },
+    {
+      "M": 8,
+      "distance": 5,
+      "family": "LL",
+      "goal": 13,
+      "map_id": 700,
+      "start": 28
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 700,
+      "start": 29
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 700,
+      "start": 33
+    },
+    {
+      "M": 42,
+      "distance": 8,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 700,
+      "start": 34
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 21,
+      "map_id": 700,
+      "start": 35
+    },
+    {
+      "M": 11,
+      "distance": 8,
+      "family": "LL",
+      "goal": 23,
+      "map_id": 718,
+      "start": 0
+    },
+    {
+      "M": 12,
+      "distance": 7,
+      "family": "LL",
+      "goal": 28,
+      "map_id": 718,
+      "start": 1
+    },
+    {
+      "M": 16,
+      "distance": 8,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 718,
+      "start": 4
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 21,
+      "map_id": 718,
+      "start": 6
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 26,
+      "map_id": 718,
+      "start": 6
+    },
+    {
+      "M": 24,
+      "distance": 8,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 718,
+      "start": 6
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 718,
+      "start": 8
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 718,
+      "start": 12
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 718,
+      "start": 19
+    },
+    {
+      "M": 16,
+      "distance": 8,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 718,
+      "start": 24
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 718,
+      "start": 26
+    },
+    {
+      "M": 9,
+      "distance": 9,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 718,
+      "start": 30
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 718,
+      "start": 33
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 23,
+      "map_id": 718,
+      "start": 33
+    },
+    {
+      "M": 5,
+      "distance": 4,
+      "family": "LL",
+      "goal": 20,
+      "map_id": 718,
+      "start": 34
+    },
+    {
+      "M": 9,
+      "distance": 9,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 718,
+      "start": 35
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 9,
+      "map_id": 727,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 727,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 727,
+      "start": 6
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 28,
+      "map_id": 727,
+      "start": 6
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 727,
+      "start": 7
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 727,
+      "start": 11
+    },
+    {
+      "M": 7,
+      "distance": 8,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 727,
+      "start": 23
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 727,
+      "start": 23
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 32,
+      "map_id": 727,
+      "start": 23
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 727,
+      "start": 28
+    },
+    {
+      "M": 7,
+      "distance": 8,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 727,
+      "start": 31
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 17,
+      "map_id": 727,
+      "start": 31
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 727,
+      "start": 33
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 23,
+      "map_id": 727,
+      "start": 33
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 727,
+      "start": 34
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 21,
+      "map_id": 727,
+      "start": 35
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 21,
+      "map_id": 728,
+      "start": 0
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 728,
+      "start": 3
+    },
+    {
+      "M": 15,
+      "distance": 8,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 728,
+      "start": 3
+    },
+    {
+      "M": 12,
+      "distance": 8,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 728,
+      "start": 6
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 728,
+      "start": 8
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 728,
+      "start": 11
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 728,
+      "start": 14
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 728,
+      "start": 17
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 728,
+      "start": 22
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 728,
+      "start": 23
+    },
+    {
+      "M": 9,
+      "distance": 7,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 728,
+      "start": 28
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 728,
+      "start": 29
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 728,
+      "start": 31
+    },
+    {
+      "M": 18,
+      "distance": 8,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 728,
+      "start": 34
+    },
+    {
+      "M": 12,
+      "distance": 7,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 728,
+      "start": 34
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "LL",
+      "goal": 8,
+      "map_id": 728,
+      "start": 35
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 9,
+      "map_id": 730,
+      "start": 0
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 730,
+      "start": 5
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 730,
+      "start": 6
+    },
+    {
+      "M": 9,
+      "distance": 10,
+      "family": "LL",
+      "goal": 22,
+      "map_id": 730,
+      "start": 6
+    },
+    {
+      "M": 9,
+      "distance": 10,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 730,
+      "start": 8
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 0,
+      "map_id": 730,
+      "start": 9
+    },
+    {
+      "M": 9,
+      "distance": 10,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 730,
+      "start": 9
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 11,
+      "map_id": 730,
+      "start": 13
+    },
+    {
+      "M": 4,
+      "distance": 8,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 730,
+      "start": 17
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 730,
+      "start": 23
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 730,
+      "start": 24
+    },
+    {
+      "M": 9,
+      "distance": 10,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 730,
+      "start": 26
+    },
+    {
+      "M": 4,
+      "distance": 9,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 730,
+      "start": 27
+    },
+    {
+      "M": 9,
+      "distance": 9,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 730,
+      "start": 31
+    },
+    {
+      "M": 9,
+      "distance": 9,
+      "family": "LL",
+      "goal": 5,
+      "map_id": 730,
+      "start": 31
+    },
+    {
+      "M": 9,
+      "distance": 10,
+      "family": "LL",
+      "goal": 8,
+      "map_id": 730,
+      "start": 34
+    },
+    {
+      "M": 20,
+      "distance": 6,
+      "family": "LL",
+      "goal": 21,
+      "map_id": 740,
+      "start": 0
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "LL",
+      "goal": 26,
+      "map_id": 740,
+      "start": 0
+    },
+    {
+      "M": 40,
+      "distance": 8,
+      "family": "LL",
+      "goal": 33,
+      "map_id": 740,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 16,
+      "map_id": 740,
+      "start": 1
+    },
+    {
+      "M": 37,
+      "distance": 8,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 740,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 740,
+      "start": 4
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 740,
+      "start": 16
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 740,
+      "start": 16
+    },
+    {
+      "M": 10,
+      "distance": 5,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 740,
+      "start": 18
+    },
+    {
+      "M": 6,
+      "distance": 6,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 740,
+      "start": 18
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 9,
+      "map_id": 740,
+      "start": 19
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 31,
+      "map_id": 740,
+      "start": 22
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "LL",
+      "goal": 8,
+      "map_id": 740,
+      "start": 28
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 9,
+      "map_id": 740,
+      "start": 29
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 740,
+      "start": 31
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 16,
+      "map_id": 740,
+      "start": 33
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 20,
+      "map_id": 743,
+      "start": 0
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 16,
+      "map_id": 743,
+      "start": 1
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "LL",
+      "goal": 27,
+      "map_id": 743,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 7,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 743,
+      "start": 4
+    },
+    {
+      "M": 9,
+      "distance": 8,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 743,
+      "start": 4
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 743,
+      "start": 6
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 743,
+      "start": 6
+    },
+    {
+      "M": 5,
+      "distance": 5,
+      "family": "LL",
+      "goal": 27,
+      "map_id": 743,
+      "start": 7
+    },
+    {
+      "M": 7,
+      "distance": 6,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 743,
+      "start": 13
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 743,
+      "start": 20
+    },
+    {
+      "M": 11,
+      "distance": 7,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 743,
+      "start": 23
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 743,
+      "start": 29
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 23,
+      "map_id": 743,
+      "start": 30
+    },
+    {
+      "M": 5,
+      "distance": 6,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 743,
+      "start": 33
+    },
+    {
+      "M": 33,
+      "distance": 8,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 743,
+      "start": 35
+    },
+    {
+      "M": 39,
+      "distance": 8,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 743,
+      "start": 35
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "LL",
+      "goal": 22,
+      "map_id": 753,
+      "start": 1
+    },
+    {
+      "M": 9,
+      "distance": 6,
+      "family": "LL",
+      "goal": 28,
+      "map_id": 753,
+      "start": 2
+    },
+    {
+      "M": 15,
+      "distance": 7,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 753,
+      "start": 2
+    },
+    {
+      "M": 28,
+      "distance": 8,
+      "family": "LL",
+      "goal": 35,
+      "map_id": 753,
+      "start": 2
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 6,
+      "map_id": 753,
+      "start": 3
+    },
+    {
+      "M": 20,
+      "distance": 7,
+      "family": "LL",
+      "goal": 18,
+      "map_id": 753,
+      "start": 4
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "LL",
+      "goal": 22,
+      "map_id": 753,
+      "start": 6
+    },
+    {
+      "M": 8,
+      "distance": 5,
+      "family": "LL",
+      "goal": 28,
+      "map_id": 753,
+      "start": 13
+    },
+    {
+      "M": 9,
+      "distance": 5,
+      "family": "LL",
+      "goal": 34,
+      "map_id": 753,
+      "start": 14
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "LL",
+      "goal": 31,
+      "map_id": 753,
+      "start": 17
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 29,
+      "map_id": 753,
+      "start": 18
+    },
+    {
+      "M": 10,
+      "distance": 7,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 753,
+      "start": 23
+    },
+    {
+      "M": 4,
+      "distance": 6,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 753,
+      "start": 23
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 1,
+      "map_id": 753,
+      "start": 26
+    },
+    {
+      "M": 12,
+      "distance": 6,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 753,
+      "start": 33
+    },
+    {
+      "M": 6,
+      "distance": 5,
+      "family": "LL",
+      "goal": 19,
+      "map_id": 753,
+      "start": 34
+    },
+    {
+      "M": 9,
+      "distance": 7,
+      "family": "LL",
+      "goal": 23,
+      "map_id": 756,
+      "start": 1
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 22,
+      "map_id": 756,
+      "start": 2
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 30,
+      "map_id": 756,
+      "start": 2
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "LL",
+      "goal": 24,
+      "map_id": 756,
+      "start": 4
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 756,
+      "start": 6
+    },
+    {
+      "M": 7,
+      "distance": 7,
+      "family": "LL",
+      "goal": 23,
+      "map_id": 756,
+      "start": 6
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 12,
+      "map_id": 756,
+      "start": 9
+    },
+    {
+      "M": 4,
+      "distance": 4,
+      "family": "LL",
+      "goal": 9,
+      "map_id": 756,
+      "start": 12
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 3,
+      "map_id": 756,
+      "start": 13
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 31,
+      "map_id": 756,
+      "start": 17
+    },
+    {
+      "M": 4,
+      "distance": 5,
+      "family": "LL",
+      "goal": 4,
+      "map_id": 756,
+      "start": 20
+    },
+    {
+      "M": 10,
+      "distance": 6,
+      "family": "LL",
+      "goal": 7,
+      "map_id": 756,
+      "start": 28
+    },
+    {
+      "M": 5,
+      "distance": 7,
+      "family": "LL",
+      "goal": 9,
+      "map_id": 756,
+      "start": 30
+    },
+    {
+      "M": 10,
+      "distance": 8,
+      "family": "LL",
+      "goal": 2,
+      "map_id": 756,
+      "start": 31
+    },
+    {
+      "M": 6,
+      "distance": 7,
+      "family": "LL",
+      "goal": 8,
+      "map_id": 756,
+      "start": 31
+    },
+    {
+      "M": 6,
+      "distance": 4,
+      "family": "LL",
+      "goal": 23,
+      "map_id": 756,
+      "start": 33
+    }
+  ],
+  "training_histogram": {
+    "(0, 0)": 393,
+    "(0, 1)": 184,
+    "(1, 0)": 160,
+    "(1, 1)": 287
+  }
+}

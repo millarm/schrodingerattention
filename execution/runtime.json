@@ -1,0 +1,53 @@
+{
+  "environment": {
+    "python_executable": ".venv/bin/python",
+    "python_version": "3.12.14",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "architecture": "arm64",
+    "virtual_environment": ".venv",
+    "package_manager_check": "No broken requirements found."
+  },
+  "packages": {
+    "torch": "2.14.0",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1"
+  },
+  "hardware": {
+    "model": "Mac mini (Mac16,10)",
+    "chip": "Apple M4",
+    "cpu_cores": 10,
+    "memory_bytes": 25769803776,
+    "memory_human": "24 GB",
+    "cuda_available": false,
+    "mps_built": true,
+    "mps_available": false,
+    "usable_accelerator": null,
+    "measurement_notes": [
+      "Hardware model, core count, and memory were read from system_profiler.",
+      "Direct sysctl CPU and memory queries were denied by the sandbox.",
+      "MPS was compiled into this PyTorch build but no MPS device was available to this process."
+    ]
+  },
+  "torch_runtime": {
+    "device": "cpu",
+    "num_threads": 2,
+    "num_interop_threads": 1,
+    "complex_dtype": "torch.complex64"
+  },
+  "complex64_matrix_exp_probe": {
+    "matrix_shape": [1, 1, 4, 4],
+    "elapsed_seconds": 0.005954541000392055,
+    "forward_finite": true,
+    "backward_finite": true,
+    "loss": 6.449162483215332,
+    "gradient_l2": 1.061989426612854,
+    "max_probability_norm_error": 1.1920928955078125e-07,
+    "max_unitarity_error": 1.1921255804736575e-07
+  },
+  "status": "READY",
+  "limitations": [
+    "The initial experiment must use CPU unless a later runtime check finds MPS available.",
+    "No GPU memory measurement is available in this runtime."
+  ]
+}

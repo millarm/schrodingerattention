@@ -1,0 +1,24 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "tests/test_productive_diversity_runner.py",
+    "-q"
+  ],
+  "charged_seconds": 2.00004879199696,
+  "cumulative_global_seconds": 4.000077124997915,
+  "elapsed_seconds": 4.8791996960062534e-05,
+  "ended_at_utc": "2026-09-15T21:57:46.210591+00:00",
+  "entry_id": "5ba92ad0-ca8e-466a-b406-36b0c88651b4",
+  "error": "'fresh output and lock required'",
+  "execution_status": "REJECTED",
+  "kind": "productive_diversity_v2",
+  "manifest_sha256": null,
+  "pid": 79182,
+  "prior_global_seconds": 2.000028333000955,
+  "stage": "stage0",
+  "started_at_utc": "2026-09-15T21:57:46.210578+00:00",
+  "startup_allowance_seconds": 2.0,
+  "status": "REJECTED"
+}

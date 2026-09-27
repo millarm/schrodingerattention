@@ -1,0 +1,118 @@
+.............F.......F....F                                              [100%]
+=================================== FAILURES ===================================
+___________________ test_driver_watchdog_descendant_fixture ____________________
+
+tmp_path = PosixPath('/private/var/folders/sr/3vzptsv10h36bf9jhq3bpg3h0000gp/T/pytest-of-gmh-company/pytest-199/test_driver_watchdog_descendan0')
+
+    def test_driver_watchdog_descendant_fixture(tmp_path):
+     """The accepted watchdog, not an invented result field, proves group cleanup."""
+     from execution.update_efficiency import command
+     child="import subprocess,sys,time;subprocess.Popen([sys.executable,'-c','import time;time.sleep(2)']);time.sleep(2)"
+>    result=command.supervise([sys.executable,"-c",child],.05,tmp_path/"watchdog")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_update_efficiency.py:247: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+execution/update_efficiency/command.py:159: in supervise
+    def supervise(argv,deadline,output):return reviewed_watchdog.supervise(argv,WORKSPACE,Path(output),time.monotonic()+deadline)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+execution/difficult_problem_solving/d1_watchdog.py:166: in supervise
+    with (logs / 'stdout.txt').open('wb') as out, (logs / 'stderr.txt').open('wb') as err:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/private/var/folders/sr/3vzptsv10h36bf9jhq3bpg3h0000gp/T/pytest-of-gmh-company/pytest-199/test_driver_watchdog_descendan0/watchdog/stdout.txt')
+mode = 'wb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/sr/3vzptsv10h36bf9jhq3bpg3h0000gp/T/pytest-of-gmh-company/pytest-199/test_driver_watchdog_descendan0/watchdog/stdout.txt'
+
+../../.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py:1013: FileNotFoundError
+__________ test_driver_append_uses_actual_single_descriptor_snapshot ___________
+
+tmp_path = PosixPath('/private/var/folders/sr/3vzptsv10h36bf9jhq3bpg3h0000gp/T/pytest-of-gmh-company/pytest-199/test_driver_append_uses_actual0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x110ecee10>
+
+    def test_driver_append_uses_actual_single_descriptor_snapshot(tmp_path,monkeypatch):
+     from execution.update_efficiency import command
+     ledger=tmp_path/"ledger.jsonl";carry={"entry_id":"carry","kind":"inherited_budget","charged_seconds":0,"carried_budget_debit_seconds":command.CARRY};ledger.write_text(json.dumps(carry)+"\n")
+     monkeypatch.setattr(command,"LEDGER",ledger);monkeypatch.setattr(command,"PREFIX_LINES",1);monkeypatch.setattr(command,"PREFIX_SHA",command.sha256(ledger))
+     command.append_once({"entry_id":"row","kind":"attempt_charge","stage":"A","charged_seconds":1.})
+>    rows,_=command.ledger_rows();assert [r["entry_id"]for r in rows]==["carry","row"]
+            ^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_update_efficiency.py:353: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+execution/update_efficiency/command.py:54: in ledger_rows
+    def ledger_rows(path=LEDGER): return _ledger_rows(Path(path).read_bytes())
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+raw = b'{"entry_id":"6da57c2e-cbf7-4ed2-9c1d-e2a486329f27","recorded_at_utc":"2026-09-19T12:00:38+00:00","kind":"inherited_b...07:24.137490+00:00", "resource_overrun": false, "stage": "A", "status": "COMPLETE", "study": "update_efficiency_v3"}\n'
+
+    def _ledger_rows(raw):
+     lines=raw.splitlines(keepends=True)
+>    if not raw.endswith(b"\n") or len(lines)<PREFIX_LINES or hashlib.sha256(b"".join(lines[:PREFIX_LINES])).hexdigest()!=PREFIX_SHA:raise RuntimeError("ledger historical prefix changed")
+                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E    RuntimeError: ledger historical prefix changed
+
+execution/update_efficiency/command.py:41: RuntimeError
+_______ test_driver_final_terminal_failure_retains_a_and_b_reservations ________
+
+self = PosixPath('/private/var/folders/sr/3vzptsv10h36bf9jhq3bpg3h0000gp/T/pytest-of-gmh-company/pytest-199/test_driver_final_terminal_fai0/case-1/driver.lock')
+
+    @property
+    def _tail(self):
+        try:
+>           return self._tail_cached
+                   ^^^^^^^^^^^^^^^^^
+E           AttributeError: 'PosixPath' object has no attribute '_tail_cached'
+
+../../.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py:572: AttributeError
+
+During handling of the above exception, another exception occurred:
+
+tmp_path = PosixPath('/private/var/folders/sr/3vzptsv10h36bf9jhq3bpg3h0000gp/T/pytest-of-gmh-company/pytest-199/test_driver_final_terminal_fai0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x110ecedb0>
+
+    def test_driver_final_terminal_failure_retains_a_and_b_reservations(tmp_path,monkeypatch):
+     for kind in ("smoke","production"):
+      command,rows,lock,attempts,decision,seconds=_driver_fixture(tmp_path,monkeypatch,kind);original=command.durable
+      if kind=="production":
+       monkeypatch.setattr(command,"charge",lambda start:2.)
+       monkeypatch.setattr(command,"supervise",lambda *args:(_complete_owner(command,attempts,rows),{"exit_code":0,"timed_out":False,"cleanup_verified":True})[1])
+      else:monkeypatch.setattr(command,"supervise",lambda *args:{"exit_code":0,"timed_out":False,"cleanup_verified":True})
+      def durable(path,value):
+       if Path(path).name=="terminal.json"and value.get("status")=="COMPLETE":raise OSError("terminal fsync")
+       return original(path,value)
+      monkeypatch.setattr(command,"durable",durable)
+>     with pytest.raises(OSError):command.main(["--decision",str(decision),"--seconds",str(seconds),"--seed","2201","--mode","softmax"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_update_efficiency.py:403: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+execution/update_efficiency/command.py:170: in main
+    review_ok(decision,hashes,kind);lock=acquire_reservation(decision,stage,a.seconds);durable(lock,{"status":"RESERVED","stage":stage,"envelope_seconds":a.seconds,"started_monotonic":started});cleanup_certain=True;session=ATTEMPTS/("driver-"+str(uuid.uuid4()));session.mkdir(parents=True,exist_ok=False)
+                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_update_efficiency.py:401: in durable
+    return original(path,value)
+           ^^^^^^^^^^^^^^^^^^^^
+tests/test_update_efficiency.py:401: in durable
+    return original(path,value)
+           ^^^^^^^^^^^^^^^^^^^^
+E   RecursionError: maximum recursion depth exceeded
+!!! Recursion detected (same locals & position)
+=========================== short test summary info ============================
+FAILED tests/test_update_efficiency.py::test_driver_watchdog_descendant_fixture
+FAILED tests/test_update_efficiency.py::test_driver_append_uses_actual_single_descriptor_snapshot
+FAILED tests/test_update_efficiency.py::test_driver_final_terminal_failure_retains_a_and_b_reservations
+3 failed, 24 passed in 1.87s

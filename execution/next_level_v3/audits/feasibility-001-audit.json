@@ -1,0 +1,1479 @@
+{
+  "attempt": "execution/next_level_v3/attempts/feasibility-001",
+  "audit_version": 1,
+  "checks": {
+    "attempt_complete_no_error": true,
+    "attempt_manifest_binding": true,
+    "inventory": {
+      "family_counts": {
+        "IIIIIIII": 256,
+        "IIIILLLL": 256,
+        "LLLLLLLL": 256
+      },
+      "records": 768,
+      "unique_canonical": 768,
+      "unique_ids": 768
+    },
+    "ledger": {
+      "operational_sum_before_audit": 725.6258670859997,
+      "production_charged_plus_allowance": 177.3930544169998,
+      "production_entry_count": 1,
+      "unique_entry_ids": true
+    },
+    "manifest_expected_sha256": true,
+    "manifest_sha256": "26ddf4277f1c8e3ab63505cd93c7a643c4b76bf9eaf1cf4c9705f3d629e82464",
+    "output_hash_mismatches": {},
+    "ranking_exact_reproduction": true,
+    "ranking_retained": [
+      {
+        "mean_m": {
+          "denominator": 73728,
+          "numerator": 6457319
+        },
+        "quota": [
+          6,
+          5,
+          5
+        ],
+        "raw_family_counts": {
+          "IIIIIIII": 256,
+          "IIIILLLL": 256,
+          "LLLLLLLL": 256
+        },
+        "score": {
+          "denominator": 23,
+          "numerator": 64
+        },
+        "window": [
+          12,
+          13,
+          14
+        ],
+        "window_start": 12
+      },
+      {
+        "mean_m": {
+          "denominator": 143402,
+          "numerator": 15355965
+        },
+        "quota": [
+          6,
+          5,
+          5
+        ],
+        "raw_family_counts": {
+          "IIIIIIII": 256,
+          "IIIILLLL": 256,
+          "LLLLLLLL": 256
+        },
+        "score": {
+          "denominator": 23,
+          "numerator": 64
+        },
+        "window": [
+          14,
+          15,
+          16
+        ],
+        "window_start": 14
+      },
+      {
+        "mean_m": {
+          "denominator": 82116,
+          "numerator": 9359159
+        },
+        "quota": [
+          6,
+          5,
+          5
+        ],
+        "raw_family_counts": {
+          "IIIIIIII": 189,
+          "IIIILLLL": 194,
+          "LLLLLLLL": 191
+        },
+        "score": {
+          "denominator": 92,
+          "numerator": 189
+        },
+        "window": [
+          16,
+          17,
+          18
+        ],
+        "window_start": 16
+      }
+    ],
+    "source_hash_mismatches": {},
+    "summary_outcome": "DATASET_CONSTRUCTION_FAILED"
+  },
+  "errors": [],
+  "limitations": [
+    "No pool, inventory, proposal, or selection was regenerated.",
+    "Oracle replay is limited to the deterministic saved-row sample shown (maximum 60 pairs) and 32 q states.",
+    "All saved selected rows were metadata-linked, but only sampled rows received independent BFS/route/novelty replay."
+  ],
+  "oracle_sample": {
+    "all_ok": true,
+    "pairs_checked": 60,
+    "rows": [
+      {
+        "M": 29,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "IIIIIIII",
+        "length": 12,
+        "map_id": 2,
+        "ok": true,
+        "proposal": 12,
+        "stage": "training"
+      },
+      {
+        "M": 18,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "IIIIIIII",
+        "length": 12,
+        "map_id": 738,
+        "ok": true,
+        "proposal": 12,
+        "stage": "training"
+      },
+      {
+        "M": 175,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "IIIIIIII",
+        "length": 13,
+        "map_id": 2,
+        "ok": true,
+        "proposal": 12,
+        "stage": "training"
+      },
+      {
+        "M": 111,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "IIIIIIII",
+        "length": 13,
+        "map_id": 738,
+        "ok": true,
+        "proposal": 12,
+        "stage": "training"
+      },
+      {
+        "M": 138,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "IIIIIIII",
+        "length": 14,
+        "map_id": 2,
+        "ok": true,
+        "proposal": 12,
+        "stage": "training"
+      },
+      {
+        "M": 56,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "IIIIIIII",
+        "length": 14,
+        "map_id": 738,
+        "ok": true,
+        "proposal": 12,
+        "stage": "training"
+      },
+      {
+        "M": 164,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "LLLLLLLL",
+        "length": 12,
+        "map_id": 33,
+        "ok": true,
+        "proposal": 12,
+        "stage": "training"
+      },
+      {
+        "M": 120,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "LLLLLLLL",
+        "length": 12,
+        "map_id": 742,
+        "ok": true,
+        "proposal": 12,
+        "stage": "training"
+      },
+      {
+        "M": 31,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "LLLLLLLL",
+        "length": 13,
+        "map_id": 33,
+        "ok": true,
+        "proposal": 12,
+        "stage": "training"
+      },
+      {
+        "M": 24,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "LLLLLLLL",
+        "length": 13,
+        "map_id": 742,
+        "ok": true,
+        "proposal": 12,
+        "stage": "training"
+      },
+      {
+        "M": 45,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "LLLLLLLL",
+        "length": 14,
+        "map_id": 33,
+        "ok": true,
+        "proposal": 12,
+        "stage": "training"
+      },
+      {
+        "M": 213,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "LLLLLLLL",
+        "length": 14,
+        "map_id": 742,
+        "ok": true,
+        "proposal": 12,
+        "stage": "training"
+      },
+      {
+        "M": 30,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "IIIIIIII",
+        "length": 12,
+        "map_id": 45,
+        "ok": true,
+        "proposal": 12,
+        "stage": "validation_routine"
+      },
+      {
+        "M": 80,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "IIIIIIII",
+        "length": 12,
+        "map_id": 645,
+        "ok": true,
+        "proposal": 12,
+        "stage": "validation_routine"
+      },
+      {
+        "M": 51,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "IIIIIIII",
+        "length": 13,
+        "map_id": 45,
+        "ok": true,
+        "proposal": 12,
+        "stage": "validation_routine"
+      },
+      {
+        "M": 140,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "IIIIIIII",
+        "length": 13,
+        "map_id": 645,
+        "ok": true,
+        "proposal": 12,
+        "stage": "validation_routine"
+      },
+      {
+        "M": 35,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "IIIIIIII",
+        "length": 14,
+        "map_id": 45,
+        "ok": true,
+        "proposal": 12,
+        "stage": "validation_routine"
+      },
+      {
+        "M": 72,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "IIIIIIII",
+        "length": 14,
+        "map_id": 645,
+        "ok": true,
+        "proposal": 12,
+        "stage": "validation_routine"
+      },
+      {
+        "M": 233,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "LLLLLLLL",
+        "length": 12,
+        "map_id": 53,
+        "ok": true,
+        "proposal": 12,
+        "stage": "validation_routine"
+      },
+      {
+        "M": 62,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "LLLLLLLL",
+        "length": 12,
+        "map_id": 754,
+        "ok": true,
+        "proposal": 12,
+        "stage": "validation_routine"
+      },
+      {
+        "M": 119,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "LLLLLLLL",
+        "length": 13,
+        "map_id": 53,
+        "ok": true,
+        "proposal": 12,
+        "stage": "validation_routine"
+      },
+      {
+        "M": 22,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "LLLLLLLL",
+        "length": 13,
+        "map_id": 754,
+        "ok": true,
+        "proposal": 12,
+        "stage": "validation_routine"
+      },
+      {
+        "M": 25,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "LLLLLLLL",
+        "length": 14,
+        "map_id": 53,
+        "ok": true,
+        "proposal": 12,
+        "stage": "validation_routine"
+      },
+      {
+        "M": 126,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "LLLLLLLL",
+        "length": 14,
+        "map_id": 754,
+        "ok": true,
+        "proposal": 12,
+        "stage": "validation_routine"
+      },
+      {
+        "M": 24,
+        "Mnovel_recomputed": 10,
+        "Mnovel_saved": 10,
+        "family": "IIIILLLL",
+        "length": 14,
+        "map_id": 4,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_mixed"
+      },
+      {
+        "M": 35,
+        "Mnovel_recomputed": 10,
+        "Mnovel_saved": 10,
+        "family": "IIIILLLL",
+        "length": 14,
+        "map_id": 766,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_mixed"
+      },
+      {
+        "M": 30,
+        "Mnovel_recomputed": 19,
+        "Mnovel_saved": 19,
+        "family": "IIIILLLL",
+        "length": 15,
+        "map_id": 4,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_mixed"
+      },
+      {
+        "M": 140,
+        "Mnovel_recomputed": 42,
+        "Mnovel_saved": 42,
+        "family": "IIIILLLL",
+        "length": 15,
+        "map_id": 766,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_mixed"
+      },
+      {
+        "M": 56,
+        "Mnovel_recomputed": 15,
+        "Mnovel_saved": 15,
+        "family": "IIIILLLL",
+        "length": 16,
+        "map_id": 4,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_mixed"
+      },
+      {
+        "M": 210,
+        "Mnovel_recomputed": 58,
+        "Mnovel_saved": 58,
+        "family": "IIIILLLL",
+        "length": 16,
+        "map_id": 766,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_mixed"
+      },
+      {
+        "M": 90,
+        "Mnovel_recomputed": 31,
+        "Mnovel_saved": 31,
+        "family": "IIIILLLL",
+        "length": 14,
+        "map_id": 416,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_mixed_failed_prefix"
+      },
+      {
+        "M": 98,
+        "Mnovel_recomputed": 72,
+        "Mnovel_saved": 72,
+        "family": "IIIILLLL",
+        "length": 14,
+        "map_id": 416,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_mixed_failed_prefix"
+      },
+      {
+        "M": 200,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "IIIIIIII",
+        "length": 14,
+        "map_id": 19,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_routine"
+      },
+      {
+        "M": 31,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "IIIIIIII",
+        "length": 14,
+        "map_id": 765,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_routine"
+      },
+      {
+        "M": 142,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "IIIIIIII",
+        "length": 15,
+        "map_id": 19,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_routine"
+      },
+      {
+        "M": 36,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "IIIIIIII",
+        "length": 15,
+        "map_id": 765,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_routine"
+      },
+      {
+        "M": 50,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "IIIIIIII",
+        "length": 16,
+        "map_id": 19,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_routine"
+      },
+      {
+        "M": 40,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "IIIIIIII",
+        "length": 16,
+        "map_id": 765,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_routine"
+      },
+      {
+        "M": 63,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "LLLLLLLL",
+        "length": 14,
+        "map_id": 39,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_routine"
+      },
+      {
+        "M": 28,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "LLLLLLLL",
+        "length": 14,
+        "map_id": 684,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_routine"
+      },
+      {
+        "M": 22,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "LLLLLLLL",
+        "length": 15,
+        "map_id": 39,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_routine"
+      },
+      {
+        "M": 115,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "LLLLLLLL",
+        "length": 15,
+        "map_id": 684,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_routine"
+      },
+      {
+        "M": 61,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "LLLLLLLL",
+        "length": 16,
+        "map_id": 39,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_routine"
+      },
+      {
+        "M": 170,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": 0,
+        "family": "LLLLLLLL",
+        "length": 16,
+        "map_id": 684,
+        "ok": true,
+        "proposal": 14,
+        "stage": "test_routine"
+      },
+      {
+        "M": 138,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "IIIIIIII",
+        "length": 14,
+        "map_id": 2,
+        "ok": true,
+        "proposal": 14,
+        "stage": "training"
+      },
+      {
+        "M": 195,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "IIIIIIII",
+        "length": 14,
+        "map_id": 767,
+        "ok": true,
+        "proposal": 14,
+        "stage": "training"
+      },
+      {
+        "M": 56,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "IIIIIIII",
+        "length": 15,
+        "map_id": 2,
+        "ok": true,
+        "proposal": 14,
+        "stage": "training"
+      },
+      {
+        "M": 70,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "IIIIIIII",
+        "length": 15,
+        "map_id": 767,
+        "ok": true,
+        "proposal": 14,
+        "stage": "training"
+      },
+      {
+        "M": 93,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "IIIIIIII",
+        "length": 16,
+        "map_id": 2,
+        "ok": true,
+        "proposal": 14,
+        "stage": "training"
+      },
+      {
+        "M": 79,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "IIIIIIII",
+        "length": 16,
+        "map_id": 767,
+        "ok": true,
+        "proposal": 14,
+        "stage": "training"
+      },
+      {
+        "M": 36,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "LLLLLLLL",
+        "length": 14,
+        "map_id": 53,
+        "ok": true,
+        "proposal": 14,
+        "stage": "training"
+      },
+      {
+        "M": 213,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "LLLLLLLL",
+        "length": 14,
+        "map_id": 742,
+        "ok": true,
+        "proposal": 14,
+        "stage": "training"
+      },
+      {
+        "M": 65,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "LLLLLLLL",
+        "length": 15,
+        "map_id": 53,
+        "ok": true,
+        "proposal": 14,
+        "stage": "training"
+      },
+      {
+        "M": 76,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "LLLLLLLL",
+        "length": 15,
+        "map_id": 742,
+        "ok": true,
+        "proposal": 14,
+        "stage": "training"
+      },
+      {
+        "M": 40,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "LLLLLLLL",
+        "length": 16,
+        "map_id": 53,
+        "ok": true,
+        "proposal": 14,
+        "stage": "training"
+      },
+      {
+        "M": 30,
+        "Mnovel_recomputed": 0,
+        "Mnovel_saved": null,
+        "family": "LLLLLLLL",
+        "length": 16,
+        "map_id": 742,
+        "ok": true,
+        "proposal": 14,
+        "stage": "training"
+      },
+      {
+        "M": 60,
+        "Mnovel_recomputed": 20,
+        "Mnovel_saved": 20,
+        "family": "IIIILLLL",
+        "length": 14,
+        "map_id": 113,
+        "ok": true,
+        "proposal": 14,
+        "stage": "validation_mixed"
+      },
+      {
+        "M": 85,
+        "Mnovel_recomputed": 28,
+        "Mnovel_saved": 28,
+        "family": "IIIILLLL",
+        "length": 14,
+        "map_id": 635,
+        "ok": true,
+        "proposal": 14,
+        "stage": "validation_mixed"
+      },
+      {
+        "M": 60,
+        "Mnovel_recomputed": 16,
+        "Mnovel_saved": 16,
+        "family": "IIIILLLL",
+        "length": 15,
+        "map_id": 113,
+        "ok": true,
+        "proposal": 14,
+        "stage": "validation_mixed"
+      },
+      {
+        "M": 75,
+        "Mnovel_recomputed": 20,
+        "Mnovel_saved": 20,
+        "family": "IIIILLLL",
+        "length": 15,
+        "map_id": 635,
+        "ok": true,
+        "proposal": 14,
+        "stage": "validation_mixed"
+      }
+    ]
+  },
+  "outcome": "DATASET_CONSTRUCTION_FAILED",
+  "proposals": {
+    "12": {
+      "cross_stage_identities_disjoint": true,
+      "failure": {
+        "committed_maps": 0,
+        "evidence_rows": 256,
+        "family": "IIIILLLL",
+        "last_failed_prefix": {
+          "accepted_rows": [],
+          "committed": false,
+          "examined": 64,
+          "length": 12,
+          "map_id": 4,
+          "reason": "length_12_exhausted"
+        },
+        "profile": {
+          "bfs_entries": 512,
+          "elapsed_seconds": 14.334315542000695,
+          "eligibility_entries": 512,
+          "pair_entries": 512,
+          "signature_entries": 65536,
+          "stats": {
+            "bfs_hits": 3776,
+            "bfs_misses": 14109,
+            "eligibility_misses": 16861,
+            "pair_misses": 17885,
+            "routes": 1399859,
+            "signature_hits": 2285381,
+            "signature_misses": 192385
+          }
+        },
+        "reason_counts": {
+          "length_12_exhausted": 256
+        },
+        "rejected_maps": 256,
+        "selected_maps": 0,
+        "selected_rows": 0,
+        "stage": "validation_mixed"
+      },
+      "metadata_errors": [],
+      "quota": [
+        6,
+        5,
+        5
+      ],
+      "stage_counts": {
+        "test_mixed": {
+          "families": {},
+          "maps": 0,
+          "rows": 0
+        },
+        "test_routine": {
+          "families": {},
+          "maps": 0,
+          "rows": 0
+        },
+        "training": {
+          "family_rows": {
+            "IIIIIIII": 512,
+            "LLLLLLLL": 512
+          },
+          "maps": 64,
+          "rows": 1024
+        },
+        "validation_mixed": {
+          "families": {
+            "IIIILLLL": {
+              "maps": 0,
+              "outcome": "SCIENTIFIC_HELDOUT_SUPPLY_FAILED",
+              "rows": 0
+            }
+          },
+          "maps": 0,
+          "rows": 0
+        },
+        "validation_routine": {
+          "families": {
+            "IIIIIIII": {
+              "maps": 12,
+              "outcome": "OK",
+              "rows": 192
+            },
+            "LLLLLLLL": {
+              "maps": 12,
+              "outcome": "OK",
+              "rows": 192
+            }
+          },
+          "maps": 24,
+          "rows": 384
+        }
+      },
+      "summary_stages": {
+        "test_mixed": "NOT_EVALUATED",
+        "test_routine": "NOT_EVALUATED",
+        "training": "COMPLETE",
+        "validation_mixed": "SCIENTIFIC_HELDOUT_SUPPLY_FAILED",
+        "validation_routine": "COMPLETE"
+      },
+      "support_entries": 20830,
+      "support_hash_ok": true,
+      "training_profile": {
+        "bfs_entries": 512,
+        "elapsed_seconds": 4.1881065420020605,
+        "eligibility_entries": 0,
+        "pair_entries": 512,
+        "signature_entries": 65536,
+        "stats": {
+          "bfs_hits": 72,
+          "bfs_misses": 952,
+          "pair_misses": 1024,
+          "routes": 89554,
+          "signature_hits": 1034371,
+          "signature_misses": 133090
+        }
+      },
+      "window": [
+        12,
+        13,
+        14
+      ]
+    },
+    "14": {
+      "cross_stage_identities_disjoint": true,
+      "failure": {
+        "committed_maps": 25,
+        "evidence_rows": 334,
+        "family": "IIIILLLL",
+        "last_failed_prefix": {
+          "accepted_rows": [
+            {
+              "M": 98,
+              "Mnovel": 72,
+              "canonical": {
+                "bytes_hex": "000000000000000000000000000000000000000101000000000000000000000001000000010000000000000000000000010000010000000000000000010000010000000000000100000100010000000000010100010100000000000101000000000000000000000100000000000100000000000000000000000100010101000000000000000100000000000000000000"
+              },
+              "family": "IIIILLLL",
+              "goal": 93,
+              "length": 14,
+              "map_id": 416,
+              "n": 12,
+              "start": 28
+            },
+            {
+              "M": 90,
+              "Mnovel": 31,
+              "canonical": {
+                "bytes_hex": "000000000000000000000000000000000000000101000000000000000000000001000000010000000000000000000000010000010000000000000000010000010000000000000100000100010000000000010100010100000000000101000000000000000000000100000000000100000000000000000000000100010101000000000000000100000000000000000000"
+              },
+              "family": "IIIILLLL",
+              "goal": 105,
+              "length": 14,
+              "map_id": 416,
+              "n": 12,
+              "start": 16
+            }
+          ],
+          "committed": false,
+          "examined": 64,
+          "length": 14,
+          "map_id": 416,
+          "reason": "length_14_exhausted"
+        },
+        "profile": {
+          "bfs_entries": 512,
+          "elapsed_seconds": 73.12159162500757,
+          "eligibility_entries": 512,
+          "pair_entries": 512,
+          "signature_entries": 65536,
+          "stats": {
+            "bfs_hits": 9542,
+            "bfs_misses": 21194,
+            "eligibility_misses": 29712,
+            "pair_misses": 30736,
+            "routes": 3175285,
+            "signature_hits": 2468921,
+            "signature_misses": 2211842
+          }
+        },
+        "reason_counts": {
+          "COMMITTED": 25,
+          "EXCLUDED": 8,
+          "SCANNED": 78,
+          "length_14_exhausted": 220,
+          "length_15_exhausted": 3
+        },
+        "rejected_maps": 223,
+        "selected_maps": 25,
+        "selected_rows": 400,
+        "stage": "test_mixed"
+      },
+      "metadata_errors": [],
+      "quota": [
+        6,
+        5,
+        5
+      ],
+      "stage_counts": {
+        "test_mixed": {
+          "families": {
+            "IIIILLLL": {
+              "maps": 25,
+              "outcome": "SCIENTIFIC_HELDOUT_SUPPLY_FAILED",
+              "rows": 400
+            }
+          },
+          "maps": 25,
+          "rows": 400
+        },
+        "test_routine": {
+          "families": {
+            "IIIIIIII": {
+              "maps": 48,
+              "outcome": "OK",
+              "rows": 768
+            },
+            "LLLLLLLL": {
+              "maps": 48,
+              "outcome": "OK",
+              "rows": 768
+            }
+          },
+          "maps": 96,
+          "rows": 1536
+        },
+        "training": {
+          "family_rows": {
+            "IIIIIIII": 512,
+            "LLLLLLLL": 512
+          },
+          "maps": 64,
+          "rows": 1024
+        },
+        "validation_mixed": {
+          "families": {
+            "IIIILLLL": {
+              "maps": 8,
+              "outcome": "OK",
+              "rows": 128
+            }
+          },
+          "maps": 8,
+          "rows": 128
+        },
+        "validation_routine": {
+          "families": {
+            "IIIIIIII": {
+              "maps": 12,
+              "outcome": "OK",
+              "rows": 192
+            },
+            "LLLLLLLL": {
+              "maps": 12,
+              "outcome": "OK",
+              "rows": 192
+            }
+          },
+          "maps": 24,
+          "rows": 384
+        }
+      },
+      "summary_stages": {
+        "test_mixed": "SCIENTIFIC_HELDOUT_SUPPLY_FAILED",
+        "test_routine": "COMPLETE",
+        "training": "COMPLETE",
+        "validation_mixed": "COMPLETE",
+        "validation_routine": "COMPLETE"
+      },
+      "support_entries": 67501,
+      "support_hash_ok": true,
+      "training_profile": {
+        "bfs_entries": 512,
+        "elapsed_seconds": 9.6068012080068,
+        "eligibility_entries": 0,
+        "pair_entries": 512,
+        "signature_entries": 65536,
+        "stats": {
+          "bfs_hits": 105,
+          "bfs_misses": 919,
+          "pair_misses": 1024,
+          "routes": 107743,
+          "signature_hits": 1262174,
+          "signature_misses": 351047
+        }
+      },
+      "window": [
+        14,
+        15,
+        16
+      ]
+    },
+    "16": {
+      "cross_stage_identities_disjoint": true,
+      "failure": {
+        "committed_maps": 9,
+        "evidence_rows": 534,
+        "family": "IIIIIIII",
+        "last_failed_prefix": {
+          "accepted_rows": [
+            {
+              "M": 31,
+              "Mnovel": 0,
+              "canonical": {
+                "bytes_hex": "000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000100000000000000000001000100000000000000010001000000000001010100010001000000000000000000010000000000000000010000000100010101000000010000000100000000000000010000000100010101000000000000000000000000"
+              },
+              "family": "IIIIIIII",
+              "goal": 23,
+              "length": 18,
+              "map_id": 51,
+              "n": 12,
+              "start": 122
+            },
+            {
+              "M": 59,
+              "Mnovel": 0,
+              "canonical": {
+                "bytes_hex": "000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000100000000000000000001000100000000000000010001000000000001010100010001000000000000000000010000000000000000010000000100010101000000010000000100000000000000010000000100010101000000000000000000000000"
+              },
+              "family": "IIIIIIII",
+              "goal": 4,
+              "length": 18,
+              "map_id": 51,
+              "n": 12,
+              "start": 143
+            },
+            {
+              "M": 31,
+              "Mnovel": 0,
+              "canonical": {
+                "bytes_hex": "000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000100000000000000000001000100000000000000010001000000000001010100010001000000000000000000010000000000000000010000000100010101000000010000000100000000000000010000000100010101000000000000000000000000"
+              },
+              "family": "IIIIIIII",
+              "goal": 122,
+              "length": 18,
+              "map_id": 51,
+              "n": 12,
+              "start": 23
+            },
+            {
+              "M": 59,
+              "Mnovel": 0,
+              "canonical": {
+                "bytes_hex": "000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000100000000000000000001000100000000000000010001000000000001010100010001000000000000000000010000000000000000010000000100010101000000010000000100000000000000010000000100010101000000000000000000000000"
+              },
+              "family": "IIIIIIII",
+              "goal": 143,
+              "length": 18,
+              "map_id": 51,
+              "n": 12,
+              "start": 4
+            }
+          ],
+          "committed": false,
+          "examined": 62,
+          "length": 18,
+          "map_id": 51,
+          "reason": "length_18_exhausted"
+        },
+        "profile": {
+          "bfs_entries": 512,
+          "elapsed_seconds": 55.20469558399054,
+          "eligibility_entries": 512,
+          "pair_entries": 512,
+          "signature_entries": 65536,
+          "stats": {
+            "bfs_hits": 5930,
+            "bfs_misses": 6120,
+            "eligibility_misses": 11026,
+            "pair_misses": 12050,
+            "routes": 1401822,
+            "signature_hits": 1603141,
+            "signature_misses": 1754571
+          }
+        },
+        "reason_counts": {
+          "COMMITTED": 9,
+          "EXCLUDED": 32,
+          "RAW_INELIGIBLE": 67,
+          "SCANNED": 278,
+          "length_16_exhausted": 1,
+          "length_17_exhausted": 43,
+          "length_18_exhausted": 104
+        },
+        "rejected_maps": 148,
+        "selected_maps": 9,
+        "selected_rows": 144,
+        "stage": "validation_routine"
+      },
+      "metadata_errors": [],
+      "quota": [
+        6,
+        5,
+        5
+      ],
+      "stage_counts": {
+        "test_mixed": {
+          "families": {},
+          "maps": 0,
+          "rows": 0
+        },
+        "test_routine": {
+          "families": {},
+          "maps": 0,
+          "rows": 0
+        },
+        "training": {
+          "family_rows": {
+            "IIIIIIII": 512,
+            "LLLLLLLL": 512
+          },
+          "maps": 64,
+          "rows": 1024
+        },
+        "validation_mixed": {
+          "families": {},
+          "maps": 0,
+          "rows": 0
+        },
+        "validation_routine": {
+          "families": {
+            "IIIIIIII": {
+              "maps": 9,
+              "outcome": "SCIENTIFIC_HELDOUT_SUPPLY_FAILED",
+              "rows": 144
+            },
+            "LLLLLLLL": {
+              "maps": 0,
+              "outcome": "NOT_EVALUATED",
+              "rows": 0
+            }
+          },
+          "maps": 9,
+          "rows": 144
+        }
+      },
+      "summary_stages": {
+        "test_mixed": "NOT_EVALUATED",
+        "test_routine": "NOT_EVALUATED",
+        "training": "COMPLETE",
+        "validation_mixed": "NOT_EVALUATED",
+        "validation_routine": "SCIENTIFIC_HELDOUT_SUPPLY_FAILED"
+      },
+      "support_entries": 154358,
+      "support_hash_ok": true,
+      "training_profile": {
+        "bfs_entries": 512,
+        "elapsed_seconds": 15.240043291996699,
+        "eligibility_entries": 0,
+        "pair_entries": 512,
+        "signature_entries": 65536,
+        "stats": {
+          "bfs_hits": 224,
+          "bfs_misses": 800,
+          "pair_misses": 1024,
+          "routes": 122431,
+          "signature_hits": 1534929,
+          "signature_misses": 543392
+        }
+      },
+      "window": [
+        16,
+        17,
+        18
+      ]
+    }
+  },
+  "q_sample": {
+    "all_ok": true,
+    "rows": [
+      {
+        "goal": 120,
+        "map_id": 2,
+        "node": 0,
+        "ok": true,
+        "proposal": 12
+      },
+      {
+        "goal": 34,
+        "map_id": 88,
+        "node": 81,
+        "ok": true,
+        "proposal": 12
+      },
+      {
+        "goal": 48,
+        "map_id": 128,
+        "node": 39,
+        "ok": true,
+        "proposal": 12
+      },
+      {
+        "goal": 37,
+        "map_id": 163,
+        "node": 137,
+        "ok": true,
+        "proposal": 12
+      },
+      {
+        "goal": 133,
+        "map_id": 192,
+        "node": 129,
+        "ok": true,
+        "proposal": 12
+      },
+      {
+        "goal": 112,
+        "map_id": 280,
+        "node": 90,
+        "ok": true,
+        "proposal": 12
+      },
+      {
+        "goal": 11,
+        "map_id": 381,
+        "node": 9,
+        "ok": true,
+        "proposal": 12
+      },
+      {
+        "goal": 4,
+        "map_id": 481,
+        "node": 53,
+        "ok": true,
+        "proposal": 12
+      },
+      {
+        "goal": 33,
+        "map_id": 512,
+        "node": 61,
+        "ok": true,
+        "proposal": 12
+      },
+      {
+        "goal": 90,
+        "map_id": 579,
+        "node": 30,
+        "ok": true,
+        "proposal": 12
+      },
+      {
+        "goal": 143,
+        "map_id": 661,
+        "node": 141,
+        "ok": true,
+        "proposal": 12
+      },
+      {
+        "goal": 126,
+        "map_id": 2,
+        "node": 100,
+        "ok": true,
+        "proposal": 14
+      },
+      {
+        "goal": 119,
+        "map_id": 64,
+        "node": 59,
+        "ok": true,
+        "proposal": 14
+      },
+      {
+        "goal": 72,
+        "map_id": 145,
+        "node": 83,
+        "ok": true,
+        "proposal": 14
+      },
+      {
+        "goal": 136,
+        "map_id": 206,
+        "node": 126,
+        "ok": true,
+        "proposal": 14
+      },
+      {
+        "goal": 44,
+        "map_id": 254,
+        "node": 92,
+        "ok": true,
+        "proposal": 14
+      },
+      {
+        "goal": 35,
+        "map_id": 317,
+        "node": 82,
+        "ok": true,
+        "proposal": 14
+      },
+      {
+        "goal": 131,
+        "map_id": 356,
+        "node": 62,
+        "ok": true,
+        "proposal": 14
+      },
+      {
+        "goal": 82,
+        "map_id": 434,
+        "node": 26,
+        "ok": true,
+        "proposal": 14
+      },
+      {
+        "goal": 0,
+        "map_id": 534,
+        "node": 12,
+        "ok": true,
+        "proposal": 14
+      },
+      {
+        "goal": 12,
+        "map_id": 589,
+        "node": 86,
+        "ok": true,
+        "proposal": 14
+      },
+      {
+        "goal": 128,
+        "map_id": 658,
+        "node": 89,
+        "ok": true,
+        "proposal": 14
+      },
+      {
+        "goal": 11,
+        "map_id": 23,
+        "node": 10,
+        "ok": true,
+        "proposal": 16
+      },
+      {
+        "goal": 107,
+        "map_id": 99,
+        "node": 87,
+        "ok": true,
+        "proposal": 16
+      },
+      {
+        "goal": 130,
+        "map_id": 214,
+        "node": 37,
+        "ok": true,
+        "proposal": 16
+      },
+      {
+        "goal": 140,
+        "map_id": 259,
+        "node": 16,
+        "ok": true,
+        "proposal": 16
+      },
+      {
+        "goal": 25,
+        "map_id": 334,
+        "node": 75,
+        "ok": true,
+        "proposal": 16
+      },
+      {
+        "goal": 120,
+        "map_id": 404,
+        "node": 54,
+        "ok": true,
+        "proposal": 16
+      },
+      {
+        "goal": 141,
+        "map_id": 441,
+        "node": 46,
+        "ok": true,
+        "proposal": 16
+      },
+      {
+        "goal": 122,
+        "map_id": 476,
+        "node": 75,
+        "ok": true,
+        "proposal": 16
+      },
+      {
+        "goal": 14,
+        "map_id": 544,
+        "node": 45,
+        "ok": true,
+        "proposal": 16
+      },
+      {
+        "goal": 130,
+        "map_id": 600,
+        "node": 65,
+        "ok": true,
+        "proposal": 16
+      }
+    ],
+    "states_checked": 32
+  }
+}

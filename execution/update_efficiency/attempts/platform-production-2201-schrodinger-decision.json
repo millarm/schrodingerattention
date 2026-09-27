@@ -1,0 +1,52 @@
+{
+  "approved": true,
+  "argv": [
+    "/Users/gmh-company/codex/schrodinger/.venv/bin/python",
+    "-m",
+    "execution.update_efficiency.study",
+    "--decision",
+    "/Users/gmh-company/codex/schrodinger/execution/update_efficiency/attempts/platform-production-2201-schrodinger-decision.json"
+  ],
+  "config_hash": "870f62c96a8b0ed994d3c4d795514bf6fd513c0c771ba32750542b667155fe90",
+  "cwd": "/Users/gmh-company/codex/schrodinger",
+  "driver_accounting_clarification_sha256": "7ab55e8e05ca950597e9c7f09c948a8edbd2756f04854d1dc19851dba82c58c6",
+  "hashes": {
+    "accepted_route_policy.py": "95cb7463693c7ac696d9034eaf16a155c0363f38e819cbe56c00408d49b170c4",
+    "accepted_route_policy_data.py": "676b8de313fb9c667497b307704b21f137ac55a18e1e19c81be399d3f02e4bb7",
+    "accepted_route_policy_evaluation.py": "fd5cd438e0fbd103857933418008a7c5936b379488857ac6bfa7370aa8ad18ec",
+    "accepted_route_policy_experiment.py": "10cfc1a9a5e21856fd4e80f7c81b7b9243c104d452f10fc2a0062d4b4998036b",
+    "accepted_route_policy_metrics.py": "a471ae2c40973cb15584f924061b3ace24ef5af3b1e31702b79056055f317e34",
+    "attention": "e1ce15be10caf4b2165191f9835256602f4f7b8bd11bffa94f676eac40b0fd6a",
+    "clarification": "7ab55e8e05ca950597e9c7f09c948a8edbd2756f04854d1dc19851dba82c58c6",
+    "decisions": "b13b9cb8c4ee8283ea1db085a334cb541a9cb315d6c82d518c43499648f356c9",
+    "driver": "e228b53fb52f3a944e6e523e9ce3340c5abb3c02cc16ad2e07729972b1877d84",
+    "feasibility": "da36b0150c0b255b7e5482d7dc016505054d9632c8fb3a21d06c2d201bfedbf4",
+    "plan": "d4ce6e3c6e4c0a7eac46aa96b2a01f442abeed573c3b78e95a2edb874caca6ae",
+    "platform_spec": "4dc2ed2fb1b7bf182f924abfb571b4fd70eb891d476e8c171a8184740b216f67",
+    "protocol": "983a63fd480510994721d980ee866f08e3cba6b767fcbadd5cef7491d437d1c5",
+    "spec": "dcca6fa6c3ba0d322a8278d6003c77249c692a1224f37a3a2bad547530285a67",
+    "study": "a62a37248421660f94edce139a7e9ca471890bab8c0ba4463edd8ffb6c396204",
+    "tests": "4d5d9dbf1058b439383311e0ece0f73ba310b7fcbe67a3c63e0a0490fbe86fb5",
+    "watchdog": "ad5e3030ce148283c2576fa5fb376c512a8f7474bcc5e62e8e2d4e6d749900b2"
+  },
+  "input_ids": {
+    "frozen_source_hash": "bf7efbddb88bff06029369cba071d79f17340d701928b7f527baa6df7e517329",
+    "manifest_sha256": "305a9dd782befa9209942a2f52ebc0ba31d9d7ca61c913ecfb69fa5cca466395",
+    "prepared_sha256": "10e5f96a98b4dcb944cf81b65eb43eb4ed5a8c8211bf9d1f55af2f0bc4814e49",
+    "test_selected_hash": "3c9dd9e5e560cb032e31c77ed22831c153f51f7b1e1654546399e0b6ccdb3a5a",
+    "training_selected_hash": "8879d863f1780a40821f518f9ec42bfc9cdd73d203cd872104c1acde52572618",
+    "validation_selected_hash": "dcaeb083dd23fbf2b74bc6fe54de274315f07e307bbb7839952a61734b1fe68c"
+  },
+  "kind": "production",
+  "ledger_sha256": "5a0143b0553750be3d45d24fb837cdffb9a9a1d783b30aebf19e11ca17bb29b8",
+  "mode": "schrodinger",
+  "plan_sha256": "d4ce6e3c6e4c0a7eac46aa96b2a01f442abeed573c3b78e95a2edb874caca6ae",
+  "review": {
+    "path": "/Users/gmh-company/codex/schrodinger/execution/update_efficiency/reviews/10-platform-implementation.md",
+    "phase": "implementation",
+    "sha256": "5771da86fbc7ec3631938a1cec8968bd0c0f2eeb1cfa3bedf6574905f8d76048"
+  },
+  "seed": 2201,
+  "spec_sha256": "dcca6fa6c3ba0d322a8278d6003c77249c692a1224f37a3a2bad547530285a67",
+  "updates": 16000
+}

@@ -1,0 +1,294 @@
+{
+  "common_training_seconds": 9.205611608915206,
+  "completed_final_steps": [
+    2000,
+    2000
+  ],
+  "completed_stream_digest": "47aa4ef3bf447e21c6621821fff7b7dd6141249bf7d91349bf4b99574aece9ac",
+  "config": {
+    "batch_size": 64,
+    "config_sha256": "9ebace507a57202f483cefd55d5f50db868ad2abd214145a86f722386b2ffd4f",
+    "contract_sha256": "5ea6cda81fa8f95f3e2a9c39e9ca47d34ca6134697bca3305967e6f31d8507de",
+    "d_model": 32,
+    "feedforward": 64,
+    "heads": 2,
+    "layers": 2,
+    "numpy": "2.5.3",
+    "optimizer": {
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "lr": 0.001,
+      "weight_decay": 0.01
+    },
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "torch": "2.14.0",
+    "torch_interop_threads": 1,
+    "torch_threads": 2,
+    "train_distractors": [
+      2,
+      3,
+      4
+    ]
+  },
+  "evaluation_hashes": {
+    "test_heldout_d4": "3da01eafa9cfefe1a4263c692c79d4848ee2114e61a6bc87854f52965198956d",
+    "test_heldout_d8": "0fb3448c466aa3ce07c1db5d0f21b27231441f89dc7325435d37d0a915989386",
+    "test_seen_d4": "e833f081b2cb276ad08579855c1348c5ac873bdf1706288e16c09953ffe5e172",
+    "test_seen_d8": "5173bcd76ae05fb93a90eb438c6dad8b3b07cb77dee57cbc242978a7d0f00fff",
+    "validation_seen_d4": "4d805362ed039003f278ec890979586443cd0947240aebb42343d284645ccce8"
+  },
+  "initial_identity": {
+    "rss_bytes_caveat": "macOS ru_maxrss process-resident proxy, not tensor-only device memory",
+    "shared_initial_tensor_digest": "d2f4b29ac319f42095edcdb47f9fc5fb98b9c1058faa98e42cd4291eef88bdaf",
+    "total_parameters": 18498,
+    "trainable_parameters": 18498
+  },
+  "runs": [
+    {
+      "checkpoint": "execution/results/measured/seed-33/softmax/checkpoint-2000.pt",
+      "dt_zero": null,
+      "metrics": {
+        "test_heldout_d4": {
+          "copy": 0.97265625,
+          "copy_correct": 498,
+          "copy_count": 512,
+          "cross_entropy": 0.1801125556230545,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 0.0,
+            "unitarity": 0.0
+          },
+          "xor": 0.96484375,
+          "xor_correct": 494,
+          "xor_count": 512
+        },
+        "test_heldout_d8": {
+          "copy": 0.935546875,
+          "copy_correct": 479,
+          "copy_count": 512,
+          "cross_entropy": 0.31997057795524597,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 0.0,
+            "unitarity": 0.0
+          },
+          "xor": 0.935546875,
+          "xor_correct": 479,
+          "xor_count": 512
+        },
+        "test_seen_d4": {
+          "copy": 0.990234375,
+          "copy_correct": 507,
+          "copy_count": 512,
+          "cross_entropy": 0.026115743443369865,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 0.0,
+            "unitarity": 0.0
+          },
+          "xor": 0.998046875,
+          "xor_correct": 511,
+          "xor_count": 512
+        },
+        "test_seen_d8": {
+          "copy": 0.927734375,
+          "copy_correct": 475,
+          "copy_count": 512,
+          "cross_entropy": 0.3114323616027832,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 0.0,
+            "unitarity": 0.0
+          },
+          "xor": 0.94921875,
+          "xor_correct": 486,
+          "xor_count": 512
+        },
+        "validation_seen_d4": {
+          "copy": 1.0,
+          "copy_correct": 256,
+          "copy_count": 256,
+          "cross_entropy": 0.0006365654990077019,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 0.0,
+            "unitarity": 0.0
+          },
+          "xor": 1.0,
+          "xor_correct": 256,
+          "xor_count": 256
+        }
+      },
+      "mode": "softmax",
+      "seed": 33,
+      "slack": 0.0,
+      "step": 2000,
+      "training_seconds": 9.205611608915206
+    },
+    {
+      "checkpoint": "execution/results/measured/seed-33/schrodinger/checkpoint-600.pt",
+      "dt_zero": {
+        "test_heldout_d4": {
+          "copy": 0.958984375,
+          "copy_correct": 491,
+          "copy_count": 512,
+          "cross_entropy": 0.33621156215667725,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 3.5762786865234375e-07,
+            "unitarity": 0.0
+          },
+          "xor": 0.6328125,
+          "xor_correct": 324,
+          "xor_count": 512
+        },
+        "test_heldout_d8": {
+          "copy": 0.73046875,
+          "copy_correct": 374,
+          "copy_count": 512,
+          "cross_entropy": 0.7591741681098938,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 3.5762786865234375e-07,
+            "unitarity": 0.0
+          },
+          "xor": 0.537109375,
+          "xor_correct": 275,
+          "xor_count": 512
+        },
+        "test_seen_d4": {
+          "copy": 0.931640625,
+          "copy_correct": 477,
+          "copy_count": 512,
+          "cross_entropy": 0.361036092042923,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 3.5762786865234375e-07,
+            "unitarity": 0.0
+          },
+          "xor": 0.6484375,
+          "xor_correct": 332,
+          "xor_count": 512
+        },
+        "test_seen_d8": {
+          "copy": 0.73828125,
+          "copy_correct": 378,
+          "copy_count": 512,
+          "cross_entropy": 0.7290074229240417,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 3.5762786865234375e-07,
+            "unitarity": 0.0
+          },
+          "xor": 0.548828125,
+          "xor_correct": 281,
+          "xor_count": 512
+        },
+        "validation_seen_d4": {
+          "copy": 0.94921875,
+          "copy_correct": 243,
+          "copy_count": 256,
+          "cross_entropy": 0.3244256377220154,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 3.5762786865234375e-07,
+            "unitarity": 0.0
+          },
+          "xor": 0.6953125,
+          "xor_correct": 178,
+          "xor_count": 256
+        }
+      },
+      "metrics": {
+        "test_heldout_d4": {
+          "copy": 0.962890625,
+          "copy_correct": 493,
+          "copy_count": 512,
+          "cross_entropy": 0.3357813358306885,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 7.748603820800781e-07,
+            "unitarity": 1.0132789611816406e-06
+          },
+          "xor": 0.63671875,
+          "xor_correct": 326,
+          "xor_count": 512
+        },
+        "test_heldout_d8": {
+          "copy": 0.732421875,
+          "copy_correct": 375,
+          "copy_count": 512,
+          "cross_entropy": 0.7557567358016968,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 8.344650268554688e-07,
+            "unitarity": 9.5367431640625e-07
+          },
+          "xor": 0.53125,
+          "xor_correct": 272,
+          "xor_count": 512
+        },
+        "test_seen_d4": {
+          "copy": 0.93359375,
+          "copy_correct": 478,
+          "copy_count": 512,
+          "cross_entropy": 0.3590398132801056,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 8.344650268554688e-07,
+            "unitarity": 9.5367431640625e-07
+          },
+          "xor": 0.6484375,
+          "xor_correct": 332,
+          "xor_count": 512
+        },
+        "test_seen_d8": {
+          "copy": 0.744140625,
+          "copy_correct": 381,
+          "copy_count": 512,
+          "cross_entropy": 0.725200891494751,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 7.748603820800781e-07,
+            "unitarity": 1.1324882507324219e-06
+          },
+          "xor": 0.55078125,
+          "xor_correct": 282,
+          "xor_count": 512
+        },
+        "validation_seen_d4": {
+          "copy": 0.94921875,
+          "copy_correct": 243,
+          "copy_count": 256,
+          "cross_entropy": 0.323990136384964,
+          "invariants": {
+            "hermiticity": 0.0,
+            "row": 6.556510925292969e-07,
+            "unitarity": 9.5367431640625e-07
+          },
+          "xor": 0.69140625,
+          "xor_correct": 177,
+          "xor_count": 256
+        }
+      },
+      "mode": "schrodinger",
+      "seed": 33,
+      "slack": 0.8684807710051246,
+      "step": 600,
+      "training_seconds": 8.337130837910081
+    }
+  ],
+  "source_hashes": {
+    "attention.py": "e1ce15be10caf4b2165191f9835256602f4f7b8bd11bffa94f676eac40b0fd6a",
+    "data.py": "3fab8bafdecd773df13d81c81653ece8760707b5f11f59cb2f5c56ab225278e3",
+    "experiment.py": "cf75e1b35fe6fb1fb462d78d415ea60115dcd267957303ef56427861ae55c288",
+    "model.py": "b2892ee6dc8158b326b2fbb3ecc242e030edd94f36f5d407246a4666ac4dc36a"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "schrodinger.route_feasibility",
+    "--output",
+    "execution/next_level/attempts/feasibility-001"
+  ],
+  "executable": "/Users/gmh-company/codex/schrodinger/.venv/bin/python",
+  "execution_status": "COMPLETE",
+  "inputs": {
+    "execution/next_level/reviews/00-plan.md": "3abb9343cb4efcf72279a455c077ffe6d6b5eb9dda4475a918fa640196c004fa",
+    "execution/next_level/reviews/01-plan-revision.md": "8a4ca134ffd378e38afb1b225032c3607aedcd97b2b5fe548001a6612bfc5421",
+    "execution/next_level/reviews/02-feasibility-contract.md": "9be00896da12d1636beee0d4dcb5fff5e22952e7d4cd70be5a96901386ed1f21",
+    "execution/next_level/reviews/03-feasibility-implementation.md": "78508de8d4cf78b0d833f3f31517ef933ecb3265091cfe3584a7cbcef5895f40",
+    "execution/next_level/reviews/04-feasibility-revision.md": "bfe81241c265156cb8be62cc58917ec800940250a64e285789e88f62e2bd1c91",
+    "execution/next_level/reviews/05-final-acceptance.md": "536a5b3ced4981e5623fcaa5b096a624eb571f7f60f9a9f877bbe1b42938f15e",
+    "execution/next_level/reviews/06-cardinality-acceptance.md": "0dc9b09d8ccc434df3b39d02cf5604f4f7a4a5e26f30a87035b0395ceddefeca",
+    "execution/next_level/specs/00-feasibility-contract.md": "3b573fd5e67de97fd3ce9d0a4a4bfcf7b858ddcb65841638c6059f075ddcc0a3",
+    "execution/next_level/specs/01-core-completion.md": "4da537e20c0648a6e1754d949dc57c5c55836fb376e20ce3e3561be1c07ccc1d",
+    "execution/next_level/specs/02-pipeline-completion.md": "ca8e8caccee56fa726d947c40ea83fa874e4bb78aa89ed09f050f50ef55be9a9",
+    "execution/next_level/specs/03-pipeline-correction.md": "d49f1bce7d6344deeb0c74f8992fdeab1e391c2108a2c7e66c4af30d7324e938",
+    "execution/next_level/specs/04-safety-correction.md": "3774ce90681ae194bc367dc9ebe344c5ee0eaa86284e6fe472a5b114484315be",
+    "execution/next_level/specs/05-final-acceptance-corrections.md": "62e4e3ffcdaf07cf86eadb56263f0420a696ccaf7659757f65f2a47b2739f293",
+    "execution/next_level/specs/06-novelty-cardinality-regression.md": "bb6f3581cc39976092f700a7a8188c37a06cc196d4c0748c7300f392b39ea18d",
+    "next_level_learning_plan.md": "7ebe049dcdbeeffea8933242fe90fcd794698741869c6e7102726d4496279464",
+    "schrodinger/route_feasibility.py": "da36b0150c0b255b7e5482d7dc016505054d9632c8fb3a21d06c2d201bfedbf4",
+    "tests/test_route_feasibility.py": "0e5565a39d93b34269633522256b4eef38d741879e2292af989d075500626786"
+  },
+  "output_hashes": {
+    "inventory.json": "df7ff28b308c3bbba16f57d59e53a4e729d9d1e8be9adf5ae2a4d6773f9e0ab4",
+    "novelty.json": "e907bafab1fdf0f0f52d8dc36fd4d8317649e292331526da8f651cb7e7257678",
+    "selection.json": "e8cad99f923a935f41df222872ad99e9907c8dd8b8db3fdac4e56822fcb81d8f",
+    "splits.json": "5eed3f6addb193d3ca934e9e0c2f0ad656c13523f9bfd3c38ab9b359ae9774cb",
+    "summary.json": "beef914fe8512dc939850ff62d1b87e973035dd247144664cfe6c5f9caa67f08",
+    "support.bin": "8e800a7f457e6e2ff6ea3bb9e67a03b504c56f17e2d7a2163421cab441aaa9ee",
+    "training_states.json": "451f76bb3bb1cf42dc84db622e25787324303c7abc77ede673a2169195158355"
+  },
+  "runtime": {
+    "numpy": "2.5.3",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  }
+}

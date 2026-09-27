@@ -1,0 +1,163 @@
+{
+  "common_training_seconds": 0.4430016659825924,
+  "runs": [
+    {
+      "checkpoint": "execution/results/block2-final2/softmax/checkpoint-102.pt",
+      "dt_zero": null,
+      "metrics": {
+        "test_heldout_d4": {
+          "copy": 0.640625,
+          "copy_correct": 328,
+          "copy_count": 512,
+          "cross_entropy": 0.6619430780410767,
+          "xor": 0.505859375,
+          "xor_correct": 259,
+          "xor_count": 512
+        },
+        "test_heldout_d8": {
+          "copy": 0.623046875,
+          "copy_correct": 319,
+          "copy_count": 512,
+          "cross_entropy": 0.6758987903594971,
+          "xor": 0.51953125,
+          "xor_correct": 266,
+          "xor_count": 512
+        },
+        "test_seen_d4": {
+          "copy": 0.64453125,
+          "copy_correct": 330,
+          "copy_count": 512,
+          "cross_entropy": 0.6684818863868713,
+          "xor": 0.484375,
+          "xor_correct": 248,
+          "xor_count": 512
+        },
+        "test_seen_d8": {
+          "copy": 0.6015625,
+          "copy_correct": 308,
+          "copy_count": 512,
+          "cross_entropy": 0.6864686608314514,
+          "xor": 0.509765625,
+          "xor_correct": 261,
+          "xor_count": 512
+        },
+        "validation_seen_d4": {
+          "copy": 0.58203125,
+          "copy_correct": 149,
+          "copy_count": 256,
+          "cross_entropy": 0.6832682490348816,
+          "xor": 0.52734375,
+          "xor_correct": 135,
+          "xor_count": 256
+        }
+      },
+      "mode": "softmax",
+      "seed": 11,
+      "slack": 0.0,
+      "step": 102,
+      "training_seconds": 0.4430016659825924
+    },
+    {
+      "checkpoint": "execution/results/block2-final2/schrodinger/checkpoint-0.pt",
+      "dt_zero": {
+        "test_heldout_d4": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7120305895805359,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "test_heldout_d8": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7161661386489868,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "test_seen_d4": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7100856304168701,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "test_seen_d8": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7161191701889038,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "validation_seen_d4": {
+          "copy": 0.5,
+          "copy_correct": 128,
+          "copy_count": 256,
+          "cross_entropy": 0.7109752297401428,
+          "xor": 0.5,
+          "xor_correct": 128,
+          "xor_count": 256
+        }
+      },
+      "metrics": {
+        "test_heldout_d4": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7120347619056702,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "test_heldout_d8": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7161698937416077,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "test_seen_d4": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7100914120674133,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "test_seen_d8": {
+          "copy": 0.5,
+          "copy_correct": 256,
+          "copy_count": 512,
+          "cross_entropy": 0.7161239385604858,
+          "xor": 0.5,
+          "xor_correct": 256,
+          "xor_count": 512
+        },
+        "validation_seen_d4": {
+          "copy": 0.5,
+          "copy_correct": 128,
+          "copy_count": 256,
+          "cross_entropy": 0.710982084274292,
+          "xor": 0.5,
+          "xor_correct": 128,
+          "xor_count": 256
+        }
+      },
+      "mode": "schrodinger",
+      "seed": 11,
+      "slack": 0.4430016659825924,
+      "step": 0,
+      "training_seconds": 0.0
+    }
+  ]
+}

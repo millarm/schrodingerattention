@@ -1,0 +1,18 @@
+{
+  "attempt.json": {
+    "bytes": 588,
+    "sha256": "85de57355a8e86c5dc778f3ce9d0d0bb4adc0d6bcecaee75cbe32946f4057649"
+  },
+  "attempt.pending.json": {
+    "bytes": 409,
+    "sha256": "f37daaa973c50b0fea8daf4ce877bde4d08bc2aa6f5fa65508ef72878e5c489a"
+  },
+  "prepared.json": {
+    "bytes": 138364401,
+    "sha256": "10e5f96a98b4dcb944cf81b65eb43eb4ed5a8c8211bf9d1f55af2f0bc4814e49"
+  },
+  "result.json": {
+    "bytes": 11948,
+    "sha256": "ff19dcc1993184f80272f84d4507f881d88ad70486981695f45fe410c41b5ae7"
+  }
+}

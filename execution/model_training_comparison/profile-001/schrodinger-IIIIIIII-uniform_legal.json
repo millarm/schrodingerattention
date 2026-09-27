@@ -1,0 +1,5840 @@
+{
+  "maps": {
+    "248": {
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    "302": {
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    }
+  },
+  "mixture": {
+    "Q": null,
+    "U_novel": null,
+    "U_valid": null,
+    "V_novel": null,
+    "coverage": null,
+    "duplicate_concentration": null,
+    "duplicate_rate": null,
+    "invalid_rate": null,
+    "known_valid_mass": null,
+    "pass_at_k": null,
+    "valid_headroom": null,
+    "weighted_known_valid_ratio": null
+  },
+  "problems": [
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "00000301010302000103030102010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030103000201020002020000030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030001030002010003030301010102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030100030200000301020102030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010002020000000301020100030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103020303030002030103030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030100020000030201030102030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103030202010202020201000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030001020001000301020303010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030001000202020302000002000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020201020000020002000202030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000002020003020103010302020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000200020003030002030101010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030301030200020001020300010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030302030202030200020102030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010200030203030200010202010003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030100030102000200000302000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000203020002000303030103030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000003030300020002010102020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010301020300010200000303010102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010003010301030303010303030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020200010303020200030003030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020103030001020100000001020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000203030202030201030203020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000302030100010301000202030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010002020002030302030301000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030003030101030102000101030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020203000303010202030003010001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103030303020201030200020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303010101030001020302020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030001020302000203030300010101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030002020000010200010000020003",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "03010302030102030001000103020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010200000200030101030001020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020300020202000003030301030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000001000200020301030303030300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030301020100030300020202010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030200000103030202000102030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030201020002020100020003000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000102030103000102030103000103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030301000200010203000300030302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030302020300010003020200000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020300020300000203010001020201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030300010002020103000002000100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000200000001020301000200030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020203000002020201030200000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030100000203020002010002000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030200010103010003010200000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030001000103000100030301010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030102000003030300030202030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000301020203030201000100030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030002030101010002000303020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000003030101030101030102000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020202000002030102030102000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010303020201020202020002000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000002030100000003030003010001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000303010002010200000200020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010302000301020001000002020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000200010203020200020003010202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020301030101000002030002000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000000020302020000010202000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010300010003010303010201020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000302030301030100000102010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020301020303030002030103010002",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "00030103020002000103000201020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020201030303030301010003020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020000000103020003000102030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010101010303000000020202010102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103010301030301010101020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020203010303000201030300010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030003000300020002000101020300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000101010303010302020103030300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010301030301000201030002010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000100030301030202010001010001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030101000101010003020002000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010101030303000002000201030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030001030003030103010300030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000001030300010103030101030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000010002000201010001030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301030002010003020202000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202010101030102010200030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020001030002020203020100030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000002030200020302000103000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010103010101030103010103020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030002020202030302030003030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010102010203030203020300010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010000020302020000000200000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000200020202030202000102010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020002020002000203020103030302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000001020000030200010301030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010302010101030303000300020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030001000200000103010303030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010200020301010303030000030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000102000103020302000000000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010201010103020102030002010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030302000200000201030103010003",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "03010103030100020002030101010100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030103010300000000020200020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010200020101010303010103000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030103010301030103010300020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030000000002020002000000010201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030002000200020103010103030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030002010101000002010000010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101010103000000030001030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010201000301030102000100030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000203030301030101030103010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101030103010301030103010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030000000202020002000200020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030002000200000002000202000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030303000201010100030103020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010200020103000302010100020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303000002000200000200000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301010100000103020103020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010300020102010103010301030300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020301030100000100020203010201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202000201010000000201020203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202010002000102030003000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030301010103010301000301030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030101000101020003010200030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010101030003010302010002010100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010101030003000303000201020203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000003000103000001020303030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000201030200010200010103010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010101030003010002020000030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010201010000000200030300030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030100020000020301000003000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030303000000020200000001030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010100020000020000000201010203",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "01020103020103000201030300010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020100020003010301010301030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000202010000020002030001020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020302010002000001030103010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020103000001010200010303020300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010201000100010303020101000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010003010201010101030200010003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010203010100010301010300030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101030302020002000001030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020102010303010100010003020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000202010002010101030200030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030201000301020300020201010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030202000200020001020301010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000102010101010102000001010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010301020303000101020203010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000200020103020001000102020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010200030102010003020301000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020301010002030001020301010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010302030001010302010001020203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030102000203000201010002030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010303010202000003020002000103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020201000201010003000303020203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030200020001010303020102030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020000020002010101010301020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020203000200010001030103010202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030202010000030102030201000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010202010200000203010001000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020001010302000301010103020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030102030002010002010100010200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020103000002010203000001010201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020300020103010302000002010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000101030202010301030100000303",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "00020101030301030101000100020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010301000103010300020203010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000020002020002010300020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010100010203010101030103010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000002020000020000020200020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000000010003000002020100000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010001010300000300010102020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101000002020002010301000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103010301010301010303010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103010300020101010101000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010002010300010000030103020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103010301010303000002000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103000002020002000002000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010101030301010301010300030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000000002000100020302000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103010300020103010301010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010303010101000000000200030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000200000202020101010001000300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010100030200000102000200020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020002010301030103010301010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103000200020103000200000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030000000202020000000200000100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020101030301010303000002020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103010103030002010101000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103010103030103000000000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010001020001020301010003000102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030000020201010303000000000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000000000202000101030101010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000000000000010102010303020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000002020000020200000002000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000002020000000000020101030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010101010103000201030002000200",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "02000200000002020201010101030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000002020000000002020200000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010100020103010003020002010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202000002020200020101010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000200000002020002000200000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010100020301000001030202010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000000010201000301010102010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010103010103030101030001030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010101010000010203020303000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000200020101010103030100020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202000000010001030001030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202000000000103020103000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010103030000020200000002020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000000000200020202020002000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000001000102020103020103010200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020201030101030301010303010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010300000000010100020100000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000002000001030001030103010102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010103030002000002020002010100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000200020000020200000200020201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000000020002020200000002000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000000010300020101030003000102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010103010303010300020103010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020201030103000201010301000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202000000020202000202010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020002000200020201030101030300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000020000000002010102020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000002020101010100000002000103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000000101000202010201030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020201030000000202000202000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000000202000202000002020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000000020002000200000002010102",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "00020001010301000003000002010302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101000300030200010201020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010301030100010102020102030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010000000003030202000000020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000102030300000100020001010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010200030100010103030201010302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030001000203020000010200000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020100000103030002010003020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010301010001020200000202030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020002010101030303010300010100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000002000301000103020300000103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010001030200030103010300020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103000201000101010200020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103010301010301030003020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103010101000201020300030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030000000101030102000202020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101010200020103000200000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010000020001020303030103020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103010003020101010003030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000201000202030002010100000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000301010303020101030103010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000000020301030001020100030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010101030201000103020200000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010101020301020103000102000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020101030100010302030101030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010103000300010000030201030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020001020100030002020101000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010102010103020001030301000103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020001010102000103030003010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010101010200030000020200020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010000030202030001030201000003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030001010201000300000100000001",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "01030003010003030102000002020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000303030103000103020301000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030101000202030100000200030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020100030303000301020301000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030100030100020200000301020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030001020000020200000203010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030001030103000100020002030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000200020000020200030000020201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000301000300030302000102020300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010301030002030101000300030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030300000301020000030101030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020001000302020002010301000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010200030102030002000200030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030301010201000203000200020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020002010301030003030103030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030103010000020203010102000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103010003000102030100020203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000301020303000203000100000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030003030002010103000100000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000303020002030100020101010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030101020000020200020301000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000020100020200020300010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010002000202030003010001030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020003010200030001010300000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030100030103000103020101030300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000203000201030103010002000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000302010000020303000100000003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020100000200020303000003000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000300030003010303020103000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010200020003000202010301030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000300000201030000000301000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030000000000030100000002010003",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "02000103030302010002000200010200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030203030201030200010202020201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030301020300010203030301000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020003020102020300020003030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010203010100030301030301020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020101000102030301000301010202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010001010303010200010303030302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030203030203030101010300020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030303030101020103000303020001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030301030101010101010201000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030202020300010300010002030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000201020100030002010203000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010002000303030303030101010201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020202000301020000000302030302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030303030101030103010103030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020302020001020203000201000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000301020002010001010203020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000200030101010101010303010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030303020002010302010300030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030300010303010202010002030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030302010302000001020301000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010103020301010302020301010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010203020001010303000301030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020303020301020302010203020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030303020002000202030100000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030103020200000302020103030300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020100030301030301030202000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020200020000030302030103020001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010301020201000303030303000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000303020201030300030201030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000103010203030103020002030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303020300030201000202030101",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "02000203010301030003010200020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020103010301030103010002000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030103000300020203000201030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030100020200030103030300020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000302000201000301000200020300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030000020301010301000203020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030002030002000101030203010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030301020002030300030000000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000003000300030300010101030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020003020200000201020301030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020000000201030202010003020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020002020300030102000201030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020003010102000003000202020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030000030102020003030301010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000003020301030302000200010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010300000000020300020103020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020100000300000202010301030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020002010301030100030200000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020200000303030002020301030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030100000301020002030303010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010203010003010203000200000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000003020300030201000101030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010003020303030001030200000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020103000200000202000002010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020200030200000103030103010003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030103010301030100030102030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030200000202030100000302030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020203010000020303030001000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030000030003000102010001000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020003000000000303010102030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020003020303000302010101020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030203030301000101030301010000",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "03010103030302010100010201030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010300030201010303000303010202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000203020302010002010101030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030200010200010301030203030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101030103020103010003020001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000103030200030203010202000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020301010002000102010303030302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010203030002000103010303030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010303020303010300010003010102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020103000200030203020001030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010103020101030301010002000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010302020003000201020301020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020202010102020200000202020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010203010002030003020001010200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030103020202030001020003000003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020001020303010301000103030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000302010300020101010303000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303010202020300030000030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030300020101030203000002000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000102010303030002010003020203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030203010003020100030301030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010203000302010003030301020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010203000202030201000003010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030200000203030001010101020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030302000301020300030203010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030303020002020000020001030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000302000301030301020100020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000302000303020202010100020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010101020303000101030201030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020301000102000302010301030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010001030200010302000203030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010101020003020103010303030100",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "00010302000100020000030201000102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000201000302010300010300000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000001010301030002030002020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020001030103020001000200020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000001000001030300020202010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000202000000000201010001030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000001010202020000010203000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000002000101010300020100010202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020001000300000200020201010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020200000002000202020101030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020002000202000202020103000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020000000202020201030103010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000000010302000000020103000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020200000202000002020000000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000001010000020003000302010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010001020000030001030102000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020201030103010300020000000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000002010201030001000001030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010300000202010102010001020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010100030003000200010301030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010100020103000101020301030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020200000000020200020200000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010002000200020100000203030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020200000200020000020202010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010302000202000202000202000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000001010201010302000102010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000200020000020202000002000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000202020103000201030000020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010000010002010301030303020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000002020002020200000200000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010102010200010302030001030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000103020100000301010201010100",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "02010301030002000303010000000100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000302010303030300010302010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000300000100020200030300000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000201000000000203020102010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000202030002010301030003030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020003020102010301000302010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010000020003010202030002000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000303010103000201010301020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030003010203010002010102010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000201020001020301030000000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030002000200000200010002000103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303010103010303030000000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030003010202000303010101030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030201000203010000020303010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000100030300000100020001010302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010301000003020201030100030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020300010302000102000002000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010203020100020002030103010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000100030200010202000002030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010301030100000301030102030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000301010200030100020302010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000003020102030100030203000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000000020102000200020302010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010200020001030201030003030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000301030300010000020302010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030000010303020101030103000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000202000200020000030000020203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030000020003030001020200030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020200030003010302000001030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000101020003000203000003030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000000000203010203030003010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020002030001030200010301000200",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "03010303010303010002030101000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030003020303030002000000000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301030303030001030000000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301030103010301030103010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301030301000201030301010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030301010003030101020000030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000200000303000003010202010001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303010003010003000203020102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030003030000010000020202030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301030003030002020002010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303000302030301030103010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301030303000301020000030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000301000002030100020303030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030301010301030002000301000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000200030201010303010103000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000203030103010103010103030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303000000020003000200030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010300000203000000000002030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030103010300010002000303030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301030303010300030002010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010300030300030103000201020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301030103010303030103030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000203000200030002000301000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030001020103000301000302010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000301020300010303020303030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030300000103000201020301020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030000030100020001030301020001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030002030000000101030301000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030002030000000301010001020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030100030201000003000100010100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030103030100000002010002000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030300020100000000000201030202",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "02000202010301030002000000020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000002010000030201010000010102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020101000100000100000300000103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020101010101030101030002010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020002000000000200010300010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202000200000200000100030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020200020201030103000002000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202000002000202000000020001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020002000201010301000201000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000000102010201000003000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020000000202000000000002020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020103010101030001010001020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020103010103010301030100020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000000000103000103020202020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020200020200020101000201000102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000200020201030103000201010101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020103010300000000020001030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020202000201030101000203010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020200020200020002000000000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020202010103010301000002000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020002020200020101010300000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202020200000202010300000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000100000001010103030303010302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020103010100010200010302030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020103010300000200020201030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020000000200020002020002020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020000020000020202010301030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020202000201010001010102030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000200000202020000000001030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000000001000301020100020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000200020200000002020201030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000000010100020000000103030302",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 302,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "02030200020101010302010202030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030100000203000102030002010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030203020101000201020200020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000301030302020003010303020201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020102030002000003030000000003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020103020302030003000303000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020200010202030102000202000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030002010201030203000303020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000203000103020303020002030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030100020001000001000200020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010000000301020302030102020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030001030201000201030302020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000102000102020003010000000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000203000100000302020003020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000100000301030201000003000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000002020301000301030001030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030300010000030001020202020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301010201020302010202030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030002010002000100010303010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010202030102020303000302010302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000100000300020202030102010302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030203030003000201010101010102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020203030003010101020300010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030101020200000301000002000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010103000003030201010203030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020002020002030102030100010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010202000003010202030202030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030202030003010200020100000103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020001000000000301010303020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010003000203030301000001030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020201030303010103000100020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000202000301010301000203000201",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "02000002020000000202020000020203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020103000101030303020100030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010101030001020003030301010101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030201000102030301010001030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010200030203000000010103000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030002010302010100030201010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010201030101030100030103010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000000020202000000000303000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020201000200020101030101000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010303020100030102010301000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202010300000001030303020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030002010103020003010200030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000101030000000203020200010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000000010301000001010000010003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010100030103020001020303000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020103010100010301030201000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000001000201030100010202000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103000200020002010300020102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020103010300030000010002030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000001030002010000020303020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000020000000100030103010001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020300020001020301010300010200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010203030303010101000302000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101030201000203010303000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010103030103020100030103030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030201000300000200020001030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103020001030002020303010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000003030101030101020100030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103000001030202000000030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030301010101030300000000020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000002000201020002030303010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010301030201030002000302010301",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "02010302020100020300000200010201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010101020201020103030003010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020003010102020103000200030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010101020202000202010201030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000201000101030102000201020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010203010302000100030103000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000102000302000201020100000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010301000101020302030200030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010301020100030301030100020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010303010302010103030102010101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020102030100010003000103010200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030200010202030200010302000100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020002000102000201030102000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030102010200030102000100020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010001020202010000000102000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020300010101010103020100010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010203010101010302030303010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030200010203000102030201030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020100020200030300020102010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000202020103010301010102000100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020002010300020001010201020001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030200010301020203020100010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020301010103020002010003000102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010200030202000100020100030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010001020100010302020202000103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020102030000020002020100030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000201010203000203020002010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020201000003020201000102000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000101010201000202000302010200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010300020103010302020000020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010202010001030102020100000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010302030001010102020000020100",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "02010001030103030101010102030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301010302010002020301030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010103020301020303020101010200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000303010103010101010203030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301020101000303020102000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010100030302000200010102010200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020003010302020302020102010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020102000303020300010301020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010102030100020203010302000102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030302010301000303010103020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030201000302030101020201000100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010101020102020002000000020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010200000302010202030001000300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030302000203020101030102010202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000302010203010202000102000003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020103010102030002010301020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030101010002010301030100020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010001010201010002030001020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000103030101010303010301020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000301010103010301030302020300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020103010101030303010101030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010202030300000302030200020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301020302020001010303020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010003030101020202020203020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000101010202020000000303020001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020000010201000203000201030300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030103030201030200010003010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030203010001020201030301030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303030301020100020203000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020103020200010202030003000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020001020300010302020203030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020100030203030102000301030002",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "00010101020100020303020201030300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020000030202010003000101010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020103000102000202000201030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020202010003000002010201030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030201020103010002000300030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010201010000010202020203030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020001030103020202010300010101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010302010201000301000302020300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020100010300020000020302020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020001030202000102010200010003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000302010200000301030101030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000001010101010301010103010201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030002020102010301010201020201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010102010201010303000303030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020301020301010301010000010001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020100020003020100000301010100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010001010102020200000301010100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010301010103030103010101010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000101030203030200000201020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020001030103010101010102020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000201020003020100000301000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010302010003010203020000010302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020101030002010002010101010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020001030102020203000201010101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000103020101010200030200030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010200030001010200010102020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020103000201010100030200000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030202010100020002000103010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000101010301030303020100030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010100030001030101020202030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020103000001010102000303020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020103000302000102020301010000",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "01010102010001020103030201010001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030002000200020200010202000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020001020003020200010002020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010102020101000001030001020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010102030301030201020200000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010203020202000202010300020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010003010301030103020203020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020102000200030001020201030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010203000003020103000101030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020001020201010300010302030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020001020100010301010202000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030202000201010001020102030300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030302010102000102000200030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020301030201020200020002020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010302000202000202000101030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020101010302000003020102030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010100000201000000000102010003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020201020301000101020202020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020001010201020302000101020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020201000300010202030200000103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010200030200010202000203020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010203020100030102030201000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000101010202020002030100030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010200000202030000030202010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000302010300010202010103010100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020302000001030301030103020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020003030201010302010302020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010102020200020200000200000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020002010300020101030001020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103030101020201030102010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020201020002030102020002020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030302000101010303010202010303",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "01010303010301030101030300020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202000002020103010300000003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010103000200020301010303030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101030301010100020300000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103000000020202000000000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103010300000200000001010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103010300020103010300020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020002000000030000030203000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000000030003000303020100010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103000002000200000303000102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010000020101030101030102010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202010301030000020000000003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010301030301030103000000020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202000200020002000201030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000200020000030300020200020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000000020200020003030202020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000002020200020000020002020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010100020001030102030003000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101010101010303010100000003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030002000201030101030300020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000000301000000010302020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101000002020301030103010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030000000200020002020002020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000000001010100030201000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010301030301030103010300000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030000020200000200020002020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020002010103030101010303010001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030000000301000200020002000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020103000000000001020301030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010103010303030000020002020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000200020002000200020002000003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000000200020003000301030001",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "01000301030000020003010201020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020000020300010002020201020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020100020302010302020000000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000002030203020001030103000103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020002000201020202010100020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020203020301030202010002020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030002010202000003020100000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010000030101010303030100030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000303020000000103010301030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030203030000000002030101010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010000030303020102010201020102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020200030303000100010000030302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030003000202000201010201000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000102020200030000030302020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020202000000030201030103020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020302010000020002020200020102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030201000301000103010002000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030302010200010002000203020300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030000030202000303000302020102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030201020003020002000101020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020301000101020002020303020300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000100030300030103010202020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020001030201020200020200020001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010000010300010203030201000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000202010301030301000202010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030100020301010000020001030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000000020301020201000302030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020003000303000002010301030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020203030103030201020003000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000102020201030102000200020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00000300030103020202010100020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020300020302000201010301030201",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "00020100010301010302010002030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010103030302000201000301010102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000302000100030202010300000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010103010100020202030300000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020002000301000101020102000003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020100000003030102020301030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030102000202010301030100030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000202010101020203010100020300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000203020001030203000001020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020003020102030001010300020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020302020000020101030000030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000202000200010102020003030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000200020001010202020101000300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010003010203030300010302010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020201020200020001030101030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000201020300010001020101000102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020100020100030103030103010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020200010100030001010301020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010200000101030203030300030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000100010101030303010101020300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020002000301000200000102000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030103000002000101030201020203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010002010301010100000201030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030102020103030200000001030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020101000303010200000101020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010301010101030102010301030302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030100020002020300020000010201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010201000103030103020100030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000102000200020301000102000102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010300010202030201000301030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020103030100020201010203000102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010103020200000302030001010202",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "02010100010101030200020103000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000103020101000200020301010101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030201010301030001010201020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020301020100020203030103000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010102010302030101000203000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020200020300020002020100030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030201000302010002010102030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030200010101020102020302020001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010303020201000001020100020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010201010101020002030100030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101020200010301020301020102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020200000202010001030200000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020103010001010302010301020102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020003020103010201010202010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000202000103010100020100030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020103020201030100030301030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000202000002000101030101030302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030201030102020003020103000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010301020200010300010103030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010200020302030002000200020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010102010200030200020302030300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000202010203010100020102010000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010003010302020002010302000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020101030203020300020002000001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010002000103010102010202020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000202020100000302000100020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010200030201030200010200030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010103010303000101020100030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010302030002010001010301030202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020200000101020300030103020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103010302000103020002000102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020000020202010103000201000301",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "01030102030100030100000200000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030102030003020002000101000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000301030203010303010103030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020303030100030203010103000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000002000003000102020003030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030203000301010103010301030200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020003010302010000020302010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030303030200020101010103030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010003020303030002010103000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000203010301030100030102010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020000020302000203010100030301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030301000301030302000200000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010203010303030100030002000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030003030203030002000002000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010303030002010001020003020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020003030103020300030200000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030300000000030303010301030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030303030102010002010303000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020301010103030100030101020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030001010302030003030000010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010301030103010002030001020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030103010203030001020100020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010002030100030100000303030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020300020002030301010100030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010000020302030001010000000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020000020002030100000303010001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010303030301010101000303030302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020003030201000300020102010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020002010002000201030103030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010200010302000201030103000102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020000020002020000020002020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010301000303010203010300030203",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "01000000020202000303030302010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000201030301000301030203000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030101000100000300010202020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030200010103010302030300020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000002000000000303010102020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000000000200030203010000030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030002000102000302010002030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030200030301030103000202000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000101030203030101030301030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000002020000000000020003010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030301010002000200030200020101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000203000102030103000102030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103000103020300020002010001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010302000100020200000200000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000302030001020101000303020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030303020101000303010302010001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000002020300010303030201030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020303000103010201000103020001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000301020003030303000201030203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030003010200020101000100000000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103000200020103010300010302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00020100000003000100020303010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010002030301030103030101010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000203030301030100030302000101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030101030301030201030002010100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030300020301030300000003000300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000301000200020002000000020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000301000202030300020303000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03000103020101000303020303030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010003020100020300010100020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00010203030003030000010001030300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "00030201010301000200030302030003",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "02010001010103030200010202030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030103010303030201020103010002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030203030103000101010101020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030200030301020002000301030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020003010102010102030302000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030301010200030301010303020300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020002010002010301030203030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010302010303010002000102010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303010101030202000101020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020302000200030003020100010302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010103000200030102030301010102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020001030303020303000101010302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000303020101010001020200000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000101020100030202020100020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020002030201030002010202010200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010200020103010101000302000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030300020301030100020101030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030203030101020001020302010100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030102010100010102030301030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010103000102030001010101030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020202000003020000010203010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020001000303030302030302010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010201010300020103030001020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030102030202030303000201030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010301030101020001020001020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020001020303000201010102010003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010001020300030201010301010001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020302000101000200020201030201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020001030102030300020100010200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010201000101030103020301010202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020003010203020301020000010302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030102020202010301030103030000",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "01020203030300030100020103010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020000020201000203010000010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010101030101030200020103030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010203000101010103010202010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020100010200030101020301000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020203000203000102010302030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030201000103030301010301030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010303020100030200010201020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010201030002030200000101030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000301020203030100020101020302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000101020303030200000200020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030103020102030101030303030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010103020102020001010001010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010003030201030301030300010202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020301030101030202000002000100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010103020101010102010302000103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020202030201010301010201000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000301010301030102010301030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010203020103000303000200020301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000301010203020200000103020200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030200030303030200010102030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010201010003030203010300010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030302010201030001030301000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303010201030001010203000201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030003020202030001010001020102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030302030001010303020102020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010201020103020100020103020001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020303010301020301030100030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030303020201020000020102030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000303020103030002000103020201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02020202000303030301030001010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010101020102000101000303010303",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "01010200030203010301030002030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030000000201030001030301010100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000201000102000203000302000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020002010000000003000201000202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000303020101010301010300020003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020100030200030203030101010103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020301010002030002000203010100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020103000203030002010003030002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000103030302000002010103010302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010201000103010203030301030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030101020002030300010203010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000203010301000203000201030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020002030301030103030101010003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020002000203030103010002030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010300030203010002010101000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010201010303030300000002020203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010301020003020100030301020002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030303020001010203030103030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030003020303000002000002020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010302010002000203010002030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030301000301010200010302030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030301020101030002030101000002",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020003020001020103030003030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030301030001030102010001010203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020103000303030101030101020100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010301030002010001030100020000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010103020100020100020300030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020303030103010100020000020203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030103000000010102010002010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000302030101030101010002030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01010303020303030100010103010303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020001020003020103000301010302",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    },
+    {
+      "attempts": [
+        {
+          "novel": false,
+          "route": "02010303000301030200030000010003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020101000301020301030303030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000200020002010002000000030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010000000202020002030303030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020301030300010103030201000301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030302030101010100030203030101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020100010203010000000000020202",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000200000202030203010303010301",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030101000200020003020002030100",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01020000020302010003030102030300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030102000203000303030203030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020002000201010000020002000200",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030201000200020002030103030303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020101030100000002000202000203",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030201030301030002010003010201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000303010103010301020103000302",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303020002000302010300020303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010301000002030103020303010101",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030100020300030102000201030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01030103010203010000000202030102",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030201000203000300000002020201",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02010002030003010303010203030001",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02030301030002030303000201030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010200020303010300020301010300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020101000000000002000202030003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030301030203030101030100020103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "02000302010103000302010100000003",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030300020200020301030103030000",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "01000002020203030301010303000300",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03030200020101030101000203000303",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03010303030101020301010301030103",
+          "valid": false
+        },
+        {
+          "novel": false,
+          "route": "03020303010001010100000303010003",
+          "valid": false
+        }
+      ],
+      "family": "IIIIIIII",
+      "map_id": 248,
+      "metrics": {
+        "Q": 0.0,
+        "U_novel": 0.0,
+        "U_valid": 0.0,
+        "V_novel": 0.0,
+        "coverage": null,
+        "duplicate_concentration": null,
+        "duplicate_rate": 0.0,
+        "invalid_rate": 1.0,
+        "known_valid_mass": 0.0,
+        "pass_at_k": 0.0,
+        "valid_headroom": 0.0,
+        "weighted_known_valid_ratio": null
+      }
+    }
+  ],
+  "strata": {
+    "routine": {
+      "Q": 0.0,
+      "U_novel": 0.0,
+      "U_valid": 0.0,
+      "V_novel": 0.0,
+      "coverage": null,
+      "duplicate_concentration": null,
+      "duplicate_rate": 0.0,
+      "invalid_rate": 1.0,
+      "known_valid_mass": 0.0,
+      "pass_at_k": 0.0,
+      "valid_headroom": 0.0,
+      "weighted_known_valid_ratio": null
+    }
+  },
+  "timing": {
+    "cache_inference_seconds": 0.07835633307695389,
+    "categorical_rollout_seconds": 0.17857350100530311,
+    "end_to_end_seconds": 0.4162136659724638,
+    "mechanism_seconds": 0.0,
+    "proper_seconds": 0.0,
+    "verifier_uniqueness_seconds": 0.14208445796975866
+  }
+}

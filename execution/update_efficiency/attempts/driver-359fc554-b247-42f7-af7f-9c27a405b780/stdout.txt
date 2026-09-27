@@ -1,0 +1,1 @@
+{"mode": "softmax", "seed": 2202, "status": "COMPLETE"}

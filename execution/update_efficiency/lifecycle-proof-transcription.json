@@ -1,0 +1,8 @@
+{
+  "kind": "read_only_transcription_not_original_producer_artifact",
+  "original_directory": "/private/var/folders/sr/3vzptsv10h36bf9jhq3bpg3h0000gp/T/pytest-of-gmh-company/pytest-202/test_driver_watchdog_descendan0/proof/",
+  "child-ready.json": {"parent_pid":14118,"pgid":14118,"pid":14119},
+  "parent-ready.json": {"child_pid":14119,"pgid":14118,"pid":14118},
+  "parent-start.json": {"child_pid":14119,"pgid":14118,"pid":14118},
+  "reaped.json": {"pid":14119,"reason":"SIGTERM handler","returncode":-15}
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "production",
+  "seconds": 300,
+  "approved": true,
+  "hashes": {
+    "d1": "e1751fa198a747bfc68a788e6dc8bf61e40b8001048bf6b5145ee17951623fd2",
+    "test": "a66d67d1b6a89633e1daeda97d7c0c839848ce9cdc618f1724eee02efa17f842",
+    "watchdog": "2b3fed56e07da5a33c122afa10e9cc5b77df0df77ec492db0bfaf4887708a8c8"
+  },
+  "authorities": {
+    "d1-minimal-repair-plan.md": "370650b044b51eab8c331b54718e0af85be9dfa75758bab695e23cc4312d2a31",
+    "d1-recovery-approval.md": "36431d4b7ac2686fa3282d5de419e1ce3d3a55db1a75b5e065e2acf7448378bb",
+    "d1-astra-approval.md": "be8f462f88181ca25ce131088f2b7fa81cdee4b2cd45445affe7efb97a386f8b",
+    "d1-minimal-repair-plan-review.md": "3915b21989cc532fdee6bae8c0dec3ac62f96a64142bea6e31f064f8bbc819ba"
+  },
+  "cwd": "/Users/gmh-company/codex/schrodinger",
+  "argv": [
+    "/Users/gmh-company/codex/schrodinger/.venv/bin/python",
+    "-m",
+    "execution.difficult_problem_solving.d1",
+    "--production-decision",
+    "/Users/gmh-company/codex/schrodinger/execution/difficult_problem_solving/d1-production-decision-20260927.json"
+  ],
+  "owner": "difficult-d1-repair-001",
+  "ledger": "/Users/gmh-company/codex/schrodinger/execution/model_training_comparison/ledger.jsonl",
+  "ledger_sha256": "a1bdef8039c66547d8019898d683b4780bf4daa2ccb7b26648c03c7b9ff81683",
+  "review": {
+    "path": "/Users/gmh-company/codex/schrodinger/execution/difficult_problem_solving/d1-repair-implementation-review.md",
+    "sha256": "a6f8737ea1f5735cadf8a0c36a0a5adba928291fbb4d746b525999f65fbd69aa",
+    "phase": "implementation",
+    "verdict": "PASS"
+  }
+}

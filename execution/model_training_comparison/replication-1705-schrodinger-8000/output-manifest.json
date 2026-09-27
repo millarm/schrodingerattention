@@ -1,0 +1,346 @@
+{
+  "attempt.json": {
+    "bytes": 643,
+    "sha256": "d74f329033be9da547e33a09694d9de3b2022bd6e874aea302e34fdd787f6750"
+  },
+  "attempt.pending.json": {
+    "bytes": 467,
+    "sha256": "5ea1aa9a8c7df8f368aaba41627643ef11e84b04ea7bde7b8403eb9de56efbca"
+  },
+  "checkpoints/curves.jsonl": {
+    "bytes": 1952406,
+    "sha256": "90428b941507db73ec36afa14a6bcfd05c036d13537d0ce8ab8cf68e1d83e10d"
+  },
+  "checkpoints/events.jsonl": {
+    "bytes": 82494802,
+    "sha256": "ba773da93653a8d859bc22d21c1c53ece2d68d126d2086ce3c5f64ff0ca4474e"
+  },
+  "checkpoints/initial.pt": {
+    "bytes": 302812,
+    "sha256": "e4c1a781ed4686d06ac0018a6c2bd8caa28b90979037ef816271358190d323c5"
+  },
+  "checkpoints/update-100.pt": {
+    "bytes": 903362,
+    "sha256": "cb68278297527d02df1b14dd76763011594ad6c0829eb6853340de331ba9bb21"
+  },
+  "checkpoints/update-1000.pt": {
+    "bytes": 903545,
+    "sha256": "4adf478266082433455914b5c483a62ca0350cf3ffc4c11e0c280b53b49f1a7a"
+  },
+  "checkpoints/update-1100.pt": {
+    "bytes": 903545,
+    "sha256": "67a742e89bc19475e257422808938f5197861f85d428c11dcfb1a5bb6e1fa991"
+  },
+  "checkpoints/update-1200.pt": {
+    "bytes": 903545,
+    "sha256": "fa5773d3908bf8d03657ecd4168179da927e1ae161d5e6b138afa3e87fa9e84c"
+  },
+  "checkpoints/update-1300.pt": {
+    "bytes": 903545,
+    "sha256": "becb55b030acb66744f4b5e5bd955156023478c32108e0a6ea0d0666219679ca"
+  },
+  "checkpoints/update-1400.pt": {
+    "bytes": 903545,
+    "sha256": "be0ee909b79607488b6ed6768c906c04b179f9f67a3a5fa2837df4186821e3f0"
+  },
+  "checkpoints/update-1500.pt": {
+    "bytes": 903545,
+    "sha256": "48394758f5eea90dfa8dea6286ff2547c8cfecf881fccabb961b8c481823447c"
+  },
+  "checkpoints/update-1600.pt": {
+    "bytes": 903545,
+    "sha256": "2572400aef128a7d8541c95d89c0401081e15b3d0d6afecdb6dff5d8a6c47c1f"
+  },
+  "checkpoints/update-1700.pt": {
+    "bytes": 903545,
+    "sha256": "05fcebd2c90360d59ef83ac48fc66002eb4c15b5585e5c308823d44f14d68a8e"
+  },
+  "checkpoints/update-1800.pt": {
+    "bytes": 903545,
+    "sha256": "4688799cccee11af1021ecd4b8e96910d88feda07258835d27ea842e7236ed3b"
+  },
+  "checkpoints/update-1900.pt": {
+    "bytes": 903545,
+    "sha256": "5b9e7cdf967786909845666c76b19b2323e01dec8f8f0c9538fea676f4267f41"
+  },
+  "checkpoints/update-200.pt": {
+    "bytes": 903362,
+    "sha256": "c09cc22b63a92c73732c58c25a95165f2d84f97886bd0bbc39337e1916149821"
+  },
+  "checkpoints/update-2000.pt": {
+    "bytes": 903545,
+    "sha256": "4a7b6913e94f999f574a4caa077ad5d298f3b6dabc026cb642dbad96d90af474"
+  },
+  "checkpoints/update-2100.pt": {
+    "bytes": 903545,
+    "sha256": "e4521f0bd7941e69f24a3b24099f652ecece01e524706f90158b32c60df8bc54"
+  },
+  "checkpoints/update-2200.pt": {
+    "bytes": 903545,
+    "sha256": "9c98a4c5918eafad9ffc1af563a2ef187299dbbac1ccff6f459b314164ff01fa"
+  },
+  "checkpoints/update-2300.pt": {
+    "bytes": 903545,
+    "sha256": "885803779f944fd98a9b61c5f23ebd677f7c7a5eaed75c1bd3e589d36c0f5dfb"
+  },
+  "checkpoints/update-2400.pt": {
+    "bytes": 903545,
+    "sha256": "21bdc354a699416cc398cd98bd77f7d4800029e082e66bdecb10f1a08615d29f"
+  },
+  "checkpoints/update-2500.pt": {
+    "bytes": 903545,
+    "sha256": "cbb68f27e4aa1cb754b0f446c4dabbafd0541297a04a4b5edc57bf48e6535419"
+  },
+  "checkpoints/update-2600.pt": {
+    "bytes": 903545,
+    "sha256": "79420b4dc9bee7eeb3f093051207d4ae6cb99d39ce1562578ce7003a843d2c2e"
+  },
+  "checkpoints/update-2700.pt": {
+    "bytes": 903545,
+    "sha256": "1e19809864002abcd3277fae6cd300e22df71d3b498c18f0b944ea5821d18355"
+  },
+  "checkpoints/update-2800.pt": {
+    "bytes": 903545,
+    "sha256": "7d919420337507090f34f62243a6193e1aa215848faa99152731e0ef13d89477"
+  },
+  "checkpoints/update-2900.pt": {
+    "bytes": 903545,
+    "sha256": "08a857fdbabdd5e71489f456ba8a791983cc817326c03eb17e35810ccade582e"
+  },
+  "checkpoints/update-300.pt": {
+    "bytes": 903362,
+    "sha256": "5d73bd2e481b989c7a42ee20244824b5d2046e6335f0c7a81b8483dbb903ce1e"
+  },
+  "checkpoints/update-3000.pt": {
+    "bytes": 903545,
+    "sha256": "9ad107f802003dce91c477bd503205d377fc052f32c4fed709bb876ee0c6e922"
+  },
+  "checkpoints/update-3100.pt": {
+    "bytes": 903545,
+    "sha256": "36552693cbd22cbcec9813b8ab979348411574e902dd4ae671a5fbb2017fdc7f"
+  },
+  "checkpoints/update-3200.pt": {
+    "bytes": 903545,
+    "sha256": "0bbec99a164c5ba7838b377c98d726b7a6f81e7fda75b726c1284f608172f4cd"
+  },
+  "checkpoints/update-3300.pt": {
+    "bytes": 903545,
+    "sha256": "e453c824482a93c019a982d0cfc82b08394a3287ef6231caa27964841259a8f4"
+  },
+  "checkpoints/update-3400.pt": {
+    "bytes": 903545,
+    "sha256": "9c9f89d8bd164094550c502a29c013ff886123cd0b2ad922dbf7472969d0105f"
+  },
+  "checkpoints/update-3500.pt": {
+    "bytes": 903545,
+    "sha256": "ed8c8cd55028e18e429be3d1dd773acb454126a0af2e1ee8168c4a7cff5d2723"
+  },
+  "checkpoints/update-3600.pt": {
+    "bytes": 903545,
+    "sha256": "d80bdcb64091c6ce6f766f8754d9bb3de013e428ceeccb363337df48fc09f3a4"
+  },
+  "checkpoints/update-3700.pt": {
+    "bytes": 903545,
+    "sha256": "55c6ff60bb7f4b16841f598bf47b4162aa771e1087706fcb877def68b77b7d88"
+  },
+  "checkpoints/update-3800.pt": {
+    "bytes": 903545,
+    "sha256": "751fc5ecb4f1646b511078ae0e4ffd6b66a1e34281df6c3821bb88f357476853"
+  },
+  "checkpoints/update-3900.pt": {
+    "bytes": 903545,
+    "sha256": "67e767ad00cd552e9db46e67bedf1be12ef0618a24c88a7e5e8bbb7fb3947137"
+  },
+  "checkpoints/update-400.pt": {
+    "bytes": 903362,
+    "sha256": "9c72a9537634f0066814b8882826ba10cdb76297fc55a5809002be043d511a7b"
+  },
+  "checkpoints/update-4000.pt": {
+    "bytes": 903545,
+    "sha256": "a23e1316095f9ab02d7d855cd23434835a0df0b37549dbd86dade6581bfd7a44"
+  },
+  "checkpoints/update-4100.pt": {
+    "bytes": 903545,
+    "sha256": "5b1a227133039ba2163cd55e8a7210814bfc50aef09120885407c6776a22ae81"
+  },
+  "checkpoints/update-4200.pt": {
+    "bytes": 903545,
+    "sha256": "7cee397fa36109191279d9957e5f4ef8acbcfef9adc241ff810a4e0818bcdfd4"
+  },
+  "checkpoints/update-4300.pt": {
+    "bytes": 903545,
+    "sha256": "8a6b5c703966a6d803af9fbf120b14fdfbc6da8c7e5edd374ab3dd4d38107e02"
+  },
+  "checkpoints/update-4400.pt": {
+    "bytes": 903545,
+    "sha256": "d9330d072e942afe09074e6229d301d70b31b32580f6a91905e387c4c99c49d5"
+  },
+  "checkpoints/update-4500.pt": {
+    "bytes": 903545,
+    "sha256": "1fa1f743192f75cf17d802b7879325d8fdf11e48c76d3461b3cd7ad8f45f4330"
+  },
+  "checkpoints/update-4600.pt": {
+    "bytes": 903545,
+    "sha256": "9c19b3baa1f7cefb2cf0d97ec5f600cbf8a781dc1882cd8fd61920ab4dbc3055"
+  },
+  "checkpoints/update-4700.pt": {
+    "bytes": 903545,
+    "sha256": "9098085f4ea2fef5b56b9bb9dc3c39bbca70b8260f8570b113b2aa3c81f82827"
+  },
+  "checkpoints/update-4800.pt": {
+    "bytes": 903545,
+    "sha256": "49e73f02e9d99c9e6b75dbefa7c8e967d3c2a2701ecd6da05a3498986433dec6"
+  },
+  "checkpoints/update-4900.pt": {
+    "bytes": 903545,
+    "sha256": "8b669a70df038feede78eaaa2f837ad6854d8b39a7b874dc0d8731fe04130cb0"
+  },
+  "checkpoints/update-500.pt": {
+    "bytes": 903362,
+    "sha256": "949e81c2e64b2dd91bb668d3574cc5ea5760f17e43a044d6a5ecfd58ee9e12ff"
+  },
+  "checkpoints/update-5000.pt": {
+    "bytes": 903545,
+    "sha256": "360696cb5d37f1ba34f5d876c77128df7d3048ceaf7f70d0990b7937169ad849"
+  },
+  "checkpoints/update-5100.pt": {
+    "bytes": 903545,
+    "sha256": "5c041ffcbdc04f5ac5032552bd784938719604787e1ff468d3011d626b0bfebf"
+  },
+  "checkpoints/update-5200.pt": {
+    "bytes": 903545,
+    "sha256": "f00411b9d659f3103da155c524bef7b2777c41c7c6622cadd1b186d4a5eb75f7"
+  },
+  "checkpoints/update-5300.pt": {
+    "bytes": 903545,
+    "sha256": "cc03d8dbf124f8cd8c6dca6771549c77de47ca9d7923451a0c7b53974b52ed42"
+  },
+  "checkpoints/update-5400.pt": {
+    "bytes": 903545,
+    "sha256": "6e88d1ba48cff1a7d3835a62e117ba437e633423bdcd1b4722cea3705c073e0d"
+  },
+  "checkpoints/update-5500.pt": {
+    "bytes": 903545,
+    "sha256": "e720c3419ebb3fcaf301efa6ad7868468242083e6a30684e589d5c098e7d28e7"
+  },
+  "checkpoints/update-5600.pt": {
+    "bytes": 903545,
+    "sha256": "826e997da554292d6b429d47c0502a79a1ef11fa3fe580fd2144b4c5af45a84e"
+  },
+  "checkpoints/update-5700.pt": {
+    "bytes": 903545,
+    "sha256": "1ce7a34953cefb6f7318300629594df170af38f1f907c96596ee7f38c9219cdf"
+  },
+  "checkpoints/update-5800.pt": {
+    "bytes": 903545,
+    "sha256": "d51c2cd6f0b717e6a3e3139a838b6fbfc44bc770df04ad54fb67bacd2daf8249"
+  },
+  "checkpoints/update-5900.pt": {
+    "bytes": 903545,
+    "sha256": "c5f3219884a9ca84573bfa3d232b4c71bab20ea3e581b2d3ae86eb64c24da8e7"
+  },
+  "checkpoints/update-600.pt": {
+    "bytes": 903362,
+    "sha256": "d1cd88e20c7f0d528a8cb74912f85e2efde143eafba4aba484ef3b0f9addb1b3"
+  },
+  "checkpoints/update-6000.pt": {
+    "bytes": 903545,
+    "sha256": "a992e65013ed38104e672fa63734a5ecb30c665bf88a3dc4e24076d0e640a34e"
+  },
+  "checkpoints/update-6100.pt": {
+    "bytes": 903545,
+    "sha256": "006a0a664f16059d910388f91581fd6b4d8c391cb6d2e20bad880e3c1f88dd23"
+  },
+  "checkpoints/update-6200.pt": {
+    "bytes": 903545,
+    "sha256": "b5a4c05a543b98a5c9ccd4b134ec43c8d37a4e2d112d9d02897834e3d434e107"
+  },
+  "checkpoints/update-6300.pt": {
+    "bytes": 903545,
+    "sha256": "2cf7400234a77e37cb6db97469b0d277e6a2dace26996f6ed2ff7f8ef2ce9383"
+  },
+  "checkpoints/update-6400.pt": {
+    "bytes": 903545,
+    "sha256": "380386a26e1a7e7eca02cb2881392a75b649921480f094dabf15e35b3cdf33e9"
+  },
+  "checkpoints/update-6500.pt": {
+    "bytes": 903545,
+    "sha256": "38a38046af8ec2c32d7e5db7c1884f890cf5dfbbfedc181fbbb56d5e5f9a7703"
+  },
+  "checkpoints/update-6600.pt": {
+    "bytes": 903545,
+    "sha256": "c0098eb1b77e470035c6eb44a9ad6d5b433741ca9f8232b46c24a35de57ef56c"
+  },
+  "checkpoints/update-6700.pt": {
+    "bytes": 903545,
+    "sha256": "8cb7508fa4eedfae253345591c4025ec6e5c889f583f3eeace5737b258eebfe0"
+  },
+  "checkpoints/update-6800.pt": {
+    "bytes": 903545,
+    "sha256": "9f75d8c58d85c832a877ea4007c4cb7e40ab6358b3934ecd64d9b67b64eb7316"
+  },
+  "checkpoints/update-6900.pt": {
+    "bytes": 903545,
+    "sha256": "1ff3aebafd4c57f3bf51b1863684f79c820cb76d71d3fc9cf185b8580ac97618"
+  },
+  "checkpoints/update-700.pt": {
+    "bytes": 903362,
+    "sha256": "c4e26889315eef5e13208bb41ce6f9d4c61b5d66b105dd0b510633de88c82bd2"
+  },
+  "checkpoints/update-7000.pt": {
+    "bytes": 903545,
+    "sha256": "319e47465540b5744cdabedda1dad7f803f4999aca4622bb76151ee93c95a5c0"
+  },
+  "checkpoints/update-7100.pt": {
+    "bytes": 903545,
+    "sha256": "35c2d876d42c1ee02671af5a837dbed796480df4e77796e045aa7ffa557a1c35"
+  },
+  "checkpoints/update-7200.pt": {
+    "bytes": 903545,
+    "sha256": "2114581dc02cf65cec69bd3adf9f82bde5c95fdd04659f80538902d1d34e7567"
+  },
+  "checkpoints/update-7300.pt": {
+    "bytes": 903545,
+    "sha256": "08ae676933d3a283859aeffd713ceac458e2cc271226275ca167974d94757bec"
+  },
+  "checkpoints/update-7400.pt": {
+    "bytes": 903545,
+    "sha256": "daa022528c0f53516c8944d459f0586d5bc05ba7fd19137e3857b99a28073e57"
+  },
+  "checkpoints/update-7500.pt": {
+    "bytes": 903545,
+    "sha256": "a335fe2d7eb3fb6a9264432895eee8f0d7b3f2846b44ad6fc834da093f6924c8"
+  },
+  "checkpoints/update-7600.pt": {
+    "bytes": 903545,
+    "sha256": "af45c3805ac217bd368ce1c47b2253714e7470aea12eb2c79f9e80abd0d93582"
+  },
+  "checkpoints/update-7700.pt": {
+    "bytes": 903545,
+    "sha256": "f50d4de5228273c945519ab632598467d4733b5125d6b1f0d0b18d54c9290511"
+  },
+  "checkpoints/update-7800.pt": {
+    "bytes": 903545,
+    "sha256": "619d3a397df2a027c3239fc3b116c62878dffb05370316a004aa3a55f0183654"
+  },
+  "checkpoints/update-7900.pt": {
+    "bytes": 903545,
+    "sha256": "3db206c82d0ac1337cacb5b2fffefec3b87c9d1f2094f89aae1f634ea060d953"
+  },
+  "checkpoints/update-800.pt": {
+    "bytes": 903362,
+    "sha256": "502ac845c90709bf422244ac1bd9426b0b9b562744585591660bccd7fa354fb3"
+  },
+  "checkpoints/update-8000.pt": {
+    "bytes": 903545,
+    "sha256": "09287cd64a3abfa368a00205680635327ece2d26a2384060c06b261fedab8018"
+  },
+  "checkpoints/update-900.pt": {
+    "bytes": 903362,
+    "sha256": "a9c206b96c07019b0f498d8d1a1d66b7778841bab503c005ceabbc7ad03879da"
+  },
+  "result.json": {
+    "bytes": 146677669,
+    "sha256": "eec9ef2284602734b787114beb932abc7c2dc3cdf51b3672e70938ecc6c740c7"
+  }
+}

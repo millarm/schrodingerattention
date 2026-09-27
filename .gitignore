@@ -1,0 +1,60 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+/tmp/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large generated model/data artifacts; keep local copies
+**/checkpoints/
+*.pt
+*.pth
+*.npz
+
+# Ephemeral locks and future long-run output
+*.lock
+/execution/long_horizon_200k/attempts/
+
+# Existing raw artifacts larger than 10 MiB (summaries/manifests remain)
+/execution/model_training_comparison/baseline-diagnosis-001/baseline_diagnosis.json
+/execution/model_training_comparison/difficult-d0-001/d0.json
+/execution/model_training_comparison/paired-behavior-analysis-001/paired_behavior.json
+/execution/model_training_comparison/paired-behavior-sa-8000/result.json
+/execution/model_training_comparison/pilot-1701-schrodinger-1000/result.json
+/execution/model_training_comparison/pilot-1701-softmax-1000/result.json
+/execution/model_training_comparison/pilot-1701-softmax-2000/result.json
+/execution/model_training_comparison/pilot-1701-softmax-4000/result.json
+/execution/model_training_comparison/pilot-1701-softmax-8000/result.json
+/execution/model_training_comparison/prepare-001/prepared.json
+/execution/model_training_comparison/replication-1702-analysis/analysis.json
+/execution/model_training_comparison/replication-1702-schrodinger-8000/result.json
+/execution/model_training_comparison/replication-1702-softmax-8000/result.json
+/execution/model_training_comparison/replication-1703-analysis/analysis.json
+/execution/model_training_comparison/replication-1703-schrodinger-8000/result.json
+/execution/model_training_comparison/replication-1703-softmax-8000/result.json
+/execution/model_training_comparison/replication-1704-analysis/analysis.json
+/execution/model_training_comparison/replication-1704-schrodinger-8000/result.json
+/execution/model_training_comparison/replication-1704-softmax-8000/result.json
+/execution/model_training_comparison/replication-1705-analysis/analysis.json
+/execution/model_training_comparison/replication-1705-schrodinger-8000/result.json
+/execution/model_training_comparison/replication-1705-softmax-8000/result.json
+/execution/model_training_comparison/threeway-diagnosis-001/threeway_diagnosis.json
+/execution/next_level_v2/attempts/feasibility-001/A/inventory.json
+/execution/next_level_v2/attempts/feasibility-001/B/inventory.json
+/execution/next_level_v3/attempts/feasibility-001/inventory.json
+/execution/next_level_v3/attempts/feasibility-001/proposal-12-training.json
+/execution/next_level_v3/attempts/feasibility-001/proposal-14-training.json
+/execution/next_level_v3/attempts/feasibility-001/proposal-16-training.json
+/execution/next_level_v3/attempts/feasibility-001/result.json
+/execution/next_level_v3_pool512/attempts/feasibility-001/inventory.json
+/execution/next_level_v3_pool512/attempts/feasibility-001/proposal-12-training.json
+/execution/next_level_v3_pool512/attempts/feasibility-001/proposal-14-training.json
+/execution/next_level_v3_pool512/attempts/feasibility-001/result.json

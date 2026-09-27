@@ -1,0 +1,41 @@
+{
+  "command": "MPLCONFIGDIR=/private/tmp/schrodinger-matplotlib-cache .venv/bin/python -m pytest -q -s tests/test_attention.py",
+  "exit_status": 0,
+  "torch_threads": 2,
+  "torch_interop_threads": 1,
+  "pytest": {
+    "passed": 23,
+    "elapsed_seconds": 0.86
+  },
+  "invariant_maxima": {
+    "hermiticity_error": 0.0,
+    "unitarity_error": 6.557e-07,
+    "probability_row_error": 5.96e-07
+  },
+  "dt_zero": {
+    "max_probability_error": 1.192e-07,
+    "max_output_error": 2.384e-07
+  },
+  "orientation": {
+    "row_state_reference_match": true,
+    "minimum_detected_delta_from_wrong_column_orientation": 0.01951
+  },
+  "parameter_initialization": {
+    "effective_dt": [0.05000000074505806, 0.05000000074505806],
+    "effective_gamma": [0.10000000149011612, 0.10000000149011612]
+  },
+  "optimization_smoke": {
+    "adam_steps": 30,
+    "initial_mse": 1.06601,
+    "final_mse": 0.336738,
+    "finite": true,
+    "checkpoint_reload_equal_atol": 1e-06
+  },
+  "coverage": {
+    "sequence_lengths": [4, 11, 15],
+    "score_magnitudes": [0.1, 1.0, 3.0],
+    "double_precision_gradcheck": "passed",
+    "finite_score_value_phase_dt_gradients": "passed at every length and magnitude",
+    "finite_multihead_qkv_output_gamma_dt_gradients": "passed"
+  }
+}

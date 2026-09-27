@@ -1,0 +1,10 @@
+{
+  "hashes": {
+    "test_heldout_d4": "3da01eafa9cfefe1a4263c692c79d4848ee2114e61a6bc87854f52965198956d",
+    "test_heldout_d8": "0fb3448c466aa3ce07c1db5d0f21b27231441f89dc7325435d37d0a915989386",
+    "test_seen_d4": "e833f081b2cb276ad08579855c1348c5ac873bdf1706288e16c09953ffe5e172",
+    "test_seen_d8": "5173bcd76ae05fb93a90eb438c6dad8b3b07cb77dee57cbc242978a7d0f00fff",
+    "validation_seen_d4": "4d805362ed039003f278ec890979586443cd0947240aebb42343d284645ccce8"
+  },
+  "kind": "FROZEN"
+}

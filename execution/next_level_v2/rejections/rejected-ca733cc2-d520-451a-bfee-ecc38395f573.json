@@ -1,0 +1,24 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "tests/test_productive_diversity_runner.py",
+    "-q"
+  ],
+  "charged_seconds": 2.0001277920018765,
+  "cumulative_global_seconds": 2.0001277920018765,
+  "elapsed_seconds": 0.0001277920018765144,
+  "ended_at_utc": "2026-09-15T22:09:30.742860+00:00",
+  "entry_id": "ca733cc2-d520-451a-bfee-ecc38395f573",
+  "error": "'output acquisition rejected: mkdir race'",
+  "execution_status": "REJECTED",
+  "kind": "productive_diversity_v2",
+  "manifest_sha256": null,
+  "pid": 80621,
+  "prior_global_seconds": 0.0,
+  "stage": "stage0",
+  "started_at_utc": "2026-09-15T22:09:30.742751+00:00",
+  "startup_allowance_seconds": 2.0,
+  "status": "REJECTED"
+}

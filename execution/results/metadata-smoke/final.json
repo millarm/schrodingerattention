@@ -1,0 +1,116 @@
+{
+  "checkpoint_seconds": 0.002231124999525491,
+  "dt": [],
+  "dt_zero": null,
+  "end_to_end_seconds": 0.33630087500205263,
+  "evaluation_hashes": {
+    "test_heldout_d4": "2129fc66dc3793931e5ebf657084d66f6591d096b28b99e92cdb2e50de421904",
+    "test_heldout_d8": "70a0cb4991e6dd047fc356e787403039759ff317aee8386b8804d1b70f52d106",
+    "test_seen_d4": "f92cf3bb1b1fcd1c2dddc6ac7815bfc64118b15c6b5d85e7407fcb26507355f0",
+    "test_seen_d8": "765858dd188f3601a8624b860531ccd9ad6daad253e9ba0f01ef25f98a3f807c",
+    "validation_seen_d4": "46a7a5f5c0fa921138c21ceb5e322a5dea7c3af9a6e5ede948b568b3066da382"
+  },
+  "evaluation_seconds": 0.005048916998930508,
+  "final_checkpoint": "execution/results/metadata-smoke/checkpoint-1.pt",
+  "gamma": [],
+  "initial_identity": {
+    "rss_bytes_caveat": "macOS ru_maxrss process-resident proxy, not tensor-only device memory",
+    "shared_initial_tensor_digest": "46cae6007afc8dc2572bfb1fb3fc30d35f005572eff81426bd609a3a784dc026",
+    "total_parameters": 18498,
+    "trainable_parameters": 18498
+  },
+  "invariants": {
+    "hermiticity": 0.0,
+    "row": 0.0,
+    "unitarity": 0.0
+  },
+  "metrics": {
+    "test_heldout_d4": {
+      "copy": 0.5,
+      "copy_correct": 256,
+      "copy_count": 512,
+      "cross_entropy": 0.6908855438232422,
+      "xor": 0.49609375,
+      "xor_correct": 254,
+      "xor_count": 512
+    },
+    "test_heldout_d8": {
+      "copy": 0.50390625,
+      "copy_correct": 258,
+      "copy_count": 512,
+      "cross_entropy": 0.6929471492767334,
+      "xor": 0.501953125,
+      "xor_correct": 257,
+      "xor_count": 512
+    },
+    "test_seen_d4": {
+      "copy": 0.521484375,
+      "copy_correct": 267,
+      "copy_count": 512,
+      "cross_entropy": 0.6910198330879211,
+      "xor": 0.498046875,
+      "xor_correct": 255,
+      "xor_count": 512
+    },
+    "test_seen_d8": {
+      "copy": 0.50390625,
+      "copy_correct": 258,
+      "copy_count": 512,
+      "cross_entropy": 0.6939839124679565,
+      "xor": 0.501953125,
+      "xor_correct": 257,
+      "xor_count": 512
+    },
+    "validation_seen_d4": {
+      "copy": 0.515625,
+      "copy_correct": 132,
+      "copy_count": 256,
+      "cross_entropy": 0.6911427974700928,
+      "xor": 0.4765625,
+      "xor_correct": 122,
+      "xor_count": 256
+    }
+  },
+  "mode": "softmax",
+  "runtime": {
+    "batch_size": 64,
+    "config_sha256": "9ebace507a57202f483cefd55d5f50db868ad2abd214145a86f722386b2ffd4f",
+    "contract_sha256": "5ea6cda81fa8f95f3e2a9c39e9ca47d34ca6134697bca3305967e6f31d8507de",
+    "d_model": 32,
+    "feedforward": 64,
+    "heads": 2,
+    "layers": 2,
+    "numpy": "2.5.3",
+    "optimizer": {
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "lr": 0.001,
+      "weight_decay": 0.01
+    },
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "torch": "2.14.0",
+    "torch_interop_threads": 1,
+    "torch_threads": 2,
+    "train_distractors": [
+      2,
+      3,
+      4
+    ]
+  },
+  "seed": 11,
+  "source_hashes": {
+    "attention.py": "e1ce15be10caf4b2165191f9835256602f4f7b8bd11bffa94f676eac40b0fd6a",
+    "data.py": "a8f1f3fe0f61970e36b8e6bde72fc95b7722ffdb563c3c9ecc08f7c24a4341dc",
+    "experiment.py": "16a06102a3f9e563409d6cedb24e183498a3a0fd62cd1f04683bf6ce06b599a5",
+    "model.py": "b2892ee6dc8158b326b2fbb3ecc242e030edd94f36f5d407246a4666ac4dc36a"
+  },
+  "stream_digest": "b4479f19793ac10d06628ed357d45c7b13a2133c638fcbbb944d2074c24c1395",
+  "training_seconds": 0.010252249998302432
+}

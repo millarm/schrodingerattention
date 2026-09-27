@@ -1,0 +1,10 @@
+{
+  "approved": true,
+  "kind": "smoke_or_profile",
+  "config_hash": "870f62c96a8b0ed994d3c4d795514bf6fd513c0c771ba32750542b667155fe90",
+  "prepared_sha256": "10e5f96a98b4dcb944cf81b65eb43eb4ed5a8c8211bf9d1f55af2f0bc4814e49",
+  "manifest_sha256": "305a9dd782befa9209942a2f52ebc0ba31d9d7ca61c913ecfb69fa5cca466395",
+  "review": "reviews/A2b3-00.md",
+  "review_sha256": "f50a315831ef69b07c16fdd3f7153f1b55c32457b8d5022ef672dcf5b3379987",
+  "scope": "One fixed seed1699 profile only; no pilot/test release"
+}

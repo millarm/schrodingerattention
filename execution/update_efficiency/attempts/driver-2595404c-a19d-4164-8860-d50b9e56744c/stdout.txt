@@ -1,0 +1,1 @@
+{"mode": "schrodinger", "seed": 2201, "status": "COMPLETE"}
