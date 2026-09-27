@@ -22,10 +22,12 @@ match the current files.
 The reports are careful and do not overclaim. The main problems are in the
 design:
 
-1. **Every endpoint sits past the point of best held-out calibration.**
-   Validation KL is lowest at 1,200 updates for all four pilot runs and gets
-   worse from then on. The 8k and 16k comparisons, and the planned 200k run,
-   compare models that are increasingly overconfident.
+1. **Every endpoint sits past the best observed held-out proper scores.**
+   The best observed validation KL is at 1,200 updates in all four pilot runs.
+   That is the first scored checkpoint after initialisation, so the true
+   minimum may be earlier or later. KL gets worse from there on. The 8k and
+   16k comparisons, and the planned 200k run, therefore compare models whose
+   held-out proper scores keep getting worse.
 2. **One-checkpoint endpoints are dominated by checkpoint-to-checkpoint noise.**
    Within one seed pair, the paired ΔQ swings by about ±1.5 pp between adjacent
    checkpoints. That is similar to the between-seed SD of 1.84 pp.
@@ -41,29 +43,41 @@ design:
 Items 1–3 can be addressed mostly with data that already exists (saved
 checkpoints and rescoring). None of them needs a larger model.
 
-## 1. Held-out KL is minimised at ~1,200 updates
+## 1. Best observed held-out KL is at ~1,200 updates
 
 From the committed KL table (nats, validation, teacher-relative):
 
-| Owner | min KL | at update | KL at 8k | KL at 16k |
+| Owner | best observed KL | at update | KL at 8k | KL at 16k |
 |---|---:|---:|---:|---:|
 | 2201 softmax | 0.2889 | 1200 | 0.3705 | 0.4074 |
 | 2201 Schrödinger | 0.2969 | 1200 | 0.3743 | 0.4474 |
 | 2202 Schrödinger | 0.2842 | 1200 | 0.3744 | 0.4567 |
 | 2202 softmax | 0.2877 | 1200 | 0.3935 | 0.4550 |
 
-Q at T=1 keeps rising while KL rises by 40–60% from its minimum. This is the
-expected pattern when a policy sharpens on 64 training maps and becomes
-overconfident on held-out maps. Sampled-route Q at T=1 rewards sharpening
-where the argmax is right, and KL penalises it where the argmax is wrong. The
+Q at T=1 keeps rising while KL rises by 41–61% between 1,200 and 16,000
+updates. The values were checked against the committed `score-*.json` files.
+1,200 is the first nonzero scored checkpoint, so the grid does not locate the
+true minimum or when the worsening starts. Denser scoring of the retained
+checkpoints (every 100 updates) is needed. The pattern is consistent with a
+policy that fits 64 training maps and generalises less well
+to held-out maps. Sampled-route Q at T=1 rewards sharpening
+where the argmax is right, and KL penalises it where the argmax is wrong.
+Brier also worsens in all four runs (0.142–0.147 → 0.149–0.168). Mean policy
+entropy falls from 0.48–0.51 to 0.38–0.40 nats. That end point is close to the
+teacher entropy of 0.372, so in aggregate the policies are *not* sharper than
+the oracle. The KL rise therefore looks more like probability mass moving
+onto wrong actions on some held-out states than uniform overconfidence.
+None of this shows that *all* later Q gains
+come from confidence alone, and teacher-relative KL measures more than
+calibration. The
 closeout mentions the KL worsening between 8k and 16k. It does not state that
-the worsening begins at 1.2k. The 200k plan (`plan-v4-200k.md`) calls this
+KL was already worse by the next scored point after 1.2k. The 200k plan (`plan-v4-200k.md`) calls this
 "central" but still extends the same regime by 12.5×.
 
 Consequences:
 
 - "8000 updates was too early" holds for Q only. For proper scores, both
-  architectures were past their best by 2,000 updates.
+  architectures were past their best observed values by 2,000 updates.
 - Architecture differences measured deep in this regime may reflect how each
   model overfits, not how well it learns the route policy.
 - The 200k continuation is likely to measure mostly overfitting dynamics. It
@@ -78,8 +92,8 @@ Consequences:
 - Before any 200k run, add a regime check: either more training maps (the
   pool-512 construction can supply them) or explicit regularisation, applied
   identically to both modes.
-- State in the closeout and README that validation KL is minimised at 1.2k in
-  all four runs.
+- State in the closeout and README that the best observed validation KL is at
+  1.2k (the first scored checkpoint) in all four runs.
 
 ## 2. Checkpoint noise is similar to the between-seed variance
 
@@ -127,6 +141,15 @@ power needs:
 | 2 pp | 9 |
 | 1 pp | 29 |
 | 0.5 pp | 108 |
+
+**Caveat on these numbers.** They treat the four-pair SD as known. With 3
+degrees of freedom, a 95% interval for the true SD is roughly 1.0–6.8 pp. At
+those two ends, detecting 1 pp needs about 11 or about 371 pairs. The table
+also assumes an approximately normal paired difference, one checkpoint as the
+endpoint, and the same evaluation panel. Treat it as an order of magnitude.
+A confirmation study should set its sample size from a precision target,
+estimated with the variance-reduced endpoint of §2, and ideally from a pilot
+estimate of the SD with more pairs.
 
 With n=4, the 80%-power minimum detectable effect is about 4 pp. The fresh
 replication therefore did not fail to replicate a 2.94 pp effect in any
@@ -251,8 +274,8 @@ documents. Editing the records in place would break the recorded SHA-256s.
   paper should carry a dated "superseded by" note, or be updated in a new
   version.
 - The paper does not mention the pilot at all. A short addendum should cover
-  the six-pair pooled 8k estimate, the 6/6 early sign pattern, and the KL
-  minimum at 1.2k.
+  the six-pair pooled 8k estimate, the 6/6 early sign pattern, and the best
+  observed KL at 1.2k.
 
 ## 9. Recommended next study (replaces the 200k continuation)
 
