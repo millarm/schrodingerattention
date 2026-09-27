@@ -63,10 +63,24 @@ policy that fits 64 training maps and generalises less well
 to held-out maps. Sampled-route Q at T=1 rewards sharpening
 where the argmax is right, and KL penalises it where the argmax is wrong.
 Brier also worsens in all four runs (0.142–0.147 → 0.149–0.168). Mean policy
-entropy falls from 0.48–0.51 to 0.38–0.40 nats. That end point is close to the
-teacher entropy of 0.372, so in aggregate the policies are *not* sharper than
-the oracle. The KL rise therefore looks more like probability mass moving
-onto wrong actions on some held-out states than uniform overconfidence.
+entropy falls from 0.48–0.51 to 0.38–0.40 nats. That is still slightly above
+the teacher entropy of 0.372, so in aggregate the policies are *not* sharper
+than the oracle. Mean entropy says nothing about calibration on individual
+states, though.
+
+Total probability on actions outside the oracle's support also *falls* in all
+four runs (from `proper.weighted.nonoptimal_mass`, 1,200 → 16,000): 9.43 →
+6.93%, 9.29 → 7.03%, 8.66 → 7.43% and 8.67 → 7.01% for 2201 SM/SA and 2202
+SM/SA. So the KL rise is not an average drift onto wrong actions. It is more
+likely one or both of the following:
+
+- **Concentration within support.** The policy piles probability onto one of
+  several optimal actions where the teacher spreads it.
+- **A heavy tail.** A minority of states puts very little probability on the
+  oracle's support. −log(support probability) penalises those states steeply
+  even while average off-support mass falls.
+
+Only a state-level decomposition can tell these apart.
 None of this shows that *all* later Q gains
 come from confidence alone, and teacher-relative KL measures more than
 calibration. The
