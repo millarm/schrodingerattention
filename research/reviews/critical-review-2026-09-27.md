@@ -192,6 +192,14 @@ and it falls in the only regime where held-out KL is near its best (§1). It
 should become the predeclared primary endpoint of the next confirmation study,
 not a claim now.
 
+**Update after the dense early-learning diagnostic.** Scoring every 100
+updates (`execution/early_learning/results.md`) does not support this
+pattern. Over 800–2,000, mean ΔQ is −0.05 pp with opposite per-seed signs, and
+the Q slope favours softmax in both pairs. The first-checkpoint sign pattern
+above is best read as checkpoint noise. The same diagnostic also answers §4:
+Δt stays at 0.046–0.068 against an initial 0.05, and dt=0 changes the policy
+by only about 0.005 TV. See `quantum-inspired-directions-2026-09-27.md`.
+
 ## 4. The mechanism is unmeasured in the route-policy models
 
 The paper reports TV redistribution for the XOR classifier diagnostic. For the
