@@ -1,0 +1,32 @@
+{
+  "verdict": "ASTRA_ACCEPTANCE_VERDICT: PASS",
+  "implementation_review_path": "/Users/gmh-company/codex/schrodinger/execution/early_learning/reviews/06-implementation.md",
+  "implementation_review_sha256": "da7c0d8851a8682b640a41f0f6b48f5b89916e486599df623b8db30fb50174da",
+  "source_hashes": {
+    "accepted_data": "676b8de313fb9c667497b307704b21f137ac55a18e1e19c81be399d3f02e4bb7",
+    "accepted_driver": "e228b53fb52f3a944e6e523e9ce3340c5abb3c02cc16ad2e07729972b1877d84",
+    "accepted_evaluation": "fd5cd438e0fbd103857933418008a7c5936b379488857ac6bfa7370aa8ad18ec",
+    "accepted_experiment": "10cfc1a9a5e21856fd4e80f7c81b7b9243c104d452f10fc2a0062d4b4998036b",
+    "accepted_metrics": "a471ae2c40973cb15584f924061b3ace24ef5af3b1e31702b79056055f317e34",
+    "accepted_model": "95cb7463693c7ac696d9034eaf16a155c0363f38e819cbe56c00408d49b170c4",
+    "amendment": "51563625cc2b171f4e70757fbe05eb8cacf050ab1f47e9d3b07eeae790490842",
+    "amendment_acceptance": "e84d5ecca402da7970eef6429c9dee9c029d47b201b443c16562348baa34e812",
+    "amendment_methodology_review": "6ead804a56dbd23f4b3e797984108c4f7d8c931785b4980dd5962f30a4942959",
+    "amendment_spec": "2aef1209f183b1b702fae8d353d328fe02aeaa0fd7bc449385d651aebe83b4da",
+    "attention": "e1ce15be10caf4b2165191f9835256602f4f7b8bd11bffa94f676eac40b0fd6a",
+    "command": "4dd38b42996cd6963814bf13d249e00c484f33b301afc49ed5e2ead115817841",
+    "feasibility": "da36b0150c0b255b7e5482d7dc016505054d9632c8fb3a21d06c2d201bfedbf4",
+    "final_correction_review": "e31002f2845636ad9ee8672c5f80c088b1ca19883b7e2c2cea7f1ab963198715",
+    "final_correction_spec": "3433ac04e2f91c2711ed5f66f3fc9af1ebaeb7a4b0d8f8a9239b98a98dd80ac9",
+    "inventory": "0ccf9c4ae4201d8ccbe9037785a2efc2eb4b9b9246bc7fdbec8fd09d2d769d5b",
+    "methodology_acceptance": "694caa52e7a762acdae645cebe869f9cd9b2f6b95895851bd1efd21c1945c0db",
+    "methodology_review": "c4f796a0333a7d28c33508507595a81fe07c26af9fd763f57c446ca038b2a113",
+    "plan": "fcfc12a9a250a85391259cbff3bd2bd62a8a429e8b0a1615944ad40682f9be5f",
+    "protocol": "983a63fd480510994721d980ee866f08e3cba6b767fcbadd5cef7491d437d1c5",
+    "research_refocus": "05b11395c7c0fd518cd80672ed1835aed1555102c090a74cfe4ff43023ff41b0",
+    "spec": "b0bf16e0caaf1407fd72c148622b73826f998885fb124be77da24cdd88be90cc",
+    "study": "2b1c7ad3baf31e0956ec33b572e5ae2cb202bbb85be051b3ef4198896d050fd5",
+    "tests": "feee0a7421699ee164cb7327cdc7652015fe94b9117c0d0b1f01e769eb2b2476",
+    "watchdog": "ad5e3030ce148283c2576fa5fb376c512a8f7474bcc5e62e8e2d4e6d749900b2"
+  }
+}

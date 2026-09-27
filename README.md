@@ -6,6 +6,31 @@ across training updates.
 
 ## Latest reviewed results
 
+The completed early-learning diagnostic scored saved checkpoints every 100
+updates from 0–3,000 for two paired seeds. All 124 checkpoint assessments and
+14 SA mechanism probes passed independent results review. No new training was
+performed.
+
+Across the fixed 800–2,000 window, mean SA-minus-softmax route success was
+−0.052 percentage points, with opposite signs across seeds. KL and Brier mean
+differences also had mixed seed signs. This does not establish a consistent
+early SA advantage in these two pairs.
+
+The sampled KL and Brier minima were at 900 updates for seed 2201 softmax,
+700 for seed 2201 SA, and 2,600 for both seed 2202 models. Thus the earlier
+sparse grid's 1,200-update minimum was not universal. From 800 to 2,000,
+disagreement within oracle support increased in all four models, while the
+loss of probability from oracle support changed in both directions. These
+observations do not establish uniform overconfidence or a causal mechanism.
+
+- [Accepted conclusions](execution/early_learning/scientific-closeout.md)
+- [Detailed results](execution/early_learning/results.md)
+- [Independent final review: PASS](execution/early_learning/reviews/07-results.md)
+- [Paired numerical summary](execution/early_learning/attempts/final-paired-summary.json)
+- [Completed study status](execution/early_learning/status.md)
+
+## Earlier 16,000-update pilot
+
 The September 27, 2026 update-count pilot completed two paired seeds, with
 both models trained for 16,000 updates and evaluated at 13 fixed checkpoints.
 Route quality improved beyond 8,000 updates in all four runs. However,
@@ -18,13 +43,13 @@ therefore do not establish better generalization.
 The primary quality milestones showed no consistent update-saving advantage
 across seeds. Neither model met the chosen Q plateau rule by 16,000.
 
-- [Latest research report](execution/update_efficiency/scientific-closeout.md)
+- [Earlier pilot report](execution/update_efficiency/scientific-closeout.md)
 - [Independent final review: PASS](execution/update_efficiency/reviews/12-two-pair-closeout.md)
 - [Checkpoint measurements and paired comparisons](execution/update_efficiency/runtime-evidence-006-two-pair-scientific-transcription.md)
 - [Study status and evidence](execution/update_efficiency/status.md)
 - [Four completed runs and saved scores](execution/update_efficiency/attempts/)
 
-## Current direction: early learning
+## Research direction
 
 The 200,000-update continuation is **on hold at the user's request** following
 [PR #1's critique](https://github.com/millarm/schrodingerattention/pull/1).
@@ -34,10 +59,10 @@ its launch authority is revoked by the
 [hold decision](execution/long_horizon_200k/hold-decision.md).
 
 Read the [early-learning addendum](research/early_learning_refocus_2026-09-27.md)
-for the corrected interpretation and next questions. The next block will inspect
-saved checkpoints in the first 3,000 updates to compare changes in measured scores, find the
-sampled minimum, and bracket where proper scores begin worsening. New evaluations require a reviewed
-specification; no 200,000-update results exist.
+for the reasoning behind the completed diagnostic. Its findings are linked above.
+No further experiment is running, and no 200,000-update results exist. A future
+confirmation would need a frozen design, fresh seeds, and independent tuning or
+calibration data.
 
 The [probability-diagnostics follow-up](research/probability_diagnostics_followup_2026-09-27.md)
 adds state-level analyses of KL changes and distinguishes oracle-support errors
@@ -51,8 +76,8 @@ from disagreement among supported actions, following the reviewer's response.
 - [Original proposal](schrodinger_attention_research_proposal.md)
 - [Agent execution protocol](agent_execution_protocol.md)
 
-The paper and PDFs predate the latest update-count pilot. Read the latest
-research report above for that study's findings.
+The paper and PDFs predate both the update-count pilot and the early-learning
+diagnostic. Read the accepted conclusions above for the latest findings.
 
 ## Code and local setup
 
@@ -74,6 +99,11 @@ not recreate those local artifacts.
 
 Git contains source, plans, review records, papers, summaries, and selected raw
 measurement records, including the latest 16,000-update score JSON files.
+For the early-learning diagnostic, the reviewed source, tests, provenance records,
+ledger and final paired summary are included. Its large raw per-checkpoint and
+probe outputs remain local. The detailed report preserves its original
+pre-review wording; the separate final PASS and accepted conclusions record its
+completed review without changing the report's audited hash.
 Virtual environments, caches, model checkpoints, NumPy archives, and selected
 raw artifacts larger than 10 MiB are excluded by `.gitignore`. Their local
 copies are retained. Manifests and historical reports can therefore reference
