@@ -66,4 +66,82 @@ still needs a targeted literature check.
 
 ## P2: held-out probe (parity k=3, L=24, seeds 200–219)
 
-Pending (queue running).
+| Variant | Solved / 20 | Window accuracy | Mean seconds/run |
+|---|---:|---:|---:|
+| softmax | 0 | 50.06% | 45 |
+| softmax_t2 | 0 | 50.06% | 45 |
+| sqrt_softmax | 2 | 54.13% | 45 |
+| maa_p2 | 6 | 64.10% | 48 |
+| maa_p11 | 0 | 50.35% | 58 |
+| sigmoid | 0 | 49.99% | 43 |
+| **c1_wick** | **18** | **88.63%** | 535 |
+| wick_real | 18 | 88.56% | 295 |
+| wick_linear | 17 | 88.32% | 78 |
+
+- **H2 replicates: c1_wick > softmax, 18–0, p = 7.6 × 10⁻⁶.**
+- **H1 fails again:** 2–0, p = 0.50.
+- **D5 and D6 hold:** real H (0–0) and the first-order propagator (1–0) match
+  the full complex exponential.
+- **D2:** MAA p=2 (6/20) solved 4 more seeds than sqrt_softmax and none fewer
+  (p = 0.125). On this probe the published MAA at temperature 1 does at least
+  as well as the Born-rule √p readout.
+- **Cost:** `wick_linear` is about 1.7× softmax per run and needs no matrix
+  exponential. The exponential variants cost 6–12× softmax.
+
+## Verdict
+
+Primary hypotheses, per the pre-set rule: Holm-corrected on P1, then
+replicated on P2.
+
+| Hypothesis | P1 | P2 | Confirmed |
+|---|---|---|---|
+| H1: √p readout beats softmax | 5–2, p = 0.45 | 2–0, p = 0.50 | **no** |
+| H2: imaginary-time score-operator mixing beats softmax | 26–0, p = 3.0 × 10⁻⁸ | 18–0, p = 7.6 × 10⁻⁶ | **yes** |
+
+**What is confirmed, stated minimally.** On parity-type compositional probes,
+a single attention layer does far better when its weights are computed as
+
+  a = √softmax(S),  a′ = a − Δt · a Hᵀ,  A = |a′|² / Σ_j |a′_j|²,
+  H = (S + Sᵀ) / (2√L),  Δt ≈ 0.25,
+
+than with softmax. It solves 30/30 against 4/30 at L=16, and 17–18/20 against
+0/20 at L=24. The mechanism is classical. The complex, antisymmetric part of
+H, unitarity and the matrix exponential are all unnecessary, which rules out
+every specifically quantum ingredient on these probes. What remains is a
+first-order correction of each query's key weights by the key–key coupling
+already present in the score matrix: a one-layer, two-hop interaction among
+keys.
+
+**What is not confirmed.**
+
+- The √p (Born-rule) readout on its own. That is Mass-Aware Attention at
+  p = 2, and it is no better than published MAA.
+- Any quantum-specific effect.
+- Anything beyond synthetic parity. The effect has not yet been shown on the
+  map benchmark or on real data.
+
+**Novelty status (not established).** The nearest published relatives are
+multi-hop attention diffusion (Diffuser, arXiv 2210.11794), higher-order
+attention with inner key/query attention (Nexus, arXiv 2512.03377) and
+diffusion or heat-kernel attention (arXiv 2604.09560; SSRN 5953096). A quick
+search did not find this exact square-root, correct, square-and-normalise
+form. Before calling it new, a full literature review is needed, including
+checking whether it is equivalent to a known second-order attention.
+
+**Caveats.**
+
+- Δt was fixed by its initialisation. The optimizer moved it by less than
+  0.06 in every run, and it was not tuned; 0.25 is the value that happened to
+  be tried.
+- The probes are synthetic, 1-layer and d=32.
+- P1 uses the discovery probe family (though with fresh seeds). P2 is the
+  held-out probe.
+
+## Next step (per the spec)
+
+Stage 2 on the unchanged map benchmark is now authorised under the spec's
+conditional rule. Its detailed spec (fresh seed pairs, window-averaged
+KL/Brier/Q endpoints, equal compute, no final-test access) must be committed
+before any Stage 2 run. The candidate is `wick_linear`, the cheapest form that
+matched the full operator, with softmax as the baseline and `wick_real` as a
+secondary.
