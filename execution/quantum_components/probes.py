@@ -92,7 +92,7 @@ def run(args: argparse.Namespace, variant: str, seed: int) -> dict:
         optimizer.step()
         if step % args.eval_every == 0:
             point = {"step": step, **evaluate(model, *held_out)}
-            if variant != "softmax":
+            if hasattr(model.attention[0], "raw_dt"):
                 point["dt"] = [a.effective_dt().detach().tolist() for a in model.attention]
             if variant == "c3":
                 point["lambda"] = [a.effective_lambda().detach().tolist() for a in model.attention]
