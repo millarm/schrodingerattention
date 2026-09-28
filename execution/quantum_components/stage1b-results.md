@@ -50,6 +50,12 @@ evolution at all. It is cheap (softmax speed). It will be added after the
 Stage 1b queue finishes, so the attention module isn't edited while queued
 jobs are importing it. If it matches C4, the attribution above is confirmed.
 
+**Update (literature check).** The √p readout is exactly Mass-Aware Attention
+with p = 2 at temperature 2 (Yu and Ha, arXiv 2607.22781, July 2026): √p_j =
+e^(S_j/2) / ‖e^(S/2)‖₂. So it is a known mechanism, not a new one. The
+decomposition study, with MAA and sigmoid attention as baselines, is specified
+in `execution/classical_leads/stage-d-spec.md`.
+
 ## B. C3 (Trotterised dephasing knob): does not pass
 
 **Verdict under the pre-set rule: C3 beats all of its controls (softmax, c1 =

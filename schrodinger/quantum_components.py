@@ -70,7 +70,12 @@ VARIANTS: tuple[str, ...] = ("softmax", "c1", "c1_phasefree", "c1_wick", "c1_dep
 _QUANTUM = VARIANTS[1:]
 C3_VARIANTS: tuple[str, ...] = ("c3", "c3_classical")
 C4_VARIANTS: tuple[str, ...] = ("c4", "c4_magnitude", "c4_real", "c4_wick", "c4_dephased")
-ALL_VARIANTS: tuple[str, ...] = VARIANTS + C3_VARIANTS + C4_VARIANTS
+# Stage D (classical leads). Readout family: coefficient vectors applied to
+# real values, all with softmax's alpha/beta scalars. Operator family:
+# imaginary-time score-operator mixing with a learned evolution time.
+READOUT_VARIANTS: tuple[str, ...] = ("softmax_t2", "sqrt_softmax", "maa_p2", "maa_p11", "sigmoid")
+OPERATOR_VARIANTS: tuple[str, ...] = ("wick_real", "wick_linear")
+ALL_VARIANTS: tuple[str, ...] = VARIANTS + C3_VARIANTS + C4_VARIANTS + READOUT_VARIANTS + OPERATOR_VARIANTS
 TROTTER_STEPS = 2
 
 
@@ -196,6 +201,52 @@ def c4_mix(coefficients: Tensor, values: Tensor) -> Tensor:
     return torch.cat((mixed.real, mixed.imag), dim=-1)
 
 
+def readout_coefficients(scores: Tensor, variant: str) -> Tensor:
+    """Real per-row mixing coefficients for the Stage D readout variants.
+
+    ``maa_p`` is Mass-Aware Attention (Yu and Ha, 2026): softmax weights
+    divided by their Lp norm, so the output magnitude keeps how many keys are
+    attended. ``sqrt_softmax`` equals sqrt(softmax(S)), which is the p = 2
+    case at temperature 2. ``sigmoid`` uses the bias -log(L) (Ramapuram et
+    al., 2025).
+    """
+
+    if variant == "softmax_t2":
+        return torch.softmax(0.5 * scores, dim=-1)
+    if variant == "sqrt_softmax":
+        return torch.exp(0.5 * torch.log_softmax(scores, dim=-1))
+    if variant in ("maa_p2", "maa_p11"):
+        power = 2.0 if variant == "maa_p2" else 1.1
+        weights = torch.softmax(scores, dim=-1)
+        return weights / torch.linalg.vector_norm(weights, ord=power, dim=-1, keepdim=True)
+    if variant == "sigmoid":
+        return torch.sigmoid(scores - math.log(scores.shape[-1]))
+    raise ValueError(f"unknown readout variant {variant!r}")
+
+
+def operator_weights(scores: Tensor, dt: Tensor | float, variant: str) -> Tensor:
+    """Row-stochastic weights for the Stage D operator variants.
+
+    ``wick_real`` is imaginary-time evolution under the real symmetric H (no
+    antisymmetric part, so a real propagator). ``wick_linear`` truncates the
+    complex imaginary-time propagator to first order, ``I - dt H``.
+    ``c1_wick`` in ``quantum_weights`` is the full complex version.
+    """
+
+    complex_dtype = _complex_dtype(scores.dtype)
+    amplitude = torch.exp(0.5 * torch.log_softmax(scores, dim=-1)).to(complex_dtype)
+    dt_tensor = torch.as_tensor(dt, dtype=scores.dtype, device=scores.device).to(complex_dtype)
+    if variant == "wick_real":
+        propagator = torch.matrix_exp(-dt_tensor * hamiltonian(scores, hermitian=False))
+    elif variant == "wick_linear":
+        h = hamiltonian(scores, hermitian=True)
+        propagator = torch.eye(scores.shape[-1], dtype=complex_dtype, device=scores.device) - dt_tensor * h
+    else:
+        raise ValueError(f"unknown operator variant {variant!r}")
+    evolved = (amplitude @ propagator.transpose(-2, -1)).abs().square()
+    return evolved / evolved.sum(dim=-1, keepdim=True)
+
+
 def total_variation(weights: Tensor, reference: Tensor) -> Tensor:
     """Mean per-row total-variation distance between two attention tensors."""
 
@@ -234,7 +285,7 @@ class QuantumMultiheadAttention(nn.Module):
         self.v_proj = nn.Linear(d_model, d_model)
         self.out_proj = nn.Linear(d_model, d_model)
         self.alpha = nn.Parameter(torch.zeros(num_heads))
-        if variant == "softmax":
+        if variant == "softmax" or variant in READOUT_VARIANTS:
             self.beta = nn.Parameter(torch.zeros(num_heads))
         else:
             fraction = 2 * dt_init
@@ -245,8 +296,8 @@ class QuantumMultiheadAttention(nn.Module):
         self.last_scores: Tensor | None = None
 
     def effective_dt(self) -> Tensor:
-        if self.variant == "softmax":
-            raise RuntimeError("softmax attention has no evolution time")
+        if self.variant == "softmax" or self.variant in READOUT_VARIANTS:
+            raise RuntimeError(f"{self.variant} attention has no evolution time")
         return 0.5 * torch.sigmoid(self.raw_dt)
 
     def effective_lambda(self) -> Tensor:
@@ -266,8 +317,10 @@ class QuantumMultiheadAttention(nn.Module):
         heads = (1, self.num_heads, 1, 1)
         scores = q @ k.transpose(-2, -1) / math.sqrt(self.head_dim)
         scores = scores * torch.exp(self.alpha).reshape(heads)
-        if self.variant == "softmax":
-            weights = torch.softmax(scores, dim=-1)
+        if self.variant == "softmax" or self.variant in READOUT_VARIANTS:
+            weights = (
+                torch.softmax(scores, dim=-1) if self.variant == "softmax" else readout_coefficients(scores, self.variant)
+            )
             v = v * torch.exp(self.beta).reshape(heads)
         else:
             dt = self.effective_dt().reshape(heads) if dt_override is None else dt_override
@@ -280,7 +333,9 @@ class QuantumMultiheadAttention(nn.Module):
                 weights = c3_weights(scores, dt, self.effective_lambda().reshape(heads))
             elif self.variant == "c3_classical":
                 weights = c3_weights(scores, dt, 1.0)
-            elif self.variant != "softmax":
+            elif self.variant in OPERATOR_VARIANTS:
+                weights = operator_weights(scores, dt, self.variant)
+            elif self.variant != "softmax" and self.variant not in READOUT_VARIANTS:
                 weights = quantum_weights(scores, dt, self.variant)
             mixed = weights @ v
         self.last_weights = weights.detach()

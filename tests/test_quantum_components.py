@@ -212,3 +212,62 @@ def test_dt_init_is_respected():
     attention = QuantumMultiheadAttention(16, 2, "c4", dt_init=0.25)
     torch.testing.assert_close(attention.effective_dt(), torch.full((2,), 0.25))
     torch.testing.assert_close(QuantumMultiheadAttention(16, 2, "c3").effective_lambda(), torch.full((2,), 0.5))
+
+
+# --- Stage D: classical leads ------------------------------------------------------
+
+from schrodinger.quantum_components import (  # noqa: E402
+    OPERATOR_VARIANTS,
+    READOUT_VARIANTS,
+    operator_weights,
+    readout_coefficients,
+)
+
+
+def test_sqrt_softmax_is_maa_p2_at_temperature_two_and_normalised_is_softmax_t2():
+    scores = _scores()
+    sqrt = readout_coefficients(scores, "sqrt_softmax")
+    torch.testing.assert_close(sqrt, torch.sqrt(torch.softmax(scores, -1)))
+    torch.testing.assert_close(readout_coefficients(0.5 * scores, "maa_p2"), sqrt)
+    torch.testing.assert_close(sqrt / sqrt.sum(-1, keepdim=True), readout_coefficients(scores, "softmax_t2"))
+
+
+def test_maa_output_gain_tracks_number_of_attended_keys():
+    # Uniform attention over n keys: MAA p=2 coefficients sum to sqrt(n); softmax sums to 1.
+    for n in (2, 8):
+        scores = torch.zeros(1, 1, 1, n, dtype=torch.float64)
+        torch.testing.assert_close(readout_coefficients(scores, "maa_p2").sum(), torch.tensor(n ** 0.5, dtype=torch.float64))
+    torch.testing.assert_close(readout_coefficients(torch.zeros(1, 1, 1, 4), "sigmoid"), torch.full((1, 1, 1, 4), 0.2))
+
+
+def test_operator_variants_are_distributions_reduce_at_dt_zero_and_differ():
+    scores = _scores(magnitude=3.0)
+    for variant in OPERATOR_VARIANTS:
+        weights = operator_weights(scores, 0.25, variant)
+        torch.testing.assert_close(weights.sum(-1), torch.ones_like(weights.sum(-1)), atol=1e-10, rtol=0)
+        torch.testing.assert_close(operator_weights(scores, 0.0, variant), torch.softmax(scores, -1))
+    full = quantum_weights(scores, 0.25, "c1_wick")
+    assert total_variation(operator_weights(scores, 0.25, "wick_real"), full) > 1e-3
+    assert total_variation(operator_weights(scores, 0.25, "wick_linear"), full) > 1e-4
+    # wick_real uses a real propagator.
+    assert torch.matrix_exp(-0.25 * hamiltonian(scores, hermitian=False)).imag.abs().max() == 0
+
+
+@pytest.mark.parametrize("variant", READOUT_VARIANTS + OPERATOR_VARIANTS)
+def test_stage_d_variants_match_softmax_parameters_and_initialisation(variant):
+    torch.manual_seed(3)
+    base = ProbeEncoder(12, 17, 2, "softmax")
+    torch.manual_seed(3)
+    model = ProbeEncoder(12, 17, 2, variant, dt_init=0.25)
+    assert sum(p.numel() for p in model.parameters()) == sum(p.numel() for p in base.parameters())
+    for name, tensor in model.state_dict().items():
+        if name in base.state_dict():
+            assert torch.equal(tensor, base.state_dict()[name]), name
+    assert torch.isfinite(model(torch.randint(0, 12, (3, 17)))).all()
+
+
+@pytest.mark.parametrize("variant", OPERATOR_VARIANTS)
+def test_operator_double_precision_gradients(variant):
+    scores = _scores(length=5, magnitude=1.0).requires_grad_(True)
+    dt = torch.tensor(0.25, dtype=torch.float64, requires_grad=True)
+    assert gradcheck(lambda s, t: operator_weights(s, t, variant), (scores, dt), eps=1e-6, atol=1e-5)
