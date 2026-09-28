@@ -31,7 +31,7 @@ import torch
 from torch import Tensor
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from schrodinger.quantum_components import VARIANTS, ProbeEncoder  # noqa: E402
+from schrodinger.quantum_components import ALL_VARIANTS, VARIANTS, ProbeEncoder  # noqa: E402
 
 FILLER = 6
 VOCAB = 1 + FILLER + 8
@@ -78,7 +78,7 @@ def evaluate(model: ProbeEncoder, tokens: Tensor, labels: Tensor) -> dict[str, f
 
 def run(args: argparse.Namespace, variant: str, seed: int) -> dict:
     torch.manual_seed(1000 + seed)
-    model = ProbeEncoder(VOCAB, args.length + 1, 2, variant, args.d_model, args.heads, args.layers)
+    model = ProbeEncoder(VOCAB, args.length + 1, 2, variant, args.d_model, args.heads, args.layers, args.dt_init)
     optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=0.01)
     stream = torch.Generator().manual_seed(2000 + seed)
     held_out = sample(args.probe, args.eval_size, args.length, args.k, torch.Generator().manual_seed(99))
@@ -94,6 +94,8 @@ def run(args: argparse.Namespace, variant: str, seed: int) -> dict:
             point = {"step": step, **evaluate(model, *held_out)}
             if variant != "softmax":
                 point["dt"] = [a.effective_dt().detach().tolist() for a in model.attention]
+            if variant == "c3":
+                point["lambda"] = [a.effective_lambda().detach().tolist() for a in model.attention]
             curve.append(point)
     window = [p for p in curve if p["step"] > args.steps // 2]
     return {
@@ -101,6 +103,7 @@ def run(args: argparse.Namespace, variant: str, seed: int) -> dict:
         "steps": args.steps, "layers": args.layers, "d_model": args.d_model,
         "window_accuracy": sum(p["accuracy"] for p in window) / len(window),
         "window_ce": sum(p["ce"] for p in window) / len(window),
+        "dt_init": args.dt_init, "final_accuracy": curve[-1]["accuracy"],
         "seconds": time.perf_counter() - started, "curve": curve,
     }
 
@@ -108,7 +111,8 @@ def run(args: argparse.Namespace, variant: str, seed: int) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--probe", choices=("parity", "exclude", "order"), required=True)
-    parser.add_argument("--variants", nargs="+", default=list(VARIANTS), choices=VARIANTS)
+    parser.add_argument("--variants", nargs="+", default=list(VARIANTS), choices=ALL_VARIANTS)
+    parser.add_argument("--dt-init", type=float, default=0.05)
     parser.add_argument("--seeds", nargs="+", type=int, default=[0, 1, 2, 3, 4])
     parser.add_argument("--k", type=int, default=2)
     parser.add_argument("--length", type=int, default=16)
@@ -128,7 +132,8 @@ def main() -> None:
     for seed in args.seeds:
         for variant in args.variants:
             result = run(args, variant, seed)
-            name = f"{args.probe}-k{args.k}-L{args.length}-{variant}-s{seed}.json"
+            tag = "" if args.dt_init == 0.05 else f"-dt{args.dt_init:g}"
+            name = f"{args.probe}-k{args.k}-L{args.length}{tag}-{variant}-s{seed}.json"
             (args.out / name).write_text(json.dumps(result, indent=1))
             print(f"{name}: window acc {result['window_accuracy']:.4f} ({result['seconds']:.0f}s)", flush=True)
 
