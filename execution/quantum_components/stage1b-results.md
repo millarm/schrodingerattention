@@ -82,6 +82,59 @@ coherence.
 
 C3 cost about 4× C1 per step (K=2 density-matrix substeps).
 
-## C. Δt initialised at 0.25 (exploratory)
+## C. Δt initialised at 0.25 (exploratory, outcome-motivated)
 
-Pending.
+This experiment is a description, not a gate. It uses seeds 0–4, with softmax
+taken from its Δt-independent runs.
+
+| Probe | softmax | c1 | c1_phasefree | **c1_wick** | c1_dephased |
+|---|---:|---:|---:|---:|---:|
+| parity, solved / 5 | 1 | 2 | 2 | **5** | 1 |
+| parity, window accuracy | 60.17% | 70.10% | 66.79% | **100.00%** | 61.58% |
+| order, window accuracy | 94.35% | 100.00% | 98.36% | **100.00%** | 95.42% |
+| final Δt range | n/a | 0.238–0.270 | 0.239–0.333 | 0.240–0.281 | 0.233–0.262 |
+
+- **C1 still does not beat its twins.** On parity it is 0–3 discordant against
+  the imaginary-time twin. On order it ties that twin at 100%, and is +1.6 pp
+  against phase-free and +4.6 pp against dephased, but positive in only 2/5
+  seeds each.
+- **The imaginary-time twin solves parity in every seed**, 4–0 discordant
+  against softmax, and is the best variant on both probes. With 5 seeds and an
+  outcome-motivated setting, this is a lead, not a result.
+- **Δt moves little from wherever it starts** (0.05 in Stage 1, 0.25 here).
+  The optimizer does not tune the evolution time. In practice its
+  initialisation is a fixed hyperparameter, and it matters.
+
+**What "imaginary-time" means here.** The twin replaces e^(−iΔtH) with
+e^(−ΔtH), then renormalises. That removes unitarity, but with C1's complex
+Hermitian H the propagator and amplitudes are still complex, and the |·|²
+readout still combines complex terms. It is a non-unitary, score-derived
+mixing operator, **not** a classical stochastic kernel. Whether the gain needs
+the complex (antisymmetric) part of H is open. The phase-free version of this
+operator (real symmetric H) is the natural test.
+
+## Overall Stage 1b conclusion
+
+1. **No quantum-specific benefit.** None of C1, C3 or C4 beats its twins under
+   its pre-set rule. Where a quantum variant does well, a twin without
+   unitarity or interference does as well or better.
+2. **The optimizer does not use the quantum knobs.** Δt and λ stay close to
+   initialisation in every run, so the "coherence" parameters behave as
+   fixed hyperparameters, not learned ones.
+3. **Two non-quantum attention changes look genuinely useful on these
+   probes:**
+   - **The √p readout (C4 at Δt ≈ 0):** parity 6/10 solved, against 1/10 for
+     softmax (5–0 discordant; two-sided sign-test p ≈ 0.06).
+   - **Imaginary-time score-operator mixing at Δt = 0.25:** parity 5/5
+     against 1/5 (exploratory).
+
+   Both keep information that softmax normalisation discards. Neither needs
+   anything quantum.
+4. **Exclude remained a floor** on every evaluation seed. It needs a
+   multi-seed calibration before it can be used.
+
+A decomposition study of both leads should be specified before any further
+runs: √p against softmax(S/2) against softmax × gain, imaginary time with
+real against complex H, and sigmoid attention as the standard unnormalised
+baseline. It needs 20–30 seeds, a literature check, and then the unchanged
+map benchmark.
