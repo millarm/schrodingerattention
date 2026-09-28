@@ -153,3 +153,30 @@ decision.
 3. Run a 20-update smoke test of each arm on seed 9999 and check the outputs
    are well-formed. The smoke outputs are discarded and never analysed.
 4. Commit all of the above, then start the 12-pair queue.
+
+## Amendment 1 (2026-09-28, before any Stage 2 run; budget only)
+
+The smoke runs (seed 9999, 200 updates, outputs discarded) showed that
+evaluation dominates the cost:
+
+- each T1/K32 plus greedy rollout point takes about 25–27 s;
+- training takes about 0.02 s per update (softmax), 0.03 s (wick_linear)
+  and 0.045 s (wick_real).
+
+A full run is therefore about 12–15 minutes, and the 36 runs total about
+8 CPU-hours, or about 4 hours of wall time on 2 slots, not about 1.5 hours.
+**The wall-clock cap is raised from 5 to 7 hours.** No arm, seed, endpoint,
+test or decision rule changes.
+
+The smoke check also confirmed:
+
+- all three arms share the initial-tensor digest and the batch-digest chain
+  for the same seed;
+- each arm has 70,540 parameters (the original model's count);
+- the variant module's softmax arm reproduces the original `RoutePolicy`
+  initialisation and logits (tests in `tests/test_route_policy_variants.py`);
+- at initialisation, the correction moves attention by about 0.07–0.08 TV
+  from softmax, and moves the policy by about 0.019 TV relative to Δt = 0.
+
+The runner also serves the excluded, byte-hash-checked `inventory.json` to
+`load_validation`, which needs it too.

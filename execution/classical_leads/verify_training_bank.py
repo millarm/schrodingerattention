@@ -14,6 +14,7 @@ from __future__ import annotations
 import hashlib
 import json
 import sys
+from contextlib import contextmanager
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
@@ -23,7 +24,15 @@ from schrodinger import route_policy_experiment as experiment  # noqa: E402
 RECORDED = "8879d863f1780a40821f518f9ec42bfc9cdd73d203cd872104c1acde52572618"
 
 
-def load_regenerated_training(regen: Path):
+@contextmanager
+def regenerated_reads(regen: Path):
+    """Serve the excluded artifacts from ``regen``; everything else is read as committed.
+
+    ``inventory.json`` must match its manifest hash byte-for-byte. The training
+    file cannot (it embeds wall-clock timing), so its content is verified
+    through the training bank hash instead.
+    """
+
     original = data._read_checked
 
     def read(name, digest):
@@ -38,9 +47,14 @@ def load_regenerated_training(regen: Path):
 
     data._read_checked = read
     try:
-        return data.load_training()
+        yield
     finally:
         data._read_checked = original
+
+
+def load_regenerated_training(regen: Path):
+    with regenerated_reads(regen):
+        return data.load_training()
 
 
 def main() -> None:
