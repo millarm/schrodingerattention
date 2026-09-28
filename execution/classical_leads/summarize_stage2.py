@@ -63,20 +63,23 @@ def paired(diffs: list[float]) -> tuple[float, float, float, float, int]:
 
 def main() -> None:
     runs = load()
+    missing = [(a, s) for s in SEEDS for a in ("softmax", "wick_linear", "wick_real") if (a, s) not in runs]
+    print(f"Missing or failed runs: {missing or 'none'}\n")
     complete = [s for s in SEEDS if all((a, s) in runs for a in ("softmax", "wick_linear", "wick_real"))]
-    print(f"Complete pairs: {len(complete)}/12 ({complete})\n")
     print("| Arm | E1 mean KL 800–2,000 | E2 mean Q 4,000–8,000 | Brier | greedy Q | pass@32 | core s/run | final Δt range |")
     print("|---|---:|---:|---:|---:|---:|---:|---|")
     for arm in ("softmax", "wick_linear", "wick_real"):
-        eps = [endpoints(runs[(arm, s)]) for s in complete]
-        dts = [x for s in complete for layer in runs[(arm, s)]["proper"][-1]["dt"] for x in layer]
+        done = [s for s in SEEDS if (arm, s) in runs]
+        eps = [endpoints(runs[(arm, s)]) for s in done]
+        dts = [x for s in done for layer in runs[(arm, s)]["proper"][-1]["dt"] for x in layer]
         dt_text = f"{min(dts):.3f}–{max(dts):.3f}" if dts else "n/a"
-        core = np.mean([runs[(arm, s)]["training_core_seconds"] for s in complete])
-        print(f"| {arm} | {np.mean([e['E1_kl'] for e in eps]):.4f} | {100 * np.mean([e['E2_Q'] for e in eps]):.2f}% | "
+        core = np.mean([runs[(arm, s)]["training_core_seconds"] for s in done])
+        print(f"| {arm} (n={len(done)}) | {np.mean([e['E1_kl'] for e in eps]):.4f} | {100 * np.mean([e['E2_Q'] for e in eps]):.2f}% | "
               f"{np.mean([e['brier'] for e in eps]):.4f} | {100 * np.mean([e['greedy_Q'] for e in eps]):.2f}% | "
               f"{100 * np.mean([e['pass_at_32'] for e in eps]):.2f}% | {core:.0f} | {dt_text} |")
     for arm in ("wick_linear", "wick_real"):
-        print(f"\n## {arm} minus softmax (paired over {len(complete)} seeds)\n")
+        complete = [s for s in SEEDS if (arm, s) in runs and ("softmax", s) in runs]
+        print(f"\n## {arm} minus softmax (paired over {len(complete)} seeds: {complete})\n")
         print("| Endpoint | Mean difference | 95% CI | p (two-sided paired t) | seeds with diff > 0 |")
         print("|---|---:|---|---:|---:|")
         results = {}

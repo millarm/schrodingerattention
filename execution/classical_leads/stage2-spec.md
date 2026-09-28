@@ -180,3 +180,20 @@ The smoke check also confirmed:
 
 The runner also serves the excluded, byte-hash-checked `inventory.json` to
 `load_validation`, which needs it too.
+
+## Amendment 2 (2026-09-28, during the queue, before any result was opened)
+
+`wick_real` on seed 3005 stopped with `FloatingPointError: nonfinite gradient`,
+raised by the repository's `train_step` guard. This is a technical failure of
+the **secondary** arm. The probable cause is e^(−ΔtH) growing exponentially
+for large negative eigenvalues of the real H, which overflows in float32. The
+primary arm (`wick_linear`) has no exponential. Per the spec, the run is
+reported and not replaced.
+
+**Clarification of "complete pairs"** (made before seeing any outcome): each
+comparison uses the seeds on which **both** of its arms completed. The primary
+decision (`wick_linear` against `softmax`) therefore does not lose a seed
+because a `wick_real` run failed. The number of seeds is reported for every
+comparison, together with any further technical failures. The only
+information used to write this amendment was the queue log and this job's
+traceback; no result JSON was opened.
