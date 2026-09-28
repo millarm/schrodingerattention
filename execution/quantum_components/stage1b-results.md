@@ -50,9 +50,37 @@ evolution at all. It is cheap (softmax speed). It will be added after the
 Stage 1b queue finishes, so the attention module isn't edited while queued
 jobs are importing it. If it matches C4, the attribution above is confirmed.
 
-## B. C3
+## B. C3 (Trotterised dephasing knob): does not pass
 
-Pending (queue running).
+**Verdict under the pre-set rule: C3 beats all of its controls (softmax, c1 =
+coherent twin, c3_classical) on none of the three probes, so it does not carry
+forward.**
+
+| Probe | softmax | c1 (λ = 0) | **c3 (learned λ)** | c3_classical (λ = 1) |
+|---|---:|---:|---:|---:|
+| order, window accuracy (5 seeds) | 94.35% | 96.07% | **96.02%** | 94.96% |
+| parity, solved / 10 | 1 | 3 | **3** | 2 |
+| parity, window accuracy | 60.07% | 66.14% | **64.19%** | 62.26% |
+| exclude, window accuracy (5 seeds) | 73.14% | 73.14% | 73.14% | 73.14% |
+
+- **order:** +1.66 pp against softmax (2/5 positive); −0.06 against c1;
+  +1.05 against c3_classical (2/5).
+- **parity:** 2–0 discordant against softmax, 0–0 against c1 and 2–1 against
+  c3_classical. C3 solves only 3/10, below the 5/10 floor.
+- **exclude:** the floor again (see A).
+
+### The λ readout was uninformative
+
+The spec's second condition, learned λ in (0.05, 0.95) for at least 80% of
+heads, is met (50/50 heads). **It is met vacuously.** λ started at 0.5 and
+ended at 0.385–0.523, so it barely moved. Δt again stayed at 0.047–0.068, and
+with that little evolution, dephasing changes the weights by almost nothing,
+so λ gets almost no gradient. The criterion should have required λ to *move*
+from its initial value, not just to end up in the interior. This is recorded
+as a design error in the spec, not as evidence that the network uses
+coherence.
+
+C3 cost about 4× C1 per step (K=2 density-matrix substeps).
 
 ## C. Δt initialised at 0.25 (exploratory)
 
