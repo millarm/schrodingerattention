@@ -1,0 +1,47 @@
+{
+ "probe": "parity",
+ "variant": "sigmoid",
+ "seed": 128,
+ "k": 3,
+ "length": 16,
+ "steps": 1500,
+ "layers": 1,
+ "d_model": 32,
+ "window_accuracy": 0.5,
+ "window_ce": 0.6933186252911886,
+ "dt_init": 0.05,
+ "final_accuracy": 0.5,
+ "seconds": 19.702801105999242,
+ "curve": [
+  {
+   "step": 250,
+   "accuracy": 0.49755859375,
+   "ce": 0.6936053037643433
+  },
+  {
+   "step": 500,
+   "accuracy": 0.5,
+   "ce": 0.6936975121498108
+  },
+  {
+   "step": 750,
+   "accuracy": 0.5,
+   "ce": 0.693476140499115
+  },
+  {
+   "step": 1000,
+   "accuracy": 0.5,
+   "ce": 0.6934807300567627
+  },
+  {
+   "step": 1250,
+   "accuracy": 0.5,
+   "ce": 0.6932200193405151
+  },
+  {
+   "step": 1500,
+   "accuracy": 0.5,
+   "ce": 0.6932551264762878
+  }
+ ]
+}

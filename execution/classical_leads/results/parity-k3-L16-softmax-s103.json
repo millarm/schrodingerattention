@@ -1,0 +1,47 @@
+{
+ "probe": "parity",
+ "variant": "softmax",
+ "seed": 103,
+ "k": 3,
+ "length": 16,
+ "steps": 1500,
+ "layers": 1,
+ "d_model": 32,
+ "window_accuracy": 0.5,
+ "window_ce": 0.6936308741569519,
+ "dt_init": 0.05,
+ "final_accuracy": 0.5,
+ "seconds": 17.007137908000004,
+ "curve": [
+  {
+   "step": 250,
+   "accuracy": 0.4765625,
+   "ce": 0.6938904523849487
+  },
+  {
+   "step": 500,
+   "accuracy": 0.5,
+   "ce": 0.6944024562835693
+  },
+  {
+   "step": 750,
+   "accuracy": 0.498046875,
+   "ce": 0.6936983466148376
+  },
+  {
+   "step": 1000,
+   "accuracy": 0.5,
+   "ce": 0.6938554048538208
+  },
+  {
+   "step": 1250,
+   "accuracy": 0.5,
+   "ce": 0.6937174201011658
+  },
+  {
+   "step": 1500,
+   "accuracy": 0.5,
+   "ce": 0.6933197975158691
+  }
+ ]
+}

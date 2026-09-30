@@ -1,0 +1,47 @@
+{
+ "probe": "parity",
+ "variant": "maa_p11",
+ "seed": 113,
+ "k": 3,
+ "length": 16,
+ "steps": 1500,
+ "layers": 1,
+ "d_model": 32,
+ "window_accuracy": 0.5,
+ "window_ce": 0.6941612362861633,
+ "dt_init": 0.05,
+ "final_accuracy": 0.5,
+ "seconds": 24.47033697900042,
+ "curve": [
+  {
+   "step": 250,
+   "accuracy": 0.5,
+   "ce": 0.6970232725143433
+  },
+  {
+   "step": 500,
+   "accuracy": 0.50146484375,
+   "ce": 0.6934207081794739
+  },
+  {
+   "step": 750,
+   "accuracy": 0.5,
+   "ce": 0.6937686204910278
+  },
+  {
+   "step": 1000,
+   "accuracy": 0.5,
+   "ce": 0.6947184801101685
+  },
+  {
+   "step": 1250,
+   "accuracy": 0.5,
+   "ce": 0.6933826208114624
+  },
+  {
+   "step": 1500,
+   "accuracy": 0.5,
+   "ce": 0.6943826079368591
+  }
+ ]
+}
